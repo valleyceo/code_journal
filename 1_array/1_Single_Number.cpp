@@ -7,7 +7,7 @@ Note:
 Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
 */
 
-// my solution
+// my solution - Optimal
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {

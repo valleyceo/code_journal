@@ -4,6 +4,11 @@
 ```cpp
 // char to int
 int a = char - 'A'
+
+// string to int
+stoi(s) // to int
+stof(s) // to float
+stold(s) // to long double
 ```
 
 ## Array
@@ -20,6 +25,16 @@ matrix[i].resize(COL);
 ```cpp
 reverse(s.begin(), s.end());
 sort(s.begin(), s.end());
+
+// split string into half
+string cmd = "HELLO WORLD";
+string arg;
+string::size_type pos = cmd.find(' ');
+if(cmd.npos != pos) {
+    arg = cmd.substr(pos + 1);
+    cmd = cmd.substr(0, pos);
+}
+//=> cmd:"HELLO", arg:"WORLD"
 ```
 
 ## Linked List
@@ -40,7 +55,9 @@ ListNode *odds = new ListNode(0);
 /*** unordered map ***/
 
 unordered_map<int, int> umap;
+// add n delete
 umap[num1] = num2
+umap.erase(num);
 // search
 if(umap.find(numx) == umap.end());
 // look up

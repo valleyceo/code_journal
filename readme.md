@@ -32,7 +32,17 @@ April 2018 to do list:
 │   ├── 2_Increasing_Triplet_Subsequence.cpp
 │   ├── 2_K_Empty_Slots.cpp
 │   ├── 2_Missing_Ranges.cpp
-│   └── 2_Set_Matrix_Zeroes.cpp
+│   ├── 2_Set_Matrix_Zeroes.cpp
+│   ├── 3_4Sum_II.cpp
+│   ├── 3_Container_With_Most_Water.cpp
+│   ├── 3_Find_the_Duplicate_Number.cpp
+│   ├── 3_First_Missing_Positive.cpp
+│   ├── 3_Game_of_Life.cpp
+│   ├── 3_Longest_Consecutive_Sequence.cpp
+│   ├── 3_Longest_Substring_with_At_Most_K_Distinct_Characters.cpp
+│   ├── 3_Product_of_Array_Except_Self.cpp
+│   ├── 3_Sliding_Window_Maximum.cpp
+│   └── 3_Spiral_Matrix.cpp
 ├── 1_linked_list
 │   ├── 1_Delete_Node_in_a_Linked_List.cpp
 │   ├── 1_Linked_List_Cycle.cpp
@@ -42,7 +52,10 @@ April 2018 to do list:
 │   ├── 1_Reverse_Linked_List.cpp
 │   ├── 2_Add_Two_Numbers.cpp
 │   ├── 2_Intersection_of_Two_Linked_Lists.cpp
-│   └── 2_Odd_Even_Linked_List.cpp
+│   ├── 2_Odd_Even_Linked_List.cpp
+│   ├── 3_Copy_List_with_Random_Pointer.cpp
+│   ├── 3_Merge_k_Sorted_Lists.cpp
+│   └── 3_Sort_List.cpp
 ├── 1_strings
 │   ├── 1_Count_and_Say.cpp
 │   ├── 1_First_Unique_Character_in_a_String.cpp
@@ -80,7 +93,9 @@ April 2018 to do list:
 │   ├── 2_Construct_Binary_Tree_from_Preorder_and_Inorder.cpp
 │   ├── 2_Inorder_Successor_in_BST.cpp
 │   ├── 2_Kth_Smallest_Element_in_a_BST.cpp
-│   └── 2_Populating_Next_Right_Pointers_in_Each_Node.cpp
+│   ├── 2_Populating_Next_Right_Pointers_in_Each_Node.cpp
+│   ├── 3_Binary_Tree_Maximum_Path_Sum.cpp
+│   └── 3_Lowest_Common_Ancestor_of_a_Binary_Tree.cpp
 ├── 3_backtracking
 │   ├── 2_Generate_Parentheses.cpp
 │   ├── 2_Letter_Combinations_of_a_Phone_Number.cpp
@@ -104,7 +119,14 @@ April 2018 to do list:
 │   ├── 2_Insert_Delete_GetRandom_O(1).cpp
 │   └── 2_Serialize_and_Deserialize_Binary_Tree.cpp
 ├── 5_graphs
-│   └── 2_Number_of_Islands.cpp
+│   ├── 2_Number_of_Islands.cpp
+│   ├── 3_Count_of_Smaller_Numbers_After_Self.cpp
+│   ├── 3_Course_Schedule.cpp
+│   ├── 3_Course_Schedule_II.cpp
+│   ├── 3_Friend_Circles.cpp
+│   ├── 3_Longest_Increasing_Path_in_a_Matrix.cpp
+│   ├── 3_Surrounded_Regions.cpp
+│   └── 3_Word_Ladder.cpp
 ├── 5_math
 │   ├── 1_Count_Primes.cpp
 │   ├── 1_Fizz_Buzz.cpp
@@ -138,5 +160,5 @@ April 2018 to do list:
 ├── template.txt
 └── tree.md
 
-12 directories, 109 files
+12 directories, 131 files
 ```  

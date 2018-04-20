@@ -9,6 +9,9 @@ int a = char - 'A'
 stoi(s) // to int
 stof(s) // to float
 stold(s) // to long double
+
+// int to string
+string s = to_string(int);
 ```
 
 ## Array
@@ -19,6 +22,13 @@ vector<vector<int>> matrix(ROW, vector<int>(COL));
 // resize vector
 matrix.resize(ROW);
 matrix[i].resize(COL);
+
+/* stacks */
+stack<int> stck;
+// insert
+stck.push(num)
+stck.emplace(string)
+
 ```
 
 ## String manipulation
@@ -35,6 +45,11 @@ if(cmd.npos != pos) {
     cmd = cmd.substr(0, pos);
 }
 //=> cmd:"HELLO", arg:"WORLD"
+
+// search
+size_t found = str.find_first_not_of("abcdefghijklmnopqrstuvwxyz ")
+if (found!=std::string::npos)
+	cout << "The first non-alphabetic character is " << str[found] << endl;
 ```
 
 ## Linked List
@@ -78,6 +93,4 @@ for (auto a : umap){
 ```cpp
 // colon initialization (works like regular init with type removed)
 TicTacToe(int n): b_size(n), rows(n, 0), cols(n, 0), diag1(0), diag2(0) {}
-
-
 ```

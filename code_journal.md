@@ -3,7 +3,7 @@
 April 2018 to do list:  
 - [x] LeetCode 50 easy (4/19)  
 - [x] LeetCode 50 medium (4/19)  
-- [ ] LeetCode 50 hard  
+- [x] LeetCode 50 hard (4/20)  
 - [ ] Code Jam Qual  
 - [ ] Code Jam R1A  
 - [ ] Hackerrank Datastructure easy  

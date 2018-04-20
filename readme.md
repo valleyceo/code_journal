@@ -3,7 +3,7 @@
 April 2018 to do list:  
 - [x] LeetCode 50 easy (4/19)  
 - [x] LeetCode 50 medium (4/19)  
-- [ ] LeetCode 50 hard  
+- [x] LeetCode 50 hard (4/20)  
 - [ ] Code Jam Qual  
 - [ ] Code Jam R1A  
 - [ ] Hackerrank Datastructure easy  
@@ -34,6 +34,7 @@ April 2018 to do list:
 │   ├── 2_Missing_Ranges.cpp
 │   ├── 2_Set_Matrix_Zeroes.cpp
 │   ├── 3_4Sum_II.cpp
+│   ├── 3_Basic_Calculator_II.cpp
 │   ├── 3_Container_With_Most_Water.cpp
 │   ├── 3_Find_the_Duplicate_Number.cpp
 │   ├── 3_First_Missing_Positive.cpp
@@ -81,7 +82,10 @@ April 2018 to do list:
 │   ├── 2_Search_for_a_Range.cpp
 │   ├── 2_Search_in_Rotated_Sorted_Array.cpp
 │   ├── 2_Sort_Colors.cpp
-│   └── 2_Top_K_Frequent_Elements.cpp
+│   ├── 2_Top_K_Frequent_Elements.cpp
+│   ├── 3_Kth_Smallest_Element_in_a_Sorted_Matrix.cpp
+│   ├── 3_Median_of_Two_Sorted_Arrays.cpp
+│   └── 3_Wiggle_Sort_II.cpp
 ├── 2_trees
 │   ├── 1_Binary_Tree_Level_Order_Traversal.cpp
 │   ├── 1_Convert_Sorted_Array_to_Binary_Search_Tree.cpp
@@ -101,7 +105,11 @@ April 2018 to do list:
 │   ├── 2_Letter_Combinations_of_a_Phone_Number.cpp
 │   ├── 2_Permutations.cpp
 │   ├── 2_Subsets.cpp
-│   └── 2_Word_Search.cpp
+│   ├── 2_Word_Search.cpp
+│   ├── 3_Palindrome_Partitioning.cpp
+│   ├── 3_Remove_Invalid_Parentheses.cpp
+│   ├── 3_Wildcard_Matching.cpp
+│   └── 3_Word_Search_II.cpp
 ├── 3_dynamic_programming
 │   ├── 1_Best_Time_to_Buy_and_Sell_Stock.cpp
 │   ├── 1_Climbing_Stairs.cpp
@@ -110,14 +118,21 @@ April 2018 to do list:
 │   ├── 2_Coin_Change.cpp
 │   ├── 2_Jump_Game.cpp
 │   ├── 2_Longest_Increasing_Subsequence.cpp
-│   └── 2_Unique_Paths.cpp
+│   ├── 2_Unique_Paths.cpp
+│   ├── 3_Best\ Time\ to\ Buy\ and\ Sell\ Stock\ with\ Cooldown.cpp
+│   ├── 3_Decode_Ways.cpp
+│   ├── 3_Maximum_Product_Subarray.cpp
+│   ├── 3_Perfect_Squares.cpp
+│   └── 3_Word_Break.cpp
 ├── 4_design
 │   ├── 1_Min_Stack.cpp
 │   ├── 1_Shuffle_an_Array.cpp
 │   ├── 2_Design_Tic-Tac-Toe.cpp
 │   ├── 2_Flatten_2D_Vector.cpp
 │   ├── 2_Insert_Delete_GetRandom_O(1).cpp
-│   └── 2_Serialize_and_Deserialize_Binary_Tree.cpp
+│   ├── 2_Serialize_and_Deserialize_Binary_Tree.cpp
+│   ├── 3_Implement_Trie_(Prefix_Tree).cpp
+│   └── 3_LRU_Cache.cpp
 ├── 5_graphs
 │   ├── 2_Number_of_Islands.cpp
 │   ├── 3_Count_of_Smaller_Numbers_After_Self.cpp
@@ -138,7 +153,8 @@ April 2018 to do list:
 │   ├── 2_Fraction_to_Recurring_Decimal.cpp
 │   ├── 2_Happy_Number.cpp
 │   ├── 2_Pow(x,n).cpp
-│   └── 2_Sqrt(x).cpp
+│   ├── 2_Sqrt(x).cpp
+│   └── 3_Largest_Number.cpp
 ├── 5_others
 │   ├── 1_Hamming_Distance.cpp
 │   ├── 1_Missing_Number.cpp
@@ -150,7 +166,10 @@ April 2018 to do list:
 │   ├── 2_Find_the_Celebrity.cpp
 │   ├── 2_Majority_Element.cpp
 │   ├── 2_Sum_of_Two_Integers.cpp
-│   └── 2_Task_Scheduler.cpp
+│   ├── 2_Task_Scheduler.cpp
+│   ├── 3_Largest_Rectangle_in_Histogram.cpp
+│   ├── 3_The_Skyline_Problem.cpp
+│   └── 3_Trapping_Rain_Water.cpp
 ├── 9_cheatsheet
 │   ├── cpp.md
 │   └── python.md
@@ -160,5 +179,5 @@ April 2018 to do list:
 ├── template.txt
 └── tree.md
 
-12 directories, 131 files
+12 directories, 150 files
 ```  

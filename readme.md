@@ -3,9 +3,9 @@
 April 2018 to do list:  
 - [x] LeetCode 50 easy (4/19)  
 - [x] LeetCode 50 medium (4/19)  
-- [x] LeetCode 50 hard (4/20)  
-- [ ] Code Jam Qual  
-- [ ] Code Jam R1A  
+- [ ] LeetCode 50 hard - 40/51 (4/20)  
+- [x] Code Jam Qual (4/20)  
+- [ ] Code Jam R1A - 1/3 (4/20)  
 - [ ] Hackerrank Datastructure easy  
 - [ ] Hackerrank Algorithm easy  
 - [ ] Clean up MLND projects  
@@ -170,6 +170,29 @@ April 2018 to do list:
 │   ├── 3_Largest_Rectangle_in_Histogram.cpp
 │   ├── 3_The_Skyline_Problem.cpp
 │   └── 3_Trapping_Rain_Water.cpp
+├── 8_GCJ
+│   └── 2018
+│       ├── R0
+│       │   ├── 1_Saving_The_Universe_Again.cpp
+│       │   ├── 2_Trouble_Sort.cpp
+│       │   ├── 3_Go_Gopher.cpp
+│       │   ├── 3_sample_interaction.cpp
+│       │   ├── 3_testing_tool.py
+│       │   └── 4_Cubic_UFO.cpp
+│       └── R1A
+│           └── 1_Waffle_Choppers.cpp
+├── 9_archive
+│   ├── 1_array
+│   ├── 1_linked_list
+│   ├── 1_string
+│   ├── 2_sort_search
+│   ├── 2_tree
+│   ├── 3_backtracking
+│   ├── 3_dp
+│   ├── 4_design
+│   ├── 5_graph
+│   ├── 5_math
+│   └── 5_other
 ├── 9_cheatsheet
 │   ├── cpp.md
 │   └── python.md
@@ -179,5 +202,5 @@ April 2018 to do list:
 ├── template.txt
 └── tree.md
 
-12 directories, 150 files
+28 directories, 157 files
 ```  

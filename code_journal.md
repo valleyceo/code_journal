@@ -8,7 +8,7 @@ April 2018 to do list:
 - [ ] Code Jam R1A - 1/3 (4/20)  
 - [ ] Hackerrank Datastructure easy  
 - [ ] Hackerrank Algorithm easy  
-- [ ] Clean up MLND projects  
+- [x] Clean up MLND projects  
 - [ ] Clean up SDCND projects  
 - [ ] Clean up DLAI projects  
 

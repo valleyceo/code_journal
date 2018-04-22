@@ -8,7 +8,7 @@ April 2018 to do list:
 - [ ] Code Jam R1A - 1/3 (4/20)  
 - [ ] Hackerrank Datastructure easy  
 - [ ] Hackerrank Algorithm easy  
-- [ ] Clean up MLND projects  
+- [x] Clean up MLND projects  
 - [ ] Clean up SDCND projects  
 - [ ] Clean up DLAI projects  
 
@@ -41,6 +41,7 @@ April 2018 to do list:
 │   ├── 3_Game_of_Life.cpp
 │   ├── 3_Longest_Consecutive_Sequence.cpp
 │   ├── 3_Longest_Substring_with_At_Most_K_Distinct_Characters.cpp
+│   ├── 3_Minimum_Window_Substring.cpp
 │   ├── 3_Product_of_Array_Except_Self.cpp
 │   ├── 3_Sliding_Window_Maximum.cpp
 │   └── 3_Spiral_Matrix.cpp
@@ -134,6 +135,7 @@ April 2018 to do list:
 │   ├── 3_Implement_Trie_(Prefix_Tree).cpp
 │   └── 3_LRU_Cache.cpp
 ├── 5_graphs
+│   ├── 03_Alien_Dictionary.cpp
 │   ├── 2_Number_of_Islands.cpp
 │   ├── 3_Count_of_Smaller_Numbers_After_Self.cpp
 │   ├── 3_Course_Schedule.cpp
@@ -171,16 +173,18 @@ April 2018 to do list:
 │   ├── 3_The_Skyline_Problem.cpp
 │   └── 3_Trapping_Rain_Water.cpp
 ├── 8_GCJ
-│   └── 2018
-│       ├── R0
-│       │   ├── 1_Saving_The_Universe_Again.cpp
-│       │   ├── 2_Trouble_Sort.cpp
-│       │   ├── 3_Go_Gopher.cpp
-│       │   ├── 3_sample_interaction.cpp
-│       │   ├── 3_testing_tool.py
-│       │   └── 4_Cubic_UFO.cpp
-│       └── R1A
-│           └── 1_Waffle_Choppers.cpp
+│   ├── 2018
+│   │   ├── R0
+│   │   │   ├── 1_Saving_The_Universe_Again.cpp
+│   │   │   ├── 2_Trouble_Sort.cpp
+│   │   │   ├── 3_Go_Gopher.cpp
+│   │   │   ├── 3_sample_interaction.cpp
+│   │   │   ├── 3_testing_tool.py
+│   │   │   └── 4_Cubic_UFO.cpp
+│   │   └── R1A
+│   │       └── 1_Waffle_Choppers.cpp
+│   └── readme.md
+├── 8_HR
 ├── 9_archive
 │   ├── 1_array
 │   ├── 1_linked_list
@@ -195,12 +199,13 @@ April 2018 to do list:
 │   └── 5_other
 ├── 9_cheatsheet
 │   ├── cpp.md
-│   └── python.md
+│   ├── python.md
+│   └── python_ml.md
 ├── code_journal.md
 ├── gen_md.sh
 ├── readme.md
 ├── template.txt
 └── tree.md
 
-28 directories, 157 files
+29 directories, 161 files
 ```  

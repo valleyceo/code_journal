@@ -74,6 +74,7 @@ April 2018 to do list:
 │   ├── 2_Group_Anagrams.cpp
 │   ├── 2_Longest_Palindromic_Substring.cpp
 │   ├── 2_Longest_Substring_Without_Repeating_Characters.cpp
+│   ├── 2_Short_Encoding_of_Words.cpp
 │   └── 3_Regular_Expression_Matching.cpp
 ├── 2_sorting_searching
 │   ├── 1_First_Bad_Version.cpp
@@ -100,6 +101,7 @@ April 2018 to do list:
 │   ├── 1_Validate_Binary_Search_Tree.cpp
 │   ├── 2_Binary_Tree_Inorder_Traversal.cpp
 │   ├── 2_Binary_Tree_Zigzag_Level_Order_Traversal.cpp
+│   ├── 2_Binary_Trees_With_Factors.cpp
 │   ├── 2_Construct_Binary_Tree_from_Preorder_and_Inorder.cpp
 │   ├── 2_Inorder_Successor_in_BST.cpp
 │   ├── 2_Kth_Smallest_Element_in_a_BST.cpp
@@ -203,15 +205,17 @@ April 2018 to do list:
 │   ├── 5_graph
 │   ├── 5_math
 │   └── 5_other
+│       └── 2_Card_Flipping_Game.cpp
 ├── 9_cheatsheet
 │   ├── cpp.md
 │   ├── python.md
 │   └── python_ml.md
 ├── code_journal.md
 ├── gen_md.sh
+├── master
 ├── readme.md
 ├── template.txt
 └── tree.md
 
-29 directories, 166 files
+29 directories, 170 files
 ```  

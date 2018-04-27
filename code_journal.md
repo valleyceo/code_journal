@@ -8,8 +8,9 @@ April 2018 to do list:
 - [ ] Code Jam R1A - 1/3 (4/20)  
 - [ ] Hackerrank Datastructure easy  
 - [ ] Hackerrank Algorithm easy  
-- [x] Clean up MLND projects  
-- [ ] Clean up SDCND projects  
+- [x] Clean up MLND projects (4/21)  
+- [x] Clean up SDCND projects (4/24)  
 - [ ] Clean up DLAI projects  
+- [ ] Solve all LC green frequency  
 
 

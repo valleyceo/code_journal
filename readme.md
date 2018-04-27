@@ -3,14 +3,15 @@
 April 2018 to do list:  
 - [x] LeetCode 50 easy (4/19)  
 - [x] LeetCode 50 medium (4/19)  
-- [ ] LeetCode 50 hard - 43/51 (4/22)  
+- [ ] LeetCode 50 hard - 40/51 (4/20)  
 - [x] Code Jam Qual (4/20)  
 - [ ] Code Jam R1A - 1/3 (4/20)  
 - [ ] Hackerrank Datastructure easy  
 - [ ] Hackerrank Algorithm easy  
-- [x] Clean up MLND projects  
-- [ ] Clean up SDCND projects  
+- [x] Clean up MLND projects (4/21)  
+- [x] Clean up SDCND projects (4/24)  
 - [ ] Clean up DLAI projects  
+- [ ] Solve all LC green frequency  
 
 
 ## Problems  
@@ -66,12 +67,14 @@ April 2018 to do list:
 │   ├── 1_Repeated_String_Match.cpp
 │   ├── 1_Reverse_Integer.cpp
 │   ├── 1_Reverse_String.cpp
+│   ├── 1_Reverse_Words_in_a_String.cpp
 │   ├── 1_String_to_Integer_(atoi).cpp
 │   ├── 1_Valid_Anagram.cpp
 │   ├── 1_Valid_Palindrome.cpp
 │   ├── 2_Group_Anagrams.cpp
 │   ├── 2_Longest_Palindromic_Substring.cpp
-│   └── 2_Longest_Substring_Without_Repeating_Characters.cpp
+│   ├── 2_Longest_Substring_Without_Repeating_Characters.cpp
+│   └── 3_Regular_Expression_Matching.cpp
 ├── 2_sorting_searching
 │   ├── 1_First_Bad_Version.cpp
 │   ├── 1_Merge_Sorted_Array.cpp
@@ -92,6 +95,7 @@ April 2018 to do list:
 │   ├── 1_Binary_Tree_Level_Order_Traversal.cpp
 │   ├── 1_Convert_Sorted_Array_to_Binary_Search_Tree.cpp
 │   ├── 1_Maximum_Depth_of_Binary_Tree.cpp
+│   ├── 1_Merge_Two_Binary_Trees.cpp
 │   ├── 1_Symmetric_Tree.cpp
 │   ├── 1_Validate_Binary_Search_Tree.cpp
 │   ├── 2_Binary_Tree_Inorder_Traversal.cpp
@@ -130,6 +134,7 @@ April 2018 to do list:
 │   ├── 1_Min_Stack.cpp
 │   ├── 1_Shuffle_an_Array.cpp
 │   ├── 2_Design_Tic-Tac-Toe.cpp
+│   ├── 2_Encode_and_Decode_TinyURL.cpp
 │   ├── 2_Flatten_2D_Vector.cpp
 │   ├── 2_Insert_Delete_GetRandom_O(1).cpp
 │   ├── 2_Serialize_and_Deserialize_Binary_Tree.cpp
@@ -208,5 +213,5 @@ April 2018 to do list:
 ├── template.txt
 └── tree.md
 
-29 directories, 162 files
+29 directories, 166 files
 ```  

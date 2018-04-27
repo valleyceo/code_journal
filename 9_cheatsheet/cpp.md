@@ -95,6 +95,29 @@ for (auto a : umap){
 TicTacToe(int n): b_size(n), rows(n, 0), cols(n, 0), diag1(0), diag2(0) {}
 ```
 
+## Regular Expression
+```cpp
+#include <regex>
+string s = "subject";
+regex e = "(sub)(.*)";
+if (regex_match(s, e))
+    cout << "string matched\n";
+```
+
+## Random
+```cpp
+static uniform_int_distribution<int> choice(0, chart.size() - 1);
+(f){
+    // create new hash function
+    auto gen_hash = [&, this] () {
+        for (int i = 0; i < hash_len; ++i)
+            new_url[i] = chart[choice(rand_eng)];
+    };
+    gen_hash();
+}
+default_random_engine rand_eng;
+```
+
 ## Templates
 
 <details>

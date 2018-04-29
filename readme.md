@@ -5,7 +5,7 @@ April 2018 to do list:
 - [x] LeetCode 50 medium (4/19)  
 - [ ] LeetCode 50 hard - 40/51 (4/20)  
 - [x] Code Jam Qual (4/20)  
-- [ ] Code Jam R1A - 1/3 (4/20)  
+- [x] Code Jam R1A (4/28)  
 - [ ] Hackerrank Datastructure easy  
 - [ ] Hackerrank Algorithm easy  
 - [x] Clean up MLND projects (4/21)  
@@ -190,6 +190,8 @@ April 2018 to do list:
 │   │   │   ├── 3_testing_tool.py
 │   │   │   └── 4_Cubic_UFO.cpp
 │   │   └── R1A
+│   │       ├── 02_Bit_Party.cpp
+│   │       ├── 03_Edgy_Baking.cpp
 │   │       └── 1_Waffle_Choppers.cpp
 │   └── readme.md
 ├── 8_HR
@@ -217,5 +219,5 @@ April 2018 to do list:
 ├── template.txt
 └── tree.md
 
-29 directories, 170 files
+29 directories, 172 files
 ```  

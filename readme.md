@@ -79,6 +79,7 @@ April 2018 to do list:
 ├── 2_sorting_searching
 │   ├── 1_First_Bad_Version.cpp
 │   ├── 1_Merge_Sorted_Array.cpp
+│   ├── 1_Search_Insert_Position.cpp
 │   ├── 2_Find_Peak_Element.cpp
 │   ├── 2_Kth_Largest_Element_in_an_Array.cpp
 │   ├── 2_Meeting_Rooms_II.cpp
@@ -222,5 +223,5 @@ April 2018 to do list:
 ├── template.txt
 └── tree.md
 
-30 directories, 174 files
+30 directories, 175 files
 ```  

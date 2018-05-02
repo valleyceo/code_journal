@@ -56,6 +56,7 @@ April 2018 to do list:
 │   ├── 2_Add_Two_Numbers.cpp
 │   ├── 2_Intersection_of_Two_Linked_Lists.cpp
 │   ├── 2_Odd_Even_Linked_List.cpp
+│   ├── 2_Swap_Nodes_in_Pairs.cpp
 │   ├── 3_Copy_List_with_Random_Pointer.cpp
 │   ├── 3_Merge_k_Sorted_Lists.cpp
 │   └── 3_Sort_List.cpp
@@ -218,7 +219,6 @@ April 2018 to do list:
 │   └── python_ml.md
 ├── code_journal.md
 ├── gen_md.sh
-├── master
 ├── readme.md
 ├── template.txt
 └── tree.md

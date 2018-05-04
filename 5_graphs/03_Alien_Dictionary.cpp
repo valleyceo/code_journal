@@ -41,20 +41,23 @@ If the order is invalid, return an empty string.
 There may be multiple valid order of letters, return any one of them is fine.
 */
 
-// my solution
+// my solution - topological sorting
 //source: https://leetcode.com/problems/alien-dictionary/discuss/70303/Very-easy-Solution20ms-C++
 
 class Solution {
 public:
     string alienOrder(vector<string>& words) {
-        unordered_map<char,unordered_set<char>> record;
+        unordered_map<char,unordered_set<char>> edges;
         string res;
-        unordered_set<char> alphbet;
+        unordered_set<char> u_set;
         
+        // create edges
         for (int i = 0; i < words.size(); i++) {
+            // add to set
             for (int k = 0; k < words[i].size(); k++)
-                alphbet.insert(words[i][k]);
+                u_set.insert(words[i][k]);
             
+            // create edges
             for (int j = i+1; j < words.size(); j++) {
                 int k = 0;
                 
@@ -62,39 +65,50 @@ public:
                     k++;
                 
                 if (k < words[i].size() && k < words[j].size()) {
-                    record[words[j][k]].insert(words[i][k]);
+                    edges[words[j][k]].insert(words[i][k]);
                 }
             }
         }
         
-        for (auto ch : alphbet) {
-            if (record.find(ch) == record.end())
-                record[ch].insert('*');
+        // add * on each edges
+        for (auto a : u_set) {
+            if (edges.find(a) == record.end())
+                edges[a].insert('*');
         }
         
-        int n = alphbet.size();
+        int n = u_set.size();
 
+        // while u_set is not empty
         while(n > 0){
             char cur;
-            for (auto iter = record.begin(); iter != record.end(); iter++) {
+
+            // iterate through each edges
+            for (auto iter = edges.begin(); iter != edges.end(); iter++) {
+
+                // if current edge has only * or size of zero
                 if ((iter->second.size() == 1 && iter->second.find('*') != iter->second.end()) || iter->second.size() == 0) {
+                    //set edge to current, append to ans, and erase
                     cur = iter->first;
                     res.push_back(cur);
-                    record.erase(iter);
+                    edges.erase(iter);
                     break;
                 }
             }
             
-            for (auto iter = record.begin();iter != record.end();iter++) {
+            // iterate through edges again
+            for (auto iter = edges.begin(); iter != edges.end(); iter++) {
+                // if current edge connects to current
                 if (iter->second.find(cur) != iter->second.end())
+                    // delete edge with current
                     iter->second.erase(iter->second.find(cur));
             }
             
+            // decrease size
             n--;
         }
         
         // cyclic case
-        if (record.size() > 0) 
+        if (edges.size() > 0) 
             return "";
         
         return res;

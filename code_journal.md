@@ -7,7 +7,8 @@ May 2018 to do list:
 - [ ] Clean up DLAI projects  
 - [ ] Solve all LC green frequency  
 - [ ] EPI  
-- [ ] CJ 2017
+- [ ] Code Jam R1B  
+- [ ] Code Jam 2017  
 
 April 2018 to do list:  
 - [x] LeetCode 50 easy (4/19)  

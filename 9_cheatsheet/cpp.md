@@ -14,6 +14,16 @@ stold(s) // to long double
 string s = to_string(int);
 ```
 
+## Bits
+```cpp
+// flip bits between 0 and 1
+x ^= 1;
+
+// lowest bit
+n = x & (x-1); // erase lowest bit (ex. 1100 -> 1000)
+n = x & ~(x-1); // extract lowest set bit
+```
+
 ## Array
 ```cpp
 // create matrix

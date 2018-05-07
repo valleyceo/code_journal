@@ -20,7 +20,7 @@ public:
         }
         
         k = k % nums.size();
-        vector<int> nnew = nums;
+        vector<int> nnew = nums; // copy reference
         
         int temp = nums[0];
         for (int i=0; i < nums.size(); i++) {

@@ -192,6 +192,8 @@ April 2018 to do list:
 │   ├── 3_Largest_Rectangle_in_Histogram.cpp
 │   ├── 3_The_Skyline_Problem.cpp
 │   └── 3_Trapping_Rain_Water.cpp
+├── 8_EPI
+│   └── primitive.md
 ├── 8_GCJ
 │   ├── 2018
 │   │   ├── R0
@@ -225,6 +227,7 @@ April 2018 to do list:
 │       └── 2_Card_Flipping_Game.cpp
 ├── 9_cheatsheet
 │   ├── cpp.md
+│   ├── cpp_notes.md
 │   ├── python.md
 │   └── python_ml.md
 ├── code_journal.md
@@ -233,5 +236,5 @@ April 2018 to do list:
 ├── template.txt
 └── tree.md
 
-30 directories, 175 files
+31 directories, 177 files
 ```  

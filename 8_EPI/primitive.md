@@ -93,9 +93,9 @@ unsigned long ClosestIntSameBitCount(unsigned long x) {
 // complexity O(n)
 ```
 </details>
-
 <details>
 <summary> Multiply </summary>
+Need to go over
 
 ```cpp
 unsigned long Multiply(unsigned long x, unsigned long y) {
@@ -114,7 +114,45 @@ unsigned long Multiply(unsigned long x, unsigned long y) {
 }
 
 unsigned long Add(unsigned long a, unsigned long b) {
+	unsigned long sum = 0, carryin = 0, k = 1, temp_a, temp_b = b;
 
+	while (temp_a || temp_b) {
+		unsigned long ak = a & k, bk = b & k;
+		unsigned long carryout = (ak & bk) | (ak & carryin) | (bk & carryin);
+		sum |= (ak ^ bk ^ carryin);
+		carryin = carryout << 1, k <<= 1, temp_a >>= 1, temp_b >>= 1;
+	}
+
+	return sum | carryin;
 }
 ```
 </details>
+<details>
+<summary> Compute x^y </summary>
+
+```cpp
+double Power(double x, int y) {
+	double result = 1.0;
+	long long power = y;
+	
+	if (y < 0) {
+		power = -power;
+		x = 1.0 / x;
+	}
+
+	while (power) {
+		if (power & 1) {
+			result *= x;
+		}
+
+		x *= x;
+		power >>= 1;
+	}
+
+	return result;
+}
+// complexity O(n)
+```
+</details>
+
+

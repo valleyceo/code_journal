@@ -132,6 +132,7 @@ default_random_engine rand_eng;
 
 <details>
 <summary> Substring Problem </summary>
+
 ```cpp
 int findSubstring(string s){
         vector<int> map(128,0);

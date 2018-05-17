@@ -75,11 +75,18 @@ ListNode *odds = new ListNode(0);
 
 ```
 
+## Queue
+```cpp
+// reverse priority queue
+priority_queue<int, vector<int>, greater<int> > pq; // takes <type, datatype, comparison>
+
+```
+
 ## Hashing
 ```cpp
 /*** unordered map ***/
 
-unordered_map<int, int> umap;
+```cpp
 // add n delete
 umap[num1] = num2
 umap.erase(num);
@@ -127,6 +134,16 @@ static uniform_int_distribution<int> choice(0, chart.size() - 1);
 }
 default_random_engine rand_eng;
 ```
+
+## Algorithm
+```cpp
+// binary search on array
+#include <algorithm>
+if(binary_search(arr, arr + size, val)) {tries++; return false;}
+
+```
+
+
 
 ## Templates
 

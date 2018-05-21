@@ -193,8 +193,16 @@ April 2018 to do list:
 │   ├── 3_The_Skyline_Problem.cpp
 │   └── 3_Trapping_Rain_Water.cpp
 ├── 8_EPI
-│   └── primitive.md
+│   ├── dynamic_programming.md
+│   ├── primitive.md
+│   └── recursion.md
 ├── 8_GCJ
+│   ├── 2017
+│   │   └── R2
+│   │       ├── beaming_with_joy.cpp
+│   │       ├── fresh_chocolate.cpp
+│   │       ├── roller_coaster_scheduling.cpp
+│   │       └── shoot_the_turrets.cpp
 │   ├── 2018
 │   │   ├── R0
 │   │   │   ├── 1_Saving_The_Universe_Again.cpp
@@ -207,12 +215,23 @@ April 2018 to do list:
 │   │   │   ├── 02_Bit_Party.cpp
 │   │   │   ├── 03_Edgy_Baking.cpp
 │   │   │   └── 1_Waffle_Choppers.cpp
-│   │   └── R1B
-│   │       ├── 02_Mysterious_Road_Signs.cpp
-│   │       ├── 03_Transmutation.cpp
-│   │       └── 1_Rounding_Error.cpp
+│   │   ├── R1B
+│   │   │   ├── 02_Mysterious_Road_Signs.cpp
+│   │   │   ├── 03_Transmutation.cpp
+│   │   │   └── 1_Rounding_Error.cpp
+│   │   ├── R1C
+│   │   │   ├── 03_Ant_Stack.cpp
+│   │   │   ├── 1_A_Whole_New_World.cpp
+│   │   │   ├── 2_Lollipop_Shop.cpp
+│   │   │   └── testing_tool.py
+│   │   └── R2
+│   │       ├── Costume_Change.cpp
+│   │       ├── Falling_Balls.cpp
+│   │       ├── Graceful_Chainsaw_Jugglers.cpp
+│   │       └── Gridception.cpp
 │   └── readme.md
 ├── 8_HR
+├── 8_PR
 ├── 9_archive
 │   ├── 1_array
 │   ├── 1_linked_list
@@ -237,5 +256,5 @@ April 2018 to do list:
 ├── template.txt
 └── tree.md
 
-31 directories, 178 files
+36 directories, 192 files
 ```  

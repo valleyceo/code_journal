@@ -246,6 +246,7 @@ April 2018 to do list:
 │   └── 5_other
 │       └── 2_Card_Flipping_Game.cpp
 ├── 9_cheatsheet
+│   ├── bash.md
 │   ├── cpp.md
 │   ├── cpp_notes.md
 │   ├── python.md
@@ -256,5 +257,5 @@ April 2018 to do list:
 ├── template.txt
 └── tree.md
 
-36 directories, 192 files
+36 directories, 193 files
 ```  

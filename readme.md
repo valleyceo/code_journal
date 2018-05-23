@@ -40,6 +40,7 @@ April 2018 to do list:
 │   ├── 1_Two_Sum.cpp
 │   ├── 1_Valid_Sudoku.cpp
 │   ├── 2_3Sum.cpp
+│   ├── 2_Battleships_in_a_Board.cpp
 │   ├── 2_Increasing_Triplet_Subsequence.cpp
 │   ├── 2_K_Empty_Slots.cpp
 │   ├── 2_Missing_Ranges.cpp
@@ -71,6 +72,7 @@ April 2018 to do list:
 │   ├── 3_Merge_k_Sorted_Lists.cpp
 │   └── 3_Sort_List.cpp
 ├── 1_strings
+│   ├── 1_Add_Binary.cpp
 │   ├── 1_Count_and_Say.cpp
 │   ├── 1_First_Unique_Character_in_a_String.cpp
 │   ├── 1_Implement_strStr().cpp
@@ -176,7 +178,8 @@ April 2018 to do list:
 │   ├── 2_Happy_Number.cpp
 │   ├── 2_Pow(x,n).cpp
 │   ├── 2_Sqrt(x).cpp
-│   └── 3_Largest_Number.cpp
+│   ├── 3_Largest_Number.cpp
+│   └── 3_Max_Points_on_a_Line.cpp
 ├── 5_others
 │   ├── 1_Hamming_Distance.cpp
 │   ├── 1_Missing_Number.cpp
@@ -261,5 +264,5 @@ April 2018 to do list:
 ├── template.txt
 └── tree.md
 
-36 directories, 197 files
+36 directories, 200 files
 ```  

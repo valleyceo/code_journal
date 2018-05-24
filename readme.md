@@ -41,6 +41,7 @@ April 2018 to do list:
 │   ├── 1_Valid_Sudoku.cpp
 │   ├── 2_3Sum.cpp
 │   ├── 2_Battleships_in_a_Board.cpp
+│   ├── 2_Find_Minimum_in_Rotated_Sorted_Array.cpp
 │   ├── 2_Increasing_Triplet_Subsequence.cpp
 │   ├── 2_K_Empty_Slots.cpp
 │   ├── 2_Missing_Ranges.cpp
@@ -264,5 +265,5 @@ April 2018 to do list:
 ├── template.txt
 └── tree.md
 
-36 directories, 200 files
+36 directories, 201 files
 ```  

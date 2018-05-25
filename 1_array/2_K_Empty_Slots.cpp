@@ -26,44 +26,51 @@ flowers: [1,2,3]
 k: 1
 Output: -1
 
-Note:
+Limit:
 The given array will be in the range [1, 20000].
+
+Note:
+[1 5 3 2 4]
+
+[1 4 3 5 2], k = 1
+-> 3
+* for each day, iterate through and find k empty slots between two blooms
+* find the first (earliest) day it happens
+
 */
 
 class Solution {
 public:
     int kEmptySlots(vector<int>& flowers, int k) {
-        if (k >= flowers.size())
+        if (k >= flowers.size()) 
             return -1;
         
-        vector<int> bloom_order(flowers.size());
+        vector<int> bloom (flowers.size());
         
         for (int i = 0; i < flowers.size(); i++) {
-            bloom_order[flowers[i] - 1] = i;
+            bloom[flowers[i]-1] = i;
         }
         
-        int best_ans = INT_MAX;
+        int res = INT_MAX;
         
         for (int i = 0; i < flowers.size() - k - 1; i++) {
-            
-            int min = max(bloom_order[i], bloom_order[i+k+1]);
+            int min = max(bloom[i], bloom[i + k + 1]); // since between value has to be k
             bool is_empty = true;
             
-            for (int j = i+1; j < i+k+1; j++) {
-                if (bloom_order[j] < min) {
+            // check if a plant has bloomed between the two slot
+            for (int j = i + 1; j < i + k + 1; j++) {
+                if (bloom[j] < min) {
                     is_empty = false;
                     break;
                 }
             }
             
-            if (is_empty == true && min < best_ans) {
-                best_ans = min;
+            if (is_empty && min < res) {
+                res = min;
             }
+                
         }
         
-        if (best_ans < flowers.size())
-            return best_ans+1;
-        else 
-            return -1;
+        return (res < flowers.size()) ? res + 1 : -1;
     }
 };

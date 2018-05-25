@@ -9,43 +9,30 @@ Return 3, because by repeating A three times (“abcdabcdabcd”), B is a substr
 
 Note:
 The length of A and B will be between 1 and 10000.
+
+could be in two cases (second case needs extra loop)
 */
 
-// my solution -- Tried: 4, Time: 30 min, can be shortened
+// my solution -- Tried: 4, Time: 30 min
 class Solution {
 public:
     int repeatedStringMatch(string A, string B) {
         int alen = A.length();
         string Anew = A;
-        int ct = 1;
+        int repeat = 1;
         
-        // check if B is already a substring
-        size_t found = Anew.find(B);
-        if (found != string::npos)
-            return ct;
-        
-        while (alen < B.length()) {
+        while (Anew.length() < B.length()) {
             Anew += A;
-            alen += A.length();
-            ct++;
+            repeat += 1;
         }
         
-        // check if B is substring
-        found = Anew.find(B);
-        if (found != string::npos)
-            return ct;
+        if (Anew.find(B) != string::npos) return repeat;
         
-        // check 1 more after loop
         Anew += A;
-        alen += A.length();
-        ct++;
+        repeat += 1;
         
-        // check if B is substring of Anew
-        found = Anew.find(B);
-        if (found != string::npos) {
-            return ct;
-        } else {
-            return -1;
-        }
+        if (Anew.find(B) != string::npos) return repeat;
+        
+        return -1;
     }
 };

@@ -30,7 +30,9 @@ April 2018 to do list:
 ├── 1_array
 │   ├── 1_Best_Time_To_Buy_And_Sell_Stock_II.cpp
 │   ├── 1_Contains_Duplicate.cpp
+│   ├── 1_Contains_Duplicate_II.cpp
 │   ├── 1_Intersection_of_Two_Arrays_II.cpp
+│   ├── 1_Island_Perimeter.cpp
 │   ├── 1_Move_Zeroes.cpp
 │   ├── 1_Plus_One.cpp
 │   ├── 1_Remove_Duplicates_From_Sorted_Array.cpp
@@ -41,11 +43,13 @@ April 2018 to do list:
 │   ├── 1_Valid_Sudoku.cpp
 │   ├── 2_3Sum.cpp
 │   ├── 2_Battleships_in_a_Board.cpp
+│   ├── 2_Counting_Bits.cpp
 │   ├── 2_Find_Minimum_in_Rotated_Sorted_Array.cpp
 │   ├── 2_Increasing_Triplet_Subsequence.cpp
 │   ├── 2_K_Empty_Slots.cpp
 │   ├── 2_Missing_Ranges.cpp
 │   ├── 2_Set_Matrix_Zeroes.cpp
+│   ├── 2_Single_Number_II.cpp
 │   ├── 3_4Sum_II.cpp
 │   ├── 3_Basic_Calculator_II.cpp
 │   ├── 3_Container_With_Most_Water.cpp
@@ -171,6 +175,7 @@ April 2018 to do list:
 │   ├── 3_Surrounded_Regions.cpp
 │   └── 3_Word_Ladder.cpp
 ├── 5_math
+│   ├── 01_Largest_Palindrome_Product.cpp
 │   ├── 1_Count_Primes.cpp
 │   ├── 1_Fizz_Buzz.cpp
 │   ├── 1_Power_of_Three.cpp
@@ -199,6 +204,9 @@ April 2018 to do list:
 │   ├── 3_Largest_Rectangle_in_Histogram.cpp
 │   ├── 3_The_Skyline_Problem.cpp
 │   └── 3_Trapping_Rain_Water.cpp
+├── 6_Language
+│   ├── Bash
+│   └── SQL
 ├── 8_EPI
 │   ├── dynamic_programming.md
 │   ├── primitive.md
@@ -268,5 +276,5 @@ April 2018 to do list:
 ├── template.txt
 └── tree.md
 
-36 directories, 204 files
+39 directories, 209 files
 ```  

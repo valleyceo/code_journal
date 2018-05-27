@@ -14,7 +14,6 @@ Minimize the total number of operations.
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
-        
         int i=0, idx = 0;
 
         while (idx<nums.size()){

@@ -1,9 +1,10 @@
-# Dynamic Programming
+# Dynamic Programming  
 
 
-<details>
-<summary> Find Max Subarray </summary>
-```cpp
+<details>  
+<summary> Find Max Subarray </summary>  
+
+```cpp  
 
 int FindMaximumSubarray(const vector<int>& A) {
 	int min_sum = 0;
@@ -32,12 +33,13 @@ max [0 2 5  2  0 2 13  1  4 8] -> max: 13
 
 ** not an array, updates every iteration to next step
 ** similar to stock market. you buy at the lowest running sum and find (running_sum - min)
-*/
-```
+*/  
+```  
 </details>
 
-<details>
+<details>  
 <summary> Count the Number of Score Combinations </summary>
+
 ```cpp
 int NumCombinationsForFinalScore(int final_score, 
 								 const vector<int>& individual_play_scores) {
@@ -63,9 +65,49 @@ int NumCombinationsForFinalScore(int final_score,
 ```
 </details>
 
-<details>
-<summary> Knapsack </summary>
+<details>  
+<summary> Levenshtein Distance </summary>
+
 ```cpp
+int LevenshteinDistance(const string& A, const string& B) {
+	vector<vector<int>> distance_btw_pref(size(A), vector<int> (size(B), - 1));
+
+	return ComputeDistance(A, size(A)-1, B, size(B)-1, 
+						make_unique<vector<vector<int>>>(size(A), vector<int>(size(B), -1)).get());
+}
+
+int ComputeDistance(const string& A, int A_idx, const string& B, int B_idx,
+					vector<vector<int>>* ptr) {
+	vector<vector<int>>& distance = *ptr;
+
+	if (A_idx < 0) {
+		return B_idx + 1;
+	} else if (B_idx < 0) {
+		return A_idx + 1;
+	}
+
+	if (distance[A_idx][B_idx] == -1) {
+		if (A[A_idx] == B[B_idx]) {
+			// no actions move diagonally
+			distance[A_idx][B_idx] = ComputeDistance(A, A_idx-1, B, B_idx-1, ptr);
+		} else {
+			int substitute_last = ComputeDistance(A, A_idx-1, B, B_idx-1, ptr);
+			int add_last = ComputeDistance(A, A_idx-1, B, B_idx, ptr);
+			int delete_last = ComputeDistance(A, A_idx, B, B_idx-1, ptr);
+			
+			distance[A_idx][B_idx] = 1 + min({substitute_last, add_last, delete_last});
+		}
+	}
+
+	return distance[A_idx][B_idx];
+}
+```
+</details>
+
+<details>  
+<summary> Knapsack </summary>  
+
+```cpp  
 struct Item {
 	int weight, value;
 }
@@ -98,6 +140,6 @@ int OptimumSubjectToItemAndCapacity(const vector<Item>& items, int k,
 		V[k][available_capacity] = max(without_curr_item, with_curr_item);
 	}
 	return V[k][available_capacity];
-}
-```
+}  
+```  
 </details>

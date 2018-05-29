@@ -151,6 +151,7 @@ April 2018 to do list:
 │   ├── 2_Unique_Paths.cpp
 │   ├── 3_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.cpp
 │   ├── 3_Decode_Ways.cpp
+│   ├── 3_Edit_Distance.cpp
 │   ├── 3_Maximum_Product_Subarray.cpp
 │   ├── 3_Perfect_Squares.cpp
 │   └── 3_Word_Break.cpp
@@ -180,6 +181,7 @@ April 2018 to do list:
 │   ├── 1_Fizz_Buzz.cpp
 │   ├── 1_Power_of_Three.cpp
 │   ├── 1_Roman_to_Integer.cpp
+│   ├── 2_Bulb_Switcher.cpp
 │   ├── 2_Divide_Two_Integers.cpp
 │   ├── 2_Excel_Sheet_Column_Number.cpp
 │   ├── 2_Factorial_Trailing_Zeroes.cpp
@@ -199,6 +201,7 @@ April 2018 to do list:
 │   ├── 2_Evaluate_Reverse_Polish_Notation.cpp
 │   ├── 2_Find_the_Celebrity.cpp
 │   ├── 2_Majority_Element.cpp
+│   ├── 2_Rectangle_Area.cpp
 │   ├── 2_Sum_of_Two_Integers.cpp
 │   ├── 2_Task_Scheduler.cpp
 │   ├── 3_Largest_Rectangle_in_Histogram.cpp
@@ -276,5 +279,5 @@ April 2018 to do list:
 ├── template.txt
 └── tree.md
 
-39 directories, 209 files
+39 directories, 212 files
 ```  

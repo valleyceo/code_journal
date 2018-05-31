@@ -116,8 +116,10 @@ April 2018 to do list:
 │   ├── 1_Balanced_Binary_Tree.cpp
 │   ├── 1_Binary_Tree_Level_Order_Traversal.cpp
 │   ├── 1_Convert_Sorted_Array_to_Binary_Search_Tree.cpp
+│   ├── 1_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.cpp
 │   ├── 1_Maximum_Depth_of_Binary_Tree.cpp
 │   ├── 1_Merge_Two_Binary_Trees.cpp
+│   ├── 1_Minimum_Depth_of_Binary_Tree.cpp
 │   ├── 1_Symmetric_Tree.cpp
 │   ├── 1_Validate_Binary_Search_Tree.cpp
 │   ├── 2_Binary_Tree_Inorder_Traversal.cpp
@@ -280,5 +282,5 @@ April 2018 to do list:
 ├── template.txt
 └── tree.md
 
-39 directories, 213 files
+39 directories, 215 files
 ```  

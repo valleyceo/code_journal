@@ -16,18 +16,15 @@ return [0, 1].
 // my solution
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int, int> umap;
-        vector<int> solution(2, -1);
+    vector<int> twoSum(vector<int>& numbers, int target) {
+        map<int, int> map;
         
-        for (int i=0; i<nums.size(); i++){
-            if(umap.find(target - nums[i]) == umap.end()){
-                umap[nums[i]] = i;
-            } else {
-                solution[0] = umap.at(target - nums[i]);
-                solution[1] = i;
-                return solution;
-            }
-        }
+        for (int i = 0; i < numbers.size(); i++)
+            if (map.find(target-numbers[i]) != map.end())
+                return vector<int>{map[target-numbers[i]]+1, i+1};
+            else
+                map[numbers[i]] = i;
+            
+        return vector<int>{};
     }
 };

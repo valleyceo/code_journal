@@ -31,7 +31,9 @@ April 2018 to do list:
 │   ├── 1_Best_Time_To_Buy_And_Sell_Stock_II.cpp
 │   ├── 1_Contains_Duplicate.cpp
 │   ├── 1_Contains_Duplicate_II.cpp
+│   ├── 1_Degree_of_an_Array.cpp
 │   ├── 1_Find_All_Numbers_Disappeared_in_an_Array.cpp
+│   ├── 1_Implement_Queue_using_Stacks.cpp
 │   ├── 1_Intersection_of_Two_Arrays.cpp
 │   ├── 1_Intersection_of_Two_Arrays_II.cpp
 │   ├── 1_Island_Perimeter.cpp
@@ -69,6 +71,8 @@ April 2018 to do list:
 │   ├── 1_Linked_List_Cycle.cpp
 │   ├── 1_Merge_Two_Sorted_Lists.cpp
 │   ├── 1_Palindrome_Linked_List.cpp
+│   ├── 1_Remove_Duplicates_from_Sorted_List.cpp
+│   ├── 1_Remove_Linked_List_Elements.cpp
 │   ├── 1_Remove_Nth_Node_From_End_of_List.cpp
 │   ├── 1_Reverse_Linked_List.cpp
 │   ├── 2_Add_Two_Numbers.cpp
@@ -90,6 +94,7 @@ April 2018 to do list:
 │   ├── 1_Repeated_String_Match.cpp
 │   ├── 1_Reverse_Integer.cpp
 │   ├── 1_Reverse_String.cpp
+│   ├── 1_Reverse_Vowels_of_a_String.cpp
 │   ├── 1_Reverse_Words_in_a_String.cpp
 │   ├── 1_Reverse_Words_in_a_String_III.cpp
 │   ├── 1_String_to_Integer_(atoi).cpp
@@ -125,6 +130,7 @@ April 2018 to do list:
 │   ├── 1_Maximum_Depth_of_Binary_Tree.cpp
 │   ├── 1_Merge_Two_Binary_Trees.cpp
 │   ├── 1_Minimum_Depth_of_Binary_Tree.cpp
+│   ├── 1_Same_Tree.cpp
 │   ├── 1_Symmetric_Tree.cpp
 │   ├── 1_Validate_Binary_Search_Tree.cpp
 │   ├── 2_Binary_Tree_Inorder_Traversal.cpp
@@ -196,15 +202,19 @@ April 2018 to do list:
 │   ├── 2_Factorial_Trailing_Zeroes.cpp
 │   ├── 2_Fraction_to_Recurring_Decimal.cpp
 │   ├── 2_Happy_Number.cpp
+│   ├── 2_Next_Permutation.cpp
 │   ├── 2_Pow(x,n).cpp
 │   ├── 2_Sqrt(x).cpp
 │   ├── 3_Largest_Number.cpp
 │   └── 3_Max_Points_on_a_Line.cpp
 ├── 5_others
+│   ├── 1_1bit_and_2bit_Characters.cpp
 │   ├── 1_Hamming_Distance.cpp
 │   ├── 1_Missing_Number.cpp
+│   ├── 1_Number_Complement.cpp
 │   ├── 1_Number_of_1_Bits.cpp
 │   ├── 1_Pascals_Triangle.cpp
+│   ├── 1_Power_of_Two.cpp
 │   ├── 1_Reverse_Bits.cpp
 │   ├── 1_Valid_Parentheses.cpp
 │   ├── 2_Evaluate_Reverse_Polish_Notation.cpp
@@ -289,5 +299,5 @@ April 2018 to do list:
 ├── template.txt
 └── tree.md
 
-39 directories, 222 files
+39 directories, 232 files
 ```  

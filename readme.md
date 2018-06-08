@@ -165,6 +165,7 @@ April 2018 to do list:
 │   ├── 3_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.cpp
 │   ├── 3_Decode_Ways.cpp
 │   ├── 3_Edit_Distance.cpp
+│   ├── 3_Maximal_Rectangle.cpp
 │   ├── 3_Maximum_Product_Subarray.cpp
 │   ├── 3_Perfect_Squares.cpp
 │   └── 3_Word_Break.cpp
@@ -299,5 +300,5 @@ April 2018 to do list:
 ├── template.txt
 └── tree.md
 
-39 directories, 232 files
+39 directories, 233 files
 ```  

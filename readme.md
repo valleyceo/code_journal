@@ -33,6 +33,7 @@ April 2018 to do list:
 │   ├── 1_Contains_Duplicate_II.cpp
 │   ├── 1_Degree_of_an_Array.cpp
 │   ├── 1_Find_All_Numbers_Disappeared_in_an_Array.cpp
+│   ├── 1_Image_Smoother.cpp
 │   ├── 1_Implement_Queue_using_Stacks.cpp
 │   ├── 1_Intersection_of_Two_Arrays.cpp
 │   ├── 1_Intersection_of_Two_Arrays_II.cpp
@@ -51,6 +52,7 @@ April 2018 to do list:
 │   ├── 2_Find_Minimum_in_Rotated_Sorted_Array.cpp
 │   ├── 2_Increasing_Triplet_Subsequence.cpp
 │   ├── 2_K_Empty_Slots.cpp
+│   ├── 2_Max_Consecutive_Ones_II.cpp
 │   ├── 2_Missing_Ranges.cpp
 │   ├── 2_Set_Matrix_Zeroes.cpp
 │   ├── 2_Single_Number_II.cpp
@@ -100,10 +102,13 @@ April 2018 to do list:
 │   ├── 1_String_to_Integer_(atoi).cpp
 │   ├── 1_Valid_Anagram.cpp
 │   ├── 1_Valid_Palindrome.cpp
+│   ├── 2_Add_Bold_Tag_in_String.cpp
 │   ├── 2_Group_Anagrams.cpp
 │   ├── 2_Longest_Palindromic_Substring.cpp
 │   ├── 2_Longest_Substring_Without_Repeating_Characters.cpp
+│   ├── 2_Maximum_Product_of_Word_Lengths.cpp
 │   ├── 2_Next_Closest_Time.cpp
+│   ├── 2_One_Edit_Distance.cpp
 │   ├── 2_Short_Encoding_of_Words.cpp
 │   └── 3_Regular_Expression_Matching.cpp
 ├── 2_sorting_searching
@@ -125,6 +130,7 @@ April 2018 to do list:
 ├── 2_trees
 │   ├── 1_Balanced_Binary_Tree.cpp
 │   ├── 1_Binary_Tree_Level_Order_Traversal.cpp
+│   ├── 1_Closest_Binary_Search_Tree_Value.cpp
 │   ├── 1_Convert_Sorted_Array_to_Binary_Search_Tree.cpp
 │   ├── 1_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.cpp
 │   ├── 1_Maximum_Depth_of_Binary_Tree.cpp
@@ -176,12 +182,14 @@ April 2018 to do list:
 │   ├── 2_Encode_and_Decode_TinyURL.cpp
 │   ├── 2_Flatten_2D_Vector.cpp
 │   ├── 2_Insert_Delete_GetRandom_O(1).cpp
+│   ├── 2_Range_Sum_Query_2D-Mutable.cpp
 │   ├── 2_Serialize_and_Deserialize_Binary_Tree.cpp
 │   ├── 3_Implement_Trie_(Prefix_Tree).cpp
 │   └── 3_LRU_Cache.cpp
 ├── 5_graphs
 │   ├── 03_Alien_Dictionary.cpp
 │   ├── 1_Max_Area_of_Island.cpp
+│   ├── 2_Insert_into_a_Cyclic_Sorted_List.cpp
 │   ├── 2_Number_of_Islands.cpp
 │   ├── 3_Count_of_Smaller_Numbers_After_Self.cpp
 │   ├── 3_Course_Schedule.cpp
@@ -194,6 +202,7 @@ April 2018 to do list:
 │   ├── 01_Largest_Palindrome_Product.cpp
 │   ├── 1_Count_Primes.cpp
 │   ├── 1_Fizz_Buzz.cpp
+│   ├── 1_Pascals_Triangle_II.cpp
 │   ├── 1_Power_of_Three.cpp
 │   ├── 1_Roman_to_Integer.cpp
 │   ├── 1_Self_Dividing_Numbers.cpp
@@ -272,6 +281,7 @@ April 2018 to do list:
 ├── 8_PR
 │   ├── Find_The_Duplicates.cpp
 │   ├── K_Messed_Array_Sort.cpp
+│   ├── Word_Count_Engine.cpp
 │   ├── bst_successor_search.cpp
 │   ├── island_count.cpp
 │   └── number_of_paths.cpp
@@ -294,11 +304,18 @@ April 2018 to do list:
 │   ├── cpp_notes.md
 │   ├── python.md
 │   └── python_ml.md
+├── 9_concepts
+│   ├── Bad_Sorters.cpp
+│   ├── Binary_Search.cpp
+│   ├── Heap_Sort.cpp
+│   ├── Merge_Sort.cpp
+│   ├── Probability.cpp
+│   └── QuickSort.cpp
 ├── code_journal.md
 ├── gen_md.sh
 ├── readme.md
 ├── template.txt
 └── tree.md
 
-39 directories, 233 files
+40 directories, 249 files
 ```  

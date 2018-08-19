@@ -9,21 +9,16 @@ vector<int> sortKMessedArray( const vector<int>& arr, int k )
   // your code goes here
   // get +k more inputs
   priority_queue<int, vector<int>, greater<int> > pque;
-  vector<int> res;
+  vector<int> res(arr.size(), 0);
   
-  for (int i = 0; i <= k; i++) {
+  for (int i = 0; i < k; i++)
     pque.push(arr[i]);
-  }
   
-  for (int i = k + 1; i < arr.size(); i++) {
-    res.push_back(pque.top());
-    pque.pop();
+  for (int i = 0; i < arr.size(); i++) {
+    if (i+k < arr.size())
+      pque.push(arr[i+k]);
     
-    pque.push(arr[i]);
-  }
-  
-  while (!pque.empty()) {
-    res.push_back(pque.top());
+    res[i] = pque.top();
     pque.pop();
   }
   
@@ -46,6 +41,11 @@ int main() {
 
 
 /* note:
+
+Can you go to the settings (hover to the camera and see the setting button)
+Have you checked the settings?
+
+I will be back let me try different broswer OK No worries
 - given array 
 - each element is at most k places away from sorted position
 - sorts arr
@@ -56,11 +56,11 @@ Input:
 Output:
 - sorted array
 
-Limit:
+Req:
 - time: 5000ms
 - arr length = 100
 - integer between 1~20
 
-Time complexity: O(n) -> assume small K O(log(k)) ~ O(1)
-Space complexity: O(n)
+Time complexity: O(nlog(k)))
+Space complexity: O(n + k) (O(k) if input array can be changed, current given is a const)
 */

@@ -91,7 +91,8 @@ priority_queue<int, vector<int>, greater<int> > pq; // takes <type, datatype, co
 umap[num1] = num2
 umap.erase(num);
 // search
-if(umap.find(numx) == umap.end());
+if(umap.find(numx) == umap.end()){...};
+if(auto it = umap.find(c); it != cend(umap)){...}; // alternate
 // look up
 val = umap.at(numx)
 

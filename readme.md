@@ -1,36 +1,24 @@
 ## Code Journal
-
-May 2018 to do list:  
-- [ ] LeetCode 50 hard - 40/51 (4/20)  
-- [ ] Hackerrank Datastructure easy  
-- [ ] Hackerrank Algorithm easy   
-- [ ] Clean up DLAI projects  
-- [ ] Solve all LC green frequency  
-- [ ] EPI  
-- [ ] Code Jam R1B  
-- [ ] Code Jam 2017  
-
-April 2018 to do list:  
-- [x] LeetCode 50 easy (4/19)  
-- [x] LeetCode 50 medium (4/19)  
-- [ ] ~~LeetCode 50 hard - 40/51 (4/20)~~  
-- [x] Code Jam Qual (4/20)  
-- [x] Code Jam R1A (4/28)  
-- [ ] ~~Hackerrank Datastructure easy~~  
-- [ ] ~~Hackerrank Algorithm easy~~  
-- [x] Clean up MLND projects (4/21)  
-- [x] Clean up SDCND projects (4/24)  
-- [ ] ~~Clean up DLAI projects~~  
-- [ ] ~~Solve all LC green frequency~~  
-
-
 ## Problems  
 
 ```  .
+├── 0_archive
+│   ├── 1_array
+│   │   ├── 1_Best_Time_To_Buy_And_Sell_Stock_II.cpp
+│   │   ├── 1_Contains_Duplicate.cpp
+│   │   └── 1_Contains_Duplicate_II.cpp
+│   ├── 1_linked_list
+│   ├── 1_string
+│   ├── 2_sort_search
+│   ├── 2_tree
+│   ├── 3_backtracking
+│   ├── 3_dp
+│   ├── 4_design
+│   ├── 5_graph
+│   ├── 5_math
+│   └── 5_other
+│       └── 2_Card_Flipping_Game.cpp
 ├── 1_array
-│   ├── 1_Best_Time_To_Buy_And_Sell_Stock_II.cpp
-│   ├── 1_Contains_Duplicate.cpp
-│   ├── 1_Contains_Duplicate_II.cpp
 │   ├── 1_Degree_of_an_Array.cpp
 │   ├── 1_Find_All_Numbers_Disappeared_in_an_Array.cpp
 │   ├── 1_Image_Smoother.cpp
@@ -59,6 +47,7 @@ April 2018 to do list:
 │   ├── 3_4Sum_II.cpp
 │   ├── 3_Basic_Calculator_II.cpp
 │   ├── 3_Container_With_Most_Water.cpp
+│   ├── 3_Contains_Duplicate_III.cpp
 │   ├── 3_Find_the_Duplicate_Number.cpp
 │   ├── 3_First_Missing_Positive.cpp
 │   ├── 3_Game_of_Life.cpp
@@ -279,25 +268,18 @@ April 2018 to do list:
 │   └── readme.md
 ├── 8_HR
 ├── 8_PR
+│   ├── Array_Index_&_Element_Equality.cpp
+│   ├── Basic_Regex_Parser.cpp
+│   ├── Decrypt_Message.cpp
 │   ├── Find_The_Duplicates.cpp
 │   ├── K_Messed_Array_Sort.cpp
+│   ├── Merging_2_Packages.cpp
+│   ├── Pancake_Sort.cpp
+│   ├── Sales_Path.cpp
 │   ├── Word_Count_Engine.cpp
 │   ├── bst_successor_search.cpp
 │   ├── island_count.cpp
 │   └── number_of_paths.cpp
-├── 9_archive
-│   ├── 1_array
-│   ├── 1_linked_list
-│   ├── 1_string
-│   ├── 2_sort_search
-│   ├── 2_tree
-│   ├── 3_backtracking
-│   ├── 3_dp
-│   ├── 4_design
-│   ├── 5_graph
-│   ├── 5_math
-│   └── 5_other
-│       └── 2_Card_Flipping_Game.cpp
 ├── 9_cheatsheet
 │   ├── bash.md
 │   ├── cpp.md
@@ -317,5 +299,5 @@ April 2018 to do list:
 ├── template.txt
 └── tree.md
 
-40 directories, 249 files
+40 directories, 256 files
 ```  

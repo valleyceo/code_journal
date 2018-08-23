@@ -6,8 +6,13 @@
 │   ├── 1_array
 │   │   ├── 1_Best_Time_To_Buy_And_Sell_Stock_II.cpp
 │   │   ├── 1_Contains_Duplicate.cpp
-│   │   └── 1_Contains_Duplicate_II.cpp
+│   │   ├── 1_Contains_Duplicate_II.cpp
+│   │   ├── 1_Degree_of_an_Array.cpp
+│   │   ├── 1_Find_All_Numbers_Disappeared_in_an_Array.cpp
+│   │   ├── 1_Image_Smoother.cpp
+│   │   └── 1_Intersection_of_Two_Arrays.cpp
 │   ├── 1_linked_list
+│   │   └── 1_Delete_Node_in_a_Linked_List.cpp
 │   ├── 1_string
 │   ├── 2_sort_search
 │   ├── 2_tree
@@ -19,11 +24,7 @@
 │   └── 5_other
 │       └── 2_Card_Flipping_Game.cpp
 ├── 1_array
-│   ├── 1_Degree_of_an_Array.cpp
-│   ├── 1_Find_All_Numbers_Disappeared_in_an_Array.cpp
-│   ├── 1_Image_Smoother.cpp
 │   ├── 1_Implement_Queue_using_Stacks.cpp
-│   ├── 1_Intersection_of_Two_Arrays.cpp
 │   ├── 1_Intersection_of_Two_Arrays_II.cpp
 │   ├── 1_Island_Perimeter.cpp
 │   ├── 1_Move_Zeroes.cpp
@@ -58,7 +59,6 @@
 │   ├── 3_Sliding_Window_Maximum.cpp
 │   └── 3_Spiral_Matrix.cpp
 ├── 1_linked_list
-│   ├── 1_Delete_Node_in_a_Linked_List.cpp
 │   ├── 1_Linked_List_Cycle.cpp
 │   ├── 1_Merge_Two_Sorted_Lists.cpp
 │   ├── 1_Palindrome_Linked_List.cpp

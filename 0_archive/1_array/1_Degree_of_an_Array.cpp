@@ -22,15 +22,14 @@ nums.length will be between 1 and 50,000.
 nums[i] will be an integer between 0 and 49,999.
 */
 
-// my solution
+// my solution - time: O(nlog(n)), space: O(n)
 class Solution {
 public:
     int findShortestSubArray(vector<int>& nums) {
         unordered_map<int, list<int>> umap;
         
-        for (int i = 0; i < nums.size(); ++i){
+        for (int i = 0; i < nums.size(); ++i)
             umap[nums[i]].push_back(i);
-        }
         
         int max_deg = 0;
         int min_size = INT_MAX;

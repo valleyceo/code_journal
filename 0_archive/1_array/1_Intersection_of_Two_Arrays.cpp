@@ -11,20 +11,21 @@ Each element in the result must be unique.
 The result can be in any order.
 */
 
-// my solution
+// my solution - time: O(n1log(n1) + n2log(n2))
+// **on a set, if N elements are inserted, Nlog(size+N).
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
-        unordered_map<int, int> umap;
+        unordered_set<int> uset;
         vector<int> res;
         
         for (auto a : nums1)
-            umap[a] = 1;
+            uset.insert(a);
         
         for (auto b : nums2) {
-            if (umap.find(b) != umap.end()) {
+            if (uset.find(b) != uset.end()) {
                 res.push_back(b);
-                umap.erase(b);
+                uset.erase(b);
             }
         }
         

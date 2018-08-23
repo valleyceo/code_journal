@@ -21,7 +21,7 @@ The value in the given matrix is in the range of [0, 255].
 The length and width of the given matrix are in the range of [1, 150].
 */
 
-// my solution
+// my solution - time: O(N*M), space: O(N*M)
 class Solution {
 public:
     vector<vector<int>> imageSmoother(vector<vector<int>>& M) {
@@ -32,7 +32,7 @@ public:
         int cols = M[0].size();
         
         vector<vector<int>> res (rows, vector<int> (cols, 0));
-        int rmin, rmax,cmin, cmax, ct;
+        int rmin, rmax, cmin, cmax, ct;
         float tsum;
         
         for (int i = 0; i < rows; i++) {

@@ -15,7 +15,7 @@ What if nums1's size is small compared to nums2's size? Which algorithm is bette
 What if elements of nums2 are stored on disk, and the memory is limited such that you cannot load all elements into the memory at once?
 */
 
-// my solution
+// my solution - time: O(n1 + n2), space: O(n1 + n2)
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
@@ -24,7 +24,8 @@ public:
         }
         
         unordered_map<int, int> umap;
-        
+        vector<int> ans;
+
         for (int i = 0; i < nums1.size(); i++) {
             if (umap.find(nums1[i]) == umap.end()){
                 umap[nums1[i]] = 1;
@@ -33,7 +34,6 @@ public:
             }
         }
         
-        vector<int> ans;
         for (int i = 0; i < nums2.size(); i++) {
             if (umap.find(nums2[i]) == umap.end()){
                 continue;
@@ -46,9 +46,8 @@ public:
                 }
             }
             
-            if(umap.size() == 0) {
+            if (umap.size() == 0)
                 break;
-            }
         }
         return ans;
     }

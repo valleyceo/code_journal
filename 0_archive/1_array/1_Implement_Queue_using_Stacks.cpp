@@ -23,7 +23,7 @@ Depending on your language, stack may not be supported natively. You may simulat
 You may assume that all operations are valid (for example, no pop or peek operations will be called on an empty queue).
 */
 
-// my solution
+// my solution - Using 2 stacks 
 class MyQueue {
 public:
     /** Initialize your data structure here. */

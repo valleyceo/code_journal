@@ -1,8 +1,8 @@
 # Primitive
---
 
 <details>
-<summary> count 1s in bit </summary>
+<summary> Count 1s in bit </summary>
+
 ```cpp
 while (x) {
 	ct += x & 1;
@@ -12,10 +12,10 @@ while (x) {
 ```
 </details>
 <details>
-<summary> parity of number </summary>
-Refers to whether it contains odd or even number of 1-bits
-ex1. 1101 -> 3 1's -> parity = 0 (odd)
-ex2. 1100 -> 2 1's -> parity = 1 (even)
+<summary> Parity of number </summary>
+Refers to whether it contains odd or even number of 1-bits  
+ex1. 1101 -> 3 1's -> parity = 0 (odd)  
+ex2. 1100 -> 2 1's -> parity = 1 (even)  
 
 ```cpp
 while (x) {
@@ -37,7 +37,7 @@ short Parity(unsigned long x) {
 ```
 </details>
 <details>
-<summary> swap bits </summary>
+<summary> Swap bits </summary>
 
 ```cpp
 long SwapBits(long x, int i, int j) {
@@ -53,7 +53,7 @@ long SwapBits(long x, int i, int j) {
 ```
 </details>
 <details>
-<summary> reverse bits </summary>
+<summary> Reverse bits </summary>
 
 ```cpp
 unsigned long ReverseBits(unsigned long x) {
@@ -71,7 +71,7 @@ unsigned long ReverseBits(unsigned long x) {
 ```
 </details>
 <details>
-<summary> closest integer with same weight (number of 1's) </summary>
+<summary> Closest integer with same weight (number of 1's) </summary>
 
 ```cpp
 // ex1. 10 -> 01
@@ -94,8 +94,7 @@ unsigned long ClosestIntSameBitCount(unsigned long x) {
 ```
 </details>
 <details>
-<summary> Multiply </summary>
-Need to go over
+<summary> Multiply(need to review) </summary>
 
 ```cpp
 unsigned long Multiply(unsigned long x, unsigned long y) {
@@ -127,6 +126,32 @@ unsigned long Add(unsigned long a, unsigned long b) {
 }
 ```
 </details>
+
+<details>
+<summary> Divide x/y (need to review) </summary>
+
+```cpp
+it Divide(int x, int y) {
+	int result = 0;
+	int power = 32;
+
+	unsigned long long y_power = static_cast<unsigned long long>(y) << power;
+
+	while (x >= y) {
+		while (y_power > x) {
+			y_power >>= 1;
+			--power;
+		}
+
+		result += 1 << power;
+		x -= y_power;
+	}
+
+	return result;
+}
+```
+</details>
+
 <details>
 <summary> Compute x^y </summary>
 
@@ -155,4 +180,136 @@ double Power(double x, int y) {
 ```
 </details>
 
+<details>
+<summary> Reverse digits </summary>
 
+---
+
+Example:  
+42 -> 24  
+-314 -> -413
+
+---
+
+```cpp
+long reverse(int x) {
+	long res = 0, x_rem = abs(x);
+
+	while (x_rem) {
+		res = res * 10 + x_rem % 10;
+		x_rem /= 10;
+	}
+
+	return x < 0 ? -result : result;
+}
+```
+</details>
+
+
+<details>
+<summary> Is palindrome </summary>
+
+---
+
+Write a program that takes an integer and determines if that integer's representation as a decimal string is a palindrome.
+
+hint: extract least significant digit and most significant digit.
+
+---
+
+```cpp
+bool IsPalindromeNumber(int x) {
+	if (x <= 0) {
+		return x == 0;
+	}
+
+	const int num_digits = static_cast<int>(floor(log10(x))) + 1;
+	int msd_mask = static_cast<int> (pow(10, num_digits - 1));
+	
+	for (int i = 0; i < (num_digits / 2); ++i) {
+		if (x / msd_mask != x % 10) {
+			return false;
+		}
+
+		x %= msd_mask;
+		x /= 10;
+		msd_mask /= 100;
+	}
+}
+```
+</details>
+
+
+<details>
+<summary> Generate Uniform Random Numbers </summary>
+
+---
+
+Implement a random number generator that generates a random integer i (btw a - b inclusive), given a random number generator that produces zero or one with equal probability?
+
+Hint: how would you mimic a 3-side coin with 2-side coin?
+
+---
+
+```cpp
+int UniformRandom (int lower_bound, int upper_bound) {
+	int number_of_outcomes = upper_bound - lower_bound + 1, res;
+
+	do {
+		result = 0;
+		for (int i = 0; (1 << i) < number_of_outcomes; ++i) {
+			// ZeroOneRandom() is the provided random number generator.
+			result = (result << 1) | ZeroOneRandom();
+		}
+	} while (result >= number_of_outcomes);
+
+	return result + lower_bound;
+}
+```
+
+---
+Note:
+- This is equivalent to random int btw 0 - b-a (add a at end).  
+- Find the smallest number form of 2^i - 1 that is greater than b-a.  
+- Create until a number below b-a is made (all numbers will have equal chance).  
+
+Time complexity: O(log(b-a+1)), each try is O(1)
+
+---
+</details>
+
+<details>
+<summary> Rectangle Intersection </summary>
+
+---
+
+Write a program which test if two rectangles have a nonempty intersection. If the intersection is nonempty, return the rectangle formed by the intersection
+
+---
+
+```cpp
+struct Rectangle {
+	int x, y, width, height;
+};
+
+bool IsIntersect (const Rectangle& R1, const Rectangle& R2) {
+	return R1.x <= R2.x + R2.width && R1.x + R1.width >= R2.x &&
+		   R1.y <= R2.y + R2.height && R1.y + R1.height >= R2.y;
+}
+
+Rectangle IntersectRectangle(const Rectagle& R1, const Rectangle& R2) {
+	if (!IsIntersect(R1, R2))
+		return {0, 0, -1, -1};
+
+	return {max(R1.x, R2.x), max(R1.y, R2.y),
+			min(R1.x + R1.width, R2.x + R2.width) - max(R1.x, R2.x),
+			min(R1.y + R1.height, R2.y + R2.height) - max(R1.y, R2.y)};
+}
+```
+
+---
+Note:
+Time complexity: O(1), space: O(1)
+
+---
+</details>

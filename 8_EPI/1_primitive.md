@@ -11,6 +11,8 @@ while (x) {
 // complexity O(n)
 ```
 </details>
+
+
 <details>
 <summary> Parity of number </summary>
 Refers to whether it contains odd or even number of 1-bits  
@@ -36,6 +38,8 @@ short Parity(unsigned long x) {
 // complexity O(log(n))
 ```
 </details>
+
+
 <details>
 <summary> Swap bits </summary>
 
@@ -52,6 +56,8 @@ long SwapBits(long x, int i, int j) {
 // complexity O(1)
 ```
 </details>
+
+
 <details>
 <summary> Reverse bits </summary>
 
@@ -70,6 +76,8 @@ unsigned long ReverseBits(unsigned long x) {
 // complexity O(n/L)
 ```
 </details>
+
+
 <details>
 <summary> Closest integer with same weight (number of 1's) </summary>
 
@@ -93,6 +101,8 @@ unsigned long ClosestIntSameBitCount(unsigned long x) {
 // complexity O(n)
 ```
 </details>
+
+
 <details>
 <summary> Multiply(need to review) </summary>
 
@@ -126,6 +136,7 @@ unsigned long Add(unsigned long a, unsigned long b) {
 }
 ```
 </details>
+
 
 <details>
 <summary> Divide x/y (need to review) </summary>
@@ -277,6 +288,7 @@ Time complexity: O(log(b-a+1)), each try is O(1)
 
 ---
 </details>
+
 
 <details>
 <summary> Rectangle Intersection </summary>

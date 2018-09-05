@@ -102,7 +102,8 @@ Time complexity: O(n)
 ---
 </details>
 
-<details>Advance Through an Array</summary>
+<details>
+<summary> Advance Through an Array</summary>
 
 ---
 - Array of n integers
@@ -132,7 +133,8 @@ Space complexity: O(1)
 ---
 </details>
 
-<details>Advance Through an Array</summary>
+<details>
+<summary> Advance Through an Array</summary>
 
 ---
 - Array of n integers
@@ -162,7 +164,8 @@ Space complexity: O(1)
 ---
 </details>
 
-<details>Delete duplicates from a Sorted Array</summary>
+<details>
+<summary> Delete duplicates from a Sorted Array</summary>
 
 ---
 - Return count of remaining elements
@@ -198,7 +201,8 @@ Space complexity: O(1)
 ---
 </details>
 
-<details>Buy and Sell Stock Once</summary>
+<details>
+<summary> Buy and Sell Stock Once</summary>
 
 ---
 - Return max profit
@@ -265,6 +269,75 @@ Note:
 Time complexity: O(n)
 Space complexity: O(n)
 
-- can solve with O(1) space
+- can solve with O(n) time, O(1) space
+---
+</details>
+
+<details>
+<summary> Rearrange Alternation </summary>
+
+---
+- Takes an array A of n numbers, and rearranges A's elements to get a new array B
+- B[0] <= B[1] >= B[2] <= B[3] >= B[4] ...
+
+---
+
+```cpp
+void Rearrange(vector<int>* A_ptr) {
+	vector<int>& A = *A_ptr;
+
+	for (size_t i = 1; i < size(A); ++i) {
+		if (!(i%2) && A[i-1] < A[i] || ((i%2) && A[i-1] > A[i])){
+			swap(A[i-1], A[i]);
+		}
+	}
+}
+```
+
+---
+Note:
+Time complexity: O(n)
+Space complexity: O(1)
+
+- This works since each elements will either be > or < regardless of being sorted
+- Better than sort and swap O(nlog(n))
+- similar to median finging
+---
+</details>
+
+
+<details>
+<summary> Generate Primes </summary>
+
+```cpp
+vector<int> GeneratePrimes(int n) {
+	 if (n < 2) {
+	 	return {};
+	 }
+
+	 const int size = floor(0.5 * (n - 3) ) + 1;
+	 vector<int> primes;
+	 primes.emplace_back(2);
+
+	 deque<bool> is_prime(size, true);
+	 for(long i = 0; i < sizes; ++i) {
+	 	if (is_prime[i]) {
+	 		long p = (i * 2) + 3;
+	 		primes.emplace_back(p);
+
+	 		for (long j = (i * i) * 2 + 6 * i + 3; j < size; j += p) {
+	 			is_prime[j] = false;
+	 		}
+	 	}
+	 }
+	 return primes;
+}
+```
+
+---
+- O(n/2 + n/3 + n/4 ...) ~ O(nloglogn)
+- note: for trivial divion approach bound is O(n^(3/2)/(logn)^2)
+- Optimized runtime by sieving p's multiples from p^2 instead of p
+
 ---
 </details>

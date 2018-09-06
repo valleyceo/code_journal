@@ -341,3 +341,75 @@ vector<int> GeneratePrimes(int n) {
 
 ---
 </details>
+
+<details>
+<summary> Apply Permutation </summary>
+
+---
+- Given array A and permutation array P, apply P to A
+- Ex. P = < 2,0,1,3 >, A = < a,b,c,d > => A_new = < b, c, a, d >
+
+---
+
+```cpp
+void ApplyPermutation(vector<int>* perm_ptr, vector<int>* A_ptr) {
+	vector<int>&perm = *perm_ptr, &A = *A_ptr;
+	
+	for (int i = 0; i < size(A); ++i) {
+		int next = i;
+		
+		while (perm[next] >= 0) {
+			swap(A[i], A[perm[next]]);
+			int temp = perm[next];
+
+			perm[next] = size(perm);
+			next = temp;
+		}
+	}
+
+	// Restore perm
+	for_each(begin(perm), end(perm), [&perm](int& x) { x += size(perm); });
+}
+
+```
+
+---
+- Time: O(n), Space: O(1)
+- Swap with permuted next element, keep track by subtracting -size(P) (add them later)
+- Two loops: 1. loop over each array, 2. loop over next permuted element
+
+---
+</details>
+
+
+<details>
+<summary> Compute Next Permutation </summary>
+
+---
+- takes a permutation and returns next permutation under dictionary order
+- ex: < 6, 2, 1, 5, 4, 3, 0> -> < 6, 2, 3, 0, 1, 4, 5 >
+
+---
+
+```cpp
+vector<int> NextPermutation(vector<int> perm) {
+	auto inversion_point = is_sorted_until(rbegin(), rend(perm));
+
+	if (inversion_point == rend(perm)) {
+		return {};
+	}
+
+	auto least_upper_bound = upper_bound(rbegin(perm), inversion_point, *inversion_point);
+	iter_swap(inversion_point, least_upper_bound);
+
+	reverse(rbegin(perm), inversion_point);
+	return perm;
+} 
+
+```
+
+---
+- Time: O(n), Space: O(1)
+
+---
+</details>

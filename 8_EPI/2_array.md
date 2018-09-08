@@ -1,5 +1,8 @@
 # Array
 
+
+## Array Manipulation
+
 <details>
 <summary> Dutch National Flag Problem (Quicksort) </summary>
 
@@ -515,6 +518,160 @@ vector<int> ComputeRandomPermutation(int n) {
 
 ---
 - Time: O(n), no extra spaces
+1. Create an array first
+2. Shuffle the array
+
+---
+</details>
+
+
+<details>
+<summary> Compute a Random Subset </summary>
+
+---
+- Given a positive integer n and a size k <= n
+- Return a size-k subset from {0, 1, 2, ..., n-1}
+
+---
+
+```cpp
+vector<int> RandomSubset(int n, int k) {
+	unordered_map<int, int> changed_elements;
+	default_random_engine seed((random_device())());
+
+	for (int i = 0; i < k; ++i) {
+		int rand_idx = uniform_int_distribution<int>{i, n-1}(seed);
+
+		if (auto ptr1 = changed_elements.find(rand_idx),
+			ptr2 = changed_elements.find(i);
+			ptr1 == end(changed_elements) && ptr2 == end(changed_elements)) {
+			changed_elements[rand_idx] = i;
+			changed_elements[i] = rand_idx;
+		} else if (ptr1 == end(changed_elements) &&
+					ptr2 != end(changed_elements)) {
+			changed_elements[rand_idx] = ptr2->second;
+			ptr2->second = rand_idx;
+		} else if (ptr1 != end(changed_elements) &&
+					ptr2 == end(changed_elements)) {
+			changed_elements[i] = ptr1->second;
+			ptr1->second = i;
+		} else {
+			int temp = ptr2->second;
+			changed_elements[i] = ptr1->second;
+			changed_elements[rand_idx] = temp;
+		}
+	}
+
+	vector<int> result;
+
+	for (int i = 0; i < k; ++i) {
+		result.emplace_back(changed_elements[i]);
+	}
+	return result;
+}
+```
+
+---
+- time: O(k), space: O(k)
+- picks a random number and creates cyclic hash map
+- if same number gets picked, merges with parts
+- Note: this algorithm ends up creating unique numbers both in .first (0-k) and .second (0-n) in random orders
+
+---
+</details>
+
+
+<details>
+<summary> Generate Non-uniform Random Numbers </summary>
+
+---
+- given n numbers with probabilities p0, p1, ... pn-1 which sum up to 1
+- generate random number values uniformly according to probability
+
+---
+
+```cpp
+int NonuniformRandomNumberGeneration(const vector<int>& values,
+									 const vector<double>& probabilities) {
+	vector<double> prefix_sums_of_probabilities;
+
+	partial_sum(cbegin(probabilities), cend(probabilities),
+				back_inserter(prefix_sums_of_probabilities));
+
+	default_random_engine seed((random_device)());
+	const double uniform_0_1 = generate_canonical<double, numeric_limits<double>::digits>(seed);
+
+	const int interval_idx = distance(cbegin(prefix_sums_of_probabilities),
+									 upper_bound(cbegin(prefix_sums_of_probabilities),
+									 			 cend(prefix_sums_of_probabilities),
+									 			 uniform_0_1));
+
+	return values[interval_idx];
+}
+
+```
+
+---
+- time: O(n), space: O(n)
+- Create accumulated version of probability array
+- Get random number [0, 1]
+- Find the idx of first upper bound of the number
+
+---
+</details>
+
+
+## 2D Array
+
+<details>
+<summary> Sudoku Checker Problem</summary>
+
+```cpp
+bool IsValidSudoku(const vector<vector<int>>& partial_assignment) {
+	for (int i = 0; i < size(partial_assignment); ++i) {
+		if (HasDuplicate(partial_assignment, i, i + 1, 0, size(partial_assignment))) {
+			return false;
+		}
+	}
+
+	for (int i = 0; i < size(partial_assignment); ++i) {
+		if (HasDuplicate(partial_assignment, 0, size(partial_assignment), i, i + 1)) {
+			return false;
+		}
+	}
+
+	int region_size = sqrt(size(partial_assignment));
+	for (int i = 0; i < region_size; ++i) {
+		for (int j = 0; j < region_size; ++j) {
+			if (HasDuplicate(partial_assignment, i*region_size, (i+1)*region_size,
+							 j*region_size, (j+1)*region_size)) {
+				return false;
+			}
+		}
+	}
+
+	return true;
+}
+
+bool HasDuplicate(cont vector<vector<int>>& partial_assignment, 
+				  int start_row, int end_row, int start_col, int end_col) {
+	deque<bool> is_present(size(partial_assignment) + 1, false);
+
+	for (int i = start_row; i < end_row; ++i) {
+		for (int j = start_col; j < end_col; ++j) {
+			if (partial_assignment[i][j] != 0 && is_present[partial_assignment[i][j]]) {
+				return true;
+			}
+			is_present[partial_assignment[i][j]] = true;
+		}
+	}
+
+	return false;
+}
+```
+
+---
+- time: O(n^2), space: O(n^2)
 
 ---
 </details>

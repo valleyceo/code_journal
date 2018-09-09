@@ -675,3 +675,168 @@ bool HasDuplicate(cont vector<vector<int>>& partial_assignment,
 
 ---
 </details>
+
+
+<details>
+<summary> Spiral Ordering of a 2D Array </summary>
+
+---
+- n x n matrix  
+- ex:  
+[ [1, 2, 3],  
+  [4, 5, 6],  
+  [7, 8, 9] ]  
+
+-> <1,2,3,6,9,8,7,4,5>  
+
+---
+
+```cpp
+vector<int> MatrixInSpiralOrder(const vector<vector<int>>& square_matrix) {
+	vector<int> spiral_ordering;
+
+	for (int offset = 0; offset < ceil(0.5 * size(square_matrix)); ++offset) {
+		MatrixLayerInClockwise(square_matrix, offset, &spiral_ordering);
+	}
+
+	return spiral_ordering;
+}
+
+void MatrixLayerInClockwise(const vector<vector<int>>& square_matrix, 
+							int offset, vector<int>* spiral_ordering) {
+	if (offset == size(square_matrix) - offset - 1) {
+		spiral_ordering->emplace_back(square_matrix[offset][offset]);
+		return;
+	}
+
+	for (int j = offset; j < size(square_matrix) - offset - 1; ++j) {
+		spiral_ordering->emplace_back(square_matrix[offset][j]);;
+	}
+
+	for (int i = offset; i < size(square_matrix) - offset - 1; ++i) {
+		spiral_ordering->emplace_back(square_matrix[i][size(square_matrix)-offset-1]);
+	}
+
+	for (int j = size(square_matrix) - offset - 1; j > offset; --j) {
+		spiral_ordering->emplace_back(square_matrix[size(square_matrix) - offset - 1][j]);
+	}
+
+	for (int i = size(square_matrix) - offset - 1; i > offset; --i) {
+		spiral_ordering->emplace_back(square_matrix[i][offset]);
+	}
+}
+```
+
+---
+- Time: O(n^2)
+- Run loops for each layers using offset
+
+---
+
+</details>
+
+
+<details>
+<summary> Rotate a 2D Array </summary>
+
+---
+- rotate 90 degrees clock-wise
+
+---
+
+```cpp
+void RotateMatrix(vector<vector<int>>* square_matrix_ptr) {
+	vector<vector<int>>& square_matrix = *square_matrix_ptr;
+	const int matrix_size = size(square_matrix) - 1;
+
+	for (int i = 0; i < (size(square_matrix) / 2); ++i) {
+		for (int j = i; j < matrix_size - i; ++j) {
+			int temp1 = square_matrix[matrix_size - j][i];
+			int temp2 = square_matrix[matrix_size - i][matrix_size - j];
+			int temp3 = square_matrix[j][matrix_size - i];
+			int temp4 = square_matrix[i][j];
+
+			square_matrix[i][j] = temp1;
+			square_matrix[matrix_size - j][i] = temp2;
+			square_matrix[matrix_size - i][matrix_size - j] = temp3;
+			square_matrix[j][matrix_size - i] = temp4;
+		}
+	}
+}
+```
+
+---
+- time: O(n^2), space: O(1)  
+- Note that j shrinks (i, size-i) because,  
+[[X, X, X, X, -],  
+ [-, X, X, -, -],  
+ [-, -, -, -, -],  
+ [-, -, -, -, -],  
+ [-, -, -, -, -]]   
+
+---
+</details>
+
+
+<details>
+<summary> Rotated Matrix (Access version) </summary>
+
+```cpp
+class RotatedMatrix {
+public:
+	explicit RotatedMatrix(vector<vector<int>>* square_matrix)
+	 : square_matrix_(*square_matrix){}
+
+	int ReadEntry(int i, int j) const {
+		return square_matrix_[size(square_matrix_) - 1 - j][i];
+	}
+
+	void WriteEntry(int i, int j, int v) {
+		square_matrix_[size(square_matrix_) - 1 - j][i] = v;
+	}
+
+private:
+	vector<vector<int>>& square_matrix_
+}
+```
+
+</details>
+
+
+<details>
+<summary> Pascal's Triangle </summary>
+
+---
+
+  1  
+ 1 1  
+1 2 1  
+...
+
+---
+
+```cpp
+vector<vector<int>> GeneratePascalTriangle(int num_rows) {
+	vector<vector<int>> pascal_triangle;
+
+	for (int i = 0; i < num_rows; ++i) {
+		vector<int> curr_row;
+
+		for (int j = 0; j <= i; ++j) {
+			curr_row.emplace_back(0 < j && j < i 
+				? pascal_triangle.back()[j - i] + pascal_triangle.back()[j] : 1);
+		}
+
+		pascal_triangle.emplace_back(curr_row);
+	}
+
+	return pascal_triangle;
+}
+```
+
+---
+- time: O(n^2), space: O(n^2)
+- can use combinatorics (n choose i)
+
+---
+</details>

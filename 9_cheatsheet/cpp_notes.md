@@ -16,3 +16,15 @@ ex:
 0xFFFF is 0b1111111111111111  
 
 </details>
+
+## Class
+
+<details>
+<summary> Class Explicit </summary>
+
+---
+- Avoids implicit conversion (i.e. string input to int) on function call
+
+---
+
+</details>

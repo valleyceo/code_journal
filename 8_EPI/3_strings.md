@@ -184,10 +184,230 @@ bool IsPalindrome(const string& s) {
 ---
 
 ```cpp
+void ReverseWords(string* s) {
+	reverse(begin(*s), end(*s));
 
+	size_t start = 0, finish;
+
+	while ((finish = s->find(" ", start)) != string::npos) {
+		reverse(begin(*s) + start, begin(*s) + finish);
+		start = finish + 1;
+	}
+
+	reverse(begin(*s) + start, end(*s));
+}
 ```
 
 ---
+- time: O(n), space: O(1)
+
+---
+</details>
+
+
+<details>
+<summary> Phone Mnemonic </summary>
+
+---
+- given a dial number, return all possible character sequences
+
+---
+
+```cpp
+vector<string> PhoneMnemonic(const string& phone_number) {
+	vector<string> mnemonics;
+
+	PhoneMnemonicHelper(phone_number, 0,
+						make_unique<string>(size(phone_number), 0).get(),
+						&mnemonics);
+	return mnemonics;
+}
+
+const int kNumTelDigits = 10;
+
+const array<string, kNumTelDigits> kMapping = {
+	{"0", "1", "ABC", "DEF", "GHI", "JKL", "MNO", "PQRS", "TUV", "WXYZ"}};
+
+void PhoneMnemonicHelper(const string& phone_number, int digit,
+						 string* partial_mnemonic,
+						 vector<string>* mnemonics) {
+	if (digit == size(phone_number)) {
+		mnemonics->emplace_back(*partial_mnemonic);
+	} else { 
+		for (char c : kMapping[phone_number[digit] - '0']) {
+			(*partial_mnemonic)[digit] = c;
+			PhoneMnemonicHelper(phone_number, digit + 1, partial_mnemonic, mnemonics);
+		}
+	}
+}
+```
+
+---
+- time: O(4^n * n) - permutation takes O(4^n), base case takes O(n)
+
+---
+</details>
+
+
+<details>
+<summary> Look and Say Sequence </summary>
+
+---
+- <1, 11, 21, 1211, 111221, 312211, ...>
+
+---
+
+```cpp
+string LookAndSay(int n) {
+	string s = "1";
+	for (int i = 1; i < n; ++i) {
+		s = NextNumber(s);
+	}
+
+	return s;
+}
+
+string NextNumber(cont string& s) {
+	string result;
+
+	for (int i = 0; i < size(s); ++i) {
+		int count = 1;
+
+		while (i + 1 < size(s) && s[i] == s[i + 1]) {
+			++i, ++count;
+		}
+		result += to_string(count) + s[i];
+	}
+
+	return result;
+}
+```
+
+---
+- time: O(2^n * n)
+- explanation: if all numbers are different, string can double at max (2^n). Also, the iteration is run n times (n).
+
+---
+</details>
+
+
+<details>
+<summary> Roman to Decimal </summary>
+
+```cpp
+int RomanToInteger(const string& s) {
+	unordered_map<char, int> T = {{'I', 1}, {'V', 5}, {'X', 10}, 
+								  {'L', 50}, {'C', 100}, {'D', 500}, 
+								  {'M', 1000}};
+
+	int sum = T[s.back()];
+
+	for (int i = s.length() - 2; i >= 0; --i) {
+		if (T[s[i]] < T[s[i + 1]]) {
+			sum -= T[s[i]];
+		} else {
+			sum += T[s[i]];
+		}
+	}
+
+	return sum;
+}
+```
+
+---
+- time: O(n)
+- for decimal to roman, simply create chart for {1,2,... 9}, {10, 20, ... 90}, ...
+- upper bound should exist (4 digits)
+
+---
+</details>
+
+
+<details>
+<summary> Get Valid IP Address </summary>
+
+```cpp
+vector<string> GetValidIpAddress(const string& s) {
+	vector<string> result;
+
+	for (size_t i = 1; i < 4 && i < size(s); ++i) {
+		if (const string first = s.substr(0, i); IsValidPart(first)) {
+			for (size_t j = 1; i + j < size(s) && j < 4; ++j) {
+				const string second = s.substr(i, j);
+
+				if (IsValidPart(second)) {
+					for (size_t k = 1; i + j + k < size(s) && k < 4; ++k) {
+						const string third = s.substr(i + j, + k), 
+									fourth = s.substr(i + j + k);
+
+						if (IsValidPart(third) && IsValidPart(fourth)) {
+							result.emplace_back(first + "." + second + "." + third + "." + fourth);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	return result;
+}
+
+bool IsValidPart(const string& s) {
+	if (size(s) > 3) {
+		return false;
+	}
+
+	if (s.front() == '0' && size(s) > 1) {
+		return false;
+	}
+
+	int val = stoi(s);
+	return val <= 255 && val >= 0;
+}
+```
+
+---
+- time: O(1) - total number of IP addresses is 2^23
+
+---
+</details>
+
+
+<details>
+<summary> Sinusoidal String </summary>
+
+---
+- ex input: "HELLO_WORLD!"
+ e   _   L
+H L O W R D
+   L   O   !
+
+- output: "E_LHLOWRDLO!"
+
+---
+
+```cpp
+string SnakeString(const string& s) {
+	string result;
+
+	for (int i = 1; i < size(s); i += 4) {
+		result += s[i];
+	}
+
+	for (int i = 0; i < size(s); i += 2) {
+		result += s[i];
+	}
+
+	for (int i = 3; i < size(s); i += 4) {
+		result += s[i];
+	}
+
+	return result;
+}
+```
+
+---
+- time: O(n)
 
 ---
 </details>

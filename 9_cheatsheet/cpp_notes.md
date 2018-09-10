@@ -1,5 +1,7 @@
 # CPP Concepts
 
+## Bits
+
 <details>
 <summary> ~ vs ! </summary>
 ~ is bitwise NOT and ! is boolean NOT  
@@ -27,4 +29,30 @@ ex:
 
 ---
 
+</details>
+
+## Function
+
+<details>
+<summary> Function Input using Pointer and Reference </summary>
+
+---
+- https://stackoverflow.com/questions/114180/pointer-vs-reference
+- https://google.github.io/styleguide/cppguide.html#Reference_Arguments
+
+---
+
+```cpp
+// method one
+void func1(unsigned long& val) {
+     val = 5;            
+}
+func1(x);
+
+// method two - use when you need to use pointer increment (s.a. iterations), need to make sure pointer is not NULL
+void func2(unsigned long* val) {
+     *val = 5;
+}
+func2(&x);
+```
 </details>

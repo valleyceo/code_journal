@@ -39,6 +39,18 @@ stack<int> stck;
 stck.push(num)
 stck.emplace(string)
 
+// accumulation - accumulate(begin, end, acc_var, [variables used in fcn](int ThisValAccumulates, char ThisIsInput) {return ReturnValueAccumulates});
+string col = "ZZ";
+int acc = accumulate(begin(col), end(col), 0, [](int result, char c) {
+            return result * 26 + c - 'A' + 1;});
+```
+
+## String
+```cpp
+// string checkers
+isalnum(int c);
+isalpha(int c);
+isdigit(int c);
 ```
 
 ## String manipulation
@@ -111,6 +123,7 @@ for (auto a : umap){
 ```cpp
 // colon initialization (works like regular init with type removed)
 TicTacToe(int n): b_size(n), rows(n, 0), cols(n, 0), diag1(0), diag2(0) {}
+
 ```
 
 ## Regular Expression

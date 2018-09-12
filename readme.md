@@ -231,8 +231,12 @@
 │   ├── Bash
 │   └── SQL
 ├── 8_EPI
+│   ├── 1_primitive.md
+│   ├── 2_array.md
+│   ├── 3_strings.md
+│   ├── 4_linked_list.md
+│   ├── Template.md
 │   ├── dynamic_programming.md
-│   ├── primitive.md
 │   └── recursion.md
 ├── 8_GCJ
 │   ├── 2017
@@ -301,5 +305,5 @@
 ├── template.txt
 └── tree.md
 
-40 directories, 258 files
+40 directories, 262 files
 ```  

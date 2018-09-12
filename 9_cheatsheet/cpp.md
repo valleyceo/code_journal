@@ -85,6 +85,9 @@ struct ListNode {
 // create node
 ListNode *odds = new ListNode(0);
 
+// STL library
+// - list (doubly-linked list): emplace_front, pop_front, push_back, push_front, emplace_back, pop_back
+// - forward_list (c++11 singly-linked list): pop_front, insert_after, emplace_after, erase_after
 ```
 
 ## Queue

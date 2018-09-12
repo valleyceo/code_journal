@@ -483,12 +483,13 @@ int RabinKarp(const string &t, const string &s) {
 	int power_s = 1;
 
 	for (int i = 0; i < size(s); ++i) {
-		power_s = i ? power_s * kBase : 1;
+		power_s = i ? power_s * kBase : 1; // find the power of last letter
 		t_hash = t_hash * kBase + t[i];
 		s_hash = s_hash * kBase + s[i];
 	}
 
 	for (int i = size(s); i < size(t); ++i) {
+		// check if hash is equal, and double check the same hash in case of collision
 		if (t_hash == s_hash && !t.compare(i - size(s), size(s), s)) {
 			return i - size(s);
 		}

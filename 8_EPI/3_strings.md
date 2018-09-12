@@ -410,4 +410,104 @@ string SnakeString(const string& s) {
 - time: O(n)
 
 ---
+</details
+
+
+<details>
+<summary> Run Length Encoding </summary>
+
+---
+- encode ex: "aaaabcccaa" -> "4a1b3c2a"
+- decode ex: "3e4f2e" -> "eeeffffee"
+
+---
+
+```cpp
+string Decoding(const string &s) {
+	int count = 0;
+	string result;
+
+	for (const char &c : s) {
+		if (isdigit(c)) {
+			count = count * 10 + c - '0';
+		} else {
+			result.append(count, c);
+			count = 0;
+		}
+	}
+
+	result;
+}
+
+string Encoding(const string &s) {
+	string result;
+
+	for (int i = 1, count = 1; i <= size(s); ++i) {
+		if (i == size(s) || s[i] != s[i-1]) {
+			result += to_string(count) + s[i - 1];
+		} else {
+			++count;
+		}
+	}
+
+	return result;
+}
+```
+
+---
+- time: O(n)
+
+---
+</details>
+
+
+<details>
+<summary> First Occurence of a substring </summary>
+
+---
+- note: there are three linear time string matching algorithm
+	a. KMP
+	b. Boyer-Moore
+	c. Rabin-Karp
+
+---
+
+```cpp
+int RabinKarp(const string &t, const string &s) {
+	if (size(s) > size(t)) {
+		return -1;
+	}
+
+	const int kBase = 26;
+	int t_hash = 0, s_hash = 0;
+	int power_s = 1;
+
+	for (int i = 0; i < size(s); ++i) {
+		power_s = i ? power_s * kBase : 1;
+		t_hash = t_hash * kBase + t[i];
+		s_hash = s_hash * kBase + s[i];
+	}
+
+	for (int i = size(s); i < size(t); ++i) {
+		if (t_hash == s_hash && !t.compare(i - size(s), size(s), s)) {
+			return i - size(s);
+		}
+
+		t_hash -= t[i - size(s)] * power_s;
+		t_hash = t_hash * kBase + t[i];
+	}
+
+	if (t_hash == s_hash && t.compare(size(t) - size(s), size(s), s) == 0) {
+		return size(t) - size(s);
+	}
+
+	return -1;
+}
+
+```
+
+---
+- time: O(n)
+
+---
 </details>

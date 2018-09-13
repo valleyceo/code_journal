@@ -70,7 +70,7 @@ void AppendNode(shared_ptr<ListNode<int>> *node,
 
 
 <details>
-<summary> Reverse Single Sublist </summary>
+<summary> Reverse Single Sublist (need to review) </summary>
 
 ---
 - given a singly linked list L, and two integers s and f
@@ -90,7 +90,7 @@ shared_ptr<ListNode<int>> ReverseSublist(shared_ptr<ListNode<int>> L,
 	}
 
 	auto sublist_iter = sublist_head->next;
-	while(start++ < finish) {
+	while (start++ < finish) {
 		auto temp = sublist_iter->next;
 		sublist_iter->next = temp->next;
 		temp->next = sublist_head->next;
@@ -103,6 +103,77 @@ shared_ptr<ListNode<int>> ReverseSublist(shared_ptr<ListNode<int>> L,
 
 ---
 - time: O(f)
+
+---
+</details>
+
+
+<details>
+<summary> Test Cyclicity </summary>
+
+```cpp
+shared_ptr<ListNode<int>> HasCycle(const shared_ptr<ListNode<int>>& head) {
+	shared_ptr<ListNode<int>> fast = head, slow = head;
+
+	while (fast && fast->next) {
+		slow = slow->next, fast = fast->next->next;
+
+		if (slow == fast) {
+			int cycle_len = 0; // n
+
+			do {
+				++cycle_len;
+				fast = fast->next;
+			} while (slow != fast);
+
+			auto cycle_len_advanced_iter = head;
+			while (cycle_len--) {
+				cycle_len_advanced_iter = cycle_len_advanced_iter->next;
+			}
+
+			auto iter = head;
+
+			while (iter != cycle_len_advanced_iter) {
+				iter = iter->next;
+				cycle_len_advanced_iter = cycle_len_advanced_iter->next;
+			}
+
+			return iter;
+		}
+	}
+
+	return nullptr; // no cycle
+}
+
+// using Floyd's algorithm
+shared_ptr<ListNode<int>> HasCycle(const shared_ptr<ListNode<int>>& head) {
+	shared_ptr<ListNode<int>> fast = head, slow = head;
+
+	while (fast && fast->next && fast->next->next) {
+		slow = slow->next;
+		fast = fast->next->next;
+
+		if (slow == fast) {
+			slow = head;
+
+			while (slow != fast) {
+				slow = slow->next;
+				fast = fast->next;
+			}
+
+			return slow;
+		}
+	}
+
+	return nullptr;
+}
+```
+
+---
+- Floyd's algorithm (https://stackoverflow.com/questions/2936213/explain-how-finding-cycle-start-node-in-cycle-linked-list-work)
+- full equation: i = m + p*n + k
+- after derivation: m + k = q * n -> m = q*n - k
+- time: O(n)
 
 ---
 </details>

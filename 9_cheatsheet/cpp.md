@@ -122,12 +122,27 @@ for (auto a : umap){
 
 ```
 
-## Class
+## Class/Struct
 ```cpp
 // colon initialization (works like regular init with type removed)
 TicTacToe(int n): b_size(n), rows(n, 0), cols(n, 0), diag1(0), diag2(0) {}
 
 ```
+
+```cpp
+// linked list node
+template <typename T>
+struct ListNode {
+    T data;
+    shared_ptr<ListNode<T>> next;
+}
+
+// init
+ListNode<int> new_node;
+// create node pointer
+auto dummy_head = make_shared<ListNode<int>>(ListNode<int>{0, L});
+```
+
 
 ## Regular Expression
 ```cpp

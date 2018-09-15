@@ -19,6 +19,23 @@ ex:
 
 </details>
 
+## Types
+<details>
+<summary> Using shared_ptr and make_shared </summary>
+
+```cpp
+// create a node and pointer
+shared_ptr<ListNode> list1 = make_shared<ListNode>(2);
+
+// create a node and pointer 2
+auto dummy_head = make_shared<ListNode<int>>(ListNode<int>{0, L});
+//                makes pointer for node          creates a node
+```
+
+- difference btw make_shared vs shared_ptr: https://stackoverflow.com/questions/20895648/difference-in-make-shared-and-normal-shared-ptr-in-c
+- other source: https://stackoverflow.com/questions/45664295/c-make-shared-and-get
+</details>
+
 ## Class
 
 <details>

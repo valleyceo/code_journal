@@ -304,3 +304,120 @@ Time complexity: O(1)
 
 ---
 </details>
+
+
+<details>
+<summary> Remove the Kth Last Element From List </summary>
+
+---
+- Given a singly linked list and integer k
+- Remove the Kth last element from the list
+
+---
+
+```cpp
+// Assumes L has at least k nodes, deletes the k-th last node in L
+shared_ptr<ListNode<int>> RemoveKthLast(const shared_ptr<ListNode<int>>& L, int k) {
+	auto dummy_head = make_shared<ListNode<int>>(ListNode<int>{0, L});
+	auto first = dummy_head->next;
+
+	while (k--) {
+		first = first->next;
+	}
+
+	auto second = dummy_head->next;
+	while (first) {
+		second = second->next;
+		first = first->next;
+	}
+
+	// remove node
+	second->next = second->next->next;
+	return dummy_head->next;
+}
+```
+
+---
+- Time complexity: O(n)
+- Space complexity: O(1)
+
+---
+</details>
+
+
+<details>
+<summary> Remove Duplicates from a Sorted List</summary>
+
+
+```cpp
+shared_ptr<ListNode<int>> RemoveDuplicates (const shared_ptr<ListNode<int>>& L) {
+	auto iter = L;
+
+	while (iter) {
+		auto next_distinct = iter->next;
+
+		while (next_distinct && next_distinct->data == iter->data) {
+			next_distinct = next_distinct->next;
+		}
+
+		iter->next = next_distinct;
+		iter = next_distinct;
+	}
+}
+```
+
+---
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+
+---
+</details>
+
+
+<details>
+<summary> Cyclic Shift </summary>
+
+---
+- Given singly linked list and nonnegative integer k
+- Return the list cyclically shifted to the right by k
+
+- Can assume k < n since k = k % n
+---
+
+```cpp
+shared_ptr<ListNode<int>> CyclicallyRightShiftLIst(const shared_ptr<ListNode<int>> L, int k) {
+	if (L == nullptr) {
+		return L;
+	}
+
+	// Computes the length of L and the tail
+	auto tail = L;
+	int n = 1;
+	while (tail->next) {
+		++n, tail = tail->next;
+	}
+
+	k %= n;
+	if (k == 0) {
+		return L;
+	}
+
+	tail->next = L; // makes a cycle by connecting the tail to the head
+	int steps_to_new_head = n - k;
+	auto new_tail = tail;
+	while (steps_to_new_head--) {
+		new_tail = new_tail->next;
+	}
+
+	auto new_head = new_tail->next;
+	new_tail->next = nullptr;
+	return new_head;
+}
+```
+
+---
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+
+---
+</details>

@@ -10,13 +10,13 @@ You must do this in-place without making a copy of the array.
 Minimize the total number of operations.
 */
 
-// my solution
+// my solution - optimal
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
-        int i=0, idx = 0;
+        int i = 0, idx = 0;
 
-        while (idx<nums.size()){
+        while (idx < nums.size()){
             if (nums[idx] != 0) {
                nums[i++] = nums[idx++]; 
             } else {
@@ -31,3 +31,9 @@ public:
         return;
     }
 };
+
+
+/* Note
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+*/

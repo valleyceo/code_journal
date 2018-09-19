@@ -12,7 +12,8 @@
 │   │   ├── 1_Image_Smoother.cpp
 │   │   ├── 1_Implement_Queue_using_Stacks.cpp
 │   │   ├── 1_Intersection_of_Two_Arrays.cpp
-│   │   └── 1_Intersection_of_Two_Arrays_II.cpp
+│   │   ├── 1_Intersection_of_Two_Arrays_II.cpp
+│   │   └── 1_Move_Zeroes.cpp
 │   ├── 1_linked_list
 │   │   └── 1_Delete_Node_in_a_Linked_List.cpp
 │   ├── 1_string
@@ -27,7 +28,6 @@
 │       └── 2_Card_Flipping_Game.cpp
 ├── 1_array
 │   ├── 1_Island_Perimeter.cpp
-│   ├── 1_Move_Zeroes.cpp
 │   ├── 1_Plus_One.cpp
 │   ├── 1_Remove_Duplicates_From_Sorted_Array.cpp
 │   ├── 1_Rotate_Array.cpp
@@ -235,6 +235,7 @@
 │   ├── 2_array.md
 │   ├── 3_strings.md
 │   ├── 4_linked_list.md
+│   ├── 5_stacks_and_queues.md
 │   ├── Template.md
 │   ├── dynamic_programming.md
 │   └── recursion.md
@@ -305,5 +306,5 @@
 ├── template.txt
 └── tree.md
 
-40 directories, 262 files
+40 directories, 263 files
 ```  

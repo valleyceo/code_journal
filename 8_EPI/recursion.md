@@ -3,6 +3,7 @@ i# Recursion
 
 <details>
 <summary> Towers of Hanoi </summary>
+
 ```cpp
 const int kNumPegs = 3;
 
@@ -39,6 +40,7 @@ void ComputeTowerHanoiSteps(int num_rings_to_move,
 
 <details>
 <summary> N-Queens </summary>
+
 ```cpp
 vector<vector<int>> NQueens(int n) {
 	vector<vector<int>> res;
@@ -81,6 +83,7 @@ bool IsValid(const vector<int>& col_placement) {
 
 <details>
 <summary> Permutations </summary>
+
 ```cpp
 vector<vector<int>> Permutations(vector<int> A) {
 	vector<vector<int>> res;
@@ -91,7 +94,7 @@ vector<vector<int>> Permutations(vector<int> A) {
 void DirectedPermutations(int i, vector<int> *A_ptr,
 						  vector<vector<int>> * result) {
 	vector<int> &A = *A_ptr;
-	
+
 	// base case
 	if (i == size(A) - 1) {
 		result->emplace_back(A);

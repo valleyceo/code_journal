@@ -236,6 +236,7 @@
 │   ├── 3_strings.md
 │   ├── 4_linked_list.md
 │   ├── 5_stacks_and_queues.md
+│   ├── 6_binary_trees.md
 │   ├── Template.md
 │   ├── dynamic_programming.md
 │   └── recursion.md
@@ -306,5 +307,5 @@
 ├── template.txt
 └── tree.md
 
-40 directories, 263 files
+40 directories, 264 files
 ```  

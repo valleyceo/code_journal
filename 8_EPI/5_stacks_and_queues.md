@@ -1,5 +1,7 @@
 # Stacks and Queues
 
+## Stacks
+
 <details>
 <summary> Implement a Stack with MAX API </summary>
 
@@ -412,5 +414,101 @@ private:
 
 ---
 - Time complexity: O(1) for dequeue, O(1) for enqueue (amortized time complexity)
+
+---
+</details>
+
+
+<details>
+<summary> Queue using Stacking </summary>
+
+```cpp
+class Queue {
+public:
+	void Enqueue(int x) {
+		enqueue_.emplace(x);
+	}
+
+	int Dequeue() {
+		if (empty(dequeue)) {
+			while (!empty(enqueue_)) {
+				dequeue_.emplace(enqueue_.top());
+				enqueue_.pop();
+			}
+		}
+
+		if (empty(dequeue_)) {
+			throw length_error("empty queue");
+		}
+
+		int result = dequeue_.top();
+		dequeue_.pop();
+		return result;
+	}
+
+private:
+	stack<int> enqueue_, dequeue_;
+}
+```
+
+---
+- Time complexity: O(m) time for m operations
+
+---
+</details>
+
+
+<details>
+<summary> Implement queue with MAX API </summary>
+
+---
+
+---
+
+```cpp
+template <typename T>
+class QueueWIthMax {
+private:
+	queue<T> entries_;
+	dequeue<T> candidates_for_max_;
+
+public:
+	void Enqueue(const T& x) {
+		entries_.emplace(x);
+
+		while (!empty(candidates_for_max_) && candidates_for_max_.back() < x) {
+			candidates_for_max_.pop_back();
+		}
+
+		candidates_for_max_.emplace_back(x);
+	}
+
+	T Dequeue() {
+		if (!empty(entries_)) {
+			T result = entries_.front();
+			if (result == candidates_for_max_.front()) {
+				candidates_for_max_.pop_front();
+			}
+
+			entries_.pop();
+			return result;
+		}
+
+		throw length_error("empty queue");
+	}
+
+	const T& Max() const {
+		if (!empty(candidates_for_max_)) {
+			return candidates_for_max_.front();
+		}
+		throw length_error("empty queue");
+	}
+}
+```
+
+---
+- Time complexity: O(n), amortized complexity for enqueues and dequeues
+- Alternate solution: use double stack and stack w/ max (each stack has extra (max) or (max, count) stack)
+
 ---
 </details>

@@ -310,3 +310,107 @@ private:
 ```
 
 </details>
+
+
+<details>
+<summary> Binary Tree Nodes in Order of Increasing Depth </summary>
+
+---
+- Given a binary tree
+- Return arrays consisting keys at the same level
+
+---
+
+```cpp
+vector<vector<int>> BinaryTreeDepthOrder (const unique_ptr<BinaryTreeNode<int>>& tree) {
+	vector<vector<int>> result;
+	if (!tree.get()) {
+		return result;
+	}
+
+	queue<BinaryTreeNode<int>*> curr_depth_nodes({tree.get()});
+	while (!empty(curr_depth_nodes)) {
+		queue<BinaryTreeNode<int>*> next_depth_nodes;
+		vector<int> this_level;
+
+		while (!empty(curr_depth_nodes)) {
+			auto curr = curr_depth_nodes.front();
+			curr_depth_nodes.pop();
+			this_level.emplace_back(curr->data);
+
+			if (curr->left) {
+				next_depth_nodes.emplace(curr->left.get());
+			}
+			if (curr->right) {
+				next_depth_nodes.emplace(curr-right.get());
+			}
+		}
+
+		result.emplace_back(this_level);
+		curr_depth_nodes = next_depth_nodes;
+	}
+
+	return result;
+}
+```
+
+---
+- Time complexity: O(n)
+- Space complexity: O(m), m is the max number of nodes at any single depth
+
+---
+</details>
+
+
+<details>
+<summary> Circular Queue </summary>
+
+---
+- Implement a queue API using array for storing elements
+
+---
+
+```cpp
+class Queue {
+public:
+	Queue(size_t capacity) {}
+	explicit Queue(int capacity) : entries_(capacity) {}
+
+	void Enqueue(int x) {
+		if (num_queue_elements == size(entries_)) { // Needs to resize
+			rotate(begin(entries_), begin(entries_) + head_, end(entries_)); // Makes queue appear consecutively
+			head_ = 0, tail_ = num_queue_elements; // Resets head and tail
+			entries_.resize(size(entries_) * kScaleFactor); // Doubles size
+		}
+
+		entries_[tail_] = x;
+		tail_ = (tail_ + 1) % size(entries_); // Circulating index
+		++num_queue_elements;
+	}
+
+	int Dequeue() {
+		if (!num_queue_elements) {
+			throw length_error("empty queue");
+		}
+
+		--num_queue_elements;
+		int result = entries_[head_];
+		head_ = (head_ + 1) % size(entries_);
+		return result;
+	}
+
+	int Size() const {
+		return num_queue_elements;
+	}
+
+private:
+	const int kScaleFactor = 2;
+	int head_ = 0, tail_ = 0, num_queue_elements = 0;
+	vector<int> entries_;
+}
+```
+
+---
+- Time complexity: O(1) for dequeue, O(1) for enqueue (amortized time complexity)
+---
+</details>

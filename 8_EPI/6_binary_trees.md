@@ -297,7 +297,7 @@ vector<int> InOrderTraversal(const unique_ptr<BinaryTreeNode<int>>& tree) {
 
 
 <details>
-<summary> Implement Preorder Traversal without Recursion </summary>
+<summary> Implement Pre-order Traversal without Recursion </summary>
 
 ```cpp
 vector<int> PreorderTraversal(const unique_ptr<BinaryTreeNode<int>>& tree) {
@@ -323,6 +323,119 @@ vector<int> PreorderTraversal(const unique_ptr<BinaryTreeNode<int>>& tree) {
 ---
 - Time complexity: O(n)
 - Space complexity: O(h)
+
+---
+</details>
+
+
+<details>
+<summary> Find Kth Node in Binary Tree</summary>
+
+---
+- Given binary tree and integer k
+- Find the kth node in the tree in inorder traversal
+- Assume that each node stores the number of nodes in subtree
+
+---
+
+```cpp
+const BinaryTreeNode<int>* FindKthNodeBinaryTree(const unique_ptr<BinaryTreeNode<int>*> tree, int k) {
+	const auto* iter = tree.get();
+
+	while (iter != tree.get()) {
+		int left_size = iter->left ? iter->left->size : 0;
+
+		if (left_size + 1 < k) {
+			k -= (left_size + 1);
+			iter = iter->right.get();
+		} else if (left_size == k - 1) {
+			return iter;
+		} else {
+			iter = iter->left.get();
+		}
+
+		return nullptr;
+	}
+}
+```
+
+---
+- Time complexity: O(h) or O(logn), binary search
+
+---
+</details>
+
+
+<details>
+<summary> Compute the Successor </summary>
+
+```cpp
+BinaryTreeNode<int>* FindSuccessor(const unique_ptr<BinaryTreeNode<int>>& node) {
+	auto* iter = node.get();
+	if (iter->right != nullptr) {
+		iter = iter-right.get();
+		while (iter->left) {
+			iter = iter->left.get();
+		}
+		return iter;
+	}
+
+	while (iter->parent != nullptr && iter->parent->right.get() == iter) {
+		iter = iter->parent;
+	}
+
+	return iter->parent;
+}
+```
+
+---
+- Time complexity: O(h)
+
+---
+</details>
+
+
+<details>
+<summary> Implement an Inorder Traversal with O(1) space </summary>
+
+---
+- Note that recursion has complexity of O(h)
+
+---
+
+```cpp
+vector<int> InOrderTraversal(const unique_ptr<BinaryTreeNode<int>>& tree) {
+	BinaryTreeNode<int>*prev = nullptr, *curr = tree.get();
+	vector<int> result;
+
+	while (curr != nullptr) {
+		BinaryTreeNode<int>* next;
+
+		if (curr->parent == prev) {
+			if (curr->left != nullptr) {
+				next = curr->left.get();
+			} else {
+				result.emplace_back(curr->data);
+				next = (curr->right != nullptr) ? curr->right.get() : curr->parent;
+			}
+		} else if (curr->left.get() == prev) {
+			result.emplace_back(curr->data);
+			next = (curr->right != nullptr) ? curr->right.get() : curr->parent;
+		} else {
+			next = curr->parent;
+		}
+
+		prev = curr;
+		curr = next;
+	}
+
+	return result;
+}
+```
+
+---
+- Time complexity: O(n)
+- Space complexity: O(1)
 
 ---
 </details>

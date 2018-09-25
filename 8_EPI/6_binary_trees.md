@@ -191,3 +191,138 @@ int GetDepth(const BinaryTreeNode<int>* node) {
 
 ---
 </details>
+
+
+<details>
+<summary> Sum Root to Leaf </summary>
+
+---
+- Given a binary tree with 1 and 0
+- find the sum of all binary numbers available from root to leaves
+- ex path sum: (11001)\_2
+
+---
+
+```cpp
+int SumRootToLeaf(const unique_ptr<BinaryTreeNode<int>>& tree) {
+	return SumRootToLeafHelper(tree, 0);
+}
+
+int SumRootToLeafHelper(const unique_ptr<BinaryTreeNode<int>>& tree,
+						int partial_path_sum) {
+	if (tree == nullptr) {
+		return 0;
+	}
+
+	partial_path_sum = partial_path_sum * 2 + tree->data;
+	if (tree->left == nullptr && tree->right == nullptr) {
+		return partial_path_sum;
+	}
+
+	return SumRootToLeafHelper(tree->left, partial_path_sum) +
+		   SumRootToLeafHelper(tree->left, partial_path_sum);
+}
+```
+
+---
+- Time complexity: O(n)
+- Space complexity: O(h)
+
+---
+</details>
+
+
+<details>
+<summary> Find Root to Leaf Path with Specified Sum</summary>
+
+---
+- Given a binary tree and an integer value
+- return if there exist a path to node where the sum equals to the desired value
+
+---
+
+```cpp
+bool HasPathSum(const unique_ptr<BinaryTreeNode<int>>& tree,
+				int remaining_weight) {
+	if (tree == nullptr) {
+		return false;
+	} else if (tree->left == nullptr && tree->right == nullptr) {
+		return remaining_weight == tree->data;
+	}
+
+	return HasPathSum(tree->left, remaining_weight - tree->data) ||
+		   HasPathSum(tree->right, remaining_weight - tree->data);
+}
+```
+
+---
+- Time complexity: O(n)
+- Space complexity: O(h)
+
+---
+</details>
+
+
+<details>
+<summary> Design an In-Order-Traversal without Recursion </summary>
+
+
+```cpp
+vector<int> InOrderTraversal(const unique_ptr<BinaryTreeNode<int>>& tree) {
+	stack<const BinaryTreeNode<int>*> s;
+	const auto* curr = tree.get();
+	vector<int> result;
+
+	while (!empty(s) || curr) {
+		if (curr) {
+			s.push(curr);
+			curr= curr->left.get();
+		} else {
+			curr = s.top();
+			s.pop();
+			result.emplace_back(curr->data);
+			curr = curr->right.get();
+		}
+	}
+	return result;
+}
+```
+
+---
+- Time complexity: O(n)
+- Space complexity: O(h)
+
+---
+</details>
+
+
+<details>
+<summary> Implement Preorder Traversal without Recursion </summary>
+
+```cpp
+vector<int> PreorderTraversal(const unique_ptr<BinaryTreeNode<int>>& tree) {
+	stack<BinaryTreeNode<int>*> path;
+	path.emplace(tree.get());
+	vector<int> result;
+
+	while (!path.emtpy()) {
+		auto curr = path.top();
+		path.pop();
+
+		if (curr != nullptr) {
+			result.emplace_back(curr->data);
+			path.emplace(curr->left.get());
+			path.emplace(curr->right.get());
+		}
+	}
+
+	return result;
+}
+```
+
+---
+- Time complexity: O(n)
+- Space complexity: O(h)
+
+---
+</details>

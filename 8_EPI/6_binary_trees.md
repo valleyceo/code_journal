@@ -439,3 +439,102 @@ vector<int> InOrderTraversal(const unique_ptr<BinaryTreeNode<int>>& tree) {
 
 ---
 </details>
+
+
+<details>
+<summary> Reconstruct a Binary Tree from Traversal Data </summary>
+
+---
+- Given an inorder traversal sequence and a preorder traversal sequence of binary tree
+- Reconstruct the tree
+- Assume each node has a unique key
+
+---
+
+```cpp
+unique_ptr<BinaryTreeNode<int>> BinaryTreeFromPreorderInorder(const vector<int>& preorder, const vector<int>& inorder) {
+	unordered_map<int, size_t> node_to_inorder_idx;
+
+	for (size_t i = 0; i < size(inorder); ++i) {
+		node_to_inorder_idx.emplace(inorder[i], i);
+	}
+
+	return BinaryTreeNodeFromPreorderInorderHelper(preorder, 0, size(preorder), 0, size(inorder), node_to_inorder_idx);
+}
+
+unique_ptr<BinaryTreeNode<int>> BinaryTreeNodeFromPreorderInorderHelper(
+														const vector<int>& preorder, 
+														size_t preorder_start, size_t preorder_end, 
+														size_t inorder_start, size_t inorder_end, 
+														const unordered_map<int, size_t>& node_to_inorder_idx) {
+	if (preorder_end <= preorder_start || inorder_end <= inorder_start) {
+		return nullptr;
+	}
+
+	size_t root_inorder_idx = node_to_inorder_idx.at(preorder[preorder_start]); // search for root node in inorder
+	size_t left_subtree_size = root_inorder_idx - inorder_start;
+
+	return make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{
+		preorder[preorder_start],
+		// recursively builds the left subtree
+		BinaryTreeFromPreorderInorderHelper( preorder, 
+			preorder_start + 1, preorder_start + 1 + left_subtree_size, 
+			inorder_start, root_inorder_idx, 
+			node_to_inorder_idx),
+		// builds the right subtree
+		BinaryTreeFromPreorderInorderHelper( preorder, 
+			preorder_start + 1 + left_subtree_size, preorder_end,
+			root_inorder_idx + 1, inorder_end, 
+			node_to_inorder_idx)});
+}
+
+```
+
+---
+- Time complexity: O(n)
+- Space complexity: O(hashmap + search) -> O(n + h)
+
+- Center is the root in Inorder, Leftmost is the root in Preorder
+- Visual note:  
+              left            right  
+           <--------> root <-------->  
+In-order:  10, 30, 40, 50, 60, 70, 90  
+Pre-order: 50, 30, 10, 40, 70, 60, 90  
+          root <-------->  <-------->  
+                  left        right  
+
+---
+</details>
+
+
+<details>
+<summary> Reconstruct a Binary Tree from Preorder Traversal with Markers </summary>
+
+```cpp
+unique_ptr<BinaryTreeNode<int>> ReconstructPreorder(const vector<int*>& preorder) {
+	int subtree_idx_pointer = 0;
+	return ReconstructPreorderHelper(preorder, &subtree_idx_pointer);
+}
+
+unique_ptr<BinaryTreeNode<int>> ReconstructPreorderHelper(const vector<int*>& preorder, int* subtree_idx_pointer) {
+	int& subtree_idx = *subtree_idx_pointer;
+	int* subtree_key = preorder[subtree_idx];
+	++subtree_idx;
+
+	if (subtree_key == nullptr) {
+		return nullptr;
+	}
+
+	auto left_subtree = ReconstructPreorderHelper(preorder, subtree_idx_pointer);
+	auto right_subtree = ReconstructPreorderHelper(preorder, subtree_idx_pointer);
+	return make_unique<BinaryTreeNode<int>>(*subtree_key, move(left_subtree), move(right_subtree));
+}
+```
+
+---
+- Time complexity: O(n)
+- Space complexity: O(h)
+
+- Keep the pointer index, create node and traverse until child is null
+---
+</details>

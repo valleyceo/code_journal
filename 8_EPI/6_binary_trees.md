@@ -538,3 +538,132 @@ unique_ptr<BinaryTreeNode<int>> ReconstructPreorderHelper(const vector<int*>& pr
 - Keep the pointer index, create node and traverse until child is null
 ---
 </details>
+
+
+<details>
+<summary> Form a Linked List from the Leaves of a Binary Tree </summary>
+
+---
+- Given a binary tree
+- Compute linked list from the leaves of binary tree (in left-to-right order)
+---
+
+```cpp
+vector<const unique_ptr<BinaryTreeFromPreorderInorderHelper<int>>*> CreateListOfLeaves(
+	const unique_ptr<BinaryTreeNode<int>>& tree) {
+	vector<const unique_ptr<BinaryTreeNode<int>>*> leaves;
+	AddLeavesLeftToRight(tree, &leaves);
+	return leaves;
+}
+
+void AddLeavesLefToRight( Const unique_ptr<BinaryTreeNode<int>>& tree,
+						  vector<const unique_ptr<BinaryTreeNode<int>>*>* leaves_ptr) {
+	if (tree != nullptr) {
+		if (tree->left == nullptr && tree->right == nullptr) {
+			leaves_ptr->emplace_back(&tree);
+		} else {
+			AddLeavesLeftToRight(tree->left, leaves_ptr);
+			AddLeavesLeftToRight(tree->right, leaves_ptr)
+		}
+	}
+}
+```
+
+---
+- Time complexity: O(n)
+
+---
+</details>
+
+
+<details>
+<summary> Compute the Exterior of Number of Nodes </summary>
+
+---
+- Exterior represents the sequence of left-most nodes, all bottom leaf-nodes, right-most nodes in a counter-clockwise order.
+
+---
+
+```cpp
+vector<const unique_ptr<BinaryTreeNode<int>>*> ExteriorBinaryTree(
+	const unique_ptr<BinaryTreeNode<int>>& tree) {
+	vector<const unique_ptr<BinaryTreeNode<int>>*> exterior;
+	if (tree != nullptr) {
+		exterior.emplace_back(&tree);
+		LeftBoundaryAndLeaves(tree->left, true, &exterior);
+		RightBoundaryAndLeaves(tree->right, true, &exterior);
+	}
+	return exterior;
+}
+
+void LeftBoundaryAndLeaves(
+	const unique_ptr<binaryTreeNode<int>>& subtree, bool is_boundary,
+	vector<const unique_ptr<BinaryTreeNode<int>>*>* exterior_ptr) {
+	if (subtree != nullptr) {
+		if (is_boundary || IsLeaf(subtree)) {
+			exterior_ptr->emplace_back(&subtree);
+		}
+		LeftBoundaryAndLeaves(subtree->left, is_boundary, exterior_ptr);
+		LeftBoundaryAndLeaves(subtree->right, is_boundary && subtree->left == nullptr, exterior_ptr);
+	}
+}
+
+void RightBoundaryAndLeaves(const unique_ptr<BinaryTreeNode<<int>>& subtree, bool is_boundary,
+	vector<const unique_ptr<BinaryTreeNode<int>>*>* exterior_ptr) {
+	if (subtree != nullptr) {
+		RightBoundaryAndLeaves(subtree->left, is_boundary && subtree->right ==nullptr, exterior_ptr);
+		RightBoundaryAndLeaves(subtree->right, is_boundary, exterior_ptr);
+		if (is_boundary || IsLeaf(subtree)) {
+			exterior_ptr->emplace_back(&subtree);
+		}
+	}
+}
+
+bool IsLeaf(const unique_ptr<BinaryTreeNode<int>>& node) {
+	return node->left == nullptr && node->right == nullptr;
+}
+```
+
+---
+- Time complexity: O(n)
+
+---
+</details>
+
+
+<details>
+<summary> Construct the Right Sibling Tree (need to review) </summary>
+
+---
+- Given a perfect binary tree
+- Set each node's level-next field to the node on its right
+
+---
+
+```cpp
+void ConstructRightSibling(BinaryTreeNode<int>* tree) {
+	while (tree & tree->left){
+		PopulateLowerLevelNextField(tree);
+		tree = tree->left.get();
+	}
+}
+
+void PopulateLowerLevelNextField(BinaryTreeNode<int>* start_node) {
+	while (start_node) {
+		start_node->left->next = start_node->right.get();
+
+		if (start_node->next) {
+			start_node->right->next = start_node->next->left.get();
+		}
+
+		start_node = start_node->next;
+	}
+}
+```
+
+---
+- Time complexity: O(n)
+- Space complexity: O(1)
+
+---
+</details>

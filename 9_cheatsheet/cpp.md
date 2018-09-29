@@ -143,6 +143,19 @@ ListNode<int> new_node;
 auto dummy_head = make_shared<ListNode<int>>(ListNode<int>{0, L});
 ```
 
+## Heaps
+```cpp
+// max heap
+priority_queue<int>
+
+// min heap
+priority_queue<int, vector<int>, greater<>> min_heap;
+
+// custom heap
+priority_queue<string, vector<string>, function<bool(string, string)>> 
+            min_heap([](const string& a, const string& b) { return size(a) >= size(b); })
+
+```
 
 ## Regular Expression
 ```cpp

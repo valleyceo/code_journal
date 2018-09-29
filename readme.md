@@ -237,7 +237,7 @@
 │   ├── 4_linked_list.md
 │   ├── 5_stacks_and_queues.md
 │   ├── 6_binary_trees.md
-│   ├── 7.Heaps.md
+│   ├── 7_Heaps.md
 │   ├── Template.md
 │   ├── dynamic_programming.md
 │   └── recursion.md

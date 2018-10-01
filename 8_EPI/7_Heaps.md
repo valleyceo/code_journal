@@ -238,3 +238,108 @@ vector<Star> FindClosestKStars(vector<Star>::const_iterator stars_begin,
 - Note: Keep top min k on the heap as you read in
 ---
 </details>
+
+
+<details>
+<summary> Compute the Median of Online Data </summary>
+
+---
+- Given a sequence of numbers
+- Design a running median of sequence
+
+- You cannot back up to read earlier value
+---
+
+```cpp
+vector<double> OnlineMedian(vector<int>::const_iterator sequence_begin,
+							const vector<int>::const_iterator& sequence_end) {
+	priority_queue<int, vector<int>, greater<>> min_heap;
+	priority_queue<int, vector<int>, less<>> max_heap;
+	vector<double> result;
+
+	while (sequence_begin != sequence_end) {
+		min_heap.emplace_back(*sequence_begin++);
+		max_heap.emplace_back(min_heap.top());
+		min_heap.pop();
+
+		if (size(max_heap) > size(min_heap)) {
+			min_heap.emplace(max_heap.top());
+			max_heap.pop();
+		}
+
+		result.emplace_back(size(min_heap) == size(max_heap) ? 0.5 * (min_heap.top() + max_heap.top()): min_heap.top());
+	}
+
+	return result;
+}
+```
+
+---
+- Time complexity: O(logn)  
+
+- Uses min heap and max heap  
+- EX:  
+	- Next value: 1  
+	- Min heap: [2, 3, 5]  
+	- Max heap: [1, 0, 0]  
+-> output median is 1
+---
+</details>
+
+
+<details>
+<summary> Compute the K Largest elements in a Max Heap </summary>
+
+---
+- Given a Max heap represented by level order sequenced array
+- Find the K largest element
+
+- Note: Max Heap tree should not be modified
+
+---
+
+```cpp
+vector<int> KLargestInBinaryHeap (const vector<int>& A, int k) {
+	if (k <= 0) {
+		return {};
+	}
+
+	struct HeapEntry {
+		int index, value;
+	};
+
+	priority_queue<HeapEntry, vector<HeapEntry>, function<bool(HeapEntry, HeapEntry)>> 
+	candidate_max_heap([](const HeapEntry& a, const HeapEntry& b) {
+		return a.value < b.value;
+	});
+
+	candidate_max_heap.emplace(HeapEntry{0, A[0]});
+	vector<int> result;
+
+	for (int i = 0; i < k; ++i) {
+		// searches the next largest node
+		int candidate_idx = candidate_max_heap.top().index;
+		result.emplace_back(candidate_max_heap.top().value);
+		candidate_max_heap.pop();
+
+		// emplace its left and right node
+		if (int left_child_idx = 2 * candidate_idx + 1; left_child_idx < size(A)) {
+			candidate_max_heap.emplace_back(
+				HeapEntry{left_child_idx, A[left_child_idx]});
+		}
+		if (int right_child_idx = 2 * candidate_idx + 2; right_child_idx < size(A)) {
+			candidate_max_heap.emplace(
+				HeapEntry{right_child_idx, A[right_child_idx]});
+		}
+	}
+
+	return result;
+}
+```
+
+---
+- Time complexity: O(klogk)
+- Space complexity: O(k)
+
+---
+</details>

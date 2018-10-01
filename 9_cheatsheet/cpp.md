@@ -146,7 +146,8 @@ auto dummy_head = make_shared<ListNode<int>>(ListNode<int>{0, L});
 ## Heaps
 ```cpp
 // max heap
-priority_queue<int>
+priority_queue<int> max_heap// default less
+priority_queue<int, vector<int>, less<>> max_heap;
 
 // min heap
 priority_queue<int, vector<int>, greater<>> min_heap;

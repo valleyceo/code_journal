@@ -257,6 +257,7 @@ bool MatrixSearch(const vector<vector<int>>& A, int x) {
 <summary> Find the Min and Max Simultaneously </summary>
 
 ---
+- Regular brute finding will result in 2(n-1) comparisons
 
 ---
 
@@ -292,6 +293,178 @@ MinMax FindMinMax(const vector<int>& A) {
 - Time complexity: O(3n/2 - 2), which is the sum of smallest O(n/2-1), largest O(n/2-1), and comparison computation O(n/2)
 
 - minmax() function returns [smaller, larger] of the given array
+
+---
+</details>
+
+
+<details>
+<summary> Find the Kth Largest Element (need to review) </summary>
+
+```cpp
+int FindKthLargest(int k, vector<int>* A_ptr) {
+	return FindKth(k, greater<int>(), A_ptr);
+}
+
+template <typename Compare>
+int FindKth(int k, Compare comp, vector<int>* A_ptr) {
+	vector<int>& A = *A_ptr;
+
+	int left = 0, right = size(A) - 1;
+	default_random_engine gen((random_device())());
+	while (left <= right) {
+		int pivot_idx = uniform_int_distribution<int>{left, right}(gen);
+
+		if (int new_pivot_idx =
+				PartitionAroundPivot(left, right, pivot_idx, comp, &A);
+				new_pivot_idx == k - 1) {
+			return A[new_pivot_idx];
+		} else if (new_pivot_idx > k - 1) {
+			right = new_pivot_idx - 1;
+		} else {
+			left = new_pivot_idx + 1;
+		}
+	}
+}
+
+template <typename Compare>
+int PartitionAroundPivot(int left, int right, int pivot_idx, Compare comp, vector<int>* A_ptr) {
+	vector<int>& A = *A_ptr;
+	int pivot_value = A[pivot_idx];
+	int new_pivot_idx = left;
+	swap(A[pivot_idx], A[right]);
+
+	for (int i = left; i < right; ++i) {
+		if (comp(A[i], pivot_value)) {
+			swap(A[i], A[new_pivot_idx++]);
+		}
+	}
+
+	swap(A[right], A[new_pivot_idx]);
+	return new_pivot_idx;
+}
+```
+
+---
+- Time complexity: O(n^2)
+- Space complexity: O(1)
+
+---
+</details>
+
+
+<details>
+<summary> Find the Missing IP Address (need to review) </summary>
+
+---
+- Given a file containing roughly 1 billion IP addresses, each is 32-bit quantity
+- Programmatically find IP address that is not in the file
+
+- Assume unlimited drive space but only few megabytes of RAM at disposal
+
+---
+
+```cpp
+int FindMissingElement(vector<int>::const_iterator stream_begin, const vector<int>::const_iterator& stream_end) {
+	const int kNumBucket = 1 << 16;
+	vector<size_t> counter(kNumBucket, 0);
+	vector<int>::const_iterator stream_begin_copy = stream_begin;
+
+	while (stream_begin != stream_end) {
+		int upper_part_x = *stream_begin >> 16;
+		++counter[upper_part_x];
+		++stream_begin;
+	}
+
+	// look for bucket that contains less than (1 << 16) elements
+	const int kBucketCapacity = 1 << 16;
+	int candidate_bucket;
+	for (int i = 0; i < kBucketCapacity; ++i) {
+		if (counter[i] < kBucketCapacity) {
+			candidate_bucket = i;
+			break;
+		}
+	}
+
+	bitset<kBucketCapacity> candidates;
+	stream_begin = stream_begin_copy;
+
+	// finds all IP addresses in the stream whoes first 16 bits are equal to candidate bucket
+	while (stream_begin != stream_end) {
+		int x = *stream_begin++;
+		if (int upper_part_x = x >> 16; candidate_bucket == upper_part_x) {
+			int lower_part_x = ((1 << 16) - 1) & x;
+			candidates.set(lower_part_x);
+		}
+	}
+
+	// at least one of the LSB combinations is absent, find it
+	for (int i = 0; i < kBucketCapacity; ++i) {
+		if (Candidates[i] == 0) {
+			return (candidate_bucket << 16) | i;
+		}
+	}
+}
+```
+
+---
+
+---
+</details>
+
+
+<details>
+<summary> Find the Dublicate and Missing Elements </summary>
+
+---
+- Given array of n integers (between 0 and n-1 inclusive)
+- Ene element appears twice and one element is missing
+- Find the missing and the duplicate element
+
+---
+
+```cpp
+struct DublicateAndMissing {
+	int duplicate, missing;
+};
+
+DuplicateAndMissing FindDuplicateMissing(const vector<int>& A) {
+	int miss_XOR_dup = 0;
+	for (int i = 0; i < size(A); ++i) {
+		miss_XOR_dup ^= i ^ A[i];
+	}
+
+	int differ_bit = miss_XOR_dup & (~(miss_XOR_dup - 1));
+	int miss_or_dup = 0;
+	for (int i = 0; i < size(A); ++i) {
+		if (i & differ_bit) {
+			miss_or_dup ^= i;
+		}
+
+		if (A[i] & differ_bit) {
+			miss_or_dub ^= A[i];
+		}
+	}
+
+	if (find(begin(A), end(A), miss_or_dub) != end(A)) {
+		return {miss_or_dub, miss_or_dub ^ miss_XOR_dup};
+	}
+
+	return {miss_or_dub ^ miss_XOR_dup, miss_or_dub};
+}
+
+
+```
+
+---
+- Time commplexity: O(n) (actually O(3n))
+- Space complexity: O(1)
+
+- Process
+1. Perform XOR to all idx and element values
+2. Pick the least signicant bit to the value and redo XOR to all idx and element values that contains the bit
+3. Now that you have found the value which is either the missing(1) or duplicate(3), search the array to separate missing and duplicate.
+
 
 ---
 </details>

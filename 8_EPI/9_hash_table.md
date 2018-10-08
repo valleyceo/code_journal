@@ -245,3 +245,133 @@ private:
 
 ---
 </details>
+
+
+<details>
+<summary> Compute the LCA, Optimizing for Close Ancestors </summary>
+
+```cpp
+BinaryTreeNode<int>* LCA(const unique_ptr<BinaryTreeNode<int>>& node0,
+						 const unique_ptr<BinaryTreeNode<int>>& node1) {
+	BinaryTreeNode<int>*iter0 = node0.get(), *iter1 = node1.get();
+	unordered_set<const BinaryTreeNode<int>*> node_on_path_to_root;
+
+	while (iter0 || iter1) {
+		if (iter0) {
+			if (nodes_on_path_to_root.emplace(iter0).second == false) {
+				return iter0;
+			}
+			iter0 = iter0->parent;
+		}
+
+		if (iter1) {
+			if (nodes_on_path_to_root.emplace(iter1).second == false) {
+				return iter1;
+			}
+			iter1 = iter1->parent;
+		}
+	}
+
+	throw invalid_argument("node0 and node1 are not in the same tree");
+}
+```
+
+---
+- Time complexity: O(h)
+- Space complexity: O(1)
+
+- Note: nodes_on_path_to_root.emplace(iter0) returns a value(first), and a bool(second)
+	- value is the existing key value or the emplaced value if key does not exist.
+	- bool denotes if insertion took place
+
+---
+</details>
+
+
+<details>
+<summary> Find the Nearest Repeated Entires in an Array </summary>
+
+---
+- Given an array of strings
+- Find the closest two pair of strings that are the same
+---
+
+```cpp
+int FindNearestRepetition(const vector<string>& paragraph) {
+	unordered_map<string, int> word_to_latest_index;
+	int nearest_repeated_distance = numeric_limit<int>::max();
+
+	for (int i = 0; i < size(paragraph); ++i) {
+		if (auto latest_equal_word = word_to_latest_index.find(paragraph[i]);
+			latest_equal_word != end(word_to_latest_index)) {
+			nearest_repeated_distance = min(nearest_repeated_distance, i - latest_equal_word->second);
+		}
+		word_to_latest_index[paragraph[i]] = i;
+	}
+
+	return nearest_repeated_distance != numeric_limit<int>::max() ? nearest_repeated_distance : -1;
+}
+```
+
+---
+- Time complexity: O(n)
+- Space complexity: O(d), where d is the number of distint strings in array
+
+---
+</details>
+
+
+<details>
+<summary> Find the Smallest Subarray Coverin All Values </summary>
+
+---
+- Given array of strings and a set of strings
+- Return the indices of starting and ending index of a shortest subarray that contains all strings in the set
+
+---
+
+```cpp
+struct Subarray {
+	int start, end;
+};
+
+Subarray FindSmallestSubarrayCoveringSet (const vector<string>& paragraph,
+										  const unordered_set<string> &keywords) {
+	unordered_map<string, int> keywords_to_cover;
+
+	for (const string &keyword : keywords) {
+		++keywords_to_cover[keyword];
+	}
+
+	Subarray result = Subarray{-1, -1};
+	int remaining_to_cover = size(keywords);
+	for (int left = 0, right = 0; right < size(paragraph); ++right) {
+		if (keywords.count(paragraph[right]) &&
+			--keywords_to_cover[paragraph[right]] >= 0) {
+			--remaining_to_cover;
+		}
+	}
+
+	while (remaining_to_cover == 0) {
+		if ((result.start == -1 && result.end == -1) ||
+			right - left < result.end - result.start) {
+			result = {left, right};
+		}
+
+		if (keywords.count(paragraph[left]) &&
+			++keywords_to_cover[paragraph[left]] > 0) {
+			++remaining_to_cover;
+		}
+		++left;
+	}
+
+	return result;
+}
+```
+
+---
+- Time complexity: O(n)
+- Space complexity: O(n)
+
+---
+</details>

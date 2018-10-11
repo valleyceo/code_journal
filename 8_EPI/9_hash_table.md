@@ -350,19 +350,131 @@ Subarray FindSmallestSubarrayCoveringSet (const vector<string>& paragraph,
 			--keywords_to_cover[paragraph[right]] >= 0) {
 			--remaining_to_cover;
 		}
+
+		while (remaining_to_cover == 0) {
+			if ((result.start == -1 && result.end == -1) ||
+				right - left < result.end - result.start) {
+				result = {left, right};
+			}
+
+			if (keywords.count(paragraph[left]) &&
+				++keywords_to_cover[paragraph[left]] > 0) {
+				++remaining_to_cover;
+			}
+			++left;
+		}
+	}
+	
+	return result;
+}
+```
+
+---
+- Time complexity: O(n)
+- Space complexity: O(n)
+
+1. Create hashtable of the keywords (with counter)
+2. For every word iteration, if it exist in the keyword
+3. If counter is zero, move the left idx and add the next keyword
+4. Repeat from 2
+
+---
+</details>
+
+
+<details>
+<summary> Find the Smallest Subarray Coverin All Values (Improved) (need to review) </summary>
+
+```cpp
+Subarray FindSmallestSubarrayCoveringSubset (vector<string>::const_iterator paragraph_begin,
+											 const vector<string>::const_iterator paragraph_end,
+											 const vector<string>& keywords) {
+	list<int> loc;
+	unordered_map<string, list<int>::iterator> dict;
+	for (const string& s : keywords) {
+		dict.emplace(s, end(loc));
 	}
 
-	while (remaining_to_cover == 0) {
-		if ((result.start == -1 && result.end == -1) ||
-			right - left < result.end - result.start) {
-			result = {left, right};
-		}
+	Subarray result = Subarray{-1, -1};
+	int idx = 0;
+	while (paragraph_begin != paragraph_end) {
+		string s = *paragraph_begin++;
+		if (auto it = dict.find(s); it != end(dict)) {
+			if (it->second != end(loc)) {
+				loc.erase(it->second);
+			}
 
-		if (keywords.count(paragraph[left]) &&
-			++keywords_to_cover[paragraph[left]] > 0) {
-			++remaining_to_cover;
+			loc.emplace_back(idx);
+			it->second = --end(loc);
+
+			if (size(loc) == size(keywords)) {
+				if ((result.start == -1 && result.end == -1) ||
+					idx - loc.front() < result.end - result.start) {
+					result = {loc.front(), idx};
+				}
+			}
 		}
-		++left;
+		++idx;
+	}
+
+	return result;
+}
+```
+
+</details>
+
+
+<details>
+<summary> Find Smallest Subarray Sequentially Covering All Values (Need to review) </summary>
+
+---
+- Time complexity: O(n)
+- Space complexity: O(n)
+
+---
+
+```cpp
+struct Subarray {
+	int start, end;
+};
+
+Subarray FindSmallestSequentiallyCoveringSubset(
+	const vector<string>& paragraph, const vector<string>& keywords) {
+	unordered_map<string, int> keyword_to_idx;
+
+	for (int i = 0; i < size(keywords); ++i) {
+		keyword_to_idx.emplace(keywords[i], i);
+	}
+
+	vector<inst> latest_occurence(size(keywords), -1);
+
+	vector<int> shortest_subarray_length(size(keywords),
+										 numeric_limits<int>::max());
+
+	int shortest_distance = numeric_limits<int>::max();
+
+	subarray result = Subarray{-1, -1};
+
+	for (int i = 0; i < size(paragraph); ++i) {
+		if (keyword_to_idx.count(paragraph[i])) {
+			int keyword_idx  = keyword_to_idx.find(paragraph[i])->second;
+
+			if (keyword_idx == -) {
+				shortest_subarray_length[keyword_idx] = 1;
+			} else if (shortest_subarray_length[keyword_idx - 1] !=
+					   numeric_limits<int>::max()) {
+				int distance_to_previous_keyword = i - latest_occurence[keyword_idx - 1];
+				shortest_subarray_length[keyword_idx] = distance_to_previous_keyword + 
+														shortest_subarray_length[keyword_idx - 1];
+			}
+			latest_occurence[keyword_idx] = i;
+
+			if (keyword_idx == size(keywords) - 1 &&
+				shortest_subarray_length.back() < shortest_distance) {
+				shortest_distance = shortest_subarray_length.back();
+				result = {i - shortest_subarray_length.back() + 1, i};
+			}
+		}
 	}
 
 	return result;
@@ -371,7 +483,48 @@ Subarray FindSmallestSubarrayCoveringSet (const vector<string>& paragraph,
 
 ---
 - Time complexity: O(n)
-- Space complexity: O(n)
+- Space complexity: O(m)
+
+---
+</details>
+
+
+<details>
+<summary> Find The Longest Subarray With Distinct Entries </summary>
+
+---
+- Given an array
+- Return the length of longest subarray where all its elements are distinct
+
+- Ex: < f,s,f,e,t,w,e,n,w,e > -> < s,f,e,t,w, >
+---
+
+```cpp
+int LongestSubarrayWithDistinctEntries(const vector<int>& A) {
+	unordered_map<int, size_t> most_recent_occurence;
+	size_t longest_dup_free_subarray_start_idx = 0, result = 0;
+
+	for (size_t i = 0; i < size(A); ++i) {
+		// inserted_entry = <A[i], i>, inserted_happen = true if inserted, else false
+		const auto& [inserted_entry, inserted_happen] = most_recent_occurence.emplace(A[i], i);
+
+		// check duplicate
+		if (!inserted_happen) {
+			if (inserted_entry->second >= longest_dup_free_subarray_start_idx) {
+				result = max(result, i - longest_dup_free_subarray_start_idx);
+				longest_dup_free_subarray_start_idx = inserted_entry->second + 1;
+			}
+			inserted_entry->second = i;
+		}
+	}
+
+	// add last index
+	return max(result, size(A) - longest_dup_free_subarray_start_idx);
+}
+```
+
+---
+- Time complexity: O(n)
 
 ---
 </details>

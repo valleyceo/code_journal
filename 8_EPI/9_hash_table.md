@@ -528,3 +528,153 @@ int LongestSubarrayWithDistinctEntries(const vector<int>& A) {
 
 ---
 </details>
+
+
+<details>
+<summary> Find The Length of a Longest Contained Interval </summary>
+
+---
+- Given an array
+- Return the size of a largest subset of integers in the array
+
+- Ex: < 3, -2, 7, 9, 8, 1, 2, 0, -1, 5, 8 >
+- output: < -2, -1, 0, 1, 2, 3 > -> 6
+
+---
+
+```cpp
+int LongestContainedRange(const vector<int>& A) {
+	unordered_set<int> unprocessed_entries(begin(A), end(A));
+
+	int max_interval_size = 0;
+	while (!empty(unprocessed_entries)) {
+		int a = *begin(unprocessed_entries);
+		unprocessed_entries.erase(a);
+
+		int lower_bound = a - 1;
+		while (unprocessed_entries.count(lower_bound)) {
+			unprocessed_entries.erase(lower_bound);
+			--lower_bound;
+		}
+
+		int upper_bound = a + 1;
+		while (unprocessed_entries.count(upper_bound) {
+			unprocessed_entries.erase(upper_bound);
+			++upper_bound;
+		}
+
+		max_interval_size = max(max_interval_size, upper_bound - lower_bound - 1);
+	}
+
+	return max_interval_size;
+}
+```
+
+---
+- Time complexity: O(n)
+- Space complexity: O(n)
+
+---
+</details>
+
+
+<details>
+<summary> Compute All String Decompositions (need to review) </summary>
+
+---
+- Given a input string and array of strings
+- Return the starting indices of substrings of the sentence
+
+---
+
+```cpp
+vector<int> FindAllSubstrings(const string& s, const vector<string>& words) {
+	unordered_map<string, int> word_to_freq;
+	for (const string& word : words) {
+		++word_to_freq[word];
+	}
+
+	int unit_size = size(words.front());
+	vector<int> result;
+
+	for (int i = 0; i + unit_size * size(words) <= size(s); ++i) {
+		if (MatchAllWordsInDict(s, word_to_freq, i, size(words), unit_size)) {
+			result.emplace_back(i);
+		}
+	}
+
+	return result;
+}
+
+bool MatchAllWordsInDict(const string& s,
+						 const unordered_map<string, int>& word_to_freq,
+						 int start, int num_words, int unit_size) {
+	
+	unordered_map<string, int> curr_string_to_freq;
+	for (int i = 0; i < num_words; ++i) {
+		string curr_word = s.substr(start + i * unit_size, unit_size);
+
+		if (auto iter = word_to_freq.find(curr_word); iter == end(word_to_freq)) {
+			return false;
+		} else {
+			++curr_string_to_freq[curr_word];
+			if (curr_string_to_freq[curr_word] > iter->second) {
+				// occurs too many times for match to be possible
+				return false;
+			}
+		}
+	}
+
+	return true;
+}
+```
+
+---
+- Time complexity: O(Nnm)
+
+---
+
+</details>
+
+
+<details>
+<summary> Test The Collatz Conjecture </summary>
+
+---
+- Test if Collatz conjecture (currently neither proved nor disproved) is true by checking range of values
+
+---
+
+```cpp
+bool TestCollatzConjecture(int n) {
+	unordered_set<long> verified_numbers;
+
+	for (int i = 3; i <= n; i += 2) {
+		unordered_set<long> sequence;
+		long test_i = i;
+
+		while (test_i >= i) {
+			if (!sequence.emplace(test_i).second) {
+				return false;
+			}
+
+			if (test_i % 2) {
+				if (!verified_numbers.emplace(test_i).second) {
+					break;
+				}
+				long next_test_i = 3 * test_i + 1;
+				if (next_test_i <= test_i) {
+					throw overflow_error("Collatz sequence overflow for " + to_string(i));
+				}
+				test_i = next_test_i;
+			} else {
+				test_i /= 2;
+			}
+		}
+	}
+
+	return true;
+}
+```
+
+</details>

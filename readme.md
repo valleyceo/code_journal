@@ -231,6 +231,7 @@
 │   ├── Bash
 │   └── SQL
 ├── 8_EPI
+│   ├── 10_Sorting.md
 │   ├── 1_primitive.md
 │   ├── 2_array.md
 │   ├── 3_strings.md
@@ -238,6 +239,8 @@
 │   ├── 5_stacks_and_queues.md
 │   ├── 6_binary_trees.md
 │   ├── 7_Heaps.md
+│   ├── 8_Searching.md
+│   ├── 9_hash_table.md
 │   ├── Template.md
 │   ├── dynamic_programming.md
 │   └── recursion.md
@@ -308,5 +311,5 @@
 ├── template.txt
 └── tree.md
 
-40 directories, 265 files
+40 directories, 268 files
 ```  

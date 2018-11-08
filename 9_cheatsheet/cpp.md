@@ -117,9 +117,14 @@ for (auto a : umap){
 }
 ```
 
-## Trees
+## Function calls
 ```cpp
-
+// using pointer and address
+vector<int> A;
+function(&A);
+void function(vector<int> *A_ptr) {
+    vector<int> &A = *A_ptr; // creates copy
+}
 ```
 
 ## Class/Struct
@@ -153,7 +158,7 @@ priority_queue<int, vector<int>, less<>> max_heap;
 priority_queue<int, vector<int>, greater<>> min_heap;
 
 // custom heap
-priority_queue<string, vector<string>, function<bool(string, string)>> 
+priority_queue<string, vector<string>, function<bool(string, string)>>
             min_heap([](const string& a, const string& b) { return size(a) >= size(b); })
 
 ```
@@ -208,14 +213,14 @@ int findSubstring(string s){
 
             if(map[s[end++]]-- ?){  /* modify counter here */ }
 
-            while(/* counter condition */){ 
-                 
+            while(/* counter condition */){
+
                  /* update d here if finding minimum*/
 
                 //increase begin to make it invalid/valid again
-                
+
                 if(map[s[begin++]]++ ?){ /*modify counter here*/ }
-            }  
+            }
 
             /* update d here if finding maximum*/
         }

@@ -1,0 +1,727 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"client",
+				"client_id"
+			],
+			[
+				"possible_anc_o",
+				"possible_anc_or_desc_0"
+			],
+			[
+				"BuildMinHeightBSTFromSorte",
+				"BuildMinHeightBSTFromSortedSubArray"
+			],
+			[
+				"sorted",
+				"sorted_arrays"
+			],
+			[
+				"reubild",
+				"RebuildBSTFromPreorderOnValueRange"
+			],
+			[
+				"RebuildBst",
+				"RebuildBSTFromPreorderOnValueRange"
+			],
+			[
+				"root_idx",
+				"root_idx_ptr"
+			],
+			[
+				"Rebuild",
+				"RebuildBSTFromPreorderOnValueRange"
+			],
+			[
+				"RebuildBSTFro",
+				"REbuildBSTFromPreorderHelper"
+			],
+			[
+				"Search",
+				"SearchBST"
+			],
+			[
+				"adjuste",
+				"adjusted_people"
+			],
+			[
+				"adjusted",
+				"adjusted_salary_sum"
+			],
+			[
+				"age_to",
+				"age_to_count"
+			],
+			[
+				"emplace",
+				"emplace_back"
+			],
+			[
+				"unordered",
+				"unordered_set"
+			],
+			[
+				"parag",
+				"paragraph_end"
+			],
+			[
+				"shortes",
+				"shortest_distance"
+			],
+			[
+				"keyword_to",
+				"keyword_to_idx"
+			],
+			[
+				"keywor",
+				"keywords"
+			],
+			[
+				"unordere",
+				"unordered_set"
+			],
+			[
+				"char",
+				"chars_with_odd_frequency"
+			],
+			[
+				"stream_be",
+				"stream_begin_copy"
+			],
+			[
+				"global_",
+				"global_max"
+			],
+			[
+				"global",
+				"global_min"
+			],
+			[
+				"Studn",
+				"students"
+			],
+			[
+				"empla",
+				"emplace"
+			],
+			[
+				"candidate_",
+				"candidate_max_heap"
+			],
+			[
+				"candida",
+				"candidate_idx"
+			],
+			[
+				"emplac",
+				"emplace"
+			],
+			[
+				"sequen",
+				"sequence_end"
+			],
+			[
+				"sequenc",
+				"sequence_end"
+			],
+			[
+				"closes",
+				"closest_stars"
+			],
+			[
+				"exteriro",
+				"exterior_ptr"
+			],
+			[
+				"ReconstructPreo",
+				"ReconstructPreorderHelper"
+			],
+			[
+				"Reconstructpre",
+				"ReconstructPreorderHelper"
+			],
+			[
+				"BinaryTreeFrom",
+				"BinaryTreeFromPreorderInorderHelper"
+			],
+			[
+				"preorder",
+				"preorder_start"
+			],
+			[
+				"BinaryTreeFromP",
+				"BinaryTreeNodeFromPreorderInorderHelper"
+			],
+			[
+				"Binary",
+				"BinaryTreeNode"
+			],
+			[
+				"unique",
+				"unique_ptr"
+			],
+			[
+				"sum",
+				"SumRootToLeafHelper"
+			],
+			[
+				"SumRoo",
+				"SumRootToLeafHelper"
+			],
+			[
+				"par",
+				"partial_path_sum"
+			],
+			[
+				"uni",
+				"unique_ptr"
+			],
+			[
+				"num",
+				"num_queue_elements"
+			],
+			[
+				"second",
+				"second_half_iter"
+			],
+			[
+				"square_",
+				"square_matrix_"
+			],
+			[
+				"uniform",
+				"uniform_0_1"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"print",
+				"print_waffle"
+			],
+			[
+				"CONTROL",
+				"CONTROL_RATE"
+			],
+			[
+				"traffic_light",
+				"traffic_light_idx"
+			],
+			[
+				"car_pos",
+				"car_position_y"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"end_p",
+				"end_path_s"
+			],
+			[
+				"target_",
+				"target_y"
+			],
+			[
+				"prev",
+				"previous_path_x"
+			],
+			[
+				"map_",
+				"map_waypoints_y"
+			],
+			[
+				"map_way",
+				"map_waypoints_x"
+			],
+			[
+				"ref_y",
+				"ref_y_prev"
+			],
+			[
+				"previous_path_",
+				"previous_path_x"
+			],
+			[
+				"previous",
+				"previous_path_y"
+			],
+			[
+				"landmark",
+				"landmark_in"
+			],
+			[
+				"wei",
+				"weights"
+			],
+			[
+				"time",
+				"previous_timestamp_"
+			],
+			[
+				"blan",
+				"blank_spaces_len"
+			],
+			[
+				"maze",
+				"mazeDistance"
+			],
+			[
+				"succ",
+				"successors_sorted"
+			],
+			[
+				"cost",
+				"cost"
+			],
+			[
+				"get",
+				"getStartState"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "8_EPI/12_recursion.md",
+			"settings":
+			{
+				"buffer_size": 4628,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "9_cheatsheet/cpp.md",
+			"settings":
+			{
+				"buffer_size": 4851,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "8_EPI/Template.md",
+			"settings":
+			{
+				"buffer_size": 74,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"markdown",
+				"GitHub Flavored Markdown: Preview"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Install Package Control"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/eric/Desktop/git/code_journal",
+		"/Users/eric/Desktop/git/code_journal/8_EPI",
+		"/Users/eric/Desktop/git/code_journal/9_cheatsheet"
+	],
+	"file_history":
+	[
+		"/Users/eric/Desktop/git/code_journal/8_EPI/10_Sorting.md",
+		"/Users/eric/Desktop/git/code_journal/8_EPI/11_Binary_Search_Tree.md",
+		"/Users/eric/Desktop/git/code_journal/8_EPI/Template.md",
+		"/Users/eric/Desktop/git/code_journal/8_EPI/4_linked_list.md",
+		"/Users/eric/Desktop/git/code_journal/9_cheatsheet/cpp_notes.md",
+		"/Users/eric/Desktop/git/code_journal/9_cheatsheet/cpp.md",
+		"/Users/eric/Desktop/git/code_journal/8_EPI/7_Heaps.md",
+		"/Users/eric/Desktop/git/code_journal/8_EPI/6_binary_trees.md",
+		"/Users/eric/Desktop/git/code_journal/8_EPI/recursion.md",
+		"/Users/eric/Desktop/Apps/ChessGameInUnity-ProjectMaterials/chess_3d/Assets/Scripts/Bishop.cs",
+		"/Users/eric/Desktop/Apps/UIStuffs/Checking UI/Assets/Models/Textures/vehicle_rcFlyer_dff.tif",
+		"/Users/eric/Desktop/git/code_journal/1_array/1_Move_Zeroes.cpp",
+		"/Users/eric/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/eric/Desktop/git/robotics_t2/P1/dataset/large_pill.json",
+		"/Users/eric/Desktop/git/code_journal/8_EPI/3_strings.md",
+		"/Users/eric/Desktop/git/code_journal/8_EPI/3_linked_list",
+		"/Users/eric/Desktop/git/code_journal/8_EPI/dynamic_programming.md",
+		"/Users/eric/Desktop/git/code_journal/8_EPI/2_array.md",
+		"/Users/eric/Desktop/git/code_journal/3_backtracking/3_Regular_Expression_Matching.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_array/1_Implement_Queue_using_Stacks.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_array/2_3Sum_Closest.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_array/1_Intersection_of_Two_Arrays_II.cpp",
+		"/Users/eric/Desktop/git/course-ud303/Lesson-1/HelloServer.py",
+		"/Users/eric/Desktop/git/git_course/index.html",
+		"/Users/eric/Desktop/git/code_journal/1_array/3_Spiral_Matrix.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_linked_list/1_Delete_Node_in_a_Linked_List.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_array/1_Intersection_of_Two_Arrays.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_array/1_Image_Smoother.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_array/1_Find_All_Numbers_Disappeared_in_an_Array.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_array/1_Degree_of_an_Array.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_array/3_Contains_Duplicate_III.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_array/1_Contains_Duplicate_II.cpp",
+		"/Users/eric/Desktop/git/code_journal/9_concepts/QuickSort.cpp",
+		"/Users/eric/Desktop/git/code_journal/9_concepts/Binary_Search.cpp",
+		"/Users/eric/Desktop/git/code_journal/9_concepts/Bad_Sorters.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_array/1_Contains_Duplicate.cpp",
+		"/Users/eric/OneDrive/Docs Online Courses/Machine_Learning_Coursera/mlclass-ex2/quiz5.m",
+		"/Users/eric/OneDrive/Docs Online Courses/Machine_Learning_Coursera/mlclass-ex2/quiz6.m",
+		"/Users/eric/OneDrive/Docs Online Courses/Machine_Learning_Coursera/mlclass-ex2/ML_QUIZ.md",
+		"/Users/eric/Dropbox/Docs Work/dqnlab_pytorch/cartpole.py",
+		"/Users/eric/Desktop/gym/pacman/rl_dqn.py",
+		"/Users/eric/Desktop/git/code_journal/8_PR/Array_Index_&_Element_Equality.cpp",
+		"/Users/eric/Desktop/git/code_journal/8_PR/Merging_2_Packages.cpp",
+		"/Users/eric/Desktop/git/code_journal/8_PR/Decrypt_Message.cpp",
+		"/Users/eric/Desktop/git/code_journal/8_PR/Sales_Path.cpp",
+		"/Users/eric/Desktop/git/code_journal/8_PR/Basic_Regex_Parser.cpp",
+		"/Users/eric/Desktop/git/dsnd/aipnd-project/predict.py",
+		"/Users/eric/Desktop/git/dsnd/aipnd-project/train.py",
+		"/Users/eric/Desktop/interview_project/untitled folder/find_phone/find_phone.py",
+		"/Users/eric/Desktop/interview_project/find_phone_latest/utils.py",
+		"/Users/eric/Desktop/interview_project/find_phone_latest/darknet/cfg/yolov3-tiny.cfg",
+		"/Users/eric/Desktop/interview_project/find_phone_latest/train_phone_finder.py",
+		"/Users/eric/Desktop/interview_project/find_phone_latest/find_phone.py",
+		"/Users/eric/Desktop/interview_project/find_phone_latest/darknet/cfg/obj.data",
+		"/Users/eric/Desktop/find_phone/train_phone_finder.py",
+		"/Users/eric/Desktop/git/code_journal/8_PR/K_Messed_Array_Sort.cpp",
+		"/Users/eric/Desktop/git/code_journal/9_concepts/Probability.cpp",
+		"/Users/eric/Desktop/git/code_journal/5_math/1_Pascals_Triangle_II.cpp",
+		"/Users/eric/Desktop/git/code_journal/9_concepts/Merge_Sort.cpp",
+		"/Users/eric/Desktop/git/code_journal/template.txt",
+		"/Users/eric/Desktop/git/code_journal/1_strings/2_Maximum_Product_of_Word_Lengths.cpp",
+		"/Users/eric/Desktop/git/code_journal/2_trees/1_Closest_Binary_Search_Tree_Value.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_array/2_Max_Consecutive_Ones_II.cpp",
+		"/Users/eric/Desktop/git/code_journal/5_graphs/2_Insert_into_a_Cyclic_Sorted_List.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_strings/2_One_Edit_Distance.cpp",
+		"/Users/eric/Desktop/git/code_journal/8_PR/Word_Count_Engine.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_strings/2_Add_Bold_Tag_in_String.cpp",
+		"/Users/eric/Desktop/Grade_FindDonor/FindingDonorsForCharityML/MeetsSpecsProject/visuals.py",
+		"/Users/eric/Desktop/find_phone/find_phone.py",
+		"/Users/eric/Desktop/interview_project/find_phone/train_phone_finder.py",
+		"/Users/eric/Desktop/interview_project/find_phone/find_phone.py",
+		"/Users/eric/Desktop/interview_project/Misc_files/find_phone/utils.py",
+		"/Users/eric/Desktop/interview_project/find_phone/utils.py",
+		"/Users/eric/Desktop/interview_project/find_phone/darknet/Makefile",
+		"/Users/eric/Desktop/interview_project/find_phone_task/utils.py",
+		"/Users/eric/Desktop/git/darknet/cfg/tiny-yolo.cfg",
+		"/Users/eric/Desktop/git/darknet/cfg/obj.data",
+		"/Users/eric/Desktop/git/darknet/darknet.py",
+		"/Users/eric/Desktop/interview_project/keras-yolo3/zoo/config_kangaroo.json",
+		"/Users/eric/Desktop/interview_project/keras-yolo3/train.py",
+		"/Users/eric/Desktop/interview_project/keras-yolo3/utils/colors.py",
+		"/Users/eric/Desktop/mentor/machine-learning/projects/finding_donors/visuals.py",
+		"/Users/eric/Desktop/Anil/drive-download-20180612T212914Z-001/name.csv",
+		"/Users/eric/Desktop/git/machine_learning_udacity/finding_donors/census.csv",
+		"/Users/eric/Desktop/Anil/drive-download-20180612T212914Z-001/create_dataset",
+		"/Users/eric/Desktop/git/code_journal/5_others/3_Largest_Rectangle_in_Histogram.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_linked_list/1_Remove_Linked_List_Elements.cpp",
+		"/Users/eric/Desktop/git/code_journal/5_others/1_1bit_and_2bit_Characters.cpp",
+		"/Users/eric/Desktop/git/code_journal/5_math/2_Next_Permutation.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_linked_list/1_Remove_Duplicates_from_Sorted_List.cpp",
+		"/Users/eric/Desktop/git/code_journal/8_EPI/primitive.md",
+		"/Users/eric/Desktop/git/code_journal/5_others/1_Number_Complement.cpp",
+		"/Users/eric/Desktop/git/code_journal/5_others/1_Power_of_Two.cpp",
+		"/Users/eric/Desktop/git/code_journal/2_trees/1_Same_Tree.cpp",
+		"/Users/eric/Desktop/git/code_journal/5_graphs/1_Max_Area_of_Island.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_strings/1_Keyboard_Row.cpp",
+		"/Users/eric/Desktop/git/code_journal/5_math/1_Self_Dividing_Numbers.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_strings/1_Ransom_Note.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_array/1_Two_Sum.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.cpp",
+		"/Users/eric/Desktop/git/code_journal/2_trees/1_Minimum_Depth_of_Binary_Tree.cpp",
+		"/Users/eric/Desktop/git/code_journal/8_PR/Find_The_Duplicates.cpp",
+		"/Users/eric/Desktop/git/code_journal/3_dynamic_programming/3_Edit_Distance.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_array/1_Best_Time_To_Buy_And_Sell_Stock_II.cpp",
+		"/Users/eric/Desktop/git/code_journal/5_math/01_Largest_Palindrome_Product.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_array/1_Island_Perimeter.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_array/2_Counting_Bits.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_array/2_Single_Number_II.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_strings/1_License_Key_Formatting.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_array/2_K_Empty_Slots.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_strings/2_Next_Closest_Time.cpp",
+		"/Users/eric/Desktop/git/code_journal/2_trees/2_Longest_Univalue_Path.cpp",
+		"/Users/eric/Desktop/git/code_journal/5_math/3_Max_Points_on_a_Line.cpp",
+		"/Users/eric/Desktop/git/code_journal/8_PR/island_count.cpp",
+		"/Users/eric/Desktop/git/code_journal/8_PR/bst_successor_search.cpp",
+		"/Users/eric/Desktop/git/code_journal/8_PR/number_of_paths.cpp",
+		"/Users/eric/Desktop/git/code_journal/8_GCJ/2018/R2/Costume_Change.cpp",
+		"/Users/eric/Desktop/git/code_journal/8_GCJ/2018/R2/Graceful_Chainsaw_Jugglers.cpp",
+		"/Users/eric/Desktop/testing_folder/assignment2.cpp",
+		"/Users/eric/Desktop/x_files/32.ddd39cc1c002e5da1dfa.js",
+		"/Users/eric/Desktop/git/code_journal/8_GCJ/2017/R2/shoot_the_turrets.cpp",
+		"/Users/eric/Desktop/git/code_journal/8_GCJ/2017/R2/beaming_with_joy.cpp",
+		"/Users/eric/Desktop/git/code_journal/8_GCJ/2017/R2/roller_coaster_scheduling.cpp",
+		"/Users/eric/Desktop/git/code_journal/8_GCJ/2017/R2/1_Fresh_Chocolate.cpp",
+		"/Users/eric/Desktop/git/code_journal/8_GCJ/2018/R1C/02_Lollipop_Shop.cpp",
+		"/Users/eric/Desktop/git/code_journal/8_GCJ/2018/R1C/03_Ant_Stack.cpp",
+		"/Users/eric/Desktop/git/code_journal/8_GCJ/2018/R1C/01_A_Whole_New_World.cpp",
+		"/Users/eric/Desktop/git/code_journal/1_linked_list/2_Swap_Nodes_in_Pairs.cpp"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "8_EPI/12_recursion.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4495,
+								4495
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1541448192.72,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "9_cheatsheet/cpp.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2029,
+								2029
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1541448192.72,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1349.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "8_EPI/Template.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 74,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10,
+								31
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1541448192.72,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.67525235735,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "cj.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/git/code_journal/cj.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 258.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

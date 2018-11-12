@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"SearchM",
+				"SearchMazeHelper"
+			],
+			[
+				"unordereD",
+				"unordered_set"
+			],
+			[
+				"unordere",
+				"unordered_map"
+			],
+			[
 				"candidate",
 				"candidate_count"
 			],
@@ -162,10 +174,6 @@
 			[
 				"keywor",
 				"keywords"
-			],
-			[
-				"unordere",
-				"unordered_set"
 			],
 			[
 				"char",
@@ -377,20 +385,20 @@
 			}
 		},
 		{
-			"file": "8_EPI/14_greedy_algorithms_and_invariants.md",
+			"file": "8_EPI/15_Graphs.md",
 			"settings":
 			{
-				"buffer_size": 4060,
+				"buffer_size": 4745,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
-				"name": "# Greedy Algorithms and Invariants"
+				"name": "# Graphs"
 			}
 		},
 		{
 			"file": "9_cheatsheet/cpp.md",
 			"settings":
 			{
-				"buffer_size": 5406,
+				"buffer_size": 5504,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -458,6 +466,7 @@
 	],
 	"file_history":
 	[
+		"/Users/eric/Desktop/git/code_journal/8_EPI/14_greedy_algorithms_and_invariants.md",
 		"/Users/eric/Desktop/git/code_journal/8_EPI/13_dynamic_programming.md",
 		"/Users/eric/Desktop/git/code_journal/8_EPI/dynamic_programming.md",
 		"/Users/eric/Desktop/git/code_journal/8_EPI/12_recursion.md",
@@ -584,8 +593,7 @@
 		"/Users/eric/Desktop/git/code_journal/8_GCJ/2017/R2/beaming_with_joy.cpp",
 		"/Users/eric/Desktop/git/code_journal/8_GCJ/2017/R2/roller_coaster_scheduling.cpp",
 		"/Users/eric/Desktop/git/code_journal/8_GCJ/2017/R2/1_Fresh_Chocolate.cpp",
-		"/Users/eric/Desktop/git/code_journal/8_GCJ/2018/R1C/02_Lollipop_Shop.cpp",
-		"/Users/eric/Desktop/git/code_journal/8_GCJ/2018/R1C/03_Ant_Stack.cpp"
+		"/Users/eric/Desktop/git/code_journal/8_GCJ/2018/R1C/02_Lollipop_Shop.cpp"
 	],
 	"find":
 	{
@@ -643,7 +651,7 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1541958244.66,
+							"markdonw_live_preview_last_run": 1542062454.01,
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
@@ -656,39 +664,39 @@
 				},
 				{
 					"buffer": 1,
-					"file": "8_EPI/14_greedy_algorithms_and_invariants.md",
+					"file": "8_EPI/15_Graphs.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4060,
+						"buffer_size": 4745,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4045,
-								4045
+								4135,
+								4135
 							]
 						],
 						"settings":
 						{
-							"auto_name": "# Greedy Algorithms and Invariants",
-							"markdonw_live_preview_last_run": 1541959469.09,
+							"auto_name": "# Graphs",
+							"markdonw_live_preview_last_run": 1542064786.1,
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2727.0,
+						"translation.y": 2217.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -697,29 +705,29 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5406,
+						"buffer_size": 5504,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4276,
-								4276
+								918,
+								918
 							]
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1541958244.66,
+							"markdonw_live_preview_last_run": 1542064337.79,
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 137.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -735,20 +743,20 @@
 						"selection":
 						[
 							[
-								41,
-								41
+								74,
+								0
 							]
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1541958244.65,
+							"markdonw_live_preview_last_run": 1542062454.0,
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -782,7 +790,7 @@
 		"cols":
 		[
 			0.0,
-			0.491116518785,
+			0.514777545664,
 			1.0
 		],
 		"rows":
@@ -834,7 +842,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

@@ -45,6 +45,13 @@ int acc = accumulate(begin(col), end(col), 0, [](int result, char c) {
             return result * 26 + c - 'A' + 1;});
 ```
 
+## Queue
+```cpp
+// assigning 2d queue
+queue<pair<int, int>> q;
+cont auto [x, y] = q.front();
+```
+
 ## String
 ```cpp
 // string checkers

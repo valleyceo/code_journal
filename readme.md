@@ -231,19 +231,21 @@
 │   ├── Bash
 │   └── SQL
 ├── 8_EPI
-│   ├── 10_Sorting.md
-│   ├── 1_primitive.md
-│   ├── 2_array.md
-│   ├── 3_strings.md
-│   ├── 4_linked_list.md
-│   ├── 5_stacks_and_queues.md
-│   ├── 6_binary_trees.md
-│   ├── 7_Heaps.md
-│   ├── 8_Searching.md
-│   ├── 9_hash_table.md
-│   ├── Template.md
-│   ├── dynamic_programming.md
-│   └── recursion.md
+│   ├── 01_primitive.md
+│   ├── 02_array.md
+│   ├── 03_strings.md
+│   ├── 04_linked_list.md
+│   ├── 05_stacks_and_queues.md
+│   ├── 06_binary_trees.md
+│   ├── 07_heaps.md
+│   ├── 08_searching.md
+│   ├── 09_hash_table.md
+│   ├── 10_sorting.md
+│   ├── 11_binary_search_tree.md
+│   ├── 12_recursion.md
+│   ├── 13_dynamic_programming.md
+│   ├── 14_greedy_algorithms_and_invariants.md
+│   └── Template.md
 ├── 8_GCJ
 │   ├── 2017
 │   │   └── R2
@@ -305,11 +307,13 @@
 │   ├── Merge_Sort.cpp
 │   ├── Probability.cpp
 │   └── QuickSort.cpp
+├── cj.sublime-project
+├── cj.sublime-workspace
 ├── code_journal.md
 ├── gen_md.sh
 ├── readme.md
 ├── template.txt
 └── tree.md
 
-40 directories, 268 files
+40 directories, 272 files
 ```  

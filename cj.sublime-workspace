@@ -4,6 +4,94 @@
 		"selected_items":
 		[
 			[
+				"candidate",
+				"candidate_count"
+			],
+			[
+				"const",
+				"const_iterator"
+			],
+			[
+				"task",
+				"task_durations"
+			],
+			[
+				"minimum",
+				"minimum_messiness"
+			],
+			[
+				"numre",
+				"num_remaining_blanks"
+			],
+			[
+				"numberofways",
+				"number_of_ways_to_h_ptr"
+			],
+			[
+				"maximum_rev",
+				"maximum_revenue_for_range"
+			],
+			[
+				"maximumrefe",
+				"maximum_revenue_for_range_ptr"
+			],
+			[
+				"maximumre",
+				"maximum_revenue_for_range_ptr"
+			],
+			[
+				"maximum_reven",
+				"maximum_revenue_for_range_ptr"
+			],
+			[
+				"Ispatt",
+				"IsPatternSuffixContainedStartingAtXY"
+			],
+			[
+				"xchoo",
+				"x_choose_y_ptr"
+			],
+			[
+				"x_choo",
+				"x_choose_y"
+			],
+			[
+				"x_choose",
+				"x_choose_y_ptr"
+			],
+			[
+				"numberof",
+				"number_of_ways_ptr"
+			],
+			[
+				"empla",
+				"emplace_back"
+			],
+			[
+				"Gray",
+				"GrayCode"
+			],
+			[
+				"emplace",
+				"emplace_back"
+			],
+			[
+				"partial_assi",
+				"partial_assignment"
+			],
+			[
+				"num_ri",
+				"num_right_parens_needed"
+			],
+			[
+				"input",
+				"input_set"
+			],
+			[
+				"Generate",
+				"GeneratePowerSet"
+			],
+			[
 				"client",
 				"client_id"
 			],
@@ -56,10 +144,6 @@
 				"age_to_count"
 			],
 			[
-				"emplace",
-				"emplace_back"
-			],
-			[
 				"unordered",
 				"unordered_set"
 			],
@@ -102,10 +186,6 @@
 			[
 				"Studn",
 				"students"
-			],
-			[
-				"empla",
-				"emplace"
 			],
 			[
 				"candidate_",
@@ -291,16 +371,27 @@
 			"file": "8_EPI/12_recursion.md",
 			"settings":
 			{
-				"buffer_size": 4628,
+				"buffer_size": 13092,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "8_EPI/14_greedy_algorithms_and_invariants.md",
+			"settings":
+			{
+				"buffer_size": 4060,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "# Greedy Algorithms and Invariants"
 			}
 		},
 		{
 			"file": "9_cheatsheet/cpp.md",
 			"settings":
 			{
-				"buffer_size": 4851,
+				"buffer_size": 5406,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -326,7 +417,7 @@
 		[
 			[
 				"markdown",
-				"GitHub Flavored Markdown: Preview"
+				"MarkdownLivePreview: Edit Current File"
 			],
 			[
 				"install",
@@ -367,6 +458,9 @@
 	],
 	"file_history":
 	[
+		"/Users/eric/Desktop/git/code_journal/8_EPI/13_dynamic_programming.md",
+		"/Users/eric/Desktop/git/code_journal/8_EPI/dynamic_programming.md",
+		"/Users/eric/Desktop/git/code_journal/8_EPI/12_recursion.md",
 		"/Users/eric/Desktop/git/code_journal/8_EPI/10_Sorting.md",
 		"/Users/eric/Desktop/git/code_journal/8_EPI/11_Binary_Search_Tree.md",
 		"/Users/eric/Desktop/git/code_journal/8_EPI/Template.md",
@@ -383,7 +477,6 @@
 		"/Users/eric/Desktop/git/robotics_t2/P1/dataset/large_pill.json",
 		"/Users/eric/Desktop/git/code_journal/8_EPI/3_strings.md",
 		"/Users/eric/Desktop/git/code_journal/8_EPI/3_linked_list",
-		"/Users/eric/Desktop/git/code_journal/8_EPI/dynamic_programming.md",
 		"/Users/eric/Desktop/git/code_journal/8_EPI/2_array.md",
 		"/Users/eric/Desktop/git/code_journal/3_backtracking/3_Regular_Expression_Matching.cpp",
 		"/Users/eric/Desktop/git/code_journal/1_array/1_Implement_Queue_using_Stacks.cpp",
@@ -492,13 +585,11 @@
 		"/Users/eric/Desktop/git/code_journal/8_GCJ/2017/R2/roller_coaster_scheduling.cpp",
 		"/Users/eric/Desktop/git/code_journal/8_GCJ/2017/R2/1_Fresh_Chocolate.cpp",
 		"/Users/eric/Desktop/git/code_journal/8_GCJ/2018/R1C/02_Lollipop_Shop.cpp",
-		"/Users/eric/Desktop/git/code_journal/8_GCJ/2018/R1C/03_Ant_Stack.cpp",
-		"/Users/eric/Desktop/git/code_journal/8_GCJ/2018/R1C/01_A_Whole_New_World.cpp",
-		"/Users/eric/Desktop/git/code_journal/1_linked_list/2_Swap_Nodes_in_Pairs.cpp"
+		"/Users/eric/Desktop/git/code_journal/8_GCJ/2018/R1C/03_Ant_Stack.cpp"
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -512,6 +603,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"emplace_B"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -529,7 +621,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -538,25 +630,56 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4628,
+						"buffer_size": 13092,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4495,
-								4495
+								12634,
+								12634
 							]
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1541448192.72,
+							"markdonw_live_preview_last_run": 1541958244.66,
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "8_EPI/14_greedy_algorithms_and_invariants.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4060,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4045,
+								4045
+							]
+						],
+						"settings":
+						{
+							"auto_name": "# Greedy Algorithms and Invariants",
+							"markdonw_live_preview_last_run": 1541959469.09,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2727.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -569,38 +692,38 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "9_cheatsheet/cpp.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4851,
+						"buffer_size": 5406,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2029,
-								2029
+								4276,
+								4276
 							]
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1541448192.72,
+							"markdonw_live_preview_last_run": 1541958244.66,
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1349.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "8_EPI/Template.md",
 					"semi_transient": false,
 					"settings":
@@ -612,13 +735,13 @@
 						"selection":
 						[
 							[
-								10,
-								31
+								41,
+								41
 							]
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1541448192.72,
+							"markdonw_live_preview_last_run": 1541958244.65,
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -659,7 +782,7 @@
 		"cols":
 		[
 			0.0,
-			0.67525235735,
+			0.491116518785,
 			1.0
 		],
 		"rows":
@@ -719,7 +842,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 258.0,
+	"side_bar_width": 283.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

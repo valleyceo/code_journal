@@ -194,6 +194,25 @@ if(binary_search(arr, arr + size, val)) {tries++; return false;}
 
 ```
 
+## Functions
+<details>
+<summary> Lambda function</summary>
+
+---
+- using capture-clause []:
+    [=] capture all variables within scope by value  
+    [&] capture all variables within scope by reference  
+    [&var] capture var by reference  
+    [&, var] specify that the default way of capturing is by reference and we want to capture var  
+    [=, &var] capture the variables in scope by value by default, but capture var using reference instead  
+
+---
+
+```cpp
+// example
+any_of(begin(A), end(A), [&](int a) {return HasTwoSum(A, t-a); });
+```
+</details>
 
 ## Templates
 

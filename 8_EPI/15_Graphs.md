@@ -200,3 +200,162 @@ void FlipColor(int x, int y, vector<deque<bool>>* image_ptr) {
 
 ---
 </details>
+
+
+<details>
+<summary> Compute Enclosed Regions </summary>
+
+---
+- Given a 2D array of either W or B entry
+- Replace all Ws that cannot reach the boundary to B (i.e. all W's that is surrounded by B)
+
+---
+
+```cpp
+void FillSurroundedRegions(vector<vector<char>>* board_ptr) {
+	vector<vector<char>>& board = *board_ptr;
+
+	for (int i = 0; i < size(board); ++i) {
+		MarkBoundaryRegion(i, 0, board_ptr); // top edge
+		MarkBoundaryRegion(i, size(board[i])-1, board_ptr);
+	}
+
+	for (int j = 0; j < size(board.front()); ++j) {
+		MarkBoundaryRegion(0, j, board_ptr);
+		MarkBoundaryRegion(size(board)-1, j, board_ptr);
+	}
+
+	for (vector<char>& row : board) {
+		for (char& c : row) {
+			c = c != 'T' ? 'B' : 'W';
+		}
+	}
+}
+
+void MarkBoundaryRegion(int i, int j, vector<vector<char>>* board_ptr) {
+	queue<pair<int, int>> q(deque<pair<int, int>>(1, {i, j}));
+	vector<vector<char>>& board = *board_ptr;
+
+	while (!empty(q)) {
+		const auto [x, y] = q.front();
+		q.pop();
+
+		if (x >= 0 && x < size(board) && y >= 0 && y < size(board[x]) && board[x][y] == 'W') {
+			board[x][y] = 'T';
+			q.emplace(x-1, y);
+			q.emplace(x+1, y);
+			q.emplace(x, y+1);
+			q.emplace(x, y-1);
+		}
+	}
+}
+```
+
+---
+- Time complexity: O(mn), BFS
+
+- Explanation:  
+	1. Start from all edge points, BFS if they are 'W' and convert to 'T'  
+	2. Scan the whole grid, convert all 'T' to 'W' and rest to 'B'
+
+---
+</details>
+
+
+<details>
+<summary> Deadlock Detection (need to review) </summary>
+
+---
+- Given a directed graph
+- Check if the graph contains a cycle (has a deadlock)
+
+- Deadlock: A situation in which two or more competing actions are each waiting for the other to finish
+- Circular graph is sufficient for deadlock but not necessary (depends on OS)
+- Node markings: white (never discovered), gray (first discovered), black (finished processing) 
+---
+
+```cpp
+struct GraphVertex {
+	enum Color { kWhite, kGray, kBlack } color = kWhite;
+	vector<GraphVertex*> edges;
+}
+
+bool IsDeadlocked(vector<GraphVertex>* graph) {
+	return any_of(begin(*graph), end(*graph), [](GraphVertex& vertex) {
+		return vertex.color == GraphVertex::kWhite && HasCycle(&vertex);
+	});
+}
+
+bool HasCycle(GraphVertex* cur) {
+	if (cur->color == GraphVertex::kGray) {
+		return true;
+	}
+
+	cur->color = GraphVertex::kGray;
+
+	for (GraphVertex*& next : cur->edges) {
+		if (next->color != GraphVertex::kBlack && HasCycle(next)) {
+			return true;
+		}
+	}
+
+	cur->color = GraphVertex::kBlack;
+	return false;
+}
+```
+
+---
+- Time complexity: O(|V| + |E|), DFS
+
+---
+</details>
+
+
+<details>
+<summary> Clone a Graph (need to review) </summary>
+
+---
+- Given a directed graph and a reference vertex u
+- Create a copy of graph that is reachable from u
+
+---
+
+```cpp
+struct GraphVertex {
+	int label;
+	vector<GraphVertex*> edges;
+};
+
+GraphVertex* CloneGraph(GraphVertex* graph) {
+	if (!graph) {
+		return nullptr;
+	}
+
+	unordered_map<GraphVertex*, GraphVertex*> vertex_map;
+	queue<GraphVertex*> q(deque<GraphVertex*>(1, graph));
+	vertex_map.emplace(graph, new GraphVertex({graph->lable}));
+
+	while (!empty(q)) {
+		auto v = q.front();
+		q.pop();
+
+		for (GraphVertex* e : v->edges) {
+			if (!vertex_map.count(e)) {
+				vertex_map.emplace(e, new GraphVertex({e->label}));
+				q.emplace(e);
+			}
+
+			vertex_map[v]->edges.emplace_back(vertex_map[e]);
+		}
+	}
+
+	return vertex_map[graph];
+}
+```
+
+---
+- Time complexity: O(|V|+|E|), BFS queue  
+- Space complexity: O(|V|)
+
+---
+</details>

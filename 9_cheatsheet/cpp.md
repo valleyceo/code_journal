@@ -45,11 +45,24 @@ int acc = accumulate(begin(col), end(col), 0, [](int result, char c) {
             return result * 26 + c - 'A' + 1;});
 ```
 
+## Enum
+```cpp
+// enumerating graph
+struct GraphVertex {
+    enum Color { kWhite, kGray, kBlack } color = kWhite;
+    vector<GraphVertex*> edges;
+};
+
+```
+
 ## Queue
 ```cpp
 // assigning 2d queue
 queue<pair<int, int>> q;
+queue<pair<int, int>> q(deque<pair<int, int>>(1, {i, j})); // another way of direct inititialization
 cont auto [x, y] = q.front();
+q.pop() // take out the front queue
+q.emplace(x, y); // add new queue
 ```
 
 ## String

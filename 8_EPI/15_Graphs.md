@@ -359,3 +359,149 @@ GraphVertex* CloneGraph(GraphVertex* graph) {
 
 ---
 </details>
+
+
+<details>
+<summary> Compute Enclosed Regions (need to review) </summary>
+
+---
+- Given a set of pins and wires connecting pairs of pins (either left or right)
+- Determine if it is possible to place the pins such that their immediate neighbor is always the opposite
+- Return such division if one exists
+
+---
+
+```cpp
+struct GraphVertex {
+	int d = -1;
+	vector<GraphVertex*> edges;
+};
+
+bool IsAnyPlacementFeasible(vector<GraphVertex>* graph) {
+	return all_of(begin(*graph), end(*graph), [](GraphVertex& v) {return v.d != -1 || Bfs(&v); });
+}
+
+bool Bfs(GraphVertex* s) {
+	s->d = 0;
+	queue<GraphVertex*> q;
+	q.emplace(s);
+
+	while (!empty(q)) {
+		for (GraphVertex*& t : q.front()->edges) {
+			if (t->d == -1) {
+				t->d = q.front()->d + 1;
+				q.emplace(t);
+			} else if (t->d == q.front()->d) {
+				return false;
+			}
+		}
+		q.pop();
+	}
+
+	return true;
+}
+```
+
+---
+- Time complexity: O(p + w), p: path, w: number of wires, BFS
+- Space complexity: O(p)
+
+- Other term for this problem: bipartite graphs, 2-colorable
+
+---
+</details>
+
+
+<details>
+<summary> Transform One String to Another (need to review, no idea) </summary>
+
+---
+- Given a dictionary D and two strings s and t
+- Determine if s produces t
+
+---
+
+```cpp
+int TransformString(unordered_set<string> D, const string& s, const string& t) {
+	struct StringWithDistance {
+		string candidate_string;
+		int distance;
+	};
+
+	queue<StringWithDistance> q;
+	D.erase(s);
+	q.emplace(StringWithDistance{s, 0});
+
+	while (!empty(q)) {
+		StringWithDistance f(q.front());
+
+		if (f.candidate_string == t) {
+			return f.distance;
+		}
+
+		string str = f.candidate_string;
+		for (int i = 0; i < size(str); ++i) {
+			for(int c = 0; c < 26; ++c) {
+				str[i] = 'a' + c;
+				if (auto it = D.find(str); it != end(D)) {
+					D.erase(it);
+					q.emplace(StringWithDistance{str, f.distance + 1});
+				}
+			}
+			str[i] = f.candidate_string[i];
+		}
+		q.pop();
+	}
+
+	return -1;
+}
+
+```
+
+---
+- Time complexity: BFS - O(n^2), where n is the number of words in dictionary
+
+---
+</details>
+
+
+<details>
+<summary> Team Photo Day 2 (need to review) </summary>
+
+---
+- Given the same team photo problem
+- Determine the largest number of teams that can be photographed simultaneously
+
+---
+
+```cpp
+struct GraphVertex {
+	vector<GraphVertex*> edges;
+	int max_distance = 0;
+};
+
+int FindLargestNumberTeams(vector<GraphVertex>* graph ) {
+	int max_level = 0;
+	for (GraphVertex& g : *graph) {
+		if (g.max_distance == 0) {
+			max_level = max(max_level, Dfs(&g));
+		}
+	}
+	return max_level;
+}
+
+int Dfs(GraphVertex* curr) {
+	curr->max_distance = 1;
+	for (GraphVertex* vertex : curr->edges) {
+		curr->max_distance = max(curr->max_distance, (vertex->max_distance ?
+								 vertex->max_distance : Dfs(vertex)) + 1);
+	}
+	return curr->max_distance;
+}
+```
+
+---
+- Time computation: O(|V| + |E|)
+
+---
+</details>

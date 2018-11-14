@@ -246,6 +246,7 @@
 │   ├── 13_dynamic_programming.md
 │   ├── 14_greedy_algorithms_and_invariants.md
 │   ├── 15_Graphs.md
+│   ├── 16_parallel_computing.md
 │   └── Template.md
 ├── 8_GCJ
 │   ├── 2017
@@ -316,5 +317,5 @@
 ├── template.txt
 └── tree.md
 
-40 directories, 273 files
+40 directories, 274 files
 ```  

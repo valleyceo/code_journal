@@ -245,7 +245,7 @@
 │   ├── 12_recursion.md
 │   ├── 13_dynamic_programming.md
 │   ├── 14_greedy_algorithms_and_invariants.md
-│   ├── 15_Graphs.md
+│   ├── 15_graphs.md
 │   ├── 16_parallel_computing.md
 │   └── Template.md
 ├── 8_GCJ

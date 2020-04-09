@@ -414,10 +414,10 @@
 			}
 		},
 		{
-			"file": "8_EPI/15_graphs.md",
+			"file": "1_array/1_Plus_One.cpp",
 			"settings":
 			{
-				"buffer_size": 10913,
+				"buffer_size": 1178,
 				"line_ending": "Unix"
 			}
 		},
@@ -488,6 +488,7 @@
 	"expanded_folders":
 	[
 		"/Users/eric/Desktop/git/code_journal",
+		"/Users/eric/Desktop/git/code_journal/1_array",
 		"/Users/eric/Desktop/git/code_journal/8_EPI",
 		"/Users/eric/Desktop/git/code_journal/9_cheatsheet"
 	],
@@ -658,7 +659,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -680,7 +681,7 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1542408546.73,
+							"markdonw_live_preview_last_run": 1542924273.86,
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
@@ -710,24 +711,24 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1542414068.73,
+							"markdonw_live_preview_last_run": 1542924273.86,
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3982.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "8_EPI/15_graphs.md",
+					"file": "1_array/1_Plus_One.cpp",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 10913,
+						"buffer_size": 1178,
 						"regions":
 						{
 						},
@@ -740,15 +741,16 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1542409759.01,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"markdonw_live_preview_last_run": 1542924287.37,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6927.0,
+						"translation.y": 127.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -776,7 +778,7 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1542408546.73,
+							"markdonw_live_preview_last_run": 1542924273.86,
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
@@ -807,14 +809,14 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1542408546.73,
+							"markdonw_live_preview_last_run": 1542924273.86,
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

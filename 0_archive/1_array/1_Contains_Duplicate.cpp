@@ -21,7 +21,6 @@ public:
         }
         return false;
     }
-    
 };
 
 // better solution - time: O(n), space: O(n)

@@ -27,7 +27,10 @@
 │   └── 5_other
 │       └── 2_Card_Flipping_Game.cpp
 ├── 1_array
+│   ├── 1_Compare_Strings_by_Smallest_Char_Freq.cpp
 │   ├── 1_Island_Perimeter.cpp
+│   ├── 1_K_Weakest_Rows_in_Matrix.cpp
+│   ├── 1_Letter_Case_Permutation.cpp
 │   ├── 1_Plus_One.cpp
 │   ├── 1_Remove_Duplicates_From_Sorted_Array.cpp
 │   ├── 1_Rotate_Array.cpp
@@ -35,6 +38,7 @@
 │   ├── 1_Single_Number.cpp
 │   ├── 1_Two_Sum.cpp
 │   ├── 1_Valid_Sudoku.cpp
+│   ├── 1_shiftGrid.cpp
 │   ├── 2_3Sum.cpp
 │   ├── 2_3Sum_Closest.cpp
 │   ├── 2_Battleships_in_a_Board.cpp
@@ -46,6 +50,7 @@
 │   ├── 2_Missing_Ranges.cpp
 │   ├── 2_Set_Matrix_Zeroes.cpp
 │   ├── 2_Single_Number_II.cpp
+│   ├── 3_4Sum.cpp
 │   ├── 3_4Sum_II.cpp
 │   ├── 3_Basic_Calculator_II.cpp
 │   ├── 3_Container_With_Most_Water.cpp
@@ -70,12 +75,14 @@
 │   ├── 2_Add_Two_Numbers.cpp
 │   ├── 2_Intersection_of_Two_Linked_Lists.cpp
 │   ├── 2_Odd_Even_Linked_List.cpp
+│   ├── 2_Reverse_Nodes_In_K_Group.cpp
 │   ├── 2_Swap_Nodes_in_Pairs.cpp
 │   ├── 3_Copy_List_with_Random_Pointer.cpp
 │   ├── 3_Merge_k_Sorted_Lists.cpp
 │   └── 3_Sort_List.cpp
 ├── 1_strings
 │   ├── 1_Add_Binary.cpp
+│   ├── 1_Bulls_and_Cows.cpp
 │   ├── 1_Count_and_Say.cpp
 │   ├── 1_First_Unique_Character_in_a_String.cpp
 │   ├── 1_Implement_strStr().cpp
@@ -120,12 +127,15 @@
 ├── 2_trees
 │   ├── 1_Balanced_Binary_Tree.cpp
 │   ├── 1_Binary_Tree_Level_Order_Traversal.cpp
+│   ├── 1_Binary_Tree_Level_Order_Traversal2.cpp
 │   ├── 1_Closest_Binary_Search_Tree_Value.cpp
 │   ├── 1_Convert_Sorted_Array_to_Binary_Search_Tree.cpp
 │   ├── 1_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.cpp
 │   ├── 1_Maximum_Depth_of_Binary_Tree.cpp
 │   ├── 1_Merge_Two_Binary_Trees.cpp
 │   ├── 1_Minimum_Depth_of_Binary_Tree.cpp
+│   ├── 1_N-ary_Tree_Preorder_Traversal_Iterative.cpp
+│   ├── 1_Path_Sum.cpp
 │   ├── 1_Same_Tree.cpp
 │   ├── 1_Symmetric_Tree.cpp
 │   ├── 1_Validate_Binary_Search_Tree.cpp
@@ -138,6 +148,7 @@
 │   ├── 2_Longest_Univalue_Path.cpp
 │   ├── 2_Populating_Next_Right_Pointers_in_Each_Node.cpp
 │   ├── 3_Binary_Tree_Maximum_Path_Sum.cpp
+│   ├── 3_Kth_Largest.py
 │   └── 3_Lowest_Common_Ancestor_of_a_Binary_Tree.cpp
 ├── 3_backtracking
 │   ├── 2_Generate_Parentheses.cpp
@@ -162,6 +173,7 @@
 │   ├── 3_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.cpp
 │   ├── 3_Decode_Ways.cpp
 │   ├── 3_Edit_Distance.cpp
+│   ├── 3_Find_All_Concatenated_Words.py
 │   ├── 3_Maximal_Rectangle.cpp
 │   ├── 3_Maximum_Product_Subarray.cpp
 │   ├── 3_Perfect_Squares.cpp
@@ -192,6 +204,7 @@
 ├── 5_math
 │   ├── 01_Largest_Palindrome_Product.cpp
 │   ├── 1_Count_Primes.cpp
+│   ├── 1_Excel_Sheet_Column_Title.cpp
 │   ├── 1_Fizz_Buzz.cpp
 │   ├── 1_Pascals_Triangle_II.cpp
 │   ├── 1_Power_of_Three.cpp
@@ -227,27 +240,7 @@
 │   ├── 3_Largest_Rectangle_in_Histogram.cpp
 │   ├── 3_The_Skyline_Problem.cpp
 │   └── 3_Trapping_Rain_Water.cpp
-├── 6_Language
-│   ├── Bash
-│   └── SQL
 ├── 8_EPI
-│   ├── 01_primitive.md
-│   ├── 02_array.md
-│   ├── 03_strings.md
-│   ├── 04_linked_list.md
-│   ├── 05_stacks_and_queues.md
-│   ├── 06_binary_trees.md
-│   ├── 07_heaps.md
-│   ├── 08_searching.md
-│   ├── 09_hash_table.md
-│   ├── 10_sorting.md
-│   ├── 11_binary_search_tree.md
-│   ├── 12_recursion.md
-│   ├── 13_dynamic_programming.md
-│   ├── 14_greedy_algorithms_and_invariants.md
-│   ├── 15_graphs.md
-│   ├── 16_parallel_computing.md
-│   └── Template.md
 ├── 8_GCJ
 │   ├── 2017
 │   │   └── R2
@@ -264,13 +257,47 @@
 │   │   │   ├── 3_testing_tool.py
 │   │   │   └── 4_Cubic_UFO.cpp
 │   │   ├── R1A
-│   │   │   ├── 02_Bit_Party.cpp
-│   │   │   ├── 03_Edgy_Baking.cpp
-│   │   │   └── 1_Waffle_Choppers.cpp
+│   │   │   ├── 1_Waffle_Choppers.cpp
+│   │   │   ├── 2_Bit_Party.cpp
+│   │   │   └── 3_Edgy_Baking.cpp
 │   │   ├── R1B
-│   │   │   ├── 02_Mysterious_Road_Signs.cpp
-│   │   │   ├── 03_Transmutation.cpp
-│   │   │   └── 1_Rounding_Error.cpp
+│   │   │   ├── 1_Rounding_Error.cpp
+│   │   │   ├── 2_Mysterious_Road_Signs.cpp
+│   │   │   └── 3_Transmutation.cpp
+│   │   ├── R1C
+│   │   │   ├── 1_A_Whole_New_World.cpp
+│   │   │   ├── 2_Lollipop_Shop.cpp
+│   │   │   ├── 3_Ant_Stack.cpp
+│   │   │   └── testing_tool.py
+│   │   └── R2
+│   │       ├── Costume_Change.cpp
+│   │       ├── Falling_Balls.cpp
+│   │       ├── Graceful_Chainsaw_Jugglers.cpp
+│   │       └── Gridception.cpp
+│   ├── 2019
+│   │   ├── R0
+│   │   │   ├── 1_Foregone_Solution.cpp
+│   │   │   ├── 2_You_Can_Go_Your_Own_Way.cpp
+│   │   │   ├── 3_Cryptopangrams.cpp
+│   │   │   ├── 3_Cryptopangrams.py
+│   │   │   ├── n
+│   │   │   │   ├── 4_Dat_Bae.cpp
+│   │   │   │   ├── sol.cpp
+│   │   │   │   ├── sol.py
+│   │   │   │   └── testing_tool.py
+│   │   │   ├── test
+│   │   │   │   ├── test.cpp
+│   │   │   │   ├── test.py
+│   │   │   │   └── testing_tool.py
+│   │   │   └── test.cpp
+│   │   ├── R1A
+│   │   │   ├── 1_Pylons.cpp
+│   │   │   ├── 2_Golf_Gophers.cpp
+│   │   │   └── 3_Alien_Rhyme.cpp
+│   │   ├── R1B
+│   │   │   ├── 1_Manhattan_Crepe_Cart.cpp
+│   │   │   ├── 2_Mysterious_Road_Signs.cpp
+│   │   │   └── 3_Fair_Fight.cpp
 │   │   ├── R1C
 │   │   │   ├── 03_Ant_Stack.cpp
 │   │   │   ├── 1_A_Whole_New_World.cpp
@@ -281,8 +308,32 @@
 │   │       ├── Falling_Balls.cpp
 │   │       ├── Graceful_Chainsaw_Jugglers.cpp
 │   │       └── Gridception.cpp
-│   └── readme.md
-├── 8_HR
+│   └── 2020
+│       ├── R0
+│       │   ├── 1_Vestigium.cpp
+│       │   ├── 2_Nesting_Depth.cpp
+│       │   ├── 3_Parenting_Schedule.cpp
+│       │   ├── 4_esab.cpp
+│       │   ├── 4_interactive.py
+│       │   ├── 4_tester.py
+│       │   ├── 5_indicium.cpp
+│       │   └── 5_indicium2.cpp
+│       ├── R1A
+│       │   ├── 1_Pylons.cpp
+│       │   ├── 2_Golf_Gophers.cpp
+│       │   └── 3_Alien_Rhyme.cpp
+│       ├── R1B
+│       │   ├── 1_Manhattan_Crepe_Cart.cpp
+│       │   ├── 2_Mysterious_Road_Signs.cpp
+│       │   └── 3_Fair_Fight.cpp
+│       ├── R1C
+│       │   ├── 1_A_Whole_New_World.cpp
+│       │   └── 2_Lollipop_Shop.cpp
+│       └── R2
+│           ├── Costume_Change.cpp
+│           ├── Falling_Balls.cpp
+│           ├── Graceful_Chainsaw_Jugglers.cpp
+│           └── Gridception.cpp
 ├── 8_PR
 │   ├── Array_Index_&_Element_Equality.cpp
 │   ├── Basic_Regex_Parser.cpp
@@ -296,26 +347,38 @@
 │   ├── bst_successor_search.cpp
 │   ├── island_count.cpp
 │   └── number_of_paths.cpp
-├── 9_cheatsheet
-│   ├── bash.md
-│   ├── cpp.md
-│   ├── cpp_notes.md
-│   ├── python.md
-│   └── python_ml.md
-├── 9_concepts
-│   ├── Bad_Sorters.cpp
-│   ├── Binary_Search.cpp
-│   ├── Heap_Sort.cpp
-│   ├── Merge_Sort.cpp
-│   ├── Probability.cpp
-│   └── QuickSort.cpp
-├── cj.sublime-project
-├── cj.sublime-workspace
-├── code_journal.md
-├── gen_md.sh
-├── readme.md
-├── template.txt
-└── tree.md
+└── 9_Code_Templates
+    ├── math
+    │   ├── Probability.cpp
+    │   ├── gcd.cpp
+    │   ├── gcd.py
+    │   └── isPrime.cpp
+    ├── primitives
+    │   └── countBits.cpp
+    ├── search
+    │   └── Binary_Search.cpp
+    ├── sorting
+    │   ├── Bad_Sorters.cpp
+    │   ├── Heap_Sort.cpp
+    │   ├── Merge_Sort.cpp
+    │   └── QuickSort.cpp
+    ├── stacks&queues
+    │   ├── RPN.cpp
+    │   ├── bracketCheck.cpp
+    │   ├── queue.cpp
+    │   └── stack_with_max.cpp
+    ├── string
+    │   └── reverseWord.cpp
+    └── tree
+        ├── binaryTreeTraverse_Recursive.cpp
+        ├── binaryTreeTraverse_Stack.cpp
+        ├── n-ary_tree.cpp
+        └── trie.py
 
-40 directories, 274 files
+56 directories, 316 files
+Easy:	     100
+Medium:	      86
+Hard:	      62
+C++:	     213
+Python:	       2
 ```  

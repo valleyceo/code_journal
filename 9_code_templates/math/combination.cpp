@@ -1,0 +1,24 @@
+// given n>=m, generate chose M numbers from 1 to N
+
+void combination(int n, int m)
+{
+	if (n<m) return;
+	int a[50]={0};
+	int k=0;
+
+	for (int i=1; i<=m; i++) a[i]=i;
+
+	while (true)
+	{
+		for (int i=1; i<=m; i++)
+			cout << a[i] << " ";
+		cout << endl;
+
+		k=m;
+		while ((k>0) && (n-a[k]==m-k)) k--;
+		if (k==0) break;
+		a[k]++;
+		for (int i=k+1; i<=m; i++)
+			a[i]=a[i-1]+1;
+	}
+}

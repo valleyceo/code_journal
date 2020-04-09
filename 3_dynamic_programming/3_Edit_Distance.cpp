@@ -33,29 +33,29 @@ class Solution {
 public:
     int ComputeDistance(const string& A, int A_idx, const string& B, int B_idx,
 					    vector<vector<int>>* ptr) {
-	vector<vector<int>>& distance = *ptr;
+		vector<vector<int>>& distance = *ptr;
 
-	if (A_idx < 0) {
-		return B_idx + 1;
-	} else if (B_idx < 0) {
-		return A_idx + 1;
-	}
-
-	if (distance[A_idx][B_idx] == -1) {
-		if (A[A_idx] == B[B_idx]) {
-			// no actions move diagonally
-			distance[A_idx][B_idx] = ComputeDistance(A, A_idx-1, B, B_idx-1, ptr);
-		} else {
-            // traverse all options
-			int substitute_last = ComputeDistance(A, A_idx-1, B, B_idx-1, ptr);
-			int add_last = ComputeDistance(A, A_idx-1, B, B_idx, ptr);
-			int delete_last = ComputeDistance(A, A_idx, B, B_idx-1, ptr);
-			
-			distance[A_idx][B_idx] = 1 + min({substitute_last, add_last, delete_last});
+		if (A_idx < 0) {
+			return B_idx + 1;
+		} else if (B_idx < 0) {
+			return A_idx + 1;
 		}
-	}
 
-	return distance[A_idx][B_idx];
+		if (distance[A_idx][B_idx] == -1) {
+			if (A[A_idx] == B[B_idx]) {
+				// no actions move diagonally
+				distance[A_idx][B_idx] = ComputeDistance(A, A_idx-1, B, B_idx-1, ptr);
+			} else {
+	            // traverse all options
+				int substitute_last = ComputeDistance(A, A_idx-1, B, B_idx-1, ptr);
+				int add_last = ComputeDistance(A, A_idx-1, B, B_idx, ptr);
+				int delete_last = ComputeDistance(A, A_idx, B, B_idx-1, ptr);
+				
+				distance[A_idx][B_idx] = 1 + min({substitute_last, add_last, delete_last});
+			}
+		}
+
+		return distance[A_idx][B_idx];
     }
     
     int minDistance(string A, string B) {

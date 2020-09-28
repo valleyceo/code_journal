@@ -1,7 +1,6 @@
 // Transmutation
 
 /*
-
 - Given a rack of N array of int
 - Pick a pair of integers (L, R) where 1 <= L <= R <= N
 - Duellers have Ci, Di skill level

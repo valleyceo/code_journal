@@ -405,6 +405,14 @@
 			}
 		},
 		{
+			"file": "1_array/1_Rotate_Image.cpp",
+			"settings":
+			{
+				"buffer_size": 1012,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "8_EPI/16_parallel_computing.md",
 			"settings":
 			{
@@ -422,20 +430,31 @@
 			}
 		},
 		{
-			"file": "9_cheatsheet/cpp.md",
-			"settings":
-			{
-				"buffer_size": 5830,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "8_EPI/Template.md",
 			"settings":
 			{
 				"buffer_size": 74,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "7_IDE/py.py",
+			"settings":
+			{
+				"buffer_size": 840,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "[5, 5, 10]                                                         \n5                                                                  \n20                                                                 \n[5, 5, 10, 20]                                                     \n5                                                                  \n5                                                                  \n5                                                                  \n5                                                                  \n5                                                                  \n20                                                                 \n[5, 5, 5, 5, 5, 5, 20, 20]                                         \n5                                                                  \n10                                                                 \n[5, 5, 5, 5, 10, 20, 20]                                           \n5                                                                  \n5                                                                  \n5                                                                  \n5                                                                  \n20                                                                 \n[5, 5, 5, 5, 5, 5, 5, 10, 20, 20, 20]                              \n20                                                                 \n[5, 5, 5, 5, 5, 5, 20, 20, 20, 20]                                 \n5                                                                  \nErics-MacBook-Pro:7_IDE eric$                                      \n                                                                   \n",
+			"settings":
+			{
+				"buffer_size": 1700,
+				"line_ending": "Unix",
+				"name": "Terminal (bash)",
+				"read_only": true,
+				"scratch": true
 			}
 		}
 	],
@@ -450,6 +469,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"termin",
+				"Terminal View: Open Bash Terminal"
+			],
 			[
 				"markdown",
 				"MarkdownLivePreview: Edit Current File"
@@ -489,11 +512,12 @@
 	[
 		"/Users/eric/Desktop/git/code_journal",
 		"/Users/eric/Desktop/git/code_journal/1_array",
-		"/Users/eric/Desktop/git/code_journal/8_EPI",
-		"/Users/eric/Desktop/git/code_journal/9_cheatsheet"
+		"/Users/eric/Desktop/git/code_journal/7_IDE",
+		"/Users/eric/Desktop/git/code_journal/9_EnvSetup"
 	],
 	"file_history":
 	[
+		"/Users/eric/Desktop/git/code_journal/9_cheatsheet/cpp.md",
 		"/Users/eric/Desktop/git/code_journal/8_EPI/15_Graphs.md",
 		"/Users/eric/Desktop/git/code_journal/8_EPI/13_dynamic_programming.md",
 		"/Users/eric/Desktop/git/code_journal/8_EPI/16_parallel_computing.md",
@@ -505,7 +529,6 @@
 		"/Users/eric/Desktop/git/code_journal/8_EPI/Template.md",
 		"/Users/eric/Desktop/git/code_journal/8_EPI/4_linked_list.md",
 		"/Users/eric/Desktop/git/code_journal/9_cheatsheet/cpp_notes.md",
-		"/Users/eric/Desktop/git/code_journal/9_cheatsheet/cpp.md",
 		"/Users/eric/Desktop/git/code_journal/8_EPI/7_Heaps.md",
 		"/Users/eric/Desktop/git/code_journal/8_EPI/6_binary_trees.md",
 		"/Users/eric/Desktop/git/code_journal/8_EPI/recursion.md",
@@ -659,7 +682,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -689,11 +712,41 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "1_array/1_Rotate_Image.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1012,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								765,
+								765
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 174.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "8_EPI/16_parallel_computing.md",
 					"semi_transient": false,
 					"settings":
@@ -716,14 +769,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3982.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "1_array/1_Plus_One.cpp",
 					"semi_transient": true,
 					"settings":
@@ -735,8 +788,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								1146,
+								1146
 							]
 						],
 						"settings":
@@ -747,10 +800,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 127.0,
+						"translation.y": 555.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -759,37 +812,6 @@
 			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 3,
-					"file": "9_cheatsheet/cpp.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5830,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								413,
-								379
-							]
-						],
-						"settings":
-						{
-							"markdonw_live_preview_last_run": 1542924273.86,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 360.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
 				{
 					"buffer": 4,
 					"file": "8_EPI/Template.md",
@@ -816,19 +838,112 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "7_IDE/py.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 840,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								219,
+								198
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1594,
+								1594
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_commit_on_tab": false,
+							"caret_style": "blink",
+							"color_scheme": "Packages/TerminalView/TerminalView.hidden-tmTheme",
+							"draw_centered": false,
+							"draw_indent_guides": false,
+							"draw_white_space": "none",
+							"gutter": false,
+							"highlight_line": false,
+							"scroll_past_end": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"terminal_view": true,
+							"terminal_view_activate_args":
+							{
+								"cmd": "/bin/bash -l",
+								"cwd": "/Users/eric/Desktop/git/code_journal",
+								"keep_open": false,
+								"syntax": null,
+								"title": "Terminal (bash)"
+							},
+							"terminal_view_last_cursor_pos":
+							[
+								23,
+								30
+							],
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 26.0
 	},
 	"input":
 	{
-		"height": 36.0
+		"height": 38.0
 	},
 	"layout":
 	{
@@ -845,17 +960,30 @@
 				0,
 				2,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.71247789242,
+			0.5,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
+			0.544697526992,
 			1.0
 		]
 	},
@@ -868,7 +996,7 @@
 	"project": "cj.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -902,7 +1030,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

@@ -1,30 +1,30 @@
 // Lollipop Shop
 
 /*
-Link:
-https://codejam.withgoogle.com/2018/challenges/0000000000007765/dashboard/000000000003e068
+Run:
+g++ 2_Lollipop_Shop.cpp -std=c++14 -pthread -O3 -o 2_Lollipop_Shop.o
+python testing_tool.py ./2_Lollipop_Shop.o
 
-Note:"
-- make N lollipops per day
-- flavor: hb, cherry, lime (each unique)
-- N customers come, one at time
-- gives you list of flavors they like
+Problem:
+- N lollipops with each unique flavor
+- N customers come with preference (like/dislike) of each flavor
 - if none flavor exist, you cannot sell
 - preference of flavor by chance, non-uniform distribution
 - each flavor has x% chance of being liked
 - values are chosen independently and uniformly at random (0.005 ~ 0.1)
 - required to sell a number of lollipops that is at least 90% of M for each input case
 
+Question:
+- Sell as many lollipops as possible
+
 Input:
 - T: # of test cases
 - N: # of lollipops (# of customers)
 - D (ID of flavors in increasing order)
 - (#D integers) id1, id2,... idn (integer, range 0~N-1, 0 for some or all customers)
-
 */
 
-// run: g++ q3.cpp -std=c++14 -pthread -O3 -o q3.out
-// python testing_tool.py ./q3.out
+
 // my solution
 #include <iostream>
 #include <string>

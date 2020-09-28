@@ -1,8 +1,7 @@
-// Edgy Baking
+// Golf Gophers (Interactive Problem)
 
 /*
-Link:
-https://codejam.withgoogle.com/2018/challenges/0000000000007883/dashboard/000000000002fff6
+- Solution: use chinese remainder theorem
 */
 
 // my solution
@@ -136,4 +135,6 @@ Example interaction:
 out 2 2 2 2 18 3 3 3 3 3 3 4 4 4 4 5 2 2 ->
 in  0 0 0 0 0 0 1 2 1 0 1 2 0 0 0 0 1 0
 
+Solution: 
+- Chinese remainder theorem
 */

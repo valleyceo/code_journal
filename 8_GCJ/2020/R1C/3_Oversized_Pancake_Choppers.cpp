@@ -1,4 +1,25 @@
-// Alien Rhyme
+// Edgy Baking
+
+/*
+Problem:
+- Circular pancakes, all same size
+- Chop them into slices
+- N slices ith slice has Ai nanodegree (10^-9)
+- D diners want same size of slize
+
+Question:
+- Determine smallest total number of cuts needed
+
+Input:
+- N number of slices you currently have
+- D number of diners
+- A1, A2, ..., Ai -> internal angle of ith slice
+
+solution:
+- sort and count (sort by highest count, then lowest)
+- starting with smallest cake, check how many 
+*/
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -103,23 +124,3 @@ int main()
     
     return 0;
 }
-
-/* Note:
-- Alien poetry
-- Each word has accent on one position (letter) 
-- Two words rhyme if both of their accent-suffixes are equal (part of the word starting from accented letter)
-- Ex: 
-	PROL + TARPOL: 
-		rhyme if accented letter in both are O or L
-		unrhyme if accented letters are R/R, R/P, O/L
-
-- Given N words
-- Find the largest number of words that can be arranged into pairs
-
-Test Case:
-1. TARPOL PROL -> 2
-2. TARPOR PROL TARPRO -> 0
-3. CODEJAM JAM HAM NALAM HUM NOLOM -> 6
-4. PI HI WI FI -> 2
-
-*/

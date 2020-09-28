@@ -107,7 +107,8 @@
 │   ├── 2_Next_Closest_Time.cpp
 │   ├── 2_One_Edit_Distance.cpp
 │   ├── 2_Short_Encoding_of_Words.cpp
-│   └── 3_Regular_Expression_Matching.cpp
+│   ├── 3_Regular_Expression_Matching.cpp
+│   └── 3_Word_Break2.cpp
 ├── 2_sorting_searching
 │   ├── 1_First_Bad_Version.cpp
 │   ├── 1_Merge_Sorted_Array.cpp
@@ -169,6 +170,7 @@
 │   ├── 2_Coin_Change.cpp
 │   ├── 2_Jump_Game.cpp
 │   ├── 2_Longest_Increasing_Subsequence.cpp
+│   ├── 2_Subarray_Sum_Equals_K.py
 │   ├── 2_Unique_Paths.cpp
 │   ├── 3_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.cpp
 │   ├── 3_Decode_Ways.cpp
@@ -240,6 +242,8 @@
 │   ├── 3_Largest_Rectangle_in_Histogram.cpp
 │   ├── 3_The_Skyline_Problem.cpp
 │   └── 3_Trapping_Rain_Water.cpp
+├── 7_IDE
+│   └── py.py
 ├── 8_EPI
 ├── 8_GCJ
 │   ├── 2017
@@ -292,22 +296,23 @@
 │   │   │   └── test.cpp
 │   │   ├── R1A
 │   │   │   ├── 1_Pylons.cpp
+│   │   │   ├── 1_Pylons_cp.cpp
 │   │   │   ├── 2_Golf_Gophers.cpp
 │   │   │   └── 3_Alien_Rhyme.cpp
 │   │   ├── R1B
 │   │   │   ├── 1_Manhattan_Crepe_Cart.cpp
-│   │   │   ├── 2_Mysterious_Road_Signs.cpp
+│   │   │   ├── 2_Draupnir.cpp
 │   │   │   └── 3_Fair_Fight.cpp
 │   │   ├── R1C
-│   │   │   ├── 03_Ant_Stack.cpp
-│   │   │   ├── 1_A_Whole_New_World.cpp
-│   │   │   ├── 2_Lollipop_Shop.cpp
+│   │   │   ├── 1_Robot_Programming_Strategy.cpp
+│   │   │   ├── 2_Power_Arrangers.cpp
+│   │   │   ├── 3_Bacterial_Tactics.cpp
 │   │   │   └── testing_tool.py
 │   │   └── R2
-│   │       ├── Costume_Change.cpp
-│   │       ├── Falling_Balls.cpp
-│   │       ├── Graceful_Chainsaw_Jugglers.cpp
-│   │       └── Gridception.cpp
+│   │       ├── 1_New_Elements.cpp
+│   │       ├── 2_Pottery_Lottery.cpp
+│   │       ├── 3_New_Elements2.cpp
+│   │       └── 4_Constramutation.cpp
 │   └── 2020
 │       ├── R0
 │       │   ├── 1_Vestigium.cpp
@@ -316,24 +321,31 @@
 │       │   ├── 4_esab.cpp
 │       │   ├── 4_interactive.py
 │       │   ├── 4_tester.py
-│       │   ├── 5_indicium.cpp
-│       │   └── 5_indicium2.cpp
+│       │   └── 5_indicium.cpp
 │       ├── R1A
-│       │   ├── 1_Pylons.cpp
-│       │   ├── 2_Golf_Gophers.cpp
-│       │   └── 3_Alien_Rhyme.cpp
+│       │   ├── 1_Pattern_Matching.cpp
+│       │   ├── 2_Pascal_Walk.cpp
+│       │   ├── 2_Pascal_Walk_Solution.cpp
+│       │   ├── 3_Square_Dance.cpp
+│       │   └── 3_Square_Dance_TLE.cpp
 │       ├── R1B
-│       │   ├── 1_Manhattan_Crepe_Cart.cpp
-│       │   ├── 2_Mysterious_Road_Signs.cpp
-│       │   └── 3_Fair_Fight.cpp
+│       │   ├── 1_Expogo.cpp
+│       │   ├── 1_sol.cpp
+│       │   ├── 2_Blindfolded_Bullseye.cpp
+│       │   ├── 2_interactive.py
+│       │   ├── 2_tester.py
+│       │   ├── 3_Join_Ranks.cpp
+│       │   ├── 3_Join_Ranks_copy.cpp
+│       │   ├── 3_joinranks_sol.cpp
+│       │   └── 3_sol.cpp
 │       ├── R1C
-│       │   ├── 1_A_Whole_New_World.cpp
-│       │   └── 2_Lollipop_Shop.cpp
+│       │   ├── 1_Overexcited_Fan.cpp
+│       │   ├── 2_Overrandomized.cpp
+│       │   └── 3_Oversized_Pancake_Choppers.cpp
 │       └── R2
-│           ├── Costume_Change.cpp
-│           ├── Falling_Balls.cpp
-│           ├── Graceful_Chainsaw_Jugglers.cpp
-│           └── Gridception.cpp
+│           ├── 1_Dummy.cpp
+│           ├── 2_Dummy.cpp
+│           └── 3_Dummy.cpp
 ├── 8_PR
 │   ├── Array_Index_&_Element_Equality.cpp
 │   ├── Basic_Regex_Parser.cpp
@@ -347,12 +359,37 @@
 │   ├── bst_successor_search.cpp
 │   ├── island_count.cpp
 │   └── number_of_paths.cpp
-└── 9_Code_Templates
+├── 9_EnvSetup
+│   └── tmux_vim_setup
+└── 9_Tools
+    ├── debugging_template
+    │   └── printFunctions.cpp
+    ├── dp
+    │   ├── 01knapsack.cpp
+    │   └── knapsack.cpp
+    ├── graph
+    │   ├── eulerian_circuit.cpp
+    │   ├── flood_fill.cpp
+    │   ├── floyd-warshall.cpp
+    │   ├── graph_representation.cpp
+    │   ├── spfa.cpp
+    │   └── topological_sort.cpp
+    ├── linked_list
+    │   └── reverse_linked_list.py
     ├── math
     │   ├── Probability.cpp
+    │   ├── binaryExponential.cpp
+    │   ├── binomialCoefficient.cpp
+    │   ├── combination.cpp
+    │   ├── factorialMod.cpp
     │   ├── gcd.cpp
     │   ├── gcd.py
-    │   └── isPrime.cpp
+    │   ├── isPrime.cpp
+    │   ├── lcm.cpp
+    │   ├── mToTen.cpp
+    │   ├── powerModulus.cpp
+    │   ├── primeFactor.cpp
+    │   └── tenToM.cpp
     ├── primitives
     │   └── countBits.cpp
     ├── search
@@ -367,18 +404,24 @@
     │   ├── bracketCheck.cpp
     │   ├── queue.cpp
     │   └── stack_with_max.cpp
-    ├── string
+    ├── string&array
+    │   ├── lcs.cpp
+    │   ├── lics.cpp
+    │   ├── maximum_submatrix.cpp
     │   └── reverseWord.cpp
     └── tree
         ├── binaryTreeTraverse_Recursive.cpp
         ├── binaryTreeTraverse_Stack.cpp
+        ├── min_spanning_tree.cpp
         ├── n-ary_tree.cpp
+        ├── tree_depth_width.cpp
+        ├── tree_traversal.cpp
         └── trie.py
 
-56 directories, 316 files
-Easy:	     100
-Medium:	      86
-Hard:	      62
-C++:	     213
-Python:	       2
+63 directories, 352 files
+Easy:	     104
+Medium:	      90
+Hard:	      71
+C++:	     214
+Python:	       4
 ```  

@@ -20,9 +20,8 @@ g++ sol.cpp -std=c++14 -pthread -O3 -o sol.o
 python testing_tool.py 0 sol.o
 
 # my method (2 - tester case)
-./runpy.sh myfunc.cpp 0(test case #) 1(compile cpp, optional)
+./runpy.sh myfunc.cpp x y # x:test case num, y:compile cpp flag 0 or 1(optional)
 ```
-
 
 ### Sample Interaction
 ```cpp
@@ -43,3 +42,6 @@ int main() {
 }
 
 ```
+
+### Interactive tips
+Interactive runner links stdin and stdout, but leaves stderr. Use it for debugging

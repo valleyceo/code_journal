@@ -1,31 +1,16 @@
-// Mysterious Road Signs
+// Draupnir (Interactive problem)
 
 /*
-- S road signs
-- I-th sign at point Di (km) east
-- has number Ai on west facing side, Bi on east facing side
-- # on east side sign are for drivers traveling west
-- represent some particular destination
-- not all signs may be consistent
+Question summary:
+- Ring that copies themselves
+- Each X-day ring produce one more X-day ring every X-day
+- Possible rings are 1~6-day ring
+- at day 0, you have Ri of i-day rings (R=1~100, i=1~6)
+- you can find todal number of rings on day x (x=1-500)
+- total ans return is modulo 2^63
+- you can check W times
 
-Q: Find valid sets of signs that obey rules:
-- set is a contiguous subsequence of sequence of all road signs 
-- There exist location M/N (km) east of Signfield
-- At least one of the following is true
-    * Di + Ai = M
-    * Di - Bi = N
-
-Question: Largest possible number of signs, how many different valid sets that size are there?
-
-Input: 
-- Test cases
-- S (# of signs) lines following
-    * i-th sign: Di (distance), Ai (# of west side), Bi (# of east side)
-
-Output:
-- y, z
-- y: largest possible # of signs in valid set
-- z: # of valid sets of that size
+Solution
 */
 
 //https://github.com/ruippeixotog/google-code-jam-2018/blob/master/round1a/bit-party.cpp

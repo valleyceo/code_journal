@@ -1,4 +1,10 @@
 // Alien Rhyme
+
+/*
+- Solution: Use trie
+*/
+
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -122,4 +128,6 @@ Test Case:
 3. CODEJAM JAM HAM NALAM HUM NOLOM -> 6
 4. PI HI WI FI -> 2
 
+Solution:
+- use trie
 */

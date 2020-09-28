@@ -29,6 +29,7 @@ then
 	A="A"
 else
 	echo "new file created"
+	echo "${filePathFull}/${INTXT}"
 	touch "${filePathFull}/${INTXT}"
 fi
 

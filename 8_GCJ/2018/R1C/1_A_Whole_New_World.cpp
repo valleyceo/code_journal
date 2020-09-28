@@ -5,7 +5,7 @@ Link:
 https://codejam.withgoogle.com/2018/challenges/0000000000007765/dashboard
 
 Note:
-- N distinct L-letter words
+- N distinct L length words
 - Each tile contains alphabet and number(1-L)
 - a word consists of letters spelled out by L tiles (1-L) in order
 - find permutation word that is in order (inc number)

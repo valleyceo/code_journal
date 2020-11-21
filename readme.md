@@ -171,6 +171,7 @@
 │   ├── 2_Jump_Game.cpp
 │   ├── 2_Longest_Increasing_Subsequence.cpp
 │   ├── 2_Subarray_Sum_Equals_K.py
+│   ├── 2_Target_Sum.py
 │   ├── 2_Unique_Paths.cpp
 │   ├── 3_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.cpp
 │   ├── 3_Decode_Ways.cpp
@@ -242,6 +243,70 @@
 │   ├── 3_Largest_Rectangle_in_Histogram.cpp
 │   ├── 3_The_Skyline_Problem.cpp
 │   └── 3_Trapping_Rain_Water.cpp
+├── 6_Architecture
+│   ├── Behavioral_Pattern
+│   ├── Creational_Pattern
+│   └── Structural_Pattern
+├── 6_Common
+│   ├── debugging_template
+│   │   └── printFunctions.cpp
+│   ├── dp
+│   │   ├── 01knapsack.cpp
+│   │   └── knapsack.cpp
+│   ├── graph
+│   │   ├── eulerian_circuit.cpp
+│   │   ├── flood_fill.cpp
+│   │   ├── floyd-warshall.cpp
+│   │   ├── graph_representation.cpp
+│   │   ├── inOrderTraversal_stack.py
+│   │   ├── spfa.cpp
+│   │   └── topological_sort.cpp
+│   ├── linked_list
+│   │   ├── node.cpp
+│   │   ├── node.py
+│   │   └── reverse_linked_list.py
+│   ├── math
+│   │   ├── Probability.cpp
+│   │   ├── binaryExponential.cpp
+│   │   ├── binomialCoefficient.cpp
+│   │   ├── combination.cpp
+│   │   ├── factorialMod.cpp
+│   │   ├── gcd.cpp
+│   │   ├── gcd.py
+│   │   ├── isPrime.cpp
+│   │   ├── lcm.cpp
+│   │   ├── mToTen.cpp
+│   │   ├── powerModulus.cpp
+│   │   ├── primeFactor.cpp
+│   │   └── tenToM.cpp
+│   ├── primitives
+│   │   └── countBits.cpp
+│   ├── search
+│   │   └── Binary_Search.cpp
+│   ├── sorting
+│   │   ├── Bad_Sorters.cpp
+│   │   ├── Heap_Sort.cpp
+│   │   ├── Merge_Sort.cpp
+│   │   └── QuickSort.cpp
+│   ├── stacks&queues
+│   │   ├── RPN.cpp
+│   │   ├── bracketCheck.cpp
+│   │   ├── queue.cpp
+│   │   └── stack_with_max.cpp
+│   ├── string&array
+│   │   ├── lcs.cpp
+│   │   ├── lics.cpp
+│   │   ├── maximum_submatrix.cpp
+│   │   └── reverseWord.cpp
+│   └── tree
+│       ├── binaryTree_Iterator.py
+│       ├── binaryTree_Traverse_Recursive_Array.cpp
+│       ├── binaryTree_Traverse_Stack.cpp
+│       ├── binaryTree_deleteNode.py
+│       ├── binaryTree_depth_width.cpp
+│       ├── min_spanning_tree.cpp
+│       ├── n-aryTree.cpp
+│       └── trie.py
 ├── 7_IDE
 │   └── py.py
 ├── 8_EPI
@@ -359,69 +424,13 @@
 │   ├── bst_successor_search.cpp
 │   ├── island_count.cpp
 │   └── number_of_paths.cpp
-├── 9_EnvSetup
-│   └── tmux_vim_setup
-└── 9_Tools
-    ├── debugging_template
-    │   └── printFunctions.cpp
-    ├── dp
-    │   ├── 01knapsack.cpp
-    │   └── knapsack.cpp
-    ├── graph
-    │   ├── eulerian_circuit.cpp
-    │   ├── flood_fill.cpp
-    │   ├── floyd-warshall.cpp
-    │   ├── graph_representation.cpp
-    │   ├── spfa.cpp
-    │   └── topological_sort.cpp
-    ├── linked_list
-    │   └── reverse_linked_list.py
-    ├── math
-    │   ├── Probability.cpp
-    │   ├── binaryExponential.cpp
-    │   ├── binomialCoefficient.cpp
-    │   ├── combination.cpp
-    │   ├── factorialMod.cpp
-    │   ├── gcd.cpp
-    │   ├── gcd.py
-    │   ├── isPrime.cpp
-    │   ├── lcm.cpp
-    │   ├── mToTen.cpp
-    │   ├── powerModulus.cpp
-    │   ├── primeFactor.cpp
-    │   └── tenToM.cpp
-    ├── primitives
-    │   └── countBits.cpp
-    ├── search
-    │   └── Binary_Search.cpp
-    ├── sorting
-    │   ├── Bad_Sorters.cpp
-    │   ├── Heap_Sort.cpp
-    │   ├── Merge_Sort.cpp
-    │   └── QuickSort.cpp
-    ├── stacks&queues
-    │   ├── RPN.cpp
-    │   ├── bracketCheck.cpp
-    │   ├── queue.cpp
-    │   └── stack_with_max.cpp
-    ├── string&array
-    │   ├── lcs.cpp
-    │   ├── lics.cpp
-    │   ├── maximum_submatrix.cpp
-    │   └── reverseWord.cpp
-    └── tree
-        ├── binaryTreeTraverse_Recursive.cpp
-        ├── binaryTreeTraverse_Stack.cpp
-        ├── min_spanning_tree.cpp
-        ├── n-ary_tree.cpp
-        ├── tree_depth_width.cpp
-        ├── tree_traversal.cpp
-        └── trie.py
+└── 9_EnvSetup
+    └── tmux_vim_setup
 
-63 directories, 352 files
+67 directories, 357 files
 Easy:	     104
-Medium:	      90
+Medium:	      91
 Hard:	      71
-C++:	     214
-Python:	       4
+C++:	     255
+Python:	      12
 ```  

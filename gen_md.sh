@@ -1,10 +1,10 @@
 #!/bin/bash
 
-EASY="$(find . -name "1_*.cpp" -o -name "1_*.py" -not -path "./[8-9]_*" | wc -l)"
-MEDIUM="$(find . -name "2_*.cpp" -o -name "2_*.py" -not -path "./[8-9]_*" | wc -l)"
-HARD="$(find . -name "3_*.cpp" -o -name "3_*.py" -not -path "./[8-9]_*" | wc -l)"
-PYTHON="$(find . -name "*.py" -not -path "./[8-9]_*" | wc -l)"
-CPP="$(find . -name "*.cpp" -not -path "./[8-9]_*" | wc -l)"
+EASY="$(find . -name "1_*.cpp" -o -name "1_*.py" -not -path "./[7-9]_*" | wc -l)"
+MEDIUM="$(find . -name "2_*.cpp" -o -name "2_*.py" -not -path "./[7-9]_*" | wc -l)"
+HARD="$(find . -name "3_*.cpp" -o -name "3_*.py" -not -path "./[7-9]_*" | wc -l)"
+PYTHON="$(find . -name "*.py" -not -path "./[7-9]_*" | wc -l)"
+CPP="$(find . -name "*.cpp" -not -path "./[7-9]_*" | wc -l)"
 
 printf '## Problems  \n\n```  ' > tree.md
 tree -P "*.cpp|*.py" >> tree.md

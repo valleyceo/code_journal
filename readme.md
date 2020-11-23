@@ -110,9 +110,13 @@
 │   ├── 3_Regular_Expression_Matching.cpp
 │   └── 3_Word_Break2.cpp
 ├── 2_sorting_searching
+│   ├── 1_Binary_Search.py
+│   ├── 1_Find_Smallest_Letter_Greater_Than_Target.py
 │   ├── 1_First_Bad_Version.cpp
 │   ├── 1_Merge_Sorted_Array.cpp
 │   ├── 1_Search_Insert_Position.cpp
+│   ├── 1_Valid_Perfect_Square.py
+│   ├── 2_Find_K_Closest_Elements.py
 │   ├── 2_Find_Peak_Element.cpp
 │   ├── 2_Kth_Largest_Element_in_an_Array.cpp
 │   ├── 2_Meeting_Rooms_II.cpp
@@ -120,6 +124,7 @@
 │   ├── 2_Search_a_2D_Matrix_II.cpp
 │   ├── 2_Search_for_a_Range.cpp
 │   ├── 2_Search_in_Rotated_Sorted_Array.cpp
+│   ├── 2_Search_in_Rotated_Sorted_Array.py
 │   ├── 2_Sort_Colors.cpp
 │   ├── 2_Top_K_Frequent_Elements.cpp
 │   ├── 3_Kth_Smallest_Element_in_a_Sorted_Matrix.cpp
@@ -402,7 +407,8 @@
 │   ├── primitives
 │   │   └── countBits.cpp
 │   ├── search
-│   │   └── Binary_Search.cpp
+│   │   ├── Binary_Search.cpp
+│   │   └── Binary_Search.py
 │   ├── sorting
 │   │   ├── Bad_Sorters.cpp
 │   │   ├── Heap_Sort.cpp
@@ -433,10 +439,10 @@
 └── 9_IDE
     └── py.py
 
-67 directories, 363 files
-Easy:	     107
-Medium:	      93
+67 directories, 369 files
+Easy:	     110
+Medium:	      95
 Hard:	      71
 C++:	     214
-Python:	       9
+Python:	      14
 ```  

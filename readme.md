@@ -116,6 +116,7 @@
 │   ├── 1_Merge_Sorted_Array.cpp
 │   ├── 1_Search_Insert_Position.cpp
 │   ├── 1_Valid_Perfect_Square.py
+│   ├── 2_Capacity_To_Ship_Packages_Within_D_Days.py
 │   ├── 2_Find_K_Closest_Elements.py
 │   ├── 2_Find_Peak_Element.cpp
 │   ├── 2_Kth_Largest_Element_in_an_Array.cpp
@@ -180,6 +181,7 @@
 │   ├── 2_Coin_Change.cpp
 │   ├── 2_Jump_Game.cpp
 │   ├── 2_Longest_Increasing_Subsequence.cpp
+│   ├── 2_Number_of_Dice_Rolls_With_Target_Sum.py
 │   ├── 2_Subarray_Sum_Equals_K.py
 │   ├── 2_Target_Sum.py
 │   ├── 2_Unique_Paths.cpp
@@ -439,10 +441,10 @@
 └── 9_IDE
     └── py.py
 
-67 directories, 369 files
+67 directories, 371 files
 Easy:	     110
-Medium:	      95
+Medium:	      97
 Hard:	      71
 C++:	     214
-Python:	      14
+Python:	      16
 ```  

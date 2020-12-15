@@ -15,6 +15,7 @@ Example:
 Input: [2,1,5,6,2,3]
 Output: 10
 """
+# Time complexity: O(N), Space complexity: O(N)
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         stack = []

@@ -157,6 +157,7 @@
 │   ├── 2_Kth_Smallest_Element_in_a_BST.cpp
 │   ├── 2_Longest_Univalue_Path.cpp
 │   ├── 2_Populating_Next_Right_Pointers_in_Each_Node.cpp
+│   ├── 2_Range_Sum_Query_Mutable.py
 │   ├── 3_Binary_Tree_Maximum_Path_Sum.cpp
 │   ├── 3_Kth_Largest.py
 │   └── 3_Lowest_Common_Ancestor_of_a_Binary_Tree.cpp
@@ -246,6 +247,7 @@
 │   ├── 1_Power_of_Two.cpp
 │   ├── 1_Reverse_Bits.cpp
 │   ├── 1_Valid_Parentheses.cpp
+│   ├── 2_Count_Submatrices_With_All_Ones.py
 │   ├── 2_Evaluate_Reverse_Polish_Notation.cpp
 │   ├── 2_Find_the_Celebrity.cpp
 │   ├── 2_Majority_Element.cpp
@@ -253,6 +255,8 @@
 │   ├── 2_Sum_of_Two_Integers.cpp
 │   ├── 2_Task_Scheduler.cpp
 │   ├── 3_Largest_Rectangle_in_Histogram.cpp
+│   ├── 3_Largest_Rectangle_in_Histogram.py
+│   ├── 3_Maximal_Rectangle.py
 │   ├── 3_The_Skyline_Problem.cpp
 │   └── 3_Trapping_Rain_Water.cpp
 ├── 7_EPI
@@ -441,10 +445,10 @@
 └── 9_IDE
     └── py.py
 
-67 directories, 371 files
+67 directories, 375 files
 Easy:	     110
-Medium:	      97
-Hard:	      71
+Medium:	      99
+Hard:	      73
 C++:	     214
-Python:	      16
+Python:	      20
 ```  

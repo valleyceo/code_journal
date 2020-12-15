@@ -47,34 +47,33 @@ Constraints:
 1 <= columns <= 150
 0 <= mat[i][j] <= 1
 """
+# Time complexity: O(NM), Space complexity: O(N)
 class Solution:
     def numSubmat(self, mat: List[List[int]]) -> int:
-        dp = [[(0, 0) for i in range(len(mat[0]))] for j in range(len(mat))]
+        if len(mat) == 0 or len(mat[0]) == 0:
+            return 0
+        
+        R = len(mat)
+        C = len(mat[0])
+        arr = [0] * (C + 1)
         res = 0
         
-        for r in range(len(mat)):
-            for c in range(len(mat[0])):
-                if mat[r][c] == 1:
-                    trow = 1
-                    tcol = 1
-                    
-                    if r > 0:                    
-                        trow = dp[r-1][c][0] + 1
-                    
-                    if c > 0:
-                        tcol = dp[r][c-1][1] + 1
-                        
-                    dp[r][c] = (trow, tcol)
-        
-        for r in range(len(mat)):
-            for c in range(len(mat[0])):
-                if dp[r][c] == (0,0):
-                    continue
-                    
-                maxR = dp[r][c][0]
+        for r in range(R):
+            dp = [0] * (C + 1)
+            stack = [-1]
+            for c in range(C):
                 
-                for i in range(dp[r][c][1]):
-                    maxR = min(maxR, dp[r][c-i][0])
-                    res += maxR
-                    
+                if mat[r][c] == 1:
+                    arr[c] += 1
+                else:
+                    arr[c] = 0
+                
+                while arr[c] < arr[stack[-1]]:
+                    stack.pop()
+                
+                dp[c] = dp[stack[-1]] + arr[c]*(c-stack[-1])
+                stack.append(c)
+                
+            res += sum(dp)
+        
         return res

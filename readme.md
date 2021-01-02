@@ -63,6 +63,7 @@
 │   ├── 3_Minimum_Window_Substring.cpp
 │   ├── 3_Product_of_Array_Except_Self.cpp
 │   ├── 3_Sliding_Window_Maximum.cpp
+│   ├── 3_Sliding_Window_Maximum.py
 │   └── 3_Spiral_Matrix.cpp
 ├── 1_linked_list
 │   ├── 1_Linked_List_Cycle.cpp
@@ -130,6 +131,7 @@
 │   ├── 2_Top_K_Frequent_Elements.cpp
 │   ├── 3_Kth_Smallest_Element_in_a_Sorted_Matrix.cpp
 │   ├── 3_Median_of_Two_Sorted_Arrays.cpp
+│   ├── 3_Split_Array_Largest_Sum.py
 │   └── 3_Wiggle_Sort_II.cpp
 ├── 2_trees
 │   ├── 1_Balanced_Binary_Tree.cpp
@@ -160,7 +162,9 @@
 │   ├── 2_Range_Sum_Query_Mutable.py
 │   ├── 3_Binary_Tree_Maximum_Path_Sum.cpp
 │   ├── 3_Kth_Largest.py
-│   └── 3_Lowest_Common_Ancestor_of_a_Binary_Tree.cpp
+│   ├── 3_Lowest_Common_Ancestor_of_a_Binary_Tree.cpp
+│   ├── 3_Maximum_XOR_of_Two_Numers_in_Array.py
+│   └── 3_Word_Search_II.py
 ├── 3_backtracking
 │   ├── 2_Array_to_BST_Permutation.py
 │   ├── 2_Generate_Parentheses.cpp
@@ -180,6 +184,7 @@
 │   ├── 1_Maximum_Subarray.cpp
 │   ├── 1_Pascals_Triangle_II.py
 │   ├── 2_Coin_Change.cpp
+│   ├── 2_Combination_Sum.py
 │   ├── 2_Jump_Game.cpp
 │   ├── 2_Longest_Increasing_Subsequence.cpp
 │   ├── 2_Number_of_Dice_Rolls_With_Target_Sum.py
@@ -192,6 +197,7 @@
 │   ├── 3_Find_All_Concatenated_Words.py
 │   ├── 3_Maximal_Rectangle.cpp
 │   ├── 3_Maximum_Product_Subarray.cpp
+│   ├── 3_Minimum_Window_Substring.py
 │   ├── 3_Perfect_Squares.cpp
 │   └── 3_Word_Break.cpp
 ├── 4_design
@@ -232,6 +238,7 @@
 │   ├── 2_Factorial_Trailing_Zeroes.cpp
 │   ├── 2_Fraction_to_Recurring_Decimal.cpp
 │   ├── 2_Happy_Number.cpp
+│   ├── 2_Implement_Rand10_Using_Rand7.py
 │   ├── 2_Next_Permutation.cpp
 │   ├── 2_Pow(x,n).cpp
 │   ├── 2_Sqrt(x).cpp
@@ -239,6 +246,7 @@
 │   └── 3_Max_Points_on_a_Line.cpp
 ├── 5_others
 │   ├── 1_1bit_and_2bit_Characters.cpp
+│   ├── 1_Day_of_the_week.py
 │   ├── 1_Hamming_Distance.cpp
 │   ├── 1_Missing_Number.cpp
 │   ├── 1_Number_Complement.cpp
@@ -381,8 +389,10 @@
 ├── 8_Common
 │   ├── debugging_template
 │   │   └── printFunctions.cpp
-│   ├── dp
+│   ├── dp&hash
 │   │   ├── 01knapsack.cpp
+│   │   ├── hashmap.py
+│   │   ├── hashset.py
 │   │   └── knapsack.cpp
 │   ├── graph
 │   │   ├── eulerian_circuit.cpp
@@ -400,6 +410,8 @@
 │   │   ├── Probability.cpp
 │   │   ├── binaryExponential.cpp
 │   │   ├── binomialCoefficient.cpp
+│   │   ├── binomialCoefficient.py
+│   │   ├── catalan.py
 │   │   ├── combination.cpp
 │   │   ├── factorialMod.cpp
 │   │   ├── gcd.cpp
@@ -421,6 +433,7 @@
 │   │   ├── Merge_Sort.cpp
 │   │   └── QuickSort.cpp
 │   ├── stacks&queues
+│   │   ├── 2_Max_Number_of_Eaten_Apples.py
 │   │   ├── RPN.cpp
 │   │   ├── bracketCheck.cpp
 │   │   ├── queue.cpp
@@ -445,10 +458,10 @@
 └── 9_IDE
     └── py.py
 
-67 directories, 375 files
-Easy:	     110
-Medium:	      99
-Hard:	      73
+67 directories, 388 files
+Easy:	     111
+Medium:	     101
+Hard:	      78
 C++:	     214
-Python:	      20
+Python:	      28
 ```  

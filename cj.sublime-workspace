@@ -396,14 +396,6 @@
 	"buffers":
 	[
 		{
-			"file": "5_graphs/3_Course_Schedule_II.cpp",
-			"settings":
-			{
-				"buffer_size": 2967,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "2_sorting_searching/2_Capacity_To_Ship_Packages_Within_D_Days.py",
 			"settings":
 			{
@@ -411,6 +403,24 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "1011. Capacity To Ship Packages Within D Days"
+			}
+		},
+		{
+			"file": "5_others/3_Largest_Rectangle_in_Histogram.py",
+			"settings":
+			{
+				"buffer_size": 1412,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "5_others/2_Count_Submatrices_With_All_Ones.py",
+			"settings":
+			{
+				"buffer_size": 1913,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -424,14 +434,58 @@
 			}
 		},
 		{
-			"contents": "                                                                                                           \nThe default interactive shell is now zsh.                                                                  \nTo update your account to use zsh, please run `chsh -s /bin/zsh`.                                          \nFor more details, please visit https://support.apple.com/kb/HT208050.                                      \nErics-MacBook-Pro:code_journal eric$                                                                       \n                                                                                                           \n                                                                                                           \n                                                                                                           \n                                                                                                           \n                                                                                                           \n                                                                                                           \n                                                                                                           \n                                                                                                           \n                                                                                                           \n                                                                                                           \n                                                                                                           \n                                                                                                           \n                                                                                                           \n                                                                                                           \n                                                                                                           \n                                                                                                           \n",
+			"file": "5_math/2_Implement_Rand10_Using_Rand7.py",
 			"settings":
 			{
-				"buffer_size": 2268,
+				"buffer_size": 1159,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "470. Implement Rand10() Using Rand7()"
+			}
+		},
+		{
+			"file": "5_math/2_Happy_Number.cpp",
+			"settings":
+			{
+				"buffer_size": 1007,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "3_dynamic_programming/3_Minimum_Window_Substring.py",
+			"settings":
+			{
+				"buffer_size": 1399,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "76. Minimum Window Substring"
+			}
+		},
+		{
+			"contents": "Erics-MacBook-Pro:code_journal eric$          \n                                              \n                                              \n                                              \n                                              \n                                              \n                                              \n                                              \n",
+			"settings":
+			{
+				"buffer_size": 376,
 				"line_ending": "Unix",
 				"name": "Terminal (bash)",
 				"read_only": true,
 				"scratch": true
+			}
+		},
+		{
+			"file": "5_others/2_Task_Scheduler.cpp",
+			"settings":
+			{
+				"buffer_size": 1284,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -488,11 +542,26 @@
 	"expanded_folders":
 	[
 		"/Users/eric/Desktop/git/code_journal",
-		"/Users/eric/Desktop/git/code_journal/2_sorting_searching",
+		"/Users/eric/Desktop/git/code_journal/3_dynamic_programming",
+		"/Users/eric/Desktop/git/code_journal/7_PR",
+		"/Users/eric/Desktop/git/code_journal/8_Common",
+		"/Users/eric/Desktop/git/code_journal/8_Common/dp&hash",
+		"/Users/eric/Desktop/git/code_journal/8_Common/math",
 		"/Users/eric/Desktop/git/code_journal/9_EnvSetup"
 	],
 	"file_history":
 	[
+		"/Users/eric/Desktop/git/code_journal/5_others/1_Day_of_the_week.py",
+		"/Users/eric/Desktop/git/code_journal/8_Common/stacks&queues/2_Max_Number_of_Eaten_Apples.py",
+		"/Users/eric/Desktop/git/code_journal/8_Common/dp&hash/hashmap.py",
+		"/Users/eric/Desktop/git/code_journal/8_Common/dp&hash/hash.py",
+		"/Users/eric/Desktop/git/code_journal/3_dynamic_programming/2_Combination_Sum.py",
+		"/Users/eric/Desktop/git/code_journal/1_array/3_Sliding_Window_Maximum.py",
+		"/Users/eric/Desktop/git/code_journal/8_Common/math/catalan.py",
+		"/Users/eric/Desktop/git/code_journal/8_Common/math/binomialCoefficient.py",
+		"/Users/eric/Desktop/git/code_journal/5_others/3_Maximal_Rectangle.py",
+		"/Users/eric/Desktop/git/code_journal/5_others/3_Largest_Rectangle_in_Histogram.py",
+		"/Users/eric/Desktop/git/code_journal/5_others/2_Count_Submatrices_With_All_Ones.py",
 		"/Users/eric/Desktop/git/code_journal/3_dynamic_programming/2_Number_of_Dice_Rolls_With_Target_Sum.py",
 		"/Users/eric/Desktop/git/code_journal/2_sorting_searching/1_Binary_Search.py",
 		"/Users/eric/Desktop/git/code_journal/2_sorting_searching/1_Find_Smallest_Letter_Greater_Than_Target.py",
@@ -609,18 +678,7 @@
 		"/Users/eric/Desktop/git/darknet/darknet.py",
 		"/Users/eric/Desktop/interview_project/keras-yolo3/zoo/config_kangaroo.json",
 		"/Users/eric/Desktop/interview_project/keras-yolo3/train.py",
-		"/Users/eric/Desktop/interview_project/keras-yolo3/utils/colors.py",
-		"/Users/eric/Desktop/mentor/machine-learning/projects/finding_donors/visuals.py",
-		"/Users/eric/Desktop/Anil/drive-download-20180612T212914Z-001/name.csv",
-		"/Users/eric/Desktop/git/machine_learning_udacity/finding_donors/census.csv",
-		"/Users/eric/Desktop/Anil/drive-download-20180612T212914Z-001/create_dataset",
-		"/Users/eric/Desktop/git/code_journal/5_others/3_Largest_Rectangle_in_Histogram.cpp",
-		"/Users/eric/Desktop/git/code_journal/1_linked_list/1_Remove_Linked_List_Elements.cpp",
-		"/Users/eric/Desktop/git/code_journal/5_others/1_1bit_and_2bit_Characters.cpp",
-		"/Users/eric/Desktop/git/code_journal/5_math/2_Next_Permutation.cpp",
-		"/Users/eric/Desktop/git/code_journal/1_linked_list/1_Remove_Duplicates_from_Sorted_List.cpp",
-		"/Users/eric/Desktop/git/code_journal/8_EPI/primitive.md",
-		"/Users/eric/Desktop/git/code_journal/5_others/1_Number_Complement.cpp"
+		"/Users/eric/Desktop/interview_project/keras-yolo3/utils/colors.py"
 	],
 	"find":
 	{
@@ -631,6 +689,7 @@
 		"height": 101.0,
 		"where_history":
 		[
+			".",
 			""
 		]
 	},
@@ -639,6 +698,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Split_Array_Larges",
+			"Split_Array_Largest",
 			"LRD",
 			"LDR",
 			"DLR",
@@ -664,41 +725,11 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "5_graphs/3_Course_Schedule_II.cpp",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2967,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "2_sorting_searching/2_Capacity_To_Ship_Packages_Within_D_Days.py",
 					"semi_transient": false,
 					"settings":
@@ -722,14 +753,74 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 803.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "5_others/3_Largest_Rectangle_in_Histogram.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								430,
+								430
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "5_others/2_Count_Submatrices_With_All_Ones.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1913,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1442,
+								1442
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "2_trees/2_Range_Sum_Query_Mutable.py",
 					"semi_transient": false,
 					"settings":
@@ -741,20 +832,112 @@
 						"selection":
 						[
 							[
-								693,
-								693
+								29,
+								22
 							]
 						],
 						"settings":
 						{
 							"auto_name": "307. Range Sum Query - Mutable",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 213.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "5_math/2_Implement_Rand10_Using_Rand7.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								7
+							]
+						],
+						"settings":
+						{
+							"auto_name": "470. Implement Rand10() Using Rand7()",
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 923.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "5_math/2_Happy_Number.cpp",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1007,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "3_dynamic_programming/3_Minimum_Window_Substring.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1399,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								840,
+								840
+							]
+						],
+						"settings":
+						{
+							"auto_name": "76. Minimum Window Substring",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -769,19 +952,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 7,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2268,
+						"buffer_size": 376,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								469,
-								469
+								37,
+								37
 							]
 						],
 						"settings":
@@ -808,23 +991,82 @@
 							},
 							"terminal_view_last_cursor_pos":
 							[
-								4,
+								0,
 								37
 							],
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 10.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "5_others/2_Task_Scheduler.cpp",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -868,13 +1110,13 @@
 		"cols":
 		[
 			0.0,
-			0.883273119479,
+			0.477409457096,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.590299604235,
+			0.758637885139,
 			1.0
 		]
 	},
@@ -921,7 +1163,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 2,
 	"settings":
 	{
 	},
@@ -929,7 +1171,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 468.0,
+	"side_bar_width": 315.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

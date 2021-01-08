@@ -153,7 +153,9 @@
 │   ├── 2_Binary_Tree_Inorder_Traversal.cpp
 │   ├── 2_Binary_Tree_Zigzag_Level_Order_Traversal.cpp
 │   ├── 2_Binary_Trees_With_Factors.cpp
+│   ├── 2_Construct_Binary_Tree_from_Inorder_and_Postorder.py
 │   ├── 2_Construct_Binary_Tree_from_Preorder_and_Inorder.cpp
+│   ├── 2_Construct_Binary_Tree_from_Preorder_and_Inorder.py
 │   ├── 2_Contains_Nearly_Duplicate.py
 │   ├── 2_Inorder_Successor_in_BST.cpp
 │   ├── 2_Kth_Smallest_Element_in_a_BST.cpp
@@ -430,8 +432,11 @@
 │   ├── sorting
 │   │   ├── Bad_Sorters.cpp
 │   │   ├── Heap_Sort.cpp
+│   │   ├── MergeSort.py
+│   │   ├── MergeSort_Inplace.py
 │   │   ├── Merge_Sort.cpp
-│   │   └── QuickSort.cpp
+│   │   ├── QuickSort.cpp
+│   │   └── QuickSort.py
 │   ├── stacks&queues
 │   │   ├── 2_Max_Number_of_Eaten_Apples.py
 │   │   ├── RPN.cpp
@@ -444,6 +449,7 @@
 │   │   ├── maximum_submatrix.cpp
 │   │   └── reverseWord.cpp
 │   └── tree
+│       ├── binaryTree_Inorder_Stack.py
 │       ├── binaryTree_Iterator.py
 │       ├── binaryTree_Traverse_Recursive_Array.cpp
 │       ├── binaryTree_Traverse_Stack.cpp
@@ -458,10 +464,10 @@
 └── 9_IDE
     └── py.py
 
-67 directories, 388 files
+67 directories, 394 files
 Easy:	     111
-Medium:	     101
+Medium:	     103
 Hard:	      78
 C++:	     214
-Python:	      28
+Python:	      30
 ```  

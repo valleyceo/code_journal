@@ -396,76 +396,19 @@
 	"buffers":
 	[
 		{
-			"file": "2_sorting_searching/2_Capacity_To_Ship_Packages_Within_D_Days.py",
+			"file": "8_Common/sorting/MergeSort.py",
 			"settings":
 			{
-				"buffer_size": 2126,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "1011. Capacity To Ship Packages Within D Days"
-			}
-		},
-		{
-			"file": "5_others/3_Largest_Rectangle_in_Histogram.py",
-			"settings":
-			{
-				"buffer_size": 1412,
+				"buffer_size": 762,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "5_others/2_Count_Submatrices_With_All_Ones.py",
+			"contents": "Compressing objects: 100% (13/13), done.                    \nWriting objects: 100% (13/13), 2.70 KiB | 2.70 MiB/s, done. \nTotal 13 (delta 6), reused 0 (delta 0)                      \nremote: Resolving deltas: 100% (6/6), completed with 5 local\n objects.                                                   \nTo https://github.com/valleyceo/code_journal                \n   7acf530..1403ef0  master -> master                       \nErics-MacBook-Pro:code_journal eric$                        \n",
 			"settings":
 			{
-				"buffer_size": 1913,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "2_trees/2_Range_Sum_Query_Mutable.py",
-			"settings":
-			{
-				"buffer_size": 2475,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "307. Range Sum Query - Mutable"
-			}
-		},
-		{
-			"file": "5_math/2_Implement_Rand10_Using_Rand7.py",
-			"settings":
-			{
-				"buffer_size": 1159,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "470. Implement Rand10() Using Rand7()"
-			}
-		},
-		{
-			"file": "5_math/2_Happy_Number.cpp",
-			"settings":
-			{
-				"buffer_size": 1007,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "3_dynamic_programming/3_Minimum_Window_Substring.py",
-			"settings":
-			{
-				"buffer_size": 1399,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "76. Minimum Window Substring"
-			}
-		},
-		{
-			"contents": "Erics-MacBook-Pro:code_journal eric$          \n                                              \n                                              \n                                              \n                                              \n                                              \n                                              \n                                              \n",
-			"settings":
-			{
-				"buffer_size": 376,
+				"buffer_size": 488,
 				"line_ending": "Unix",
 				"name": "Terminal (bash)",
 				"read_only": true,
@@ -473,18 +416,10 @@
 			}
 		},
 		{
-			"file": "5_others/2_Task_Scheduler.cpp",
+			"file": "2_trees/1_Minimum_Depth_of_Binary_Tree.cpp",
 			"settings":
 			{
-				"buffer_size": 1284,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "",
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 1372,
 				"line_ending": "Unix"
 			}
 		}
@@ -542,15 +477,27 @@
 	"expanded_folders":
 	[
 		"/Users/eric/Desktop/git/code_journal",
+		"/Users/eric/Desktop/git/code_journal/2_trees",
 		"/Users/eric/Desktop/git/code_journal/3_dynamic_programming",
-		"/Users/eric/Desktop/git/code_journal/7_PR",
-		"/Users/eric/Desktop/git/code_journal/8_Common",
-		"/Users/eric/Desktop/git/code_journal/8_Common/dp&hash",
-		"/Users/eric/Desktop/git/code_journal/8_Common/math",
 		"/Users/eric/Desktop/git/code_journal/9_EnvSetup"
 	],
 	"file_history":
 	[
+		"/Users/eric/Desktop/git/code_journal/2_sorting_searching/3_Split_Array_Largest_Sum.py",
+		"/Users/eric/Desktop/git/code_journal/8_Common/tree/binaryTree_Inorder_Stack.py",
+		"/Users/eric/Desktop/git/code_journal/2_trees/2_Construct_Binary_Tree_from_Inorder_and_Postorder.py",
+		"/Users/eric/Desktop/git/code_journal/2_trees/2_Construct_Binary_Tree_from_Preorder_and_Inorder.py",
+		"/Users/eric/Desktop/git/code_journal/8_Common/sorting/QuickSort.py",
+		"/Users/eric/Desktop/git/code_journal/2_sorting_searching/2_Capacity_To_Ship_Packages_Within_D_Days.py",
+		"/Users/eric/Desktop/git/code_journal/8_Common/sorting/MergeSort.py",
+		"/Users/eric/Desktop/git/code_journal/2_trees/3_Word_Search_II.py",
+		"/Users/eric/Desktop/git/code_journal/5_others/3_Largest_Rectangle_in_Histogram.py",
+		"/Users/eric/Desktop/git/code_journal/5_others/2_Count_Submatrices_With_All_Ones.py",
+		"/Users/eric/Desktop/git/code_journal/2_trees/2_Range_Sum_Query_Mutable.py",
+		"/Users/eric/Desktop/git/code_journal/5_math/2_Implement_Rand10_Using_Rand7.py",
+		"/Users/eric/Desktop/git/code_journal/3_dynamic_programming/3_Minimum_Window_Substring.py",
+		"/Users/eric/Desktop/git/code_journal/2_trees/3_Maximum_XOR_of_Two_Numers_in_Array.py",
+		"/Users/eric/Desktop/git/code_journal/8_Common/tree/3_Maximum_XOR_of_Two_Numers_in_Array.py",
 		"/Users/eric/Desktop/git/code_journal/5_others/1_Day_of_the_week.py",
 		"/Users/eric/Desktop/git/code_journal/8_Common/stacks&queues/2_Max_Number_of_Eaten_Apples.py",
 		"/Users/eric/Desktop/git/code_journal/8_Common/dp&hash/hashmap.py",
@@ -560,8 +507,6 @@
 		"/Users/eric/Desktop/git/code_journal/8_Common/math/catalan.py",
 		"/Users/eric/Desktop/git/code_journal/8_Common/math/binomialCoefficient.py",
 		"/Users/eric/Desktop/git/code_journal/5_others/3_Maximal_Rectangle.py",
-		"/Users/eric/Desktop/git/code_journal/5_others/3_Largest_Rectangle_in_Histogram.py",
-		"/Users/eric/Desktop/git/code_journal/5_others/2_Count_Submatrices_With_All_Ones.py",
 		"/Users/eric/Desktop/git/code_journal/3_dynamic_programming/2_Number_of_Dice_Rolls_With_Target_Sum.py",
 		"/Users/eric/Desktop/git/code_journal/2_sorting_searching/1_Binary_Search.py",
 		"/Users/eric/Desktop/git/code_journal/2_sorting_searching/1_Find_Smallest_Letter_Greater_Than_Target.py",
@@ -665,20 +610,7 @@
 		"/Users/eric/Desktop/git/code_journal/1_strings/2_One_Edit_Distance.cpp",
 		"/Users/eric/Desktop/git/code_journal/8_PR/Word_Count_Engine.cpp",
 		"/Users/eric/Desktop/git/code_journal/1_strings/2_Add_Bold_Tag_in_String.cpp",
-		"/Users/eric/Desktop/Grade_FindDonor/FindingDonorsForCharityML/MeetsSpecsProject/visuals.py",
-		"/Users/eric/Desktop/find_phone/find_phone.py",
-		"/Users/eric/Desktop/interview_project/find_phone/train_phone_finder.py",
-		"/Users/eric/Desktop/interview_project/find_phone/find_phone.py",
-		"/Users/eric/Desktop/interview_project/Misc_files/find_phone/utils.py",
-		"/Users/eric/Desktop/interview_project/find_phone/utils.py",
-		"/Users/eric/Desktop/interview_project/find_phone/darknet/Makefile",
-		"/Users/eric/Desktop/interview_project/find_phone_task/utils.py",
-		"/Users/eric/Desktop/git/darknet/cfg/tiny-yolo.cfg",
-		"/Users/eric/Desktop/git/darknet/cfg/obj.data",
-		"/Users/eric/Desktop/git/darknet/darknet.py",
-		"/Users/eric/Desktop/interview_project/keras-yolo3/zoo/config_kangaroo.json",
-		"/Users/eric/Desktop/interview_project/keras-yolo3/train.py",
-		"/Users/eric/Desktop/interview_project/keras-yolo3/utils/colors.py"
+		"/Users/eric/Desktop/Grade_FindDonor/FindingDonorsForCharityML/MeetsSpecsProject/visuals.py"
 	],
 	"find":
 	{
@@ -689,6 +621,7 @@
 		"height": 101.0,
 		"where_history":
 		[
+			".,/Users/eric/Desktop/git/code_journal",
 			".",
 			""
 		]
@@ -698,6 +631,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"largestRectangleArea",
 			"Split_Array_Larges",
 			"Split_Array_Largest",
 			"LRD",
@@ -725,55 +659,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "2_sorting_searching/2_Capacity_To_Ship_Packages_Within_D_Days.py",
+					"file": "8_Common/sorting/MergeSort.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2126,
+						"buffer_size": 762,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1653,
-								1653
-							]
-						],
-						"settings":
-						{
-							"auto_name": "1011. Capacity To Ship Packages Within D Days",
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "5_others/3_Largest_Rectangle_in_Histogram.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1412,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								430,
-								430
+								762,
+								762
 							]
 						],
 						"settings":
@@ -784,160 +687,9 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "5_others/2_Count_Submatrices_With_All_Ones.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1913,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1442,
-								1442
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "2_trees/2_Range_Sum_Query_Mutable.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2475,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								29,
-								22
-							]
-						],
-						"settings":
-						{
-							"auto_name": "307. Range Sum Query - Mutable",
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 213.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "5_math/2_Implement_Rand10_Using_Rand7.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1159,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7,
-								7
-							]
-						],
-						"settings":
-						{
-							"auto_name": "470. Implement Rand10() Using Rand7()",
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "5_math/2_Happy_Number.cpp",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1007,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "3_dynamic_programming/3_Minimum_Window_Substring.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1399,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								840,
-								840
-							]
-						],
-						"settings":
-						{
-							"auto_name": "76. Minimum Window Substring",
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -948,23 +700,23 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 7,
+					"buffer": 1,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 376,
+						"buffer_size": 488,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								37,
-								37
+								464,
+								464
 							]
 						],
 						"settings":
@@ -991,7 +743,7 @@
 							},
 							"terminal_view_last_cursor_pos":
 							[
-								0,
+								7,
 								37
 							],
 							"word_wrap": false
@@ -1000,51 +752,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "5_others/2_Task_Scheduler.cpp",
+					"buffer": 2,
+					"file": "2_trees/1_Minimum_Depth_of_Binary_Tree.cpp",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1284,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								152,
-								152
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 9,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
+						"buffer_size": 1372,
 						"regions":
 						{
 						},
@@ -1057,16 +774,22 @@
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -1110,7 +833,7 @@
 		"cols":
 		[
 			0.0,
-			0.477409457096,
+			0.694904381936,
 			1.0
 		],
 		"rows":
@@ -1171,7 +894,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 315.0,
+	"side_bar_width": 428.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

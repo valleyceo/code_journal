@@ -180,6 +180,7 @@
 │   ├── 3_Wildcard_Matching.cpp
 │   └── 3_Word_Search_II.cpp
 ├── 3_dynamic_programming
+│   ├── \ 3_Number_of_Ways_to_Paint_Nx3_Grid.py
 │   ├── 1_Best_Time_to_Buy_and_Sell_Stock.cpp
 │   ├── 1_Climbing_Stairs.cpp
 │   ├── 1_House_Robber.cpp
@@ -194,6 +195,7 @@
 │   ├── 2_Target_Sum.py
 │   ├── 2_Unique_Paths.cpp
 │   ├── 3_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.cpp
+│   ├── 3_Cherry_Pickup_II.py
 │   ├── 3_Decode_Ways.cpp
 │   ├── 3_Edit_Distance.cpp
 │   ├── 3_Find_All_Concatenated_Words.py
@@ -201,7 +203,8 @@
 │   ├── 3_Maximum_Product_Subarray.cpp
 │   ├── 3_Minimum_Window_Substring.py
 │   ├── 3_Perfect_Squares.cpp
-│   └── 3_Word_Break.cpp
+│   ├── 3_Word_Break.cpp
+│   └── 3_Word_Break_II.py
 ├── 4_design
 │   ├── 1_Min_Stack.cpp
 │   ├── 1_Shuffle_an_Array.cpp
@@ -217,6 +220,7 @@
 │   ├── 03_Alien_Dictionary.cpp
 │   ├── 1_Max_Area_of_Island.cpp
 │   ├── 2_Insert_into_a_Cyclic_Sorted_List.cpp
+│   ├── 2_Minimize_Hamming_Distance_After_Swap_Operations.py
 │   ├── 2_Number_of_Islands.cpp
 │   ├── 3_Count_of_Smaller_Numbers_After_Self.cpp
 │   ├── 3_Course_Schedule.cpp
@@ -268,7 +272,8 @@
 │   ├── 3_Largest_Rectangle_in_Histogram.py
 │   ├── 3_Maximal_Rectangle.py
 │   ├── 3_The_Skyline_Problem.cpp
-│   └── 3_Trapping_Rain_Water.cpp
+│   ├── 3_Trapping_Rain_Water.cpp
+│   └── 3_Trapping_Rain_Water.py
 ├── 7_EPI
 ├── 7_GCJ
 │   ├── 2017
@@ -397,6 +402,7 @@
 │   │   ├── hashset.py
 │   │   └── knapsack.cpp
 │   ├── graph
+│   │   ├── disjoint_set.py
 │   │   ├── eulerian_circuit.cpp
 │   │   ├── flood_fill.cpp
 │   │   ├── floyd-warshall.cpp
@@ -464,10 +470,10 @@
 └── 9_IDE
     └── py.py
 
-67 directories, 394 files
+67 directories, 400 files
 Easy:	     111
-Medium:	     103
-Hard:	      78
+Medium:	     104
+Hard:	      81
 C++:	     214
-Python:	      30
+Python:	      35
 ```  

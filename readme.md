@@ -168,10 +168,12 @@
 │   ├── 3_Maximum_XOR_of_Two_Numers_in_Array.py
 │   └── 3_Word_Search_II.py
 ├── 3_backtracking
+│   ├── 2_All_Possible_Full_Binary_Trees.py
 │   ├── 2_Array_to_BST_Permutation.py
 │   ├── 2_Generate_Parentheses.cpp
 │   ├── 2_Letter_Combinations_of_a_Phone_Number.cpp
 │   ├── 2_Permutations.cpp
+│   ├── 2_Snakes_and_Ladders.py
 │   ├── 2_Subsets.cpp
 │   ├── 2_Word_Search.cpp
 │   ├── 3_Palindrome_Partitioning.cpp
@@ -194,6 +196,8 @@
 │   ├── 2_Subarray_Sum_Equals_K.py
 │   ├── 2_Target_Sum.py
 │   ├── 2_Unique_Paths.cpp
+│   ├── 3_Best_Time_to_Buy_and_Sell_Stock_III.py
+│   ├── 3_Best_Time_to_Buy_and_Sell_Stock_IV.py
 │   ├── 3_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.cpp
 │   ├── 3_Cherry_Pickup_II.py
 │   ├── 3_Decode_Ways.cpp
@@ -396,6 +400,8 @@
 ├── 8_Common
 │   ├── debugging_template
 │   │   └── printFunctions.cpp
+│   ├── design
+│   │   └── LRU_Cache.py
 │   ├── dp&hash
 │   │   ├── 01knapsack.cpp
 │   │   ├── hashmap.py
@@ -470,10 +476,10 @@
 └── 9_IDE
     └── py.py
 
-67 directories, 400 files
+68 directories, 405 files
 Easy:	     111
-Medium:	     104
-Hard:	      81
+Medium:	     106
+Hard:	      83
 C++:	     214
-Python:	      35
+Python:	      39
 ```  

@@ -396,36 +396,27 @@
 	"buffers":
 	[
 		{
-			"file": "8_Common/sorting/MergeSort.py",
+			"file": "8_Common/graph/detect_cycle.py",
 			"settings":
 			{
-				"buffer_size": 762,
+				"buffer_size": 1563,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "3_dynamic_programming/3_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.cpp",
+			"file": "5_graphs/3_Count_of_Smaller_Numbers_After_Self.cpp",
 			"settings":
 			{
-				"buffer_size": 1351,
+				"buffer_size": 980,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "3_backtracking/2_Snakes_and_Ladders.py",
+			"contents": "                                                                                         \nThe default int                                                                          \nTo update your                                                                           \nFor more detail                                                                          \nErics-MacBook-Pro:code_journal eric$                                                     \n                                                                                         \n                                                                                         \n                                                                                         \n                                                                                         \n                                                                                         \n                                                                                         \n                                                                                         \n                                                                                         \n                                                                                         \n                                                                                         \n                                                                                         \n                                                                                         \n                                                                                         \n                                                                                         \n                                                                                         \n",
 			"settings":
 			{
-				"buffer_size": 3638,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": " \n",
-			"settings":
-			{
-				"buffer_size": 2,
+				"buffer_size": 1800,
 				"line_ending": "Unix",
 				"name": "Terminal (bash)",
 				"read_only": true,
@@ -433,13 +424,20 @@
 			}
 		},
 		{
-			"contents": "e// Word Search\n\n/*\nGiven a 2D board and a word, find if the word exists in the grid.\n\nThe word can be constructed from letters of sequentially adjacent cell, where \"adjacent\" cells are those horizontally or vertically neighboring. The same letter cell may not be used more than once.\n\nExample:\n\nboard =\n[\n  ['A','B','C','E'],\n  ['S','F','C','S'],\n  ['A','D','E','E']\n]\n\nGiven word = \"ABCCED\", return true.\nGiven word = \"SEE\", return true.\nGiven word = \"ABCB\", return false.\n*/\n\n// my solution\nclass Solution {\npublic:\n    bool exist(vector<vector<char>>& board, string word) {\n        rows = static_cast<int>(board.size());\n        cols = static_cast<int>(board[0].size());\n        \n        for (int i=0; i<rows; i++) {\n            for (int j=0; j<cols; j++) {\n                if (exist(board, word, i, j, 0)) {\n                    return true;\n                }\n            }\n        }\n        \n        return false;\n    }\n    \nprivate:\n    int rows, cols;\n    bool exist(vector<vector<char>>& board, string& word, int row, int col, int pos) {\n        if (board[row][col] != word[pos] || board[row][col] == ' ')\n            return false;\n        else if (pos == word.size() - 1)\n            return true;\n        \n        char c = board[row][col];\n        board[row][col] = ' ';\n        \n        if (row > 0 && exist(board, word, row - 1, col, pos + 1) ||\n            row < rows - 1 && exist(board, word, row + 1, col, pos + 1) ||\n            col > 0 && exist(board, word, row, col - 1, pos + 1) ||\n            col < cols - 1 && exist(board, word, row, col + 1, pos + 1)) {\n            board[row][col] = c;\n            return true;\n        }\n        \n        board[row][col] = c;\n        return false;\n    }\n};",
-			"file": "3_backtracking/2_Word_Search.cpp",
-			"file_size": 1710,
-			"file_write_time": 131686565964399981,
+			"file": "5_graphs/3_Alien_Dictionary.py",
 			"settings":
 			{
-				"buffer_size": 1711,
+				"buffer_size": 2692,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "\"\"\""
+			}
+		},
+		{
+			"file": "8_Common/sorting/QuickSort.py",
+			"settings":
+			{
+				"buffer_size": 426,
 				"line_ending": "Unix"
 			}
 		}
@@ -497,13 +495,24 @@
 	"expanded_folders":
 	[
 		"/Users/eric/Desktop/git/code_journal",
-		"/Users/eric/Desktop/git/code_journal/3_dynamic_programming",
+		"/Users/eric/Desktop/git/code_journal/2_trees",
+		"/Users/eric/Desktop/git/code_journal/5_graphs",
 		"/Users/eric/Desktop/git/code_journal/8_Common",
-		"/Users/eric/Desktop/git/code_journal/8_Common/graph",
+		"/Users/eric/Desktop/git/code_journal/8_Common/string&array",
 		"/Users/eric/Desktop/git/code_journal/9_EnvSetup"
 	],
 	"file_history":
 	[
+		"/Users/eric/Desktop/git/code_journal/3_backtracking/2_Snakes_and_Ladders.py",
+		"/Users/eric/Desktop/git/code_journal/8_Common/graph/union_find.py",
+		"/Users/eric/Desktop/git/code_journal/8_Common/design/generator.py",
+		"/Users/eric/Desktop/git/code_journal/8_Common/design/iterator.py",
+		"/Users/eric/Desktop/git/code_journal/8_Common/graph/kruskal_minimum_spanning_tree.py",
+		"/Users/eric/Desktop/git/code_journal/8_Common/graph/bellman_ford.py",
+		"/Users/eric/Desktop/git/code_journal/8_Common/graph/dijkstra.py",
+		"/Users/eric/Desktop/git/code_journal/8_Common/design/LRU_Cache.py",
+		"/Users/eric/.Trash/ 3_Number_of_Ways_to_Paint_Nx3_Grid.py",
+		"/Users/eric/Desktop/git/code_journal/3_backtracking/2_Word_Search.cpp",
 		"/Users/eric/Desktop/git/code_journal/3_dynamic_programming/3_Best_Time_to_Buy_and_Sell_Stock_IV.py",
 		"/Users/eric/Desktop/git/code_journal/3_dynamic_programming/3_Best_Time_to_Buy_and_Sell_Stock_III.py",
 		"/Users/eric/Desktop/git/code_journal/3_dynamic_programming/3_Word_Break_II.py",
@@ -621,17 +630,7 @@
 		"/Users/eric/Desktop/git/code_journal/8_PR/Basic_Regex_Parser.cpp",
 		"/Users/eric/Desktop/git/dsnd/aipnd-project/predict.py",
 		"/Users/eric/Desktop/git/dsnd/aipnd-project/train.py",
-		"/Users/eric/Desktop/interview_project/untitled folder/find_phone/find_phone.py",
-		"/Users/eric/Desktop/interview_project/find_phone_latest/utils.py",
-		"/Users/eric/Desktop/interview_project/find_phone_latest/darknet/cfg/yolov3-tiny.cfg",
-		"/Users/eric/Desktop/interview_project/find_phone_latest/train_phone_finder.py",
-		"/Users/eric/Desktop/interview_project/find_phone_latest/find_phone.py",
-		"/Users/eric/Desktop/interview_project/find_phone_latest/darknet/cfg/obj.data",
-		"/Users/eric/Desktop/find_phone/train_phone_finder.py",
-		"/Users/eric/Desktop/git/code_journal/8_PR/K_Messed_Array_Sort.cpp",
-		"/Users/eric/Desktop/git/code_journal/9_concepts/Probability.cpp",
-		"/Users/eric/Desktop/git/code_journal/5_math/1_Pascals_Triangle_II.cpp",
-		"/Users/eric/Desktop/git/code_journal/9_concepts/Merge_Sort.cpp"
+		"/Users/eric/Desktop/interview_project/untitled folder/find_phone/find_phone.py"
 	],
 	"find":
 	{
@@ -652,6 +651,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Topological",
 			"largestRectangleArea",
 			"Split_Array_Larges",
 			"Split_Array_Largest",
@@ -685,19 +685,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "8_Common/sorting/MergeSort.py",
+					"file": "8_Common/graph/detect_cycle.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 762,
+						"buffer_size": 1563,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								286,
-								286
+								1563,
+								1563
 							]
 						],
 						"settings":
@@ -710,16 +710,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "3_dynamic_programming/3_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.cpp",
+					"file": "5_graphs/3_Count_of_Smaller_Numbers_After_Self.cpp",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1351,
+						"buffer_size": 980,
 						"regions":
 						{
 						},
@@ -746,57 +746,28 @@
 			]
 		},
 		{
+			"sheets":
+			[
+			]
+		},
+		{
 			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 2,
-					"file": "3_backtracking/2_Snakes_and_Ladders.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3638,
+						"buffer_size": 1800,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3638,
-								3638
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 682.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1,
-								1
+								689,
+								689
 							]
 						],
 						"settings":
@@ -823,38 +794,73 @@
 							},
 							"terminal_view_last_cursor_pos":
 							[
-								0,
-								1
+								4,
+								37
 							],
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 17.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
-					"buffer": 4,
-					"file": "3_backtracking/2_Word_Search.cpp",
+					"buffer": 3,
+					"file": "5_graphs/3_Alien_Dictionary.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1711,
+						"buffer_size": 2692,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1,
-								1
+								2692,
+								2692
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
+							"auto_name": "\"\"\"",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1326.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "8_Common/sorting/QuickSort.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -862,14 +868,9 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
@@ -913,13 +914,13 @@
 		"cols":
 		[
 			0.0,
-			0.618468856476,
+			0.539633613383,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.758637885139,
+			0.626258864862,
 			1.0
 		]
 	},
@@ -974,7 +975,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 452.0,
+	"side_bar_width": 268.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

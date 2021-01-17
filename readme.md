@@ -182,7 +182,6 @@
 │   ├── 3_Wildcard_Matching.cpp
 │   └── 3_Word_Search_II.cpp
 ├── 3_dynamic_programming
-│   ├── \ 3_Number_of_Ways_to_Paint_Nx3_Grid.py
 │   ├── 1_Best_Time_to_Buy_and_Sell_Stock.cpp
 │   ├── 1_Climbing_Stairs.cpp
 │   ├── 1_House_Robber.cpp
@@ -206,6 +205,7 @@
 │   ├── 3_Maximal_Rectangle.cpp
 │   ├── 3_Maximum_Product_Subarray.cpp
 │   ├── 3_Minimum_Window_Substring.py
+│   ├── 3_Number_of_Ways_to_Paint_Nx3_Grid.py
 │   ├── 3_Perfect_Squares.cpp
 │   ├── 3_Word_Break.cpp
 │   └── 3_Word_Break_II.py
@@ -226,6 +226,7 @@
 │   ├── 2_Insert_into_a_Cyclic_Sorted_List.cpp
 │   ├── 2_Minimize_Hamming_Distance_After_Swap_Operations.py
 │   ├── 2_Number_of_Islands.cpp
+│   ├── 3_Alien_Dictionary.py
 │   ├── 3_Count_of_Smaller_Numbers_After_Self.cpp
 │   ├── 3_Course_Schedule.cpp
 │   ├── 3_Course_Schedule_II.cpp
@@ -401,21 +402,28 @@
 │   ├── debugging_template
 │   │   └── printFunctions.cpp
 │   ├── design
-│   │   └── LRU_Cache.py
+│   │   ├── LRU_Cache.py
+│   │   ├── generator.py
+│   │   └── iterator.py
 │   ├── dp&hash
 │   │   ├── 01knapsack.cpp
 │   │   ├── hashmap.py
 │   │   ├── hashset.py
 │   │   └── knapsack.cpp
 │   ├── graph
+│   │   ├── bellman_ford.py
+│   │   ├── detect_cycle.py
+│   │   ├── dijkstra.py
 │   │   ├── disjoint_set.py
 │   │   ├── eulerian_circuit.cpp
 │   │   ├── flood_fill.cpp
 │   │   ├── floyd-warshall.cpp
 │   │   ├── graph_representation.cpp
 │   │   ├── inOrderTraversal_stack.py
+│   │   ├── kruskal_minimum_spanning_tree.py
 │   │   ├── spfa.cpp
-│   │   └── topological_sort.cpp
+│   │   ├── topological_sort.cpp
+│   │   └── union_find.py
 │   ├── linked_list
 │   │   ├── node.cpp
 │   │   ├── node.py
@@ -476,10 +484,10 @@
 └── 9_IDE
     └── py.py
 
-68 directories, 405 files
+68 directories, 413 files
 Easy:	     111
 Medium:	     106
-Hard:	      83
+Hard:	      85
 C++:	     214
-Python:	      39
+Python:	      40
 ```  

@@ -14,7 +14,7 @@ filePathFull="$(find . -name $STRIN -exec dirname {} \;)"
 filePath="${filePathFull:2}"
 
 # Compile script if extension is cpp
-if [ "$EXT" == "cpp" ] && [ "$ARG" == "1" ]
+if [ "$EXT" == "cpp" ]
 then
 	g++ "${filePath}/${STRIN}" -std=c++14 -pthread -O3 -o "${filePath}/${FNAME}.o"
 fi
@@ -34,25 +34,25 @@ else
 fi
 
 # Check if interactive python tester are present
-if [ -f "${filePathFull}/${N}interactive.py" ]
+if [ -f "interactive_runner.py" ]
 then
 	A="A"
 else
-	echo "Interactive script does not exist, locate and rename to ${filePath}/${N}interactive.py"
+	echo "interactive script warning: interactive_runner.py does not exist, you can download at Google coding competition webpage."
 fi
 
 # Check if interactive python tester are present
-if [ -f "${filePathFull}/${N}tester.py" ]
+if [ -f "${filePath}/${N}testing_tool.py" ]
 then
 	A="A"
 else
-	echo "Tester script does not exist, rename to ${N}tester.py"
+	echo "interactive script warning: Tester script does not exist, rename it to ${filePath}/${N}testing_tool.py"
 fi
 
 # run script
 if [ $EXT == "cpp" ]
 then
-	python "${filePathFull}/${N}interactive.py" python "${filePath}/${N}tester.py" "$CASE" -- "./${filePath}/${FNAME}.o"
+	python interactive_runner.py python "${filePath}/${N}testing_tool.py" "$CASE" -- "./${filePath}/${FNAME}.o"
 else
-	python "${filePathFull}/${N}interactive.py" python "${filePath}/${N}tester.py" "$CASE" -- "${filePath}/${STRIN}"
+	python interactive_runner.py python "${filePath}/${N}testing_tool.py" "$CASE" -- python "${filePath}/${STRIN}"
 fi

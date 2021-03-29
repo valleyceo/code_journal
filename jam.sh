@@ -51,6 +51,7 @@ then
 else
 	python "${filePath}/${STRIN}" < "${filePath}/$INTXT" > "${filePath}/$OUTTXT"
 fi
+
 end=$(date +%s)
 runtime=$(python -c "print(${end} - ${start})")
 echo "Runtime: $runtime second(s)."

@@ -39,8 +39,9 @@ if [ -f "${filePath}/${INTXT}" ]
 then
 	A="A"
 else
-	echo "new file created"
+	echo "Input file generated. Please re-run with input data."
 	touch "${filePath}/${INTXT}"
+	return
 fi
 
 # run script

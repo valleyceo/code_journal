@@ -3,6 +3,7 @@ Usage:
 - Similar to Dijkstra but can be used for negative edge
 - Detects negative cycle
 """
+
 def BellmanFord(self, src):  
     dist = [float("Inf")] * self.V  
     dist[src] = 0

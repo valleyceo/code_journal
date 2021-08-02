@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"Fa",
+				"FArrDen"
+			],
+			[
+				"interact",
+				"interactive_runner"
+			],
+			[
+				"player",
+				"playerPSum"
+			],
+			[
+				"Get",
+				"GetMax"
+			],
+			[
 				"Rever",
 				"ReverseSortCount"
 			],
@@ -400,89 +416,64 @@
 	"buffers":
 	[
 		{
-			"file": "8_Common/graph/detect_cycle.py",
+			"file": "7_GCJ/2021/R1B/2_Subtransmutation.py",
 			"settings":
 			{
-				"buffer_size": 1563,
+				"buffer_size": 816,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "1_array/2_Compare_Strings_by_Smallest_Char_Freq.cpp",
+			"file": "7_GCJ/2021/R1B/1_BrokenClock.py",
 			"settings":
 			{
-				"buffer_size": 1739,
+				"buffer_size": 1587,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "7_GCJ/2021/R0/3_ReversesortEngineering.py",
+			"file": "7_GCJ/2021/R1B/3_testing_tool.py",
 			"settings":
 			{
-				"buffer_size": 2034,
+				"buffer_size": 4204,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "\"\"\"local_testing_tool.py for Digit Blocks.\"\"\""
+			}
+		},
+		{
+			"file": "7_GCJ/2021/R1B/3_DigitBlocks.py",
+			"settings":
+			{
+				"buffer_size": 1061,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "7_GCJ/2021/R0/1_Reversesort.py",
+			"file": "7_GCJ/2021/R1C/1_BrokenClock.py",
 			"settings":
 			{
-				"buffer_size": 530,
+				"buffer_size": 1587,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "7_GCJ/2021/R1B/1_0in.txt",
+			"settings":
+			{
+				"buffer_size": 82,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "7_GCJ/2021/R0/2_MoonsAndUmbrellas.py",
+			"contents": "                                                        \nThe default interactive shell is now zsh.               \nTo update your account to use zsh, please               \nrun `chsh -s /bin/zsh`.                                 \nFor more details, please visit https://sup              \nport.apple.com/kb/HT208050.                             \nErics-MacBook-Pro:code_journal eric$                    \n                                                        \n                                                        \n                                                        \n                                                        \n                                                        \n                                                        \n                                                        \n                                                        \n",
 			"settings":
 			{
-				"buffer_size": 373,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "jam.sh",
-			"settings":
-			{
-				"buffer_size": 1287,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "7_GCJ/2021/R0/3_0in.txt",
-			"settings":
-			{
-				"buffer_size": 35,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "7_GCJ/2021/R0/1_0in.txt",
-			"settings":
-			{
-				"buffer_size": 33,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Runtime: 2 second(s).                                                                   \nErics-MacBook-Pro:code_journal eric$ ./jam.sh 3_ReversesortEngineering.py               \nTraceback (most recent call last):                                                      \n  File \"7_GCJ/2021/R0/3_ReversesortEngineering.py\", line 104, in <module>               \n    d = collections.OrderedDict(int)                                                    \nTypeError: 'type' object is not iterable                                                \nRuntime: 0 second(s).                                                                   \nErics-MacBook-Pro:code_journal eric$ ./jam.sh 3_ReversesortEngineering.py               \nRuntime: 2 second(s).                                                                   \nErics-MacBook-Pro:code_journal eric$ ./jam.sh 3_ReversesortEngineering.py               \nRuntime: 2 second(s).                                                                   \nErics-MacBook-Pro:code_journal eric$ ./jam.sh 3_ReversesortEngineering.py               \nRuntime: 0 second(s).                                                                   \nErics-MacBook-Pro:code_journal eric$ ./jam.sh 3_ReversesortEngineering.py               \n                                                                                        \n",
-			"settings":
-			{
-				"buffer_size": 1335,
+				"buffer_size": 855,
 				"line_ending": "Unix",
 				"name": "Terminal (bash)",
 				"read_only": true,
@@ -490,18 +481,36 @@
 			}
 		},
 		{
-			"file": "7_GCJ/2021/R0/1_0out.txt",
+			"file": "jam.sh",
 			"settings":
 			{
-				"buffer_size": 34,
+				"buffer_size": 1332,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "7_GCJ/2021/R0/3_0out.txt",
+			"file": "7_GCJ/2021/R1B/3_0out.txt",
 			"settings":
 			{
 				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "7_GCJ/2021/R1B/1_0out.txt",
+			"settings":
+			{
+				"buffer_size": 52,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "7_GCJ/2021/R1A/3_0out.txt",
+			"settings":
+			{
+				"buffer_size": 410,
 				"line_ending": "Unix"
 			}
 		}
@@ -559,29 +568,49 @@
 	"expanded_folders":
 	[
 		"/Users/eric/Desktop/git/code_journal",
-		"/Users/eric/Desktop/git/code_journal/0_archive",
-		"/Users/eric/Desktop/git/code_journal/1_array",
-		"/Users/eric/Desktop/git/code_journal/5_graphs",
 		"/Users/eric/Desktop/git/code_journal/7_GCJ",
-		"/Users/eric/Desktop/git/code_journal/7_GCJ/2020",
 		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021",
-		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0",
-		"/Users/eric/Desktop/git/code_journal/8_Architecture",
-		"/Users/eric/Desktop/git/code_journal/8_Architecture/Behavioral_Pattern",
-		"/Users/eric/Desktop/git/code_journal/8_Architecture/Structural_Pattern",
-		"/Users/eric/Desktop/git/code_journal/8_Common",
-		"/Users/eric/Desktop/git/code_journal/8_Common/graph",
-		"/Users/eric/Desktop/git/code_journal/8_Common/math",
-		"/Users/eric/Desktop/git/code_journal/8_Common/primitives",
-		"/Users/eric/Desktop/git/code_journal/8_Common/search",
-		"/Users/eric/Desktop/git/code_journal/8_Common/sorting",
-		"/Users/eric/Desktop/git/code_journal/8_Common/stacks&queues",
-		"/Users/eric/Desktop/git/code_journal/8_Common/string&array",
-		"/Users/eric/Desktop/git/code_journal/8_Common/tree"
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R1C"
 	],
 	"file_history":
 	[
+		"/Users/eric/Desktop/git/code_journal/8_Common/graph/bellman_ford.py",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R1A/2_0out.txt",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R1A/1_0out.txt",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R1A/2_PrimeTime.py",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R1A/1_AppendSort.py",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/4_MedianSort.py",
+		"/Users/eric/Desktop/git/code_journal/5_math/01_Largest_Palindrome_Product.cpp",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R1A/3_0in.txt",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R1A/2_0in.txt",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R1A/1_0in.txt",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R1A/3_HackedExam.py",
+		"/Users/eric/Desktop/git/code_journal/ijam.sh",
+		"/Users/eric/Desktop/git/code_journal/jam.sh",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/4_testing_tool.py",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/3_0in.txt",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/2_0in.txt",
+		"/Users/eric/Desktop/git/code_journal/interactive_runner.py",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/5_0out.txt",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/4_01out.txt",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/4_0out.txt",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/Terminal (bash)",
 		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/3_0out.txt",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/1_0out.txt",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/2_0out.txt",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/5_CheatingDetection.py",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/2_MoonsAndUmbrellas.py",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/interactive_runner.py",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/3_MedianSort.py",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/4_interactive.py",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/2_MoonsAndUmbrellas_Old.py",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/1_0in.txt",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/5_0in.txt",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/3_ReversesortEngineering.py",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/3_ReversesortEngineering_Play.py",
+		"/Users/eric/Desktop/git/code_journal/8_Common/graph/detect_cycle.py",
+		"/Users/eric/Desktop/git/code_journal/1_array/2_Compare_Strings_by_Smallest_Char_Freq.cpp",
+		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/1_Reversesort.py",
 		"/Users/eric/Desktop/git/code_journal/7_GCJ/2021/R0/1_In.txt",
 		"/Users/eric/Desktop/git/code_journal/5_graphs/3_Alien_Dictionary.py",
 		"/Users/eric/Desktop/git/code_journal/8_Common/graph/prim.py",
@@ -591,7 +620,6 @@
 		"/Users/eric/Desktop/git/code_journal/8_Common/design/generator.py",
 		"/Users/eric/Desktop/git/code_journal/8_Common/design/iterator.py",
 		"/Users/eric/Desktop/git/code_journal/8_Common/graph/kruskal_minimum_spanning_tree.py",
-		"/Users/eric/Desktop/git/code_journal/8_Common/graph/bellman_ford.py",
 		"/Users/eric/Desktop/git/code_journal/8_Common/graph/dijkstra.py",
 		"/Users/eric/Desktop/git/code_journal/8_Common/design/LRU_Cache.py",
 		"/Users/eric/.Trash/ 3_Number_of_Ways_to_Paint_Nx3_Grid.py",
@@ -673,42 +701,7 @@
 		"/Users/eric/Desktop/git/code_journal/8_EPI/4_linked_list.md",
 		"/Users/eric/Desktop/git/code_journal/9_cheatsheet/cpp_notes.md",
 		"/Users/eric/Desktop/git/code_journal/8_EPI/7_Heaps.md",
-		"/Users/eric/Desktop/git/code_journal/8_EPI/6_binary_trees.md",
-		"/Users/eric/Desktop/git/code_journal/8_EPI/recursion.md",
-		"/Users/eric/Desktop/Apps/ChessGameInUnity-ProjectMaterials/chess_3d/Assets/Scripts/Bishop.cs",
-		"/Users/eric/Desktop/Apps/UIStuffs/Checking UI/Assets/Models/Textures/vehicle_rcFlyer_dff.tif",
-		"/Users/eric/Desktop/git/code_journal/1_array/1_Move_Zeroes.cpp",
-		"/Users/eric/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
-		"/Users/eric/Desktop/git/robotics_t2/P1/dataset/large_pill.json",
-		"/Users/eric/Desktop/git/code_journal/8_EPI/3_strings.md",
-		"/Users/eric/Desktop/git/code_journal/8_EPI/3_linked_list",
-		"/Users/eric/Desktop/git/code_journal/8_EPI/2_array.md",
-		"/Users/eric/Desktop/git/code_journal/3_backtracking/3_Regular_Expression_Matching.cpp",
-		"/Users/eric/Desktop/git/code_journal/1_array/1_Implement_Queue_using_Stacks.cpp",
-		"/Users/eric/Desktop/git/code_journal/1_array/2_3Sum_Closest.cpp",
-		"/Users/eric/Desktop/git/code_journal/1_array/1_Intersection_of_Two_Arrays_II.cpp",
-		"/Users/eric/Desktop/git/course-ud303/Lesson-1/HelloServer.py",
-		"/Users/eric/Desktop/git/git_course/index.html",
-		"/Users/eric/Desktop/git/code_journal/1_array/3_Spiral_Matrix.cpp",
-		"/Users/eric/Desktop/git/code_journal/1_linked_list/1_Delete_Node_in_a_Linked_List.cpp",
-		"/Users/eric/Desktop/git/code_journal/1_array/1_Intersection_of_Two_Arrays.cpp",
-		"/Users/eric/Desktop/git/code_journal/1_array/1_Image_Smoother.cpp",
-		"/Users/eric/Desktop/git/code_journal/1_array/1_Find_All_Numbers_Disappeared_in_an_Array.cpp",
-		"/Users/eric/Desktop/git/code_journal/1_array/1_Degree_of_an_Array.cpp",
-		"/Users/eric/Desktop/git/code_journal/1_array/3_Contains_Duplicate_III.cpp",
-		"/Users/eric/Desktop/git/code_journal/1_array/1_Contains_Duplicate_II.cpp",
-		"/Users/eric/Desktop/git/code_journal/9_concepts/QuickSort.cpp",
-		"/Users/eric/Desktop/git/code_journal/9_concepts/Binary_Search.cpp",
-		"/Users/eric/Desktop/git/code_journal/9_concepts/Bad_Sorters.cpp",
-		"/Users/eric/Desktop/git/code_journal/1_array/1_Contains_Duplicate.cpp",
-		"/Users/eric/OneDrive/Docs Online Courses/Machine_Learning_Coursera/mlclass-ex2/quiz5.m",
-		"/Users/eric/OneDrive/Docs Online Courses/Machine_Learning_Coursera/mlclass-ex2/quiz6.m",
-		"/Users/eric/OneDrive/Docs Online Courses/Machine_Learning_Coursera/mlclass-ex2/ML_QUIZ.md",
-		"/Users/eric/Dropbox/Docs Work/dqnlab_pytorch/cartpole.py",
-		"/Users/eric/Desktop/gym/pacman/rl_dqn.py",
-		"/Users/eric/Desktop/git/code_journal/8_PR/Array_Index_&_Element_Equality.cpp",
-		"/Users/eric/Desktop/git/code_journal/8_PR/Merging_2_Packages.cpp",
-		"/Users/eric/Desktop/git/code_journal/8_PR/Decrypt_Message.cpp"
+		"/Users/eric/Desktop/git/code_journal/8_EPI/6_binary_trees.md"
 	],
 	"find":
 	{
@@ -729,6 +722,18 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"3723",
+			"147",
+			"A",
+			"WRONG_ORDER_ERROR",
+			"line",
+			"Output",
+			"failed",
+			"referenced before",
+			"index",
+			"INVALID_LINE_ERROR",
+			"Tester script does not exist, rename to 4_tester.py",
+			"CASE",
 			"Topological",
 			"largestRectangleArea",
 			"Split_Array_Larges",
@@ -758,113 +763,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "8_Common/graph/detect_cycle.py",
+					"file": "7_GCJ/2021/R1B/2_Subtransmutation.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1563,
+						"buffer_size": 816,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1563,
-								1563
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "1_array/2_Compare_Strings_by_Smallest_Char_Freq.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1739,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1475,
-								1475
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "7_GCJ/2021/R0/3_ReversesortEngineering.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2034,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1710,
-								1710
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1489.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "7_GCJ/2021/R0/1_Reversesort.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 530,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								490,
-								490
+								81,
+								81
 							]
 						],
 						"settings":
@@ -880,20 +796,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "7_GCJ/2021/R0/2_MoonsAndUmbrellas.py",
+					"buffer": 1,
+					"file": "7_GCJ/2021/R1B/1_BrokenClock.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 373,
+						"buffer_size": 1587,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								37,
-								37
+								462,
+								462
 							]
 						],
 						"settings":
@@ -905,92 +821,32 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 5,
-					"file": "jam.sh",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1287,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								303,
-								330
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "7_GCJ/2021/R0/3_0in.txt",
+					"buffer": 2,
+					"file": "7_GCJ/2021/R1B/3_testing_tool.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 35,
+						"buffer_size": 4204,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13,
-								13
+								4204,
+								4204
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "7_GCJ/2021/R0/1_0in.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 33,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								33
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"auto_name": "\"\"\"local_testing_tool.py for Digit Blocks.\"\"\"",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1000,11 +856,41 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 3,
+					"file": "7_GCJ/2021/R1B/3_DigitBlocks.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1061,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								607,
+								607
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "7_GCJ/2021/R1C/1_BrokenClock.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1587,
 						"regions":
 						{
 						},
@@ -1017,14 +903,14 @@
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1034,19 +920,53 @@
 			"sheets":
 			[
 				{
-					"buffer": 9,
+					"buffer": 5,
+					"file": "7_GCJ/2021/R1B/1_0in.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1335,
+						"buffer_size": 82,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								949,
-								949
+								82,
+								82
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 855,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								379,
+								379
 							]
 						],
 						"settings":
@@ -1073,55 +993,56 @@
 							},
 							"terminal_view_last_cursor_pos":
 							[
-								14,
-								0
+								6,
+								37
 							],
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 10,
-					"file": "7_GCJ/2021/R0/1_0out.txt",
+					"buffer": 7,
+					"file": "jam.sh",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 34,
+						"buffer_size": 1332,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								34,
-								34
+								1065,
+								1065
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 9,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
-					"buffer": 11,
-					"file": "7_GCJ/2021/R0/3_0out.txt",
+					"buffer": 8,
+					"file": "7_GCJ/2021/R1B/3_0out.txt",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1144,7 +1065,63 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "7_GCJ/2021/R1B/1_0out.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 52,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								52
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "7_GCJ/2021/R1A/3_0out.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 410,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51,
+								51
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
@@ -1190,13 +1167,13 @@
 		"cols":
 		[
 			0.0,
-			0.601981393988,
+			0.569794939499,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.689834692998,
+			0.575279265976,
 			1.0
 		]
 	},
@@ -1243,7 +1220,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -1251,7 +1228,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 288.0,
+	"side_bar_width": 369.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

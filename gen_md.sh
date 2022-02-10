@@ -7,12 +7,18 @@ PYTHON="$(find . -name "*.py" -not -path "./[7-9]_*" | wc -l)"
 CPP="$(find . -name "*.cpp" -not -path "./[7-9]_*" | wc -l)"
 
 printf '## Problems  \n\n```  ' > tree.md
-tree -P "*.cpp|*.py" >> tree.md
-printf "Easy:\t$EASY\n" >> tree.md
-printf "Medium:\t$MEDIUM\n" >> tree.md
-printf "Hard:\t$HARD\n" >> tree.md
-printf "C++:\t$CPP\n" >> tree.md
-printf "Python:\t$PYTHON\n" >> tree.md
+tree ./"1. Problems" -N -P "*.cpp|*.py" >> tree.md
+#printf "Easy:\t$EASY\n" >> tree.md
+#printf "Medium:\t$MEDIUM\n" >> tree.md
+#printf "Hard:\t$HARD\n" >> tree.md
+#printf "C++:\t$CPP\n" >> tree.md
+#printf "Python:\t$PYTHON\n" >> tree.md
 echo '```  ' >> tree.md
-cat code_journal.md tree.md > readme.md
+
+printf '\n\n ## Templates  \n\n```  ' > tree2.md
+tree ./"2. Notes/" -N -P "*.cpp|*.py" >> tree2.md
+echo '```  ' >> tree2.md
+
+cat readme_header.md tree.md tree2.md > readme.md
 rm tree.md
+rm tree2.md

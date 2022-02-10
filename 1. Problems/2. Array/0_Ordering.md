@@ -1,0 +1,11 @@
+a. 1D
+	- sum
+	- sequence
+	- stacking
+	- slidingWindow
+	- water
+b. 2D
+	- matrix
+	- game
+	- water
+c. Bits

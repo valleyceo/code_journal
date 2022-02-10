@@ -5,3 +5,6 @@
 !*0in.txt
 *.o
 *.out
+*Interviews/
+/*(Algo)*
+/*(LC)*

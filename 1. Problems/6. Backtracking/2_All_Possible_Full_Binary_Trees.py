@@ -16,13 +16,15 @@ Output: [[0,0,0,null,null,0,0,null,null,0,0],[0,0,0,null,null,0,0,0,0],[0,0,0,0,
 Explanation:
 
 1 <= N <= 20
-"""
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
 #         self.left = left
 #         self.right = right
+"""
+
 class Solution:
     def allPossibleFBT(self, N: int) -> List[TreeNode]:
         if N % 2 == 0:

@@ -7,7 +7,7 @@ public:
 	}
 
 	int Max() const {
-		if (Empty()) {
+		if (Empty()) {/
 			throw length_error("Max(): empty stack");
 		}
 

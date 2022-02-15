@@ -1,0 +1,742 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Fa",
+				"FArrDen"
+			],
+			[
+				"interact",
+				"interactive_runner"
+			],
+			[
+				"player",
+				"playerPSum"
+			],
+			[
+				"Get",
+				"GetMax"
+			],
+			[
+				"Rever",
+				"ReverseSortCount"
+			],
+			[
+				"closes",
+				"closest_to_last_word_"
+			],
+			[
+				"max_avail",
+				"max_available"
+			],
+			[
+				"emplace",
+				"emplace"
+			],
+			[
+				"empla",
+				"emplace_back"
+			],
+			[
+				"vertex",
+				"vertex_map"
+			],
+			[
+				"Graph",
+				"GraphVertex"
+			],
+			[
+				"has",
+				"HasCycle"
+			],
+			[
+				"board",
+				"board_ptr"
+			],
+			[
+				"SearchM",
+				"SearchMazeHelper"
+			],
+			[
+				"unordereD",
+				"unordered_set"
+			],
+			[
+				"unordere",
+				"unordered_map"
+			],
+			[
+				"candidate",
+				"candidate_count"
+			],
+			[
+				"const",
+				"const_iterator"
+			],
+			[
+				"task",
+				"task_durations"
+			],
+			[
+				"minimum",
+				"minimum_messiness"
+			],
+			[
+				"numre",
+				"num_remaining_blanks"
+			],
+			[
+				"numberofways",
+				"number_of_ways_to_h_ptr"
+			],
+			[
+				"maximum_rev",
+				"maximum_revenue_for_range"
+			],
+			[
+				"maximumrefe",
+				"maximum_revenue_for_range_ptr"
+			],
+			[
+				"maximumre",
+				"maximum_revenue_for_range_ptr"
+			],
+			[
+				"maximum_reven",
+				"maximum_revenue_for_range_ptr"
+			],
+			[
+				"Ispatt",
+				"IsPatternSuffixContainedStartingAtXY"
+			],
+			[
+				"xchoo",
+				"x_choose_y_ptr"
+			],
+			[
+				"x_choo",
+				"x_choose_y"
+			],
+			[
+				"x_choose",
+				"x_choose_y_ptr"
+			],
+			[
+				"numberof",
+				"number_of_ways_ptr"
+			],
+			[
+				"Gray",
+				"GrayCode"
+			],
+			[
+				"partial_assi",
+				"partial_assignment"
+			],
+			[
+				"num_ri",
+				"num_right_parens_needed"
+			],
+			[
+				"input",
+				"input_set"
+			],
+			[
+				"Generate",
+				"GeneratePowerSet"
+			],
+			[
+				"client",
+				"client_id"
+			],
+			[
+				"possible_anc_o",
+				"possible_anc_or_desc_0"
+			],
+			[
+				"BuildMinHeightBSTFromSorte",
+				"BuildMinHeightBSTFromSortedSubArray"
+			],
+			[
+				"sorted",
+				"sorted_arrays"
+			],
+			[
+				"reubild",
+				"RebuildBSTFromPreorderOnValueRange"
+			],
+			[
+				"RebuildBst",
+				"RebuildBSTFromPreorderOnValueRange"
+			],
+			[
+				"root_idx",
+				"root_idx_ptr"
+			],
+			[
+				"Rebuild",
+				"RebuildBSTFromPreorderOnValueRange"
+			],
+			[
+				"RebuildBSTFro",
+				"REbuildBSTFromPreorderHelper"
+			],
+			[
+				"Search",
+				"SearchBST"
+			],
+			[
+				"adjuste",
+				"adjusted_people"
+			],
+			[
+				"adjusted",
+				"adjusted_salary_sum"
+			],
+			[
+				"age_to",
+				"age_to_count"
+			],
+			[
+				"unordered",
+				"unordered_set"
+			],
+			[
+				"parag",
+				"paragraph_end"
+			],
+			[
+				"shortes",
+				"shortest_distance"
+			],
+			[
+				"keyword_to",
+				"keyword_to_idx"
+			],
+			[
+				"keywor",
+				"keywords"
+			],
+			[
+				"char",
+				"chars_with_odd_frequency"
+			],
+			[
+				"stream_be",
+				"stream_begin_copy"
+			],
+			[
+				"global_",
+				"global_max"
+			],
+			[
+				"global",
+				"global_min"
+			],
+			[
+				"Studn",
+				"students"
+			],
+			[
+				"candidate_",
+				"candidate_max_heap"
+			],
+			[
+				"candida",
+				"candidate_idx"
+			],
+			[
+				"emplac",
+				"emplace"
+			],
+			[
+				"sequen",
+				"sequence_end"
+			],
+			[
+				"sequenc",
+				"sequence_end"
+			],
+			[
+				"exteriro",
+				"exterior_ptr"
+			],
+			[
+				"ReconstructPreo",
+				"ReconstructPreorderHelper"
+			],
+			[
+				"Reconstructpre",
+				"ReconstructPreorderHelper"
+			],
+			[
+				"BinaryTreeFrom",
+				"BinaryTreeFromPreorderInorderHelper"
+			],
+			[
+				"preorder",
+				"preorder_start"
+			],
+			[
+				"BinaryTreeFromP",
+				"BinaryTreeNodeFromPreorderInorderHelper"
+			],
+			[
+				"Binary",
+				"BinaryTreeNode"
+			],
+			[
+				"unique",
+				"unique_ptr"
+			],
+			[
+				"sum",
+				"SumRootToLeafHelper"
+			],
+			[
+				"SumRoo",
+				"SumRootToLeafHelper"
+			],
+			[
+				"par",
+				"partial_path_sum"
+			],
+			[
+				"uni",
+				"unique_ptr"
+			],
+			[
+				"num",
+				"num_queue_elements"
+			],
+			[
+				"second",
+				"second_half_iter"
+			],
+			[
+				"square_",
+				"square_matrix_"
+			],
+			[
+				"uniform",
+				"uniform_0_1"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"print",
+				"print_waffle"
+			],
+			[
+				"CONTROL",
+				"CONTROL_RATE"
+			],
+			[
+				"traffic_light",
+				"traffic_light_idx"
+			],
+			[
+				"car_pos",
+				"car_position_y"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"end_p",
+				"end_path_s"
+			],
+			[
+				"target_",
+				"target_y"
+			],
+			[
+				"prev",
+				"previous_path_x"
+			],
+			[
+				"map_",
+				"map_waypoints_y"
+			],
+			[
+				"map_way",
+				"map_waypoints_x"
+			],
+			[
+				"ref_y",
+				"ref_y_prev"
+			],
+			[
+				"previous_path_",
+				"previous_path_x"
+			],
+			[
+				"previous",
+				"previous_path_y"
+			],
+			[
+				"landmark",
+				"landmark_in"
+			],
+			[
+				"wei",
+				"weights"
+			],
+			[
+				"time",
+				"previous_timestamp_"
+			],
+			[
+				"blan",
+				"blank_spaces_len"
+			],
+			[
+				"maze",
+				"mazeDistance"
+			],
+			[
+				"succ",
+				"successors_sorted"
+			],
+			[
+				"cost",
+				"cost"
+			],
+			[
+				"get",
+				"getStartState"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"terminal",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"termi",
+				"Terminal: Open"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"termin",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"markdown",
+				"MarkdownLivePreview: Edit Current File"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Install Package Control"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/erickim/Desktop/git/code_journal/5. Interviews/Google/2021/Q1.py",
+		"/Users/erickim/Desktop/git/code_journal/5. Interviews/Google/2021/Q4.py",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/1. Strings/0_Ordering.md",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/7. Dynamic Programming/h. Best Time Buy and Sell Stock 1.py",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/6. Backtracking/a. 1D - Permutations - Subsets.py",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/6. Backtracking/2_All_Possible_Full_Binary_Trees.py",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/2. Array/a. 1D 1 - Sum - Maxiumum Product Subarray.py",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/2. Array/0_Ordering.md",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/9. Math/3. Computation - GCD - Smallest Integer Divisible by K.py",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/2. Array/a. 1D - Stack - Exclusive Timme of Functions.py",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/6. Backtracking/0_Ordering.md",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/2. Array/a. 1D - Monotone Stack - Sum of Subarray Minimums.py",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/6. Backtracking/b. 2D - Robot Room Cleaner.py",
+		"/Users/erickim/Desktop/git/code_journal/readme.md",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/4. Trees/a. Binary Tree - Traversal - Convert BST to Sorted Doubly LL.py",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/9. Design/a. Stack - Design Browser History.py",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/9. Design/0. Ordering.md",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/2. Array/1_Island_Perimeter.cpp",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/2. Array/1_K_Weakest_Rows_in_Matrix.cpp",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/8. Graphs/a. Union Find - Accounts Merge.py",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/2. Array/a. 1D - Sequence - Jump Game II.py",
+		"/Users/erickim/Desktop/git/code_journal/gen_md.sh",
+		"/Users/erickim/Desktop/git/code_journal/.gitignore",
+		"/Users/erickim/Desktop/git/code_journal/readme_header.md",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/3. Linked List/0_Ordering.md",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/2. Array/c. Bits - Hamming Distance.py",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/9. Math/0_Ordering.md",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/5_others/1_Day_of_the_week.py",
+		"/Users/erickim/Desktop/git/code_journal/1. Problems/5_others/1_1bit_and_2bit_Characters.py",
+		"/Users/erickim/Desktop/git/code_journal/template.txt",
+		"/Users/erickim/Desktop/git/code_journal/1_array/1_K_Weakest_Rows_in_Matrix.cpp",
+		"/Users/erickim/Desktop/git/code_journal/1_array/0_Ordering.md",
+		"/Users/erickim/Desktop/git/code_journal/1_array/c. Bits - Design BItset.py",
+		"/Users/erickim/Desktop/git/code_journal/5_graphs/b. Graph Search - Bellman Ford - Detect Arbitrage (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/5_graphs/b. Graph Search 2 - DFS - Airport Connectinos (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/design/LRU Cache (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/1_linked_list/a. Manipulate - Rearrange Linked List (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/1_linked_list/a. Manipulate - Zip Linked List (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/1_linked_list/a. Binary Tree - Number of Binary Tree Topologies (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/sorting/Merge Sort.py",
+		"/Users/erickim/Desktop/git/code_journal/2_sorting_searching/c. Sort - Merge Sort - Count Merge Sort (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/1_strings/0_Ordering.md",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/linked_list/Linked List.py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/tree/E. Trie - Suffix Trie.py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/linked_list/Radix Sort.py",
+		"/Users/erickim/Desktop/git/code_journal/1_strings/b. Best Substring - Longest Balanced Substring (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/1_strings/b. Best Substring - Smallest Substring Containing (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/1_linked_list/a. Manipulate - Node Swap (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/graph/a. UnionFind 3 - Rank.py",
+		"/Users/erickim/Desktop/git/code_journal/5_graphs/b. Graph Search - Bridges in Graph - Two-Edge-Connected Graph (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/math/a. Karatsuba - Multiply Two Large Numbers.py",
+		"/Users/erickim/Desktop/git/code_journal/2_trees/a. BinaryTree - Traversal - All Nodes Distance K in Binary Tree.py",
+		"/Users/erickim/Desktop/git/code_journal/2_sorting_searching/0_Ordering.md",
+		"/Users/erickim/Desktop/git/code_journal/2_trees/a. Binary Tree - Right Sibling Tree Mutated (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/2_trees/a. Binary Tree - Traversal - Compare Leaf Traversal (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/b. 2D - Minimum Cuts for Partitioning Palindrome.py",
+		"/Users/erickim/Desktop/git/code_journal/5_graphs/0_Ordering.md",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/b. 2D - Rectangle Mania (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/5_graphs/b. Graph Search - A Star (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/b. 2D - Has Square of Zero Border (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/a. 1D - Longest String Chain (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/d. LIS - Longest Increasing Subsequence.py",
+		"/Users/erickim/Desktop/git/code_journal/2_trees/a. Binary Tree - Populating Next Right Pointers in Each Node.py",
+		"/Users/erickim/Desktop/git/code_journal/2_trees/a. Binary Tree - Flatten Binary Tree (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/2_trees/b. BST - Right Smaller Than (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/1_array/a. 1D - Stack - Shorten Path (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/graph/0_Ordering.md",
+		"/Users/erickim/Desktop/git/code_journal/2_sorting_searching/a. 1D Binary Search - Search in Rotated Sorted Array.py",
+		"/Users/erickim/Desktop/git/code_journal/2_trees/0_ORDERING.md",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/tree/0_Ordering.md",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/tree/c. Heap 2 - Heap Sort.py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/graph/e. TopoSort 1 - DFS.py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/graph/e. Toposort 2 - BFS.py",
+		"/Users/erickim/Desktop/git/code_journal/1_linked_list/0_Ordering.md",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/c. LCS - Return longest string(Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/c. LCS - Longest Common Subsequence.py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/tree/binaryTree_Node.py",
+		"/Users/erickim/Desktop/git/code_journal/2_trees/a. BinaryTree - Traversal - Validate Three Nodes (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/linked_list/doubly_linked_list.py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/tree/heap.py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/graph/a. UnionFind 1.py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/tree/trie.py",
+		"/Users/erickim/Desktop/git/code_journal/2_trees/a. BinaryTree - Traversal - Are Same BST (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/linked_list/reverse_linked_list.py",
+		"/Users/erickim/Desktop/git/code_journal/1_linked_list/1_Reverse_Linked_List.cpp",
+		"/Users/erickim/Desktop/git/code_journal/1_array/b. 1D - Sequence - Next Greater ELement (Algo).py",
+		"/Users/erickim/Desktop/git/code_journal/2_trees/b. Heap - Top K Frequent Words.py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/math/gcd.py",
+		"/Users/erickim/Desktop/git/code_journal/2_trees/d. Trie - Search Suggestion System.py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/graph/a. UnionFind 4 - Path Compression Rank.py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/graph/b. DFS 1 - Clone a graph.py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/stacks&queues/heap.py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/graph/a. UnionFind 2 - Quick Find.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/a. 1D - Paint House 1.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/b. 2D - Interleaving String.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/b. Path - Unique Paths 1.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/a. Math - Number of Dice Rolls With Target Sum.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/a. 1D - Minimum Cost For Tickets.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/a. 1D - Paint House 3 - with already painted houses.py",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/debug/printMat.cpp",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/dp&hash/Kadane.pseudo",
+		"/Users/erickim/Desktop/git/code_journal/8_Template/dp&hash/a. 1D - Maximum Length of Repeated Subarray.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/a. 1D - Paint House 2 - with color cost.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/a. 1D Coin Change 2 - Number of combinations for the amount.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/b. Path - Minimum Path Sum.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/b. Path - Unique Paths 2 - with obstacle.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/b. Path - Unique Paths.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/a. 1D Decode Ways.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/a. Kadane Maximum Sum Circular Subarray.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/d. LIS Longest Increasing Subsequence.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/a. 1D Paint Fence.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/h. Best Time Buy and Sell Stock 2 Multibuy.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/h. Best Time Buy and Sell Stock 3 Up to two buys.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/h. Best Time Buy and Sell Stock 4 Up to K buys.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/h. Best Time Buy and Sell Stock 5 Multibuy with 1 day cooldown.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/h. Best Time Buy and Sell Stock 6 Multibuy with transaction fee.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/a. 1D Climbing Stairs.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/e. Edit Distance.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/a. 1D Rod Cutting Problem.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/h. Best Time Buy and Sell Stock.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/g. Partition.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/f. Knapsack",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/a. 1D Word Break.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/b. 2D Maximal Square.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/a. 1D Coin Change.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/b. 2D Minimum Difficulty of a Job Schedule.py",
+		"/Users/erickim/Desktop/git/code_journal/7_GCJ/2021/R1B/2_Subtransmutation.py",
+		"/Users/erickim/Desktop/git/code_journal/3_dynamic_programming/b. 2D Maximum Score from Performing Multiplication Operations.py"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "a. Stack - Design Browser History.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/git/code_journal/cj.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 490.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

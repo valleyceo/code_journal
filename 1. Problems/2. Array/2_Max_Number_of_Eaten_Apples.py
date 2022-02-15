@@ -24,7 +24,7 @@ Explanation: You can eat 5 apples:
 - On the first to the third day you eat apples that grew on the first day.
 - Do nothing on the fouth and fifth days.
 - On the sixth and seventh days you eat apples that grew on the sixth day.
- 
+
 
 Constraints:
 
@@ -34,23 +34,25 @@ days.length == n
 0 <= apples[i], days[i] <= 2 * 104
 days[i] = 0 if and only if apples[i] = 0.
 """
+'dsfdsf'
+"sdfsdfsdfsd"
 # time complexity: O(n), space complexity: O(n)
 class Solution:
     def eatenApples(self, apples: List[int], days: List[int]) -> int:
         pque = []
         i = 0
         res = 0
-        
+
         while i < len(days) or pque:
             if i < len(days) and apples[i] > 0:
                 heapq.heappush(pque, [i+days[i], apples[i]])
-            
+
             while pque and (pque[0][0] <= i or pque[0][1] == 0):
                 heapq.heappop(pque)
-            
-            if pque:        
+
+            if pque:
                 pque[0][1] -= 1
                 res += 1
             i += 1
-            
+
         return res

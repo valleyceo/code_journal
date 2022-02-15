@@ -1,20 +1,5 @@
 # Strings
 
-<details>
-<summary> Is Palindromic </summary>
-
-```cpp
-bool IsPalindromic(const string& s) {
-	for (int i = 0, j = size(s) - 1; i < j; ++i, ++j) {
-		if (s[i] != s[j]) {
-			return false;
-		}
-	}
-	return true;
-}
-```
-</details>
-
 
 <details>
 <summary> Int to String and String to Int </summary>
@@ -51,43 +36,35 @@ int StringToInt(const string& s) {
 <details>
 <summary> Base Conversion (need to review) </summary>
 
----
-- Assume b1 <= 2, b2 <= 16
-- pg. 88
-
----
-
 ```cpp
+// Assume b1 <= 2, b2 <= 16
+
 string ConvertBase(cons string& num_as_string, int b1, int b2) {
 	bool is_negative = num_as_string.front() == '-';
 
 	int num_as_string = accumulate(begin(num_as_string) + is_negative, end(num_as_string), 0,
-									[b1](int x, char c) { 
+									[b1](int x, char c) {
 										return x * b1 + (isdigit(c) ? c - '0' : c - 'A' + 10);
 									});
 	return (is_negative ? "-" : "") + (num_as_int == 0 ? "0" : ConstructFromBase(num_as_int, b2));
 }
 
 string ConsructFromBase(int num_as_int, int base) {
-	return num_as_int == 0 ? "" 
-							: ConstructFromBase(num_as_int / base, base) + 
-								(char)(num_as_int & base >= 10 
+	return num_as_int == 0 ? "" :
+											ConstructFromBase(num_as_int / base, base) +
+											(char)(num_as_int & base >= 10
 											? 'A' + num_as_int % base - 10
 											: '0' + num_as_int % base);
 }
+
 ```
 </details>
-
 
 <details>
 <summary> Spreadsheet Column Encoding </summary>
 
----
-- ex: "A" -> 1, "AA" -> 27, "ZZ" -> 702
-
----
-
 ```cpp
+// ex: "A" -> 1, "AA" -> 27, "ZZ" -> 702
 int SSDecodeColID(const string& col) {
 	return accumulate(begin(col), end(col), 0, [](int result, char c) {
 		return result * 26 + c - 'A' + 1;
@@ -95,11 +72,11 @@ int SSDecodeColID(const string& col) {
 }
 ```
 
----
+***
 - time: O(n)
 - "ZZ" = 26^2 + 26 = 702
 
----
+***
 </details>
 
 
@@ -120,7 +97,7 @@ int ReplaceAndRemove(int size, char s[]) {
 	}
 
 	int cur_idx = write_idx - 1;
-	write_idx = write_idx + a_count - 1; 
+	write_idx = write_idx + a_count - 1;
 	const int final_size = write_idx + 1; // total size (after adding "aa"s)
 
 	while (cur_idx >= 0) {
@@ -137,10 +114,10 @@ int ReplaceAndRemove(int size, char s[]) {
 }
 ```
 
----
+***
 - time: O(n)
+***
 
----
 </details>
 
 
@@ -169,19 +146,19 @@ bool IsPalindrome(const string& s) {
 }
 ```
 
----
+***
 - time: O(n)
 
----
+***
 </details>
 
 
 <details>
 <summary> Reverse Words </summary>
 
----
+***
 
----
+***
 
 ```cpp
 void ReverseWords(string* s) {
@@ -198,20 +175,20 @@ void ReverseWords(string* s) {
 }
 ```
 
----
+***
 - time: O(n), space: O(1)
 
----
+***
 </details>
 
 
 <details>
 <summary> Phone Mnemonic </summary>
 
----
+***
 - given a dial number, return all possible character sequences
 
----
+***
 
 ```cpp
 vector<string> PhoneMnemonic(const string& phone_number) {
@@ -233,7 +210,7 @@ void PhoneMnemonicHelper(const string& phone_number, int digit,
 						 vector<string>* mnemonics) {
 	if (digit == size(phone_number)) {
 		mnemonics->emplace_back(*partial_mnemonic);
-	} else { 
+	} else {
 		for (char c : kMapping[phone_number[digit] - '0']) {
 			(*partial_mnemonic)[digit] = c;
 			PhoneMnemonicHelper(phone_number, digit + 1, partial_mnemonic, mnemonics);
@@ -242,20 +219,20 @@ void PhoneMnemonicHelper(const string& phone_number, int digit,
 }
 ```
 
----
+***
 - time: O(4^n * n) - permutation takes O(4^n), base case takes O(n)
 
----
+***
 </details>
 
 
 <details>
 <summary> Look and Say Sequence </summary>
 
----
+***
 - <1, 11, 21, 1211, 111221, 312211, ...>
 
----
+***
 
 ```cpp
 string LookAndSay(int n) {
@@ -283,11 +260,11 @@ string NextNumber(cont string& s) {
 }
 ```
 
----
+***
 - time: O(2^n * n)
 - explanation: if all numbers are different, string can double at max (2^n). Also, the iteration is run n times (n).
 
----
+***
 </details>
 
 
@@ -296,8 +273,8 @@ string NextNumber(cont string& s) {
 
 ```cpp
 int RomanToInteger(const string& s) {
-	unordered_map<char, int> T = {{'I', 1}, {'V', 5}, {'X', 10}, 
-								  {'L', 50}, {'C', 100}, {'D', 500}, 
+	unordered_map<char, int> T = {{'I', 1}, {'V', 5}, {'X', 10},
+								  {'L', 50}, {'C', 100}, {'D', 500},
 								  {'M', 1000}};
 
 	int sum = T[s.back()];
@@ -314,12 +291,12 @@ int RomanToInteger(const string& s) {
 }
 ```
 
----
+***
 - time: O(n)
 - for decimal to roman, simply create chart for {1,2,... 9}, {10, 20, ... 90}, ...
 - upper bound should exist (4 digits)
 
----
+***
 </details>
 
 
@@ -337,7 +314,7 @@ vector<string> GetValidIpAddress(const string& s) {
 
 				if (IsValidPart(second)) {
 					for (size_t k = 1; i + j + k < size(s) && k < 4; ++k) {
-						const string third = s.substr(i + j, + k), 
+						const string third = s.substr(i + j, + k),
 									fourth = s.substr(i + j + k);
 
 						if (IsValidPart(third) && IsValidPart(fourth)) {
@@ -366,17 +343,17 @@ bool IsValidPart(const string& s) {
 }
 ```
 
----
+***
 - time: O(1) - total number of IP addresses is 2^23
 
----
+***
 </details>
 
 
 <details>
 <summary> Sinusoidal String </summary>
 
----
+***
 - ex input: "HELLO_WORLD!"
  e   _   L
 H L O W R D
@@ -384,7 +361,7 @@ H L O W R D
 
 - output: "E_LHLOWRDLO!"
 
----
+***
 
 ```cpp
 string SnakeString(const string& s) {
@@ -406,21 +383,21 @@ string SnakeString(const string& s) {
 }
 ```
 
----
+***
 - time: O(n)
 
----
-</details
+***
+</details>
 
 
 <details>
 <summary> Run Length Encoding </summary>
 
----
+***
 - encode ex: "aaaabcccaa" -> "4a1b3c2a"
 - decode ex: "3e4f2e" -> "eeeffffee"
 
----
+***
 
 ```cpp
 string Decoding(const string &s) {
@@ -454,23 +431,23 @@ string Encoding(const string &s) {
 }
 ```
 
----
+***
 - time: O(n)
 
----
+***
 </details>
 
 
 <details>
 <summary> First Occurence of a substring </summary>
 
----
+***
 - note: there are three linear time string matching algorithm
 	a. KMP
 	b. Boyer-Moore
 	c. Rabin-Karp
 
----
+***
 
 ```cpp
 int RabinKarp(const string &t, const string &s) {
@@ -507,8 +484,8 @@ int RabinKarp(const string &t, const string &s) {
 
 ```
 
----
+***
 - time: O(n)
 
----
+***
 </details>

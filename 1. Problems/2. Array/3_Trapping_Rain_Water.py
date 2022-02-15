@@ -12,7 +12,6 @@ Example 2:
 
 Input: height = [4,2,0,3,2,5]
 Output: 9
- 
 
 Constraints:
 
@@ -27,21 +26,21 @@ class Solution:
         leftMax = 0
         rightMax = 0
         res = 0
-        
+
         while (left < right):
             if height[left] <= height[right]:
                 if height[left] > leftMax:
                     leftMax = height[left]
                 else:
                     res += leftMax - height[left]
-                
+
                 left += 1
             else:
                 if height[right] > rightMax:
                     rightMax = height[right]
                 else:
                     res += rightMax - height[right]
-                
+
                 right -= 1
-                
+
         return res

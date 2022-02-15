@@ -15,32 +15,33 @@ Example:
 Input: [2,1,5,6,2,3]
 Output: 10
 """
+
 # Time complexity: O(N), Space complexity: O(N)
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         stack = []
         maxArea = 0
-        
+
         for i in range(len(heights)):
             if len(stack) == 0 or heights[i] > heights[i-1]:
                 stack.append(i)
-            else:       
+            else:
                 while stack and heights[i] < heights[stack[-1]]:
                     h = heights[stack.pop()]
-                    
+
                     if stack:
                         maxArea = max(maxArea, h*(i - stack[-1] - 1))
                     else:
                         maxArea = max(maxArea, h*i)
-                        
+
                 stack.append(i)
-        
+
         while stack:
             h = heights[stack.pop()]
-            
+
             if stack:
                 maxArea = max(maxArea, h*(len(heights) - stack[-1] - 1))
             else:
                 maxArea = max(maxArea, h*len(heights))
-                
+
         return maxArea

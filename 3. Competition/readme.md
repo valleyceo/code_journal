@@ -1,26 +1,28 @@
 # Google Code Jam Notes
 
-## Useful links  
-- https://groups.google.com/forum/#!forum/google-code
-- https://github.com/indy256/codejam-templates
+### Useful links
+
+    - Google Code Jam Official Discussion groups [Here](https://groups.google.com/forum/#!forum/google-code)
 
 
-## How to compile and process input/output (C++)
+### How to compile and run in C++
 ```bash
+# Regular problem
 g++ -o test test.cpp
 ./test < test_in.txt > test_out.txt
 
-# my method (creates #_0in.txt and returns #_0out.txt)
-./run.sh #_myfunc.cpp
-```
-
-### Compiling + interactive method
-```bash
+# Interactive problem
 g++ sol.cpp -std=c++14 -pthread -O3 -o sol.o
 python testing_tool.py 0 sol.o
+```
 
-# my method (2 - tester case)
-./runpy.sh myfunc.cpp x y # x:test case num, y:compile cpp flag 0 or 1(optional)
+### How to compile and run using Autoscript
+```bash
+# Ex: C++
+./jam.sh filename.cpp
+
+# Ex: python
+./jam.sh filename.py
 ```
 
 ### Sample Interaction
@@ -28,7 +30,7 @@ python testing_tool.py 0 sol.o
 #include <iostream>
 
 int main() {
-  
+
   // send
   cout << 10 << endl;
   fflush(stdout);
@@ -43,5 +45,5 @@ int main() {
 
 ```
 
-### Interactive tips
+### Interactive problem tips
 Interactive runner links stdin and stdout, but leaves stderr. Use it for debugging

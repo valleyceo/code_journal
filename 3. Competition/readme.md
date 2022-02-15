@@ -2,7 +2,7 @@
 
 ### Useful links
 
-    - Google Code Jam Official Discussion groups [Here](https://groups.google.com/forum/#!forum/google-code)
+Google Code Jam Official Discussion groups [Here](https://groups.google.com/forum/#!forum/google-code)
 
 
 ### How to compile and run in C++

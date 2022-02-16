@@ -1,11 +1,13 @@
-# Google Code Jam Notes
+# Competitive Programming
 
-### Useful links
+## 1. Google Competition
+
+#### Useful links
 
 Google Code Jam Official Discussion groups [Here](https://groups.google.com/forum/#!forum/google-code)
 
 
-### How to compile and run in C++
+#### How to compile and run in C++
 ```bash
 # Regular problem
 g++ -o test test.cpp
@@ -16,7 +18,7 @@ g++ sol.cpp -std=c++14 -pthread -O3 -o sol.o
 python testing_tool.py 0 sol.o
 ```
 
-### How to compile and run using Autoscript
+#### How to compile and run using Autoscript
 ```bash
 # Ex: C++
 ./jam.sh filename.cpp
@@ -25,7 +27,7 @@ python testing_tool.py 0 sol.o
 ./jam.sh filename.py
 ```
 
-### Sample Interaction
+#### Sample Interaction
 ```cpp
 #include <iostream>
 
@@ -45,5 +47,6 @@ int main() {
 
 ```
 
-### Interactive problem tips
+#### Interactive problem tips
+
 Interactive runner links stdin and stdout, but leaves stderr. Use it for debugging

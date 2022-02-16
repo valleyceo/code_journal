@@ -50,9 +50,9 @@ if [ $EXT == "cpp" ]
 then
 	"./${filePath}/${FNAME}.o" < "${filePath}/$INTXT" > "${filePath}/$OUTTXT"
 else
-	python "${filePath}/${STRIN}" < "${filePath}/$INTXT" > "${filePath}/$OUTTXT"
+	python3 "${filePath}/${STRIN}" < "${filePath}/$INTXT" > "${filePath}/$OUTTXT"
 fi
 
 end=$(date +%s)
-runtime=$(python -c "print(${end} - ${start})")
+runtime=$(python3 -c "print(${end} - ${start})")
 echo "Runtime: $runtime second(s)."

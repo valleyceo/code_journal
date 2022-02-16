@@ -1,39 +1,4 @@
 
-
-<details>
-<summary> Is palindrome </summary>
-
----
-
-Write a program that takes an integer and determines if that integer's representation as a decimal string is a palindrome.
-
-hint: extract least significant digit and most significant digit.
-
----
-
-```cpp
-bool IsPalindromeNumber(int x) {
-	if (x <= 0) {
-		return x == 0;
-	}
-
-	const int num_digits = static_cast<int>(floor(log10(x))) + 1;
-	int msd_mask = static_cast<int> (pow(10, num_digits - 1));
-
-	for (int i = 0; i < (num_digits / 2); ++i) {
-		if (x / msd_mask != x % 10) {
-			return false;
-		}
-
-		x %= msd_mask;
-		x /= 10;
-		msd_mask /= 100;
-	}
-}
-```
-</details>
-
-
 <details>
 <summary> Generate Uniform Random Numbers </summary>
 

@@ -22,7 +22,7 @@ def rearrangeLinkedList(head, k):
 	equalHead, equalTail = None, None
 	largeHead, largeTail = None, None
 	curr = head
-	
+
 	while curr:
 		if curr.value < k:
 			smallHead, smallTail = insertLL(smallHead, smallTail, curr)
@@ -30,31 +30,31 @@ def rearrangeLinkedList(head, k):
 			equalHead, equalTail = insertLL(equalHead, equalTail, curr)
 		else:
 			largeHead, largeTail = insertLL(largeHead, largeTail, curr)
-		
+
 		temp = curr
 		curr = curr.next
 		temp.next = None
-	
+
 	smallEqHead, smallEqTail = connectLL(smallHead, smallTail, equalHead, equalTail)
 	return connectLL(smallEqHead, smallEqTail, largeHead, largeTail)[0]
 
 def insertLL(head, tail, node):
 	newHead = head
 	newTail = node
-	
+
 	if newHead is None:
 		newHead = node
-	
+
 	if tail:
 		tail.next = node
-	
+
 	return (newHead, newTail)
 
 def connectLL(head1, tail1, head2, tail2):
 	newHead = head2 if head1 is None else head1
 	newTail = tail1 if tail2 is None else tail2
-	
+
 	if tail1:
 		tail1.next = head2
-	
+
 	return (newHead, newTail)

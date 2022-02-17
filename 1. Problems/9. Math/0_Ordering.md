@@ -1,10 +1,11 @@
 a. Knowledge
 	- Date
-b. Patterns
+b. Numbers
 	- Fib
 	- Prime
 		- Primarity test (Fermat's little theorem)
 		- Sieve of Eratosthenes
+    - Pascal
 	- Catalan
 	- Eulerian
 c. Geometry

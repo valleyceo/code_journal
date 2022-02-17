@@ -1,5 +1,4 @@
-a. 1D Binary Search
-b. 2D Binary Search
-c. Sort
-	- Merge Sort
-	- Heap Sort
+a. N^2 Sort
+b. Quick Sort
+c. Merge Sort
+d. Heap Sort

@@ -26,11 +26,11 @@ public:
         vector<int> hash(10);
         string res = "";
         int a = 0, b = 0;
-        
+
         for (int i = 0; i < secret.length(); ++i){
             hash[secret[i] - '0']++;
         }
-        
+
         // bulls
         for (int i = 0; i < secret.length(); ++i) {
             if (secret[i] == guess[i]) {
@@ -38,7 +38,7 @@ public:
                 hash[secret[i] - '0']--;
             }
         }
-        
+
         // cows
         for (int i = 0; i < secret.length(); ++i) {
            if (secret[i] != guess[i] && hash[guess[i] - '0'] > 0 ) {
@@ -46,7 +46,7 @@ public:
                 hash[guess[i] - '0']--;
             }
         }
-        
+
         return to_string(a) + "A" + to_string(b) + "B";
     }
 };

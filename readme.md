@@ -6,7 +6,19 @@ Please feel free to look up problem solutions or build your own code journal usi
 
 ```  ./1. Problems
 ├── 1. Bits
-│   └── 0. Template
+│   ├── 0. Template
+│   │   ├── 1. Counting - Closest int with same bit count.py
+│   │   ├── 1. Counting - Count Bits.py
+│   │   ├── 2. Operation - Add.py
+│   │   ├── 2. Operation - Divide.py
+│   │   ├── 2. Operation - Multiply.py
+│   │   ├── 2. Operation - Power.py
+│   │   ├── 2. Operation - Random Number.py
+│   │   ├── 3. Masking - Reverse bits.py
+│   │   └── 3. Masking - Swap Bits.py
+│   ├── c. Bits - 1 Bit and 2 Bit Characters.py
+│   ├── c. Bits - Design BItset.py
+│   └── c. Bits - Hamming Distance.py
 ├── 1. Strings
 │   ├── 0. Template
 │   │   ├── lcs.cpp
@@ -103,21 +115,19 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Trapping_Rain_Water.py
 │   ├── Find_The_Duplicates.cpp
 │   ├── Merging_2_Packages.cpp
+│   ├── a. 1D 1 - Continuous Subarray Sum.py
 │   ├── a. 1D 1 - Sum - Maxiumum Product Subarray.py
 │   ├── a. 1D 2 - Sequence - Jump Game II.py
+│   ├── a. 1D 3 - Interval - Interval List Intersections.py
+│   ├── a. 1D 5 - Sliding Window - Max Consecutive Ones III.py
+│   └── island_count.cpp
+├── 2. Stack
 │   ├── a. 1D 3 - Stack - Exclusive Timme of Functions.py
 │   ├── a. 1D 3 - Stack - Next Greater Element (Algo).py
 │   ├── a. 1D 3 - Stack - Shorten Path (Algo).py
 │   ├── a. 1D 4 - Monotone Stack - Sum of Subarray Minimums.py
-│   ├── a. 1D 5 - Sliding Window - Max Consecutive Ones III.py
 │   ├── bracketCheck.cpp
-│   ├── c. Bits - 1 Bit and 2 Bit Characters.py
-│   ├── c. Bits - Design BItset.py
-│   ├── c. Bits - Hamming Distance.py
-│   ├── heap.py
-│   ├── island_count.cpp
 │   └── stack_with_max.cpp
-├── 2. Stack
 ├── 3. Linked List
 │   ├── 0. Template
 │   │   ├── Doubly Linked List.py
@@ -149,6 +159,15 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 0. Template
 │   │   ├── E. Trie - Suffix Trie.py
 │   │   ├── E. Trie.py
+│   │   ├── binaryTree_Inorder_Stack.py
+│   │   ├── binaryTree_Iterator.py
+│   │   ├── binaryTree_Node.py
+│   │   ├── binaryTree_Traverse_Recursive_Array.cpp
+│   │   ├── binaryTree_Traverse_Stack.cpp
+│   │   ├── binaryTree_deleteNode.py
+│   │   ├── binaryTree_depth_width.cpp
+│   │   ├── bst_successor_search.cpp
+│   │   ├── heap.py
 │   │   ├── min_spanning_tree.cpp
 │   │   └── n-aryTree.cpp
 │   ├── 1_Balanced_Binary_Tree.cpp
@@ -194,17 +213,10 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. BST - Traversal - Are Same BST (Algo).py
 │   ├── b. BST - Traversal - Validate Three Nodes (Algo).py
 │   ├── b. Heap - Top K Frequent Words.py
-│   ├── binaryTree_Inorder_Stack.py
-│   ├── binaryTree_Iterator.py
-│   ├── binaryTree_Node.py
-│   ├── binaryTree_Traverse_Recursive_Array.cpp
-│   ├── binaryTree_Traverse_Stack.cpp
-│   ├── binaryTree_deleteNode.py
-│   ├── binaryTree_depth_width.cpp
-│   ├── bst_successor_search.cpp
 │   ├── c. Heap 1.py
 │   ├── c. Heap 2 - Heap Sort.py
 │   ├── c. Heap 3 - kth Largest.py
+│   ├── d. Trie - Design File System.py
 │   └── d. Trie - Search Suggestion System.py
 ├── 5. Searching
 ├── 5. Sorting
@@ -297,6 +309,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D - Paint House 2 - with color cost.py
 │   ├── a. 1D - Paint House 3 - with already painted houses.py
 │   ├── a. 1D - Rod Cutting Problem.py
+│   ├── a. 1D - Unique BSTs.py
 │   ├── a. 1D - Word Break.py
 │   ├── a. Kadane - Maximum Sum Circular Subarray.py
 │   ├── a. Math - Number of Dice Rolls With Target Sum.py
@@ -390,6 +403,7 @@ Please feel free to look up problem solutions or build your own code journal usi
     │   ├── binaryExponential.cpp
     │   ├── binomialCoefficient.cpp
     │   ├── binomialCoefficient.py
+    │   ├── c. Geometry - Intersect Rectangle.py
     │   ├── catalan.py
     │   ├── combination.cpp
     │   ├── factorialMod.cpp
@@ -425,7 +439,7 @@ Please feel free to look up problem solutions or build your own code journal usi
     ├── 3_Max_Points_on_a_Line.cpp
     └── a. Knowledge - Date - Day of the week.py
 
-23 directories, 396 files
+23 directories, 410 files
 ```  
 
 

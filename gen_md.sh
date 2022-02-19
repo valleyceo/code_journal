@@ -15,10 +15,9 @@ tree ./"1. Problems" -N -P "*.cpp|*.py" >> tree.md
 #printf "Python:\t$PYTHON\n" >> tree.md
 echo '```  ' >> tree.md
 
-printf '\n\n ## Templates  \n\n```  ' > tree2.md
-tree ./"2. Notes/" -N -P "*.cpp|*.py" >> tree2.md
-echo '```  ' >> tree2.md
+#printf '\n\n ## Templates  \n\n```  ' > tree2.md
+#tree ./"2. Notes/" -N -P "*.cpp|*.py" >> tree2.md
+#echo '```  ' >> tree2.md
 
-cat readme_header.md tree.md tree2.md > readme.md
+cat readme_header.md tree.md > readme.md
 rm tree.md
-rm tree2.md

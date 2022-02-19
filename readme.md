@@ -5,7 +5,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 ## Problems  
 
 ```  ./1. Problems
-├── 1. Bits
+├── a. Bits
 │   ├── 0. Template
 │   │   ├── 1. Counting - Closest int with same bit count.py
 │   │   ├── 1. Counting - Count Bits.py
@@ -17,13 +17,15 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── 3. Masking - Reverse bits.py
 │   │   └── 3. Masking - Swap Bits.py
 │   ├── c. Bits - 1 Bit and 2 Bit Characters.py
+│   ├── c. Bits - Convert Base.py
 │   ├── c. Bits - Design BItset.py
 │   └── c. Bits - Hamming Distance.py
-├── 1. Strings
+├── b. Strings
 │   ├── 0. Template
-│   │   ├── lcs.cpp
-│   │   └── lics.cpp
-│   ├── 1_Add_Binary.cpp
+│   │   ├── Phone Number Mnemonic.py
+│   │   ├── Replace and Remove.py
+│   │   ├── b. Encrypt - Run Length Encoding.py
+│   │   └── e. String Match - Rabin Karp.py
 │   ├── 1_Bulls_and_Cows.cpp
 │   ├── 1_Count_and_Say.cpp
 │   ├── 1_First_Unique_Character_in_a_String.cpp
@@ -55,13 +57,20 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── Basic_Regex_Parser.cpp
 │   ├── Decrypt_Message.cpp
 │   ├── Word_Count_Engine.cpp
+│   ├── b. Encrypt - Excel Sheet Column Number.py
+│   ├── b. Encrypt - Int to Roman.py
+│   ├── b. Encrypt - Roman to Int.py
 │   ├── c. Best Substring - Longest Balanced Substring (Algo).py
 │   ├── c. Best Substring - Smallest Substring Containing (Algo).py
 │   └── maximum_submatrix.cpp
-├── 2. Array
+├── c. Array
 │   ├── 0. Template
-│   │   ├── RPN.cpp
-│   │   └── queue.cpp
+│   │   ├── a. 1D 1 - Sum - List Multiply.py
+│   │   ├── a. 1D 1 - Sum - List Plus One.py
+│   │   ├── a. 1D 2 - Sequence - Alternate Small and Large.py
+│   │   ├── a. 1D 2 - Sequence - Can Jump To End.py
+│   │   ├── b. 2D - Matrix - Rotate Matrix.py
+│   │   └── b. 2D - Simulation - Spiral Ordering of 2D Array.py
 │   ├── 1_Island_Perimeter.cpp
 │   ├── 1_K_Weakest_Rows_in_Matrix.cpp
 │   ├── 1_Letter_Case_Permutation.cpp
@@ -121,21 +130,38 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D 3 - Interval - Interval List Intersections.py
 │   ├── a. 1D 5 - Sliding Window - Max Consecutive Ones III.py
 │   └── island_count.cpp
-├── 2. Stack
-│   ├── a. 1D 3 - Stack - Exclusive Timme of Functions.py
-│   ├── a. 1D 3 - Stack - Next Greater Element (Algo).py
-│   ├── a. 1D 3 - Stack - Shorten Path (Algo).py
-│   ├── a. 1D 4 - Monotone Stack - Sum of Subarray Minimums.py
-│   ├── bracketCheck.cpp
-│   └── stack_with_max.cpp
-├── 3. Linked List
+├── d. Stack & Queue
+│   ├── Template
+│   │   ├── a. Stack - Buildings with Sunset View.py
+│   │   ├── a. Stack - Stack with Max.py
+│   │   ├── b. Queue - Circular Queue.py
+│   │   ├── b. Queue - Queue from Stack.py
+│   │   ├── b. Queue - Queue with Max(using Deque).py
+│   │   ├── b. Queue - Queue with Max.py
+│   │   ├── c. Brackets - Valid Bracket.py
+│   │   ├── d. File System - Normalize Path Names.py
+│   │   └── e. RPN - Evaluate RPN.py
+│   ├── a. Stack - Exclusive Timme of Functions.py
+│   ├── a. Stack - Next Greater Element.py
+│   ├── a. Stack - Shorten Path (Algo).py
+│   └── a. Stack 2 - Monotone Stack - Sum of Subarray Minimums.py
+├── e. Linked List
 │   ├── 0. Template
 │   │   ├── Doubly Linked List.py
 │   │   ├── Linked List.py
 │   │   ├── Node.cpp
 │   │   ├── Node.py
 │   │   ├── Radix Sort.py
-│   │   └── Reverse Linked List.py
+│   │   ├── Reverse Linked List.py
+│   │   ├── a. Mutate - Cyclical Right Shift.py
+│   │   ├── a. Mutate - Even Odd Merger.py
+│   │   ├── a. Mutate - List Pivoting.py
+│   │   ├── a. Mutate - Reverse Sublist.py
+│   │   ├── b. Search - Find Cycle - Test Cyclicity.py
+│   │   ├── b. Search - Intersect - Test Overlap of Two List (No Cycle).py
+│   │   ├── b. Search - Intersect - Test Overlap of Two List (With Cycle).py
+│   │   ├── b. Search - Is Palindromic.py
+│   │   └── c. Merge - Add Two Numbers.py
 │   ├── 1_Linked_List_Cycle.cpp
 │   ├── 1_Merge_Two_Sorted_Lists.cpp
 │   ├── 1_Palindrome_Linked_List.cpp
@@ -155,10 +181,37 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Manipulate - Node Swap (Algo).py
 │   ├── a. Manipulate - Rearrange Linked List (Algo).py
 │   └── a. Manipulate - Zip Linked List (Algo).py
-├── 4. Trees
+├── f. Trees
 │   ├── 0. Template
 │   │   ├── E. Trie - Suffix Trie.py
 │   │   ├── E. Trie.py
+│   │   ├── a. Binary Tree - Binary Tree Node.py
+│   │   ├── a. Binary Tree - Check Height Balance.py
+│   │   ├── a. Binary Tree - Check if Symmetric.py
+│   │   ├── a. Binary Tree - Construct Exterior List from BT.py
+│   │   ├── a. Binary Tree - Construct From Pre-Order List.py
+│   │   ├── a. Binary Tree - Construct Linked List from leaves of BT.py
+│   │   ├── a. Binary Tree - Construct Right Sibling Tree.py
+│   │   ├── a. Binary Tree - Construct Tree From In-Order and Pre-Order.py
+│   │   ├── a. Binary Tree - Find Kth Node.py
+│   │   ├── a. Binary Tree - Find Path Sum with Target Value.py
+│   │   ├── a. Binary Tree - Find Successor.py
+│   │   ├── a. Binary Tree - LCA with Parent Pointer.py
+│   │   ├── a. Binary Tree - LCA.py
+│   │   ├── a. Binary Tree - Sum of all Path Binary.py
+│   │   ├── a. Binary Tree - Traverse In-Order Constant Space.py
+│   │   ├── a. Binary Tree - Traverse In-Order Stack.py
+│   │   ├── a. Binary Tree - Traverse Pre-Order.py
+│   │   ├── b. BST - BST Node.py
+│   │   ├── b. BST - Check if Three BST Nodes are Ordered.py
+│   │   ├── b. BST - Check if Valid BST.py
+│   │   ├── b. BST - Construct BST from Pre-Order.py
+│   │   ├── b. BST - Construct Credit Info using augmented BST.py
+│   │   ├── b. BST - Find Closest Entries in Three Sorted Arrays.py
+│   │   ├── b. BST - Find First Greater Than K.py
+│   │   ├── b. BST - Find K Largest.py
+│   │   ├── b. BST - Find LCA.py
+│   │   ├── b. BST - Find Range Values in BST.py
 │   │   ├── binaryTree_Inorder_Stack.py
 │   │   ├── binaryTree_Iterator.py
 │   │   ├── binaryTree_Node.py
@@ -167,7 +220,6 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── binaryTree_deleteNode.py
 │   │   ├── binaryTree_depth_width.cpp
 │   │   ├── bst_successor_search.cpp
-│   │   ├── heap.py
 │   │   ├── min_spanning_tree.cpp
 │   │   └── n-aryTree.cpp
 │   ├── 1_Balanced_Binary_Tree.cpp
@@ -198,6 +250,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 2_Longest_Univalue_Path.cpp
 │   ├── 2_Populating_Next_Right_Pointers_in_Each_Node.cpp
 │   ├── 2_Range_Sum_Query_Mutable.py
+│   ├── 2_Top_K_Frequent_Elements.cpp
 │   ├── 3_Binary_Tree_Maximum_Path_Sum.cpp
 │   ├── 3_Kth_Largest.py
 │   ├── 3_Lowest_Common_Ancestor_of_a_Binary_Tree.cpp
@@ -209,55 +262,87 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Binary Tree - Traversal - Compare Leaf Traversal (Algo).py
 │   ├── a. Binary Tree - Traversal - Convert BST to Sorted Doubly LL.py
 │   ├── a. BinaryTree - Traversal - All Nodes Distance K in Binary Tree.py
+│   ├── b. BST - Construct Min-Height BST from Sorted Array.py
 │   ├── b. BST - Right Smaller Than (Algo).py
 │   ├── b. BST - Traversal - Are Same BST (Algo).py
 │   ├── b. BST - Traversal - Validate Three Nodes (Algo).py
+│   ├── d. Special Tree - RB Tree - Generate First KAB Sqrt2.py
+│   ├── d. Trie - Design File System.py
+│   └── d. Trie - Search Suggestion System.py
+├── g. Heap
+│   ├── Template
+│   │   ├── c. Heap - Implementation.py
+│   │   ├── c. Heap - K Almost Sorted Array.py
+│   │   ├── c. Heap - K Closest Stars.py
+│   │   ├── c. Heap - K Largest in Binary Heap.py
+│   │   ├── c. Heap - Merge Sorted Arrays.py
+│   │   ├── c. Heap - Merge Sorted Files.py
+│   │   ├── c. Heap - Online Median.py
+│   │   ├── c. Heap - Sort Increasing-Decreasing Array.py
+│   │   └── c. Heap - Top K.py
 │   ├── b. Heap - Top K Frequent Words.py
 │   ├── c. Heap 1.py
 │   ├── c. Heap 2 - Heap Sort.py
-│   ├── c. Heap 3 - kth Largest.py
-│   ├── d. Trie - Design File System.py
-│   └── d. Trie - Search Suggestion System.py
-├── 5. Searching
-├── 5. Sorting
+│   └── c. Heap 3 - kth Largest.py
+├── h. Binary Search
+│   ├── 1_Binary_Search.py
+│   ├── 1_Find_Smallest_Letter_Greater_Than_Target.py
+│   ├── 1_First_Bad_Version.cpp
+│   ├── 1_Valid_Perfect_Square.py
+│   ├── 2_Find_K_Closest_Elements.py
+│   ├── 2_Search_a_2D_Matrix_II.cpp
+│   ├── 2_Search_for_a_Range.cpp
+│   ├── 2_Search_in_Rotated_Sorted_Array.cpp
+│   ├── 2_Search_in_Rotated_Sorted_Array.py
+│   ├── Template
+│   │   ├── Search Duplicate and Missing.py
+│   │   ├── Search First of K.py
+│   │   ├── Search Kth Largest.py
+│   │   ├── Search Missing IP.py
+│   │   ├── Search Smallest.py
+│   │   ├── Search Sorted Matrix.py
+│   │   ├── Search Square Root.py
+│   │   └── Search Target.py
+│   ├── a. 1D - Divide Chocolate.py
+│   ├── a. 1D - Find the Smallest Divisor Given a Threshold.py
+│   └── a. 1D - Split Array Largest Sum.py
+├── i. Sorting
 │   ├── 0. Template
 │   │   ├── Heap_Sort.cpp
+│   │   ├── Max Number of Simultaneous Events.py
 │   │   ├── Merge Sort.py
 │   │   ├── MergeSort.py
 │   │   ├── MergeSort_Inplace.py
 │   │   ├── Merge_Sort.cpp
 │   │   ├── QuickSort.cpp
-│   │   └── QuickSort.py
-│   ├── 1_Binary_Search.py
-│   ├── 1_Find_Smallest_Letter_Greater_Than_Target.py
-│   ├── 1_First_Bad_Version.cpp
+│   │   ├── QuickSort.py
+│   │   ├── Remove Duplicate.py
+│   │   ├── Smallest Non-Constructible Sum.py
+│   │   ├── Sorting Datastructure.py
+│   │   ├── b. Interval - Find Union of Intervals.py
+│   │   ├── b. Interval - Merge Intervals.py
+│   │   ├── b. Quick Sort - Dutch Flag Problem.py
+│   │   ├── c. Custom Sort - Fast Sorting Using Linked List.py
+│   │   ├── c. Custom Sort - Group By Age.py
+│   │   ├── c. Custom Sort - Team Photo.py
+│   │   └── d. Threshold - Find Salary Cap.py
 │   ├── 1_Merge_Sorted_Array.cpp
 │   ├── 1_Search_Insert_Position.cpp
-│   ├── 1_Valid_Perfect_Square.py
 │   ├── 2_Capacity_To_Ship_Packages_Within_D_Days.py
-│   ├── 2_Find_K_Closest_Elements.py
 │   ├── 2_Find_Peak_Element.cpp
-│   ├── 2_Kth_Largest_Element_in_an_Array.cpp
 │   ├── 2_Meeting_Rooms_II.cpp
 │   ├── 2_Merge_Intervals.cpp
-│   ├── 2_Search_a_2D_Matrix_II.cpp
-│   ├── 2_Search_for_a_Range.cpp
-│   ├── 2_Search_in_Rotated_Sorted_Array.cpp
-│   ├── 2_Search_in_Rotated_Sorted_Array.py
 │   ├── 2_Sort_Colors.cpp
-│   ├── 2_Top_K_Frequent_Elements.cpp
 │   ├── 3_Kth_Smallest_Element_in_a_Sorted_Matrix.cpp
 │   ├── 3_Median_of_Two_Sorted_Arrays.cpp
 │   ├── 3_Split_Array_Largest_Sum.py
 │   ├── 3_Wiggle_Sort_II.cpp
 │   ├── Bad_Sorters.cpp
-│   ├── Binary_Search.cpp
-│   ├── Binary_Search.py
 │   ├── K_Messed_Array_Sort.cpp
 │   ├── Pancake_Sort.cpp
 │   ├── a. 1D Binary Search - Search in Rotated Sorted Array.py
 │   └── c. Sort - Merge Sort - Count Merge Sort (Algo).py
-├── 6. Backtracking
+├── j. Recursion & Backtrack
 │   ├── 2_All_Possible_Full_Binary_Trees.py
 │   ├── 2_Array_to_BST_Permutation.py
 │   ├── 2_Generate_Parentheses.cpp
@@ -271,16 +356,37 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Remove_Invalid_Parentheses.cpp
 │   ├── 3_Wildcard_Matching.cpp
 │   ├── 3_Word_Search_II.cpp
-│   ├── a. 1D - Permutations - Subsets.py
-│   └── b. 2D - Robot Room Cleaner.py
-├── 7. Dynamic Programming
+│   ├── Template
+│   │   ├── a. Permutation - Apply Permutation.py
+│   │   ├── a. Permutation - Find Next Permutation.py
+│   │   ├── a. Recursion - Gray Code.py
+│   │   ├── a. Recursion - N-Queens.py
+│   │   ├── a. Recursion - Sudoku Solver.py
+│   │   ├── a. Recursion - Towers of Hanoi.py
+│   │   ├── c. Permutations - Generate Permutations.py
+│   │   ├── c. Permutations - Generate all Binary Tree.py
+│   │   ├── c. Permutations - Generate all Palindromes from String.py
+│   │   ├── c. Permutations - Generate all Subsets of Size K.py
+│   │   ├── c. Permutations - Generate all Subsets.py
+│   │   ├── c. Permutations - Generate all Valid Parentheses String of K.py
+│   │   ├── d. Random - Compute Random Permutation.py
+│   │   ├── d. Random - Non-uniform Random Numbers.py
+│   │   ├── d. Random - Online Random Sampling.py
+│   │   ├── d. Random - Random Subarray.py
+│   │   └── d. Random - Random Subset.py
+│   ├── a. Backtrack - Path - Different Ways to Add Parentheses.py
+│   ├── a. Backtrack - Path - Number of Dice Rolls With Target Sum.py
+│   ├── a. Backtrack - Path - Restore IP Addresses.py
+│   ├── a. Backtrack - Simulation - Robot Room Cleaner.py
+│   ├── a. Backtrack - Wild Card - Valid Parenthesis String.py
+│   └── b. Math - Permutations - Subsets.py
+├── k. DP & Hash
 │   ├── 0. Template
 │   │   ├── 01knapsack.cpp
 │   │   ├── hashmap.py
 │   │   ├── hashset.py
 │   │   └── knapsack.cpp
 │   ├── 1_Maximum_Subarray.cpp
-│   ├── 1_Pascals_Triangle_II.py
 │   ├── 2_Combination_Sum.py
 │   ├── 2_Jump_Game.cpp
 │   ├── 2_Number_of_Dice_Rolls_With_Target_Sum.py
@@ -312,7 +418,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D - Unique BSTs.py
 │   ├── a. 1D - Word Break.py
 │   ├── a. Kadane - Maximum Sum Circular Subarray.py
-│   ├── a. Math - Number of Dice Rolls With Target Sum.py
+│   ├── a. Path - Stock - Buy and Sell Twice.py
 │   ├── b. 2D - Has Square of Zero Border (Algo).py
 │   ├── b. 2D - Interleaving String.py
 │   ├── b. 2D - Maximal Square.py
@@ -335,8 +441,10 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── h. Best Time Buy and Sell Stock 4 Up to K buys.py
 │   ├── h. Best Time Buy and Sell Stock 5 Multibuy with 1 day cooldown.py
 │   ├── h. Best Time Buy and Sell Stock 6 Multibuy with transaction fee.py
+│   ├── lcs.cpp
+│   ├── lics.cpp
 │   └── number_of_paths.cpp
-├── 8. Graphs
+├── l. Graphs
 │   ├── 03_Alien_Dictionary.cpp
 │   ├── 0_Template
 │   │   ├── Union Find - Cycle Detection.py
@@ -379,7 +487,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Graph Search - Bellman Ford - Detect Arbitrage (Algo).py
 │   ├── b. Graph Search - Bridges in Graph - Two-Edge-Connected Graph (Algo).py
 │   └── b. Graph Search 2 - DFS - Airport Connectinos (Algo).py
-├── 9. Design
+├── m. Design
 │   ├── 0. Template
 │   │   ├── LRU Cache (Algo).py
 │   │   ├── LRU_Cache.py
@@ -396,10 +504,12 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Implement_Trie_(Prefix_Tree).cpp
 │   ├── 3_LRU_Cache.cpp
 │   └── a. Stack - Design Browser History.py
-└── 9. Math
+└── n. Math
     ├── 0. Template
     │   ├── Probability.cpp
     │   ├── a. Karatsuba - Multiply Two Large Numbers.py
+    │   ├── b. Number - Pascal - Generate Pascal Triangle.py
+    │   ├── b. Patterns - Prime - Sieve's Generate Prime.py
     │   ├── binaryExponential.cpp
     │   ├── binomialCoefficient.cpp
     │   ├── binomialCoefficient.py
@@ -419,6 +529,7 @@ Please feel free to look up problem solutions or build your own code journal usi
     ├── 1_Excel_Sheet_Column_Title.cpp
     ├── 1_Pascals_Triangle.cpp
     ├── 1_Pascals_Triangle_II.cpp
+    ├── 1_Pascals_Triangle_II.py
     ├── 1_Power_of_Three.cpp
     ├── 1_Power_of_Two.cpp
     ├── 1_Roman_to_Integer.cpp
@@ -439,13 +550,5 @@ Please feel free to look up problem solutions or build your own code journal usi
     ├── 3_Max_Points_on_a_Line.cpp
     └── a. Knowledge - Date - Day of the week.py
 
-23 directories, 410 files
-```  
-
-
- ## Templates  
-
-```  ./2. Notes/  [error opening dir]
-
-0 directories, 0 files
+28 directories, 516 files
 ```  

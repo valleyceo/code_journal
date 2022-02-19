@@ -1,0 +1,9 @@
+a. Recursion
+b. Backtracking
+	- Scheduling
+	- Path
+	- WildCard
+ 	- Simulation
+c. Permutations
+d. Combinations
+e. Random

@@ -1,22 +1,22 @@
 a. Union Find
 b. Graph search
-	- BFS
-	- DFS
-	- Dijkstra
-	- AStar
-	- Belman Ford
-	- Floyd Warshall
-	- Johnson
+	1. BFS
+	2. DFS
+	3. Dijkstra
+	4. AStar
+	5. Belman Ford
+	6. Floyd Warshall
+	7. Johnson
 c. Min Span Tree
-	- Prim
- 	- Kruskal
- 	- Articulation point
- 	- Bridges in a graph
+	1. Prim
+ 	2. Kruskal
+ 	3. Articulation point
+ 	4. Bridges in a graph
 d. Cycle Detection
-	- Tarjan's algorithm
-	- Hamilton path
-	- Euler path
-	- Euler circuit
-	- Hierholzer algorithm
+	1. Tarjan's algorithm
+	2. Hamilton path
+	3. Euler path
+	4. Euler circuit
+	5. Hierholzer algorithm
 e. Topological Sorting
 	- Kahn's Algorithm

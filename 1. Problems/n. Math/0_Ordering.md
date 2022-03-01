@@ -5,7 +5,8 @@ b. Numbers
 	- Prime
 		- Primarity test (Fermat's little theorem)
 		- Sieve of Eratosthenes
-    - Pascal
+	- Collatz
+	- Pascal
 	- Catalan
 	- Eulerian
 c. Geometry

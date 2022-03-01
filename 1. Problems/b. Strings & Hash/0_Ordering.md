@@ -1,6 +1,7 @@
-a. palindrome
+a. Palindrome
 	- Manacher's algorithm
 b. Encrypt
+	- Hash
 c. Best Substring
 d. String mutation
 	- Chain Poblem
@@ -11,3 +12,4 @@ e. String Match
 	- Boyer-Moore
 	- Z algorithm
 	- Aho Corasick (trie)
+f. Hash

@@ -1,5 +1,5 @@
 a. Union Find
-b. Graph search 
+b. Graph search
 	- BFS
 	- DFS
 	- Dijkstra
@@ -18,3 +18,5 @@ d. Cycle Detection
 	- Euler path
 	- Euler circuit
 	- Hierholzer algorithm
+e. Topological Sorting
+	- Kahn's Algorithm

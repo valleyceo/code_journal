@@ -19,10 +19,10 @@ def rightSiblingTree(root):
 def mutate(node, parent, isLeftChild):
 	if node is None:
 		return
-	
+
 	left, right = node.left, node.right
 	mutate(left, node, True)
-	
+
 	if parent is None:
 		node.right = None
 	elif isLeftChild:
@@ -32,5 +32,5 @@ def mutate(node, parent, isLeftChild):
 			node.right = None
 		else:
 			node.right = parent.right.left
-	
+
 	mutate(right, node, False)

@@ -1,11 +1,11 @@
 a. Binary Tree
 	- Traversal
 	- Construct
-	- Check
+	- Compute
 b. Binary Search Tree
 	- Traversal
 	- Construct
-	- Check
+	- Compute
 c. N-ary Tree
 	- N-ary
 	- Trie

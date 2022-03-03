@@ -13,19 +13,7 @@ Populate each next pointer to point to its next right node. If there is no next 
 
 Initially, all next pointers are set to NULL.
 
-Example 1:
-
-Input: root = [1,2,3,4,5,6,7]
-Output: [1,#,2,3,#,4,5,6,7,#]
-Explanation: Given the above perfect binary tree (Figure A), your function should populate each next pointer to point to its next right node, just like in Figure B. The serialized output is in level order as connected by the next pointers, with '#' signifying the end of each level.
-
-Example 2:
-
-Input: root = []
-Output: []
-
 Constraints:
-
 The number of nodes in the tree is in the range [0, 212 - 1].
 -1000 <= Node.val <= 1000
 
@@ -40,52 +28,52 @@ class Node:
 class Solution:
     def connect(self, root: 'Node') -> 'Node':
         return self.bfsOptimal(root)
-    
+
     # assumes perfect binary tree
     def bfsOptimal(self, root: 'Node') -> 'Node':
         if root is None:
             return root
-        
+
         leftmost = root
-        
+
         while leftmost.left:
             head = leftmost
-            
+
             while head:
                 head.left.next = head.right
-                
+
                 if head.next:
                     head.right.next = head.next.left
-                
+
                 head = head.next
-            
+
             leftmost = leftmost.left
-        
+
         return root
-    
+
     # works on any binary tree
     def bfs(self, root: 'Node') -> 'Node':
         if root is None:
             return root
-        
+
         level = [root]
-        
+
         while level:
             temp = []
-            
+
             for i in range(len(level)):
                 if i == 0:
                     temp_node = level[i]
                 else:
                     temp_node.next = level[i]
                     temp_node = level[i]
-                
+
                 if level[i].left:
                     temp.append(level[i].left)
-                    
+
                 if level[i].right:
                     temp.append(level[i].right)
-            
+
             level = temp
-        
+
         return root

@@ -19,7 +19,7 @@
 
 ##### Semaphore
 - Synchronization construct, maintains a set of permits
-- Usage: 
+- Usage:
 	- .acquire(): Waits till permit is available then takes it
 	- .release(): adds the permit and notifies threads waiting on that semaphore
 
@@ -75,7 +75,7 @@ public:
 
 		resp.EncodeIntoResponse(closest_to_last_word_);
 	}
-	
+
 private:
 	static string w_last_;
 	static vector<string> closest_to_last_word_;

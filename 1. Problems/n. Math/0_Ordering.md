@@ -11,6 +11,7 @@ b. Numbers
 	- Eulerian
 c. Geometry
 d. Computation
+	- Addition
 	- Multiplication
 		- Karabusa algorithm
 		- Strassen's sububic matrix

@@ -24,6 +24,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── Phone Number Mnemonic.py
 │   │   ├── Replace and Remove.py
 │   │   ├── a. Palindrome - Can Form Palindrome.py
+│   │   ├── a. Palindrome - Manacher's Algorithm - Longest Palindrome.py
 │   │   ├── b. Encrypt - Run Length Encoding.py
 │   │   ├── b. Encrypt - String Hash.py
 │   │   ├── c. Best Substring - Find All Subset Combination in String.py
@@ -71,6 +72,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Encrypt - Roman to Int.py
 │   ├── c. Best Substring - Longest Balanced Substring (Algo).py
 │   ├── c. Best Substring - Smallest Substring Containing (Algo).py
+│   ├── d. String Mutation - Find and Replace in String.py
+│   ├── e. String Match - Backspace String Compare.py
 │   └── maximum_submatrix.cpp
 ├── c. Array
 │   ├── 0. Template
@@ -92,7 +95,6 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 1_Remove_Duplicates_From_Sorted_Array.cpp
 │   ├── 1_Reverse_Bits.cpp
 │   ├── 1_Rotate_Array.cpp
-│   ├── 1_Rotate_Image.cpp
 │   ├── 1_Single_Number.cpp
 │   ├── 1_Two_Sum.cpp
 │   ├── 1_Valid_Parentheses.cpp
@@ -138,13 +140,19 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Trapping_Rain_Water.py
 │   ├── Find_The_Duplicates.cpp
 │   ├── Merging_2_Packages.cpp
+│   ├── a. 1D - Invariant - Trapping Rain Water.py
 │   ├── a. 1D 1 - Continuous Subarray Sum.py
 │   ├── a. 1D 1 - Sum - Contiguous 0|1 Array.py
 │   ├── a. 1D 1 - Sum - Maxiumum Product Subarray.py
 │   ├── a. 1D 2 - Sequence - Jump Game II.py
 │   ├── a. 1D 3 - Interval - Interval List Intersections.py
+│   ├── a. 1D 4 - Invariant - 3 Sum.py
+│   ├── a. 1D 4 - Invariant - Container with Most Water.py
 │   ├── a. 1D 4 - Invariant - K-Diff Pairs in Array.py
+│   ├── a. 1D 4 - Invariant - Longest Substring Without Repeating Chars.py
+│   ├── a. 1D 4 - Invariant - Longest Substring with at Most Two Distinct Characters.py
 │   ├── a. 1D 4 - Invariant - Max Consecutive Ones III.py
+│   ├── a. 1D 4 - Invariant - Minimum Window Substring.py
 │   └── island_count.cpp
 ├── d. Stack & Queue
 │   ├── Template
@@ -161,8 +169,11 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Stack - Next Greater Element.py
 │   ├── a. Stack - Shorten Path (Algo).py
 │   ├── a. Stack 2 - MonoStack - Build Maximum Binary Tree.py
+│   ├── a. Stack 2 - MonoStack - Odd Even Jump.py
 │   ├── a. Stack 2 - MonoStack - Sum of Subarray Minimums.py
-│   └── a. Stack 2 - MonoStack - Sum of Subarray Ranges.py
+│   ├── a. Stack 2 - MonoStack - Sum of Subarray Ranges.py
+│   ├── c. Brackets - Valid Parentheses.py
+│   └── e. RPN - Design an Expression Tree with Evaluate Function.py
 ├── e. Linked List
 │   ├── 0. Template
 │   │   ├── Doubly Linked List.py
@@ -276,14 +287,16 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Lowest_Common_Ancestor_of_a_Binary_Tree.cpp
 │   ├── 3_Maximum_XOR_of_Two_Numers_in_Array.py
 │   ├── 3_Word_Search_II.py
-│   ├── a. Binary Tree - Flatten Binary Tree (Algo).py
-│   ├── a. Binary Tree - Populating Next Right Pointers in Each Node.py
-│   ├── a. Binary Tree - Right Sibling Tree Mutated (Algo).py
+│   ├── a. Binary Tree - Construct - Clone Binary Tree with Random Pointer.py
+│   ├── a. Binary Tree - Construct - Flatten Binary Tree (Algo).py
+│   ├── a. Binary Tree - Construct - Populating Next Right Pointers in Each Node.py
+│   ├── a. Binary Tree - Construct - Right Sibling Tree Mutated (Algo).py
+│   ├── a. Binary Tree - Traversal - All Nodes Distance K in Binary Tree.py
 │   ├── a. Binary Tree - Traversal - Compare Leaf Traversal (Algo).py
 │   ├── a. Binary Tree - Traversal - Convert BST to Sorted Doubly LL.py
-│   ├── a. BinaryTree - Traversal - All Nodes Distance K in Binary Tree.py
-│   ├── b. BST - Construct Min-Height BST from Sorted Array.py
-│   ├── b. BST - Right Smaller Than (Algo).py
+│   ├── a. Binary Tree - Traversal - LCA of List of Nodes.py
+│   ├── b. BST - Compute - Right Smaller Than (Algo).py
+│   ├── b. BST - Construct - Min-Height BST from Sorted Array.py
 │   ├── b. BST - Traversal - Are Same BST (Algo).py
 │   ├── b. BST - Traversal - Validate Three Nodes (Algo).py
 │   ├── c. N-ary Tree - Clone N-ary Tree.py
@@ -293,6 +306,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   └── d. Trie - Search Suggestion System.py
 ├── g. Heap
 │   ├── Template
+│   │   ├── a. Top K - K Largest Element.py
 │   │   ├── c. Heap - Implementation.py
 │   │   ├── c. Heap - K Almost Sorted Array.py
 │   │   ├── c. Heap - K Closest Stars.py
@@ -302,6 +316,10 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── c. Heap - Online Median.py
 │   │   ├── c. Heap - Sort Increasing-Decreasing Array.py
 │   │   └── c. Heap - Top K.py
+│   ├── a. Top K - K Closest Points to Origin.py
+│   ├── a. Top K - Meeting Rooms II.py
+│   ├── a. Top K - Merge k Sorted Lists.py
+│   ├── a. Top K - Minimum Cost to Hire K Workers.py
 │   ├── b. Heap - Top K Frequent Words.py
 │   ├── c. Heap 1.py
 │   ├── c. Heap 2 - Heap Sort.py
@@ -403,9 +421,11 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Backtrack - Path - Restore IP Addresses.py
 │   ├── a. Backtrack - Scheduling - Optimum Task Time Allocation.py
 │   ├── a. Backtrack - Simulation - Robot Room Cleaner.py
+│   ├── a. Backtrack - Simultation - Execution of all Suffix Instruction in Grid.py
 │   ├── a. Backtrack - Wild Card - Valid Parenthesis String.py
 │   ├── b. Math - Permutations - Subsets.py
-│   └── c. Bits - 1 Bit and 2 Bit Characters.py
+│   ├── c. Bits - 1 Bit and 2 Bit Characters.py
+│   └── c. Permutation - Next Permutation.py
 ├── k. DP
 │   ├── 0. Template
 │   │   ├── 01knapsack.cpp
@@ -550,6 +570,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 2_Serialize_and_Deserialize_Binary_Tree.cpp
 │   ├── 3_Implement_Trie_(Prefix_Tree).cpp
 │   ├── 3_LRU_Cache.cpp
+│   ├── a. File System - Read N Characters Given Read4 Multi-Call.py
+│   ├── a. File System - Read N Characters Given Read4.py
 │   └── a. Stack - Design Browser History.py
 ├── n. Math
 │   ├── 0. Template
@@ -596,8 +618,9 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3. Computation - GCD - Smallest Integer Divisible by K.py
 │   ├── 3_Largest_Number.cpp
 │   ├── 3_Max_Points_on_a_Line.cpp
-│   └── a. Knowledge - Date - Day of the week.py
+│   ├── a. Knowledge - Date - Day of the week.py
+│   └── d. Computation - Addition - Plus One.py
 └── o. Parallel Computing
 
-29 directories, 564 files
+29 directories, 587 files
 ```  

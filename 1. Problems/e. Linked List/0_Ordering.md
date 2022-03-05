@@ -1,5 +1,6 @@
-a. Mutate LL
-	- Reverse LL
-b. Search LL
+a. Manipulate
+	- Reverse
+	- Compute
+b. Search
 	- Intersection
 	- Find cycle

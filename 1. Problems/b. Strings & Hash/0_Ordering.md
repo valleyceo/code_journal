@@ -4,7 +4,6 @@ b. Encrypt
 	- Hash
 c. Best Substring
 d. String mutation
-	- Chain Poblem
 	- Levenstein distance
 e. String Match
 	- Rabin-Karp

@@ -3,6 +3,7 @@ a. 1D
 	- 2. Sequence
 	- 3. Interval
 	- 4. Invariant
+	- 5. Other
 b. 2D
 	- 1. Matrix
 	- 2. Simulation

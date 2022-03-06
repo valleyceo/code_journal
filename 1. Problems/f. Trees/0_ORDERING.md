@@ -12,7 +12,7 @@ c. N-ary Tree
 d. Special Tree
 	- AVL Tree
 	- RB Tree
-	- Binary Indexed tree (Fenwick Tree)
+	- Fenwick Tree (Binary Indexed tree)
 	- Segment Tree (Statistic Tree)
 	- Interval Tree
 	- KD Tree

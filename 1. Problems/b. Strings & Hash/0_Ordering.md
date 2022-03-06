@@ -1,7 +1,7 @@
 a. Palindrome
 	- Manacher's algorithm
 b. Encrypt
-	- Hash
+b. Hash
 c. Best Substring
 d. String mutation
 	- Levenstein distance

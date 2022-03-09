@@ -24,6 +24,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── Phone Number Mnemonic.py
 │   │   ├── Replace and Remove.py
 │   │   ├── a. Palindrome - Can Form Palindrome.py
+│   │   ├── a. Palindrome - Manacher - Longest Palindromic Substring.py
 │   │   ├── a. Palindrome - Manacher's Algorithm - Longest Palindrome.py
 │   │   ├── b. Encrypt - Run Length Encoding.py
 │   │   ├── b. Encrypt - String Hash.py
@@ -67,12 +68,18 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── Basic_Regex_Parser.cpp
 │   ├── Decrypt_Message.cpp
 │   ├── Word_Count_Engine.cpp
+│   ├── a. Palindrome - Strobogrammatic Number.py
+│   ├── b. Encrypt - Decode String.py
 │   ├── b. Encrypt - Excel Sheet Column Number.py
+│   ├── b. Encrypt - Hash - Isomorphic Strings.py
 │   ├── b. Encrypt - Int to Roman.py
 │   ├── b. Encrypt - Roman to Int.py
+│   ├── b. Hash - Bulls and Cows.py
 │   ├── c. Best Substring - Longest Balanced Substring (Algo).py
 │   ├── c. Best Substring - Smallest Substring Containing (Algo).py
+│   ├── d. String Mutation - Duplicate Zeros.py
 │   ├── d. String Mutation - Find and Replace in String.py
+│   ├── d. String Mutation - Swap Adjacent in LR String.py
 │   ├── e. String Match - Backspace String Compare.py
 │   └── maximum_submatrix.cpp
 ├── c. Array
@@ -145,14 +152,19 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D 1 - Sum - Contiguous 0|1 Array.py
 │   ├── a. 1D 1 - Sum - Maxiumum Product Subarray.py
 │   ├── a. 1D 2 - Sequence - Jump Game II.py
+│   ├── a. 1D 3 - Interval - Insert Interval.py
 │   ├── a. 1D 3 - Interval - Interval List Intersections.py
+│   ├── a. 1D 3 - Interval - Merge Intervals.py
+│   ├── a. 1D 3 - Interval - My Calendar II.py
 │   ├── a. 1D 4 - Invariant - 3 Sum.py
 │   ├── a. 1D 4 - Invariant - Container with Most Water.py
 │   ├── a. 1D 4 - Invariant - K-Diff Pairs in Array.py
 │   ├── a. 1D 4 - Invariant - Longest Substring Without Repeating Chars.py
 │   ├── a. 1D 4 - Invariant - Longest Substring with at Most Two Distinct Characters.py
+│   ├── a. 1D 4 - Invariant - Max Consecutive Ones II.py
 │   ├── a. 1D 4 - Invariant - Max Consecutive Ones III.py
 │   ├── a. 1D 4 - Invariant - Minimum Window Substring.py
+│   ├── a. 1D 5 - Other - Candy Distribution.py
 │   └── island_count.cpp
 ├── d. Stack & Queue
 │   ├── Template
@@ -207,8 +219,14 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Merge_k_Sorted_Lists.cpp
 │   ├── 3_Sort_List.cpp
 │   ├── a. Binary Tree - Number of Binary Tree Topologies (Algo).py
+│   ├── a. Manipulate - Compute - Add Two Numbers.py
+│   ├── a. Manipulate - Copy List with Random Pointer.py
+│   ├── a. Manipulate - Insert into a Cyclic Sorted List.py
+│   ├── a. Manipulate - Merge Two Sorted Lists.py
 │   ├── a. Manipulate - Node Swap (Algo).py
 │   ├── a. Manipulate - Rearrange Linked List (Algo).py
+│   ├── a. Manipulate - Remove Nth Node from End.py
+│   ├── a. Manipulate - Rotate List by K.py
 │   └── a. Manipulate - Zip Linked List (Algo).py
 ├── f. Trees
 │   ├── 0. Template
@@ -291,9 +309,12 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Binary Tree - Construct - Flatten Binary Tree (Algo).py
 │   ├── a. Binary Tree - Construct - Populating Next Right Pointers in Each Node.py
 │   ├── a. Binary Tree - Construct - Right Sibling Tree Mutated (Algo).py
+│   ├── a. Binary Tree - Maximum Path Sum.py
 │   ├── a. Binary Tree - Traversal - All Nodes Distance K in Binary Tree.py
 │   ├── a. Binary Tree - Traversal - Compare Leaf Traversal (Algo).py
 │   ├── a. Binary Tree - Traversal - Convert BST to Sorted Doubly LL.py
+│   ├── a. Binary Tree - Traversal - Count Complete Tree Nodes.py
+│   ├── a. Binary Tree - Traversal - Flip Equivalent Binary Tree.py
 │   ├── a. Binary Tree - Traversal - LCA of List of Nodes.py
 │   ├── b. BST - Compute - Right Smaller Than (Algo).py
 │   ├── b. BST - Construct - Min-Height BST from Sorted Array.py
@@ -301,7 +322,9 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. BST - Traversal - Validate Three Nodes (Algo).py
 │   ├── c. N-ary Tree - Clone N-ary Tree.py
 │   ├── c. N-ary Tree - Construct Quad Tree.py
+│   ├── d. Special Tree - Fenwick - Range Sum Query 2D - Mutable.py
 │   ├── d. Special Tree - RB Tree - Generate First KAB Sqrt2.py
+│   ├── d. Special Tree - Segment Tree - Count of Smaller Numbers After Self.py
 │   ├── d. Trie - Design File System.py
 │   └── d. Trie - Search Suggestion System.py
 ├── g. Heap
@@ -345,7 +368,11 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   └── Search Target.py
 │   ├── a. 1D - Divide Chocolate.py
 │   ├── a. 1D - Find the Smallest Divisor Given a Threshold.py
-│   └── a. 1D - Split Array Largest Sum.py
+│   ├── a. 1D - Split Array Largest Sum.py
+│   ├── a. Search - Find First and Last Pos of Value in Sorted Array.py
+│   ├── a. Search - Median of Two Sorted Arrays.py
+│   ├── a. Search - Peak Index in a Mountain Array.py
+│   └── a. Search - Split Array Largest Sum.py
 ├── i. Sorting
 │   ├── 0. Template
 │   │   ├── Heap_Sort.cpp
@@ -381,6 +408,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── K_Messed_Array_Sort.cpp
 │   ├── Pancake_Sort.cpp
 │   ├── a. 1D Binary Search - Search in Rotated Sorted Array.py
+│   ├── a. Brute Sort - Sort Array by Parity.py
 │   └── c. Sort - Merge Sort - Count Merge Sort (Algo).py
 ├── j. Recursion & Backtrack
 │   ├── 2_All_Possible_Full_Binary_Trees.py
@@ -395,7 +423,6 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Regular_Expression_Matching.cpp
 │   ├── 3_Remove_Invalid_Parentheses.cpp
 │   ├── 3_Wildcard_Matching.cpp
-│   ├── 3_Word_Search_II.cpp
 │   ├── Template
 │   │   ├── a. Permutation - Apply Permutation.py
 │   │   ├── a. Permutation - Find Next Permutation.py
@@ -416,13 +443,20 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── d. Random - Online Random Sampling.py
 │   │   ├── d. Random - Random Subarray.py
 │   │   └── d. Random - Random Subset.py
-│   ├── a. Backtrack - Path - Different Ways to Add Parentheses.py
 │   ├── a. Backtrack - Path - Number of Dice Rolls With Target Sum.py
 │   ├── a. Backtrack - Path - Restore IP Addresses.py
 │   ├── a. Backtrack - Scheduling - Optimum Task Time Allocation.py
 │   ├── a. Backtrack - Simulation - Robot Room Cleaner.py
 │   ├── a. Backtrack - Simultation - Execution of all Suffix Instruction in Grid.py
 │   ├── a. Backtrack - Wild Card - Valid Parenthesis String.py
+│   ├── a. Recursion - Android Unlock Patterns.py
+│   ├── a. Recursion - Cracking the Safe.py
+│   ├── a. Recursion - Generate Parentheses.py
+│   ├── a. Recursion - Strobogrammatic Number II.py
+│   ├── a. Recursion - Word Search II.py
+│   ├── b. Backtrack - Path - Different Ways to Add Parentheses.py
+│   ├── b. Backtrack - Path - Letter Combinations of a Phone Number.py
+│   ├── b. Backtracking - Path - Word Squares.py
 │   ├── b. Math - Permutations - Subsets.py
 │   ├── c. Bits - 1 Bit and 2 Bit Characters.py
 │   └── c. Permutation - Next Permutation.py
@@ -480,6 +514,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D - Unique BSTs.py
 │   ├── a. 1D - Word Break.py
 │   ├── a. Kadane - Maximum Sum Circular Subarray.py
+│   ├── a. Path - Optimal Range - Maximum Product Subarray.py
+│   ├── a. Path - Optimal Range - Maximum Subarray (Kadane).py
 │   ├── a. Path - Stock - Buy and Sell Twice.py
 │   ├── b. 2D - Has Square of Zero Border (Algo).py
 │   ├── b. 2D - Interleaving String.py
@@ -550,10 +586,16 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Word_Ladder.cpp
 │   ├── a. Union Find - Accounts Merge.py
 │   ├── b. Search 1 - BFS - Clone Graph.py
+│   ├── b. Search 1 - BFS - Evaluate Division.py
+│   ├── b. Search 1 - BFS - Word Ladder (Word Chain).py
 │   ├── b. Search 2 - DFS - Airport Connectinos (Algo).py
 │   ├── b. Search 2 - DFS - Bridges in Graph, Two-Edge-Connected Graph (Algo).py
+│   ├── b. Search 2 - DFS - Longest Increasing Path in a Matrix.py
+│   ├── b. Search 2 - DFS - Most Stones Removed with Same Row or Column.py
 │   ├── b. Search 4 - A Star - Implementation (Algo).py
-│   └── b. Search 5 - Bellman Ford - Detect Arbitrage (Algo).py
+│   ├── b. Search 5 - Bellman Ford - Detect Arbitrage (Algo).py
+│   ├── e. TopoSort - Course Schedule II.py
+│   └── e. TopoSort - Parallel Courses (Kahn).py
 ├── m. Design
 │   ├── 0. Template
 │   │   ├── LRU Cache (Algo).py
@@ -572,28 +614,35 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_LRU_Cache.cpp
 │   ├── a. File System - Read N Characters Given Read4 Multi-Call.py
 │   ├── a. File System - Read N Characters Given Read4.py
-│   └── a. Stack - Design Browser History.py
+│   ├── a. Stack - Design Browser History.py
+│   ├── a. Stack - Max Stack.py
+│   ├── a. Stack - Min Stack.py
+│   ├── b. Queue - LRU Cache.py
+│   ├── d. Hash - Insert Delete GetRandom O(1).py
+│   ├── d. Hash - Logger Rate Limiter.py
+│   ├── e. Tree - Design Search Autocomplete System.py
+│   └── e. Tree - Serialize and Deserialize Binary Tree.py
 ├── n. Math
 │   ├── 0. Template
 │   │   ├── Probability.cpp
-│   │   ├── a. Karatsuba - Multiply Two Large Numbers.py
-│   │   ├── b. Number - Pascal - Generate Pascal Triangle.py
+│   │   ├── b. Numbers - Catalan.py
 │   │   ├── b. Numbers - Collatz - Test Collatz Conjecture.py
+│   │   ├── b. Numbers - M-aryToDecimal.cpp
+│   │   ├── b. Numbers - Pascal - Generate Pascal Triangle.py
+│   │   ├── b. Numbers - decimalToM-ary.cpp
 │   │   ├── b. Patterns - Prime - Sieve's Generate Prime.py
 │   │   ├── binaryExponential.cpp
 │   │   ├── binomialCoefficient.cpp
 │   │   ├── binomialCoefficient.py
 │   │   ├── c. Geometry - Intersect Rectangle.py
-│   │   ├── catalan.py
 │   │   ├── combination.cpp
+│   │   ├── d. Computation - GCD.py
+│   │   ├── d. Computation - LCM.py
+│   │   ├── d. Computation - Multiplication - Multiply Two Large Numbers(Karatsuba).py
 │   │   ├── factorialMod.cpp
-│   │   ├── gcd.py
 │   │   ├── isPrime.cpp
-│   │   ├── lcm.cpp
-│   │   ├── mToTen.cpp
 │   │   ├── powerModulus.cpp
-│   │   ├── primeFactor.cpp
-│   │   └── tenToM.cpp
+│   │   └── primeFactor.cpp
 │   ├── 01_Largest_Palindrome_Product.cpp
 │   ├── 1_Count_Primes.cpp
 │   ├── 1_Excel_Sheet_Column_Title.cpp
@@ -622,5 +671,5 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   └── d. Computation - Addition - Plus One.py
 └── o. Parallel Computing
 
-29 directories, 587 files
+29 directories, 636 files
 ```  

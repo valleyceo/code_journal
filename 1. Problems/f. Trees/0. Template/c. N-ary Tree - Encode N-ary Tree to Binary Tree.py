@@ -48,7 +48,8 @@ class TreeNode:
         self.left = None
         self.right = None
 """
-
+# O(N) time | O(L) space
+# N is the number of nodes, L is the max number of nodes at same level
 class Codec:
     # Encodes an n-ary tree to a binary tree.
     def encode(self, root: 'Optional[Node]') -> Optional[TreeNode]:

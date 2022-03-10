@@ -268,6 +268,10 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── binaryTree_deleteNode.py
 │   │   ├── binaryTree_depth_width.cpp
 │   │   ├── bst_successor_search.cpp
+│   │   ├── c. N-ary Tree - Encode N-ary Tree to Binary Tree.py
+│   │   ├── c. N-ary Tree - Postorder Traversal.py
+│   │   ├── c. N-ary Tree - Preorder Traversal.py
+│   │   ├── c. N-ary Tree - Serialize and Deserialize N-ary Tree.py
 │   │   ├── d. Special Tree - Fenwick Tree.py
 │   │   ├── min_spanning_tree.cpp
 │   │   └── n-aryTree.cpp
@@ -314,11 +318,14 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Binary Tree - Traversal - Compare Leaf Traversal (Algo).py
 │   ├── a. Binary Tree - Traversal - Convert BST to Sorted Doubly LL.py
 │   ├── a. Binary Tree - Traversal - Count Complete Tree Nodes.py
+│   ├── a. Binary Tree - Traversal - Count Univalue Subrees.py
 │   ├── a. Binary Tree - Traversal - Flip Equivalent Binary Tree.py
 │   ├── a. Binary Tree - Traversal - LCA of List of Nodes.py
 │   ├── b. BST - Compute - Right Smaller Than (Algo).py
 │   ├── b. BST - Construct - Min-Height BST from Sorted Array.py
 │   ├── b. BST - Traversal - Are Same BST (Algo).py
+│   ├── b. BST - Traversal - Closest BST Value II.py
+│   ├── b. BST - Traversal - Closest BST Value.py
 │   ├── b. BST - Traversal - Validate Three Nodes (Algo).py
 │   ├── c. N-ary Tree - Clone N-ary Tree.py
 │   ├── c. N-ary Tree - Construct Quad Tree.py
@@ -365,11 +372,13 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── Search Smallest.py
 │   │   ├── Search Sorted Matrix.py
 │   │   ├── Search Square Root.py
-│   │   └── Search Target.py
+│   │   ├── Search Target.py
+│   │   └── a. Search - Binary Search Templates.py
 │   ├── a. 1D - Divide Chocolate.py
 │   ├── a. 1D - Find the Smallest Divisor Given a Threshold.py
 │   ├── a. 1D - Split Array Largest Sum.py
 │   ├── a. Search - Find First and Last Pos of Value in Sorted Array.py
+│   ├── a. Search - Find K-th Smallest Pair Distance.py
 │   ├── a. Search - Median of Two Sorted Arrays.py
 │   ├── a. Search - Peak Index in a Mountain Array.py
 │   └── a. Search - Split Array Largest Sum.py
@@ -671,5 +680,5 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   └── d. Computation - Addition - Plus One.py
 └── o. Parallel Computing
 
-29 directories, 636 files
+29 directories, 645 files
 ```  

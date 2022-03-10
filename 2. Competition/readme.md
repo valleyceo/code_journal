@@ -21,10 +21,10 @@ python testing_tool.py 0 sol.o
 #### How to compile and run using Autoscript
 ```bash
 # Ex: C++
-./jam.sh filename.cpp
+./cj.sh filename.cpp
 
 # Ex: python
-./jam.sh filename.py
+./cj.sh filename.py
 ```
 
 #### Sample Interaction

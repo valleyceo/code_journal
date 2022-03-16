@@ -37,23 +37,18 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── e. String Match - Rabin Karp.py
 │   │   ├── e. String Match - Ransom Note.py
 │   │   └── f. Hash - Find Nearest Repeated String in Array.py
-│   ├── 1_Bulls_and_Cows.cpp
 │   ├── 1_Count_and_Say.cpp
 │   ├── 1_First_Unique_Character_in_a_String.cpp
 │   ├── 1_Implement_strStr().cpp
 │   ├── 1_Keyboard_Row.cpp
 │   ├── 1_License_Key_Formatting.cpp
 │   ├── 1_Longest_Common_Prefix.cpp
-│   ├── 1_Ransom_Note.cpp
 │   ├── 1_Repeated_String_Match.cpp
-│   ├── 1_Reverse_Integer.cpp
 │   ├── 1_Reverse_String.cpp
 │   ├── 1_Reverse_Vowels_of_a_String.cpp
 │   ├── 1_Reverse_Words_in_a_String.cpp
 │   ├── 1_Reverse_Words_in_a_String_III.cpp
 │   ├── 1_String_to_Integer_(atoi).cpp
-│   ├── 1_Valid_Anagram.cpp
-│   ├── 1_Valid_Palindrome.cpp
 │   ├── 2_Add_Bold_Tag_in_String.cpp
 │   ├── 2_Group_Anagrams.cpp
 │   ├── 2_Longest_Palindromic_Substring.cpp
@@ -65,9 +60,9 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Regular_Expression_Matching.cpp
 │   ├── 3_Word_Break2.cpp
 │   ├── Array_Index_&_Element_Equality.cpp
-│   ├── Basic_Regex_Parser.cpp
 │   ├── Decrypt_Message.cpp
 │   ├── Word_Count_Engine.cpp
+│   ├── a. Palindrome - Palindrome Pairs.py
 │   ├── a. Palindrome - Strobogrammatic Number.py
 │   ├── b. Encrypt - Decode String.py
 │   ├── b. Encrypt - Excel Sheet Column Number.py
@@ -95,6 +90,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── a. 1D 4 - Invariants - Water Trap Problem.py
 │   │   ├── b. 2D - Matrix - Rotate Matrix.py
 │   │   └── b. 2D - Simulation - Spiral Ordering of 2D Array.py
+│   ├── 1D 3 - Interval - Remove Covered Intervals.py
 │   ├── 1_Island_Perimeter.cpp
 │   ├── 1_K_Weakest_Rows_in_Matrix.cpp
 │   ├── 1_Letter_Case_Permutation.cpp
@@ -164,6 +160,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D 4 - Invariant - Max Consecutive Ones II.py
 │   ├── a. 1D 4 - Invariant - Max Consecutive Ones III.py
 │   ├── a. 1D 4 - Invariant - Minimum Window Substring.py
+│   ├── a. 1D 4 - Invariant - Permutation in String.py
 │   ├── a. 1D 5 - Other - Candy Distribution.py
 │   └── island_count.cpp
 ├── d. Stack & Queue
@@ -179,9 +176,15 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   └── e. RPN - Evaluate RPN.py
 │   ├── a. Stack - Exclusive Time of Functions.py
 │   ├── a. Stack - Next Greater Element.py
+│   ├── a. Stack - Score of Parentheses.py
 │   ├── a. Stack - Shorten Path (Algo).py
 │   ├── a. Stack 2 - MonoStack - Build Maximum Binary Tree.py
+│   ├── a. Stack 2 - MonoStack - Largest Rectangle in Histogram.py
+│   ├── a. Stack 2 - MonoStack - Minimum Cost Tree From Leaf Values.py
+│   ├── a. Stack 2 - MonoStack - Next Greater Element I.py
+│   ├── a. Stack 2 - MonoStack - Next Greater Element II.py
 │   ├── a. Stack 2 - MonoStack - Odd Even Jump.py
+│   ├── a. Stack 2 - MonoStack - Online Stock Span.py
 │   ├── a. Stack 2 - MonoStack - Sum of Subarray Minimums.py
 │   ├── a. Stack 2 - MonoStack - Sum of Subarray Ranges.py
 │   ├── c. Brackets - Valid Parentheses.py
@@ -230,8 +233,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   └── a. Manipulate - Zip Linked List (Algo).py
 ├── f. Trees
 │   ├── 0. Template
+│   │   ├── E. Trie - Implementation.py
 │   │   ├── E. Trie - Suffix Trie.py
-│   │   ├── E. Trie.py
 │   │   ├── a. Binary Tree - Binary Tree Node.py
 │   │   ├── a. Binary Tree - Check Height Balance.py
 │   │   ├── a. Binary Tree - Check if Symmetric.py
@@ -272,7 +275,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── c. N-ary Tree - Postorder Traversal.py
 │   │   ├── c. N-ary Tree - Preorder Traversal.py
 │   │   ├── c. N-ary Tree - Serialize and Deserialize N-ary Tree.py
-│   │   ├── d. Special Tree - Fenwick Tree.py
+│   │   ├── d. Special Tree - Fenwick Tree - Implementation.py
+│   │   ├── d. Special Tree - Segment Tree - Array Implementation.py
 │   │   ├── min_spanning_tree.cpp
 │   │   └── n-aryTree.cpp
 │   ├── 1_Balanced_Binary_Tree.cpp
@@ -326,12 +330,18 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. BST - Traversal - Are Same BST (Algo).py
 │   ├── b. BST - Traversal - Closest BST Value II.py
 │   ├── b. BST - Traversal - Closest BST Value.py
+│   ├── b. BST - Traversal - Delete Node in BST.py
+│   ├── b. BST - Traversal - Inorder Successor in BST.py
 │   ├── b. BST - Traversal - Validate Three Nodes (Algo).py
 │   ├── c. N-ary Tree - Clone N-ary Tree.py
 │   ├── c. N-ary Tree - Construct Quad Tree.py
+│   ├── d. Special Tree - Fenwick - Count Subarrays with More Ones Than Zeros.py
+│   ├── d. Special Tree - Fenwick - Count of Range Sum.py
+│   ├── d. Special Tree - Fenwick - Design Most Recently Used Queue.py
 │   ├── d. Special Tree - Fenwick - Range Sum Query 2D - Mutable.py
 │   ├── d. Special Tree - RB Tree - Generate First KAB Sqrt2.py
 │   ├── d. Special Tree - Segment Tree - Count of Smaller Numbers After Self.py
+│   ├── d. Trie - Design Autocomplete System.py
 │   ├── d. Trie - Design File System.py
 │   └── d. Trie - Search Suggestion System.py
 ├── g. Heap
@@ -432,6 +442,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Regular_Expression_Matching.cpp
 │   ├── 3_Remove_Invalid_Parentheses.cpp
 │   ├── 3_Wildcard_Matching.cpp
+│   ├── Basic_Regex_Parser.cpp
 │   ├── Template
 │   │   ├── a. Permutation - Apply Permutation.py
 │   │   ├── a. Permutation - Find Next Permutation.py
@@ -680,5 +691,5 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   └── d. Computation - Addition - Plus One.py
 └── o. Parallel Computing
 
-29 directories, 645 files
+29 directories, 656 files
 ```  

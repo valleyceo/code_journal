@@ -1,4 +1,4 @@
-// Binary exponential function
+// Binary exponent function
 int binpow (int a, int n)
 {
 	int res = 1;
@@ -8,8 +8,8 @@ int binpow (int a, int n)
 		{
 			res *= a;
 			--n;
-		} 
-		else 
+		}
+		else
 		{
 			a *= a;
 			n >>= 1;
@@ -18,4 +18,3 @@ int binpow (int a, int n)
 
 	return res;
 }
-

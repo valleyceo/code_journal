@@ -12,6 +12,7 @@ a. Operator
 		- Segemented sieve (large number)
 b. Numbers
 	- Fib
+	- Binary Coefficient
 	- Prime
 		- Primarity test (Fermat's little theorem)
 		- Sieve of Eratosthenes
@@ -20,6 +21,7 @@ b. Numbers
 	- Catalan
 	- Eulerian
 c. Probability
+	- Combination
 	- Lucas theorem
 d. Other
 	- Knowledge

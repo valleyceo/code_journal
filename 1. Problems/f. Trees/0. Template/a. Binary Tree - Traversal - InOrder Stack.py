@@ -19,22 +19,25 @@ class Solution:
 '''
 Other Versions
 '''
-def inorderTraversal(root):
-
-    current = root
+def inorderTraversal(self, root: TreeNode) -> List[int]:
     stack = []
+    res = []
+    curr = root
 
     while True:
-        if current is not None:
-            stack.append(current)
-            current = current.left
 
-        elif(stack):
-            current = stack.pop()
-            print(current.data, end=" ")
-            current = current.right
+        if curr:
+            stack.append(curr)
+            curr = curr.left
+        elif len(stack) > 0:
+            curr = stack.pop()
+            res += [curr.val]
+
+            curr = curr.right
         else:
             break
+
+    return res
 
 def inorderTraversal(tree: BinaryTreeNode) -> List[int]:
 

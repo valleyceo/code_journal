@@ -18,5 +18,5 @@ d. Cycle Detection
 	3. Euler path
 	4. Euler circuit
 	5. Hierholzer algorithm
-e. Topological Sorting
+e. TopoSort - Topological Sorting
 	- Kahn's Algorithm

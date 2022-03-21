@@ -64,7 +64,6 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 2_Short_Encoding_of_Words.cpp
 │   ├── 3_Regular_Expression_Matching.cpp
 │   ├── 3_Word_Break2.cpp
-│   ├── Remove Duplicate.py
 │   ├── a. Palindrome - Palindrome Pairs.py
 │   ├── a. Palindrome - Strobogrammatic Number.py
 │   ├── b. Encrypt - Decode String.py
@@ -73,12 +72,14 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Encrypt - Int to Roman.py
 │   ├── b. Encrypt - Roman to Int.py
 │   ├── b. Hash - Bulls and Cows.py
+│   ├── b. Hash - Substring with Concatenation of All Words.py
 │   ├── c. Best Substring - Longest Balanced Substring (Algo).py
 │   ├── c. Best Substring - Smallest Substring Containing (Algo).py
 │   ├── d. String Mutation - Duplicate Zeros.py
 │   ├── d. String Mutation - Find and Replace in String.py
 │   ├── d. String Mutation - Levenshtein - Edit Distance.py
 │   ├── d. String Mutation - Swap Adjacent in LR String.py
+│   ├── d. String Mutation - Text Justification.py
 │   └── e. String Match - Backspace String Compare.py
 ├── c. Array
 │   ├── 0. Template
@@ -186,6 +187,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Stack 2 - MonoStack - Online Stock Span.py
 │   ├── a. Stack 2 - MonoStack - Sum of Subarray Minimums.py
 │   ├── a. Stack 2 - MonoStack - Sum of Subarray Ranges.py
+│   ├── c. Brackets - Longest Valid Parentheses.py
 │   ├── c. Brackets - Valid Parentheses.py
 │   └── e. RPN - Design an Expression Tree with Evaluate Function.py
 ├── e. Linked List
@@ -228,6 +230,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Manipulate - Merge Two Sorted Lists.py
 │   ├── a. Manipulate - Node Swap (Algo).py
 │   ├── a. Manipulate - Rearrange Linked List (Algo).py
+│   ├── a. Manipulate - Remove Duplicates from Sorted List II.py
 │   ├── a. Manipulate - Remove Nth Node from End.py
 │   ├── a. Manipulate - Rotate List by K.py
 │   ├── a. Manipulate - Zip Linked List (Algo).py
@@ -410,7 +413,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Binary Search - Find the Smallest Divisor Given a Threshold.py
 │   ├── a. Binary Search - Median of Two Sorted Arrays.py
 │   ├── a. Binary Search - Peak Index in a Mountain Array.py
-│   ├── a. Binary Search - Search in Rotated Sorted Array.py
+│   ├── a. Binary Search - Search in Rotated Sorted Array I.py
+│   ├── a. Binary Search - Search in Rotated Sorted Array II.py
 │   ├── a. Binary Search - Split Array Largest Sum.py
 │   ├── b. Interval - Find Union of Intervals.py
 │   ├── b. Interval - Max Number of Simultaneous Events.py
@@ -419,7 +423,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── d. DC Sort - Merge Sort - Count Merge Sort (Algo).py
 │   ├── d. Sort - Brute Sort - Bad Sorters.cpp
 │   ├── d. Sort - Brute Sort - Sort Array by Parity.py
-│   └── d. Sort - Custom Sort - Pancake Sort.cpp
+│   ├── d. Sort - Custom Sort - Pancake Sort.cpp
+│   └── d. Sort - Custom Sort - Remove Duplicate.py
 ├── i. Recursion & Backtrack
 │   ├── 2_All_Possible_Full_Binary_Trees.py
 │   ├── 2_Array_to_BST_Permutation.py
@@ -468,13 +473,14 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Backtrack - Simulation - Robot Room Cleaner.py
 │   ├── b. Backtrack - Simultation - Execution of all Suffix Instruction in Grid.py
 │   ├── b. Backtrack - Wild Card - Valid Parenthesis String.py
+│   ├── b. Backtracking - Path - 1 Bit and 2 Bit Characters.py
 │   ├── b. Backtracking - Path - Partition to K Equal Sum Subsets.py
 │   ├── b. Backtracking - Path - Word Squares.py
-│   ├── b. Math - Permutations - Subsets.py
-│   ├── c. Bits - 1 Bit and 2 Bit Characters.py
 │   ├── c. Permutation - Next Permutation.py
 │   ├── c. Permutation - Permutations I.py
 │   ├── c. Permutation - Permutations II.py
+│   ├── c. Permutation - Subsets.py
+│   ├── c. Permutation - nth Permutation.py
 │   ├── d. Combination - Combination Sum.py
 │   └── d. Combination - Factor Combinations.py
 ├── j. DP
@@ -662,7 +668,6 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 1_Excel_Sheet_Column_Title.cpp
 │   ├── 1_Pascals_Triangle.cpp
 │   ├── 1_Pascals_Triangle_II.cpp
-│   ├── 1_Pascals_Triangle_II.py
 │   ├── 1_Power_of_Three.cpp
 │   ├── 1_Power_of_Two.cpp
 │   ├── 1_Roman_to_Integer.cpp
@@ -674,16 +679,18 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 2_Factorial_Trailing_Zeroes.cpp
 │   ├── 2_Fraction_to_Recurring_Decimal.cpp
 │   ├── 2_Happy_Number.cpp
-│   ├── 2_Implement_Rand10_Using_Rand7.py
 │   ├── 2_Next_Permutation.cpp
 │   ├── 2_Pow(x,n).cpp
 │   ├── 2_Sqrt(x).cpp
-│   ├── 3. Computation - GCD - Smallest Integer Divisible by K.py
 │   ├── 3_Largest_Number.cpp
 │   ├── 3_Max_Points_on_a_Line.cpp
-│   ├── a. Knowledge - Date - Day of the week.py
-│   └── d. Computation - Addition - Plus One.py
+│   ├── a. Operator - Addition - Plus One.py
+│   ├── a. Operator - Division - GCD - Smallest Integer Divisible by K.py
+│   ├── b. Number - Random - Implement Rand10 Using Rand7.py
+│   ├── b. Numbers - Binary Coeff - Pascals Triangle II.py
+│   ├── d. Other - Knowledge - Day of the week.py
+│   └── d. Other - Valid Number.py
 └── n. Parallel Computing
 
-27 directories, 648 files
+27 directories, 655 files
 ```  

@@ -11,8 +11,10 @@ a. Operator
 	- Sqrt
 		- Segemented sieve (large number)
 b. Numbers
+	- Random
 	- Fib
-	- Binary Coefficient
+	- Binomial Coefficient
+		- Pascal's Triangle
 	- Prime
 		- Primarity test (Fermat's little theorem)
 		- Sieve of Eratosthenes

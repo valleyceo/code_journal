@@ -1,12 +1,8 @@
 # Data Structure & Algorithm
 
 Please feel free to look up problem solutions or build your own code journal using this format
-
 <Details>
-    <Summary>## Python Syntacs </Summary>
-
-</Details>
-## Problems  
+<Summary>## Problems </Summary>
 
 ```  ./1. Problems
 ├── a. Bits
@@ -19,6 +15,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── b. Operation - Multiply.py
 │   │   ├── b. Operation - Power.py
 │   │   ├── b. Operation - Random Number.py
+│   │   ├── c. Masking - Gray Code.py
 │   │   ├── c. Masking - Reverse bits.py
 │   │   └── c. Masking - Swap Bits.py
 │   ├── a. Counting - Hamming Distance.py
@@ -162,7 +159,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D 4 - Invariant - Minimum Window Substring.py
 │   ├── a. 1D 4 - Invariant - Permutation in String.py
 │   ├── a. 1D 4 - Invariant - Trapping Rain Water.py
-│   └── a. 1D 5 - Other - Candy Distribution.py
+│   ├── a. 1D 5 - Other - Candy Distribution.py
+│   └── b. 2D - Simulation - Self Crossing.py
 ├── d. Stack & Queue
 │   ├── Template
 │   │   ├── a. Monostack - Buildings with Sunset View.py
@@ -229,15 +227,16 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Manipulate - Insert into a Cyclic Sorted List.py
 │   ├── a. Manipulate - Merge Two Sorted Lists.py
 │   ├── a. Manipulate - Node Swap (Algo).py
+│   ├── a. Manipulate - Partition List.py
 │   ├── a. Manipulate - Rearrange Linked List (Algo).py
 │   ├── a. Manipulate - Remove Duplicates from Sorted List II.py
 │   ├── a. Manipulate - Remove Nth Node from End.py
+│   ├── a. Manipulate - Reverse Linked List II.py
 │   ├── a. Manipulate - Rotate List by K.py
 │   ├── a. Manipulate - Zip Linked List (Algo).py
 │   └── a. Search - Find Cycle - Linked List Cycle (Floyd's Cycle).py
 ├── f. Trees
 │   ├── 0. Template
-│   │   ├── 0. n-aryTree.cpp
 │   │   ├── a. Binary Tree - Binary Tree Node.py
 │   │   ├── a. Binary Tree - Check Height Balance.py
 │   │   ├── a. Binary Tree - Check if Symmetric.py
@@ -255,10 +254,10 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── a. Binary Tree - LCA.py
 │   │   ├── a. Binary Tree - Sum of all Path Binary.py
 │   │   ├── a. Binary Tree - Traversal - Implementation using Stack.cpp
-│   │   ├── a. Binary Tree - Traversal - InOrder Constant Space.py
+│   │   ├── a. Binary Tree - Traversal - InOrder Constant Space with Parent Pointer.py
 │   │   ├── a. Binary Tree - Traversal - InOrder Stack.py
+│   │   ├── a. Binary Tree - Traversal - Morris Constant Space Mutating Traversal.py
 │   │   ├── a. Binary Tree - Traversal - PreOrder.py
-│   │   ├── a. Binary Tree - Traverse In-Order Stack.py
 │   │   ├── b. BST - BST Node.py
 │   │   ├── b. BST - Check if Three BST Nodes are Ordered.py
 │   │   ├── b. BST - Check if Valid BST.py
@@ -271,6 +270,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── b. BST - Find Range Values in BST.py
 │   │   ├── b. Binary Tree - Traversal - Iterator.py
 │   │   ├── c. N-ary Tree - Encode N-ary Tree to Binary Tree.py
+│   │   ├── c. N-ary Tree - Node.cpp
 │   │   ├── c. N-ary Tree - Postorder Traversal.py
 │   │   ├── c. N-ary Tree - Preorder Traversal.py
 │   │   ├── c. N-ary Tree - Serialize and Deserialize N-ary Tree.py
@@ -331,6 +331,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. BST - Traversal - Closest BST Value.py
 │   ├── b. BST - Traversal - Delete Node in BST.py
 │   ├── b. BST - Traversal - Inorder Successor in BST.py
+│   ├── b. BST - Traversal - Recover BST.py
 │   ├── b. BST - Traversal - Validate Three Nodes (Algo).py
 │   ├── c. N-ary Tree - Clone N-ary Tree.py
 │   ├── c. N-ary Tree - Construct Quad Tree.py
@@ -445,6 +446,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── a. Recursion - N-Queens.py
 │   │   ├── a. Recursion - Sudoku Solver.py
 │   │   ├── a. Recursion - Towers of Hanoi.py
+│   │   ├── b. Backtracking - N-Queen.py
 │   │   ├── b. Backtracking - Scheduling - Interval Covering Problem.py
 │   │   ├── b. Backtradking - Scheduling - Schedule to Minimize Time.py
 │   │   ├── c. Permutations - Generate Permutations.py
@@ -463,26 +465,28 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Recursion - Generate Parentheses.py
 │   ├── a. Recursion - Letter Combination of Phone Number.py
 │   ├── a. Recursion - Regular Expression Matching.py
+│   ├── a. Recursion - Scramble String.py
 │   ├── a. Recursion - Strobogrammatic Number II.py
 │   ├── a. Recursion - Word Search II.py
+│   ├── b. Backtrack - Path - 1 Bit and 2 Bit Characters.py
 │   ├── b. Backtrack - Path - Different Ways to Add Parentheses.py
 │   ├── b. Backtrack - Path - Letter Combinations of a Phone Number.py
 │   ├── b. Backtrack - Path - Number of Dice Rolls With Target Sum.py
+│   ├── b. Backtrack - Path - Partition to K Equal Sum Subsets.py
 │   ├── b. Backtrack - Path - Restore IP Addresses.py
+│   ├── b. Backtrack - Path - Word Squares.py
 │   ├── b. Backtrack - Scheduling - Optimum Task Time Allocation.py
 │   ├── b. Backtrack - Simulation - Robot Room Cleaner.py
 │   ├── b. Backtrack - Simultation - Execution of all Suffix Instruction in Grid.py
 │   ├── b. Backtrack - Wild Card - Valid Parenthesis String.py
-│   ├── b. Backtracking - Path - 1 Bit and 2 Bit Characters.py
-│   ├── b. Backtracking - Path - Partition to K Equal Sum Subsets.py
-│   ├── b. Backtracking - Path - Word Squares.py
 │   ├── c. Permutation - Next Permutation.py
 │   ├── c. Permutation - Permutations I.py
 │   ├── c. Permutation - Permutations II.py
-│   ├── c. Permutation - Subsets.py
 │   ├── c. Permutation - nth Permutation.py
 │   ├── d. Combination - Combination Sum.py
-│   └── d. Combination - Factor Combinations.py
+│   ├── d. Combination - Factor Combinations.py
+│   ├── d. Combination - Subsets I.py
+│   └── d. Combination - Subsets II.py
 ├── j. DP
 │   ├── 0. Template
 │   │   ├── 01knapsack.cpp
@@ -692,5 +696,5 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   └── d. Other - Valid Number.py
 └── n. Parallel Computing
 
-27 directories, 655 files
-```  
+27 directories, 663 files
+```  </Details>

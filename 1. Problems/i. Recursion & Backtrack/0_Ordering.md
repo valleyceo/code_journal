@@ -4,6 +4,7 @@ b. Backtracking
 	- Path
 	- WildCard
  	- Simulation
+ 	- Game
 c. Permutations
 d. Combinations
 e. Random

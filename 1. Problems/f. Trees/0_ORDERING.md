@@ -1,6 +1,7 @@
 a. Binary Tree
 	- Traversal
 	- Construct
+	- Mutate
 	- Compute
 b. Binary Search Tree
 	- Traversal

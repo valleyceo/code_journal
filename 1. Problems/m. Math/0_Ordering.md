@@ -26,6 +26,7 @@ c. Probability
 	- Combination
 	- Lucas theorem
 d. Other
+	- Count
 	- Knowledge
 		- Date
 	- Geometry

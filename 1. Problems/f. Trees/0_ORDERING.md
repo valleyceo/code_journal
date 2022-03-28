@@ -3,7 +3,7 @@ a. Binary Tree
 	- Construct
 	- Mutate
 	- Compute
-b. Binary Search Tree
+b. Binary Search Tree (BST)
 	- Traversal
 	- Construct
 	- Compute

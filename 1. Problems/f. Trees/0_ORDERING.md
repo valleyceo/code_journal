@@ -1,4 +1,4 @@
-a. Binary Tree
+a. Binary Tree (BT)
 	- Traversal
 	- Construct
 	- Mutate

@@ -36,7 +36,9 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── d. String Mutation - Levenshtein Distance.py
 │   │   ├── d. String Mutation - Replace Word in String.py
 │   │   ├── e. String Match - Find Anagrams.py
-│   │   ├── e. String Match - Rabin Karp.py
+│   │   ├── e. String Match - KMP - Implementation (G4G).py
+│   │   ├── e. String Match - Rabin Karp - Implementation (CTCI).py
+│   │   ├── e. String Match - Rabin Karp - Implementation (G4G).py
 │   │   ├── e. String Match - Ransom Note.py
 │   │   └── f. Hash - Find Nearest Repeated String in Array.py
 │   ├── 1_Count_and_Say.cpp
@@ -62,6 +64,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Regular_Expression_Matching.cpp
 │   ├── 3_Word_Break2.cpp
 │   ├── a. Palindrome - Palindrome Pairs.py
+│   ├── a. Palindrome - Shortest Palindrome.py
 │   ├── a. Palindrome - Strobogrammatic Number.py
 │   ├── b. Encrypt - Decode String.py
 │   ├── b. Encrypt - Excel Sheet Column Number.py
@@ -69,6 +72,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Encrypt - Int to Roman.py
 │   ├── b. Encrypt - Roman to Int.py
 │   ├── b. Hash - Bulls and Cows.py
+│   ├── b. Hash - Shortest Word Distance III.py
 │   ├── b. Hash - Substring with Concatenation of All Words.py
 │   ├── c. Best Substring - Longest Balanced Substring (Algo).py
 │   ├── c. Best Substring - Smallest Substring Containing (Algo).py
@@ -77,7 +81,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── d. String Mutation - Levenshtein - Edit Distance.py
 │   ├── d. String Mutation - Swap Adjacent in LR String.py
 │   ├── d. String Mutation - Text Justification.py
-│   └── e. String Match - Backspace String Compare.py
+│   ├── e. Search - Backspace String Compare.py
+│   └── e. Search - Rabin-Karp - Repeated DNA Sequences.py
 ├── c. Array
 │   ├── 0. Template
 │   │   ├── a. 1D 1 - Sum - List Multiply.py
@@ -187,7 +192,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Stack 2 - MonoStack - Sum of Subarray Ranges.py
 │   ├── c. Brackets - Longest Valid Parentheses.py
 │   ├── c. Brackets - Valid Parentheses.py
-│   └── e. RPN - Design an Expression Tree with Evaluate Function.py
+│   ├── e. Calculator - (RPN) Design an Expression Tree with Evaluate Function.py
+│   └── e. Calculator - Basic Calculator.py
 ├── e. Linked List
 │   ├── 0. Template
 │   │   ├── 0. Doubly Linked List.py
@@ -312,20 +318,20 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Lowest_Common_Ancestor_of_a_Binary_Tree.cpp
 │   ├── 3_Maximum_XOR_of_Two_Numers_in_Array.py
 │   ├── 3_Word_Search_II.py
-│   ├── a. Binary Tree - Construct - Clone Binary Tree with Random Pointer.py
-│   ├── a. Binary Tree - Construct - Flatten Binary Tree (Algo).py
-│   ├── a. Binary Tree - Construct - Populating Next Right Pointers in Each Node.py
-│   ├── a. Binary Tree - Construct - Right Sibling Tree Mutated (Algo).py
-│   ├── a. Binary Tree - Maximum Path Sum.py
-│   ├── a. Binary Tree - Traversal - (Morris) Flatten Binary Tree to Linked List.py
-│   ├── a. Binary Tree - Traversal - All Nodes Distance K in Binary Tree.py
-│   ├── a. Binary Tree - Traversal - Compare Leaf Traversal (Algo).py
-│   ├── a. Binary Tree - Traversal - Convert BST to Sorted Doubly LL.py
-│   ├── a. Binary Tree - Traversal - Count Complete Tree Nodes.py
-│   ├── a. Binary Tree - Traversal - Count Univalue Subrees.py
-│   ├── a. Binary Tree - Traversal - Flip Equivalent Binary Tree.py
-│   ├── a. Binary Tree - Traversal - LCA of List of Nodes.py
-│   ├── a. Binary Tree - Traversal - Mutate - Binary Tree Upside Down.py
+│   ├── a. BT - Construct - Clone Binary Tree with Random Pointer.py
+│   ├── a. BT - Construct - Flatten Binary Tree (Algo).py
+│   ├── a. BT - Construct - Populating Next Right Pointers in Each Node.py
+│   ├── a. BT - Construct - Right Sibling Tree Mutated (Algo).py
+│   ├── a. BT - Maximum Path Sum.py
+│   ├── a. BT - Traversal - (Morris) Flatten Binary Tree to Linked List.py
+│   ├── a. BT - Traversal - All Nodes Distance K in Binary Tree.py
+│   ├── a. BT - Traversal - Compare Leaf Traversal (Algo).py
+│   ├── a. BT - Traversal - Convert BST to Sorted Doubly LL.py
+│   ├── a. BT - Traversal - Count Complete Tree Nodes.py
+│   ├── a. BT - Traversal - Count Univalue Subrees.py
+│   ├── a. BT - Traversal - Flip Equivalent Binary Tree.py
+│   ├── a. BT - Traversal - LCA of List of Nodes.py
+│   ├── a. BT - Traversal - Mutate - Binary Tree Upside Down.py
 │   ├── b. BST - Compute - Right Smaller Than (Algo).py
 │   ├── b. BST - Construct - Min-Height BST from Sorted Array.py
 │   ├── b. BST - Traversal - Are Same BST (Algo).py
@@ -335,6 +341,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. BST - Traversal - Inorder Successor in BST.py
 │   ├── b. BST - Traversal - Recover BST.py
 │   ├── b. BST - Traversal - Validate Three Nodes (Algo).py
+│   ├── b. BST - Traversal - Verify Preorder Sequence in Binary Search Tree.py
 │   ├── c. N-ary Tree - Clone N-ary Tree.py
 │   ├── c. N-ary Tree - Construct Quad Tree.py
 │   ├── d. Special Tree - Fenwick - Count Subarrays with More Ones Than Zeros.py
@@ -425,6 +432,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── c. Threshold - Find Salary Cap.py
 │   ├── d. Sort - Brute Sort - Bad Sorters.cpp
 │   ├── d. Sort - Brute Sort - Sort Array by Parity.py
+│   ├── d. Sort - Custom Sort - Compare Version Numbers.py
 │   ├── d. Sort - Custom Sort - Pancake Sort.cpp
 │   ├── d. Sort - Custom Sort - Remove Duplicate.py
 │   ├── e. DC Sort - Merge Sort - Count Merge Sort (Algo).py
@@ -498,6 +506,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── 01knapsack.cpp
 │   │   ├── Sales_Path.cpp
 │   │   ├── a. Path - Combinations - String to Dictionary Word Decomposition(BBB problem).py
+│   │   ├── a. Path - Kadane.py
 │   │   ├── a. Path - Optimal Path - Find Minimum Weight Path in Triangle.py
 │   │   ├── a. Path - Optimal Path - Pick Up Coins for Maximum Gain.py
 │   │   ├── a. Path - Optimal Path - The Pretty Printing Problem.py
@@ -535,7 +544,6 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D - Coin Change 1 - Fewest coin for the amount.py
 │   ├── a. 1D - Coin Change 2 - Number of combinations for the amount.py
 │   ├── a. 1D - Decode Ways.py
-│   ├── a. 1D - House Robber.py
 │   ├── a. 1D - Longest String Chain (Algo).py
 │   ├── a. 1D - Maximum Length of Repeated Subarray.py
 │   ├── a. 1D - Minimum Cost For Tickets.py
@@ -550,6 +558,9 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Path - Optimal Range - Maximum Product Subarray.py
 │   ├── a. Path - Optimal Range - Maximum Subarray (Kadane).py
 │   ├── a. Path - Stock - Buy and Sell Twice.py
+│   ├── a. Path - Sum - Dungeon Game.py
+│   ├── a. Path - Sum - House Robber I.py
+│   ├── a. Path - Sum - House Robber II (circular).py
 │   ├── b. 2D - Has Square of Zero Border (Algo).py
 │   ├── b. 2D - Interleaving String.py
 │   ├── b. 2D - Maximal Square.py
@@ -582,6 +593,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── a. UnionFind 5 - Cycle Detection.py
 │   │   ├── a. UnionFind 5 - Tracking Size.py
 │   │   ├── b. GraphSearch 2 - DFS - Clone a graph.py
+│   │   ├── b. GraphSearch 3 - Dijkstra (Algo).py
 │   │   ├── b. GraphSearch 3 - Dijkstra.py
 │   │   ├── b. GraphSearch 4 - Bellman Ford.py
 │   │   ├── b. GraphSearch 6 - Floyd Warshall.cpp
@@ -596,6 +608,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── c. MinSpanTree - Prim.py
 │   │   ├── d. Cycle Detection - Detect Cycle.py
 │   │   ├── d. Cycle Detection - Euler Circuit.cpp
+│   │   ├── e. TopoSort - Implementation (Algo).py
 │   │   ├── e. TopoSort 1 - DFS.py
 │   │   └── e. Toposort 2 - BFS.py
 │   ├── 1_Max_Area_of_Island.cpp
@@ -699,6 +712,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Operator - Division - GCD - Smallest Integer Divisible by K.py
 │   ├── b. Number - Random - Implement Rand10 Using Rand7.py
 │   ├── b. Numbers - Binary Coeff - Pascals Triangle II.py
+│   ├── d. Other - Count - Number of Digit One.py
 │   ├── d. Other - Knowledge - Day of the week.py
 │   └── d. Other - Valid Number.py
 └── n. Parallel Computing
@@ -708,5 +722,5 @@ Please feel free to look up problem solutions or build your own code journal usi
     ├── Two Synchronized Interleaving Threads.cpp
     └── Two Unsynchronyzed Interleaved Threads.cpp
 
-27 directories, 675 files
+27 directories, 689 files
 ```  </Details>

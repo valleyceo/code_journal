@@ -54,5 +54,5 @@ if [ $EXT == "cpp" ]
 then
 	python interactive_runner.py python "${filePath}/${N}testing_tool.py" "$CASE" -- "./${filePath}/${FNAME}.o"
 else
-	python interactive_runner.py python "${filePath}/${N}testing_tool.py" "$CASE" -- python "${filePath}/${STRIN}"
+	python3 interactive_runner.py python3 "${filePath}/${N}testing_tool.py" "$CASE" -- python3 "${filePath}/${STRIN}"
 fi

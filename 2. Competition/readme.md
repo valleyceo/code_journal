@@ -18,6 +18,7 @@ python testing_tool.py 0 sol.o
 ```
 
 ## How to compile and run using Autoscript
+
 ```bash
 # Ex: C++
 ./cj.sh filename.cpp

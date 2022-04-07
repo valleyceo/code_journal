@@ -10,6 +10,7 @@ a. Operator
 		- Chinese remainder theorem
 	- Sqrt
 		- Segemented sieve (large number)
+	- Power
 b. Numbers
 	- Random
 	- Fib
@@ -30,3 +31,4 @@ d. Other
 	- Knowledge
 		- Date
 	- Geometry
+	- Math

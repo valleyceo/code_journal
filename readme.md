@@ -20,6 +20,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   └── c. Masking - Swap Bits.py
 │   ├── a. Counting - Hamming Distance.py
 │   ├── b. Operation - Design BItset.py
+│   ├── b. Operation - Integer Replacement.py
 │   └── c. Masking - Search Duplicate and Missing.py
 ├── b. Strings & Hash
 │   ├── 0. Template
@@ -82,7 +83,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── d. String Mutation - Swap Adjacent in LR String.py
 │   ├── d. String Mutation - Text Justification.py
 │   ├── e. Search - Backspace String Compare.py
-│   └── e. Search - Rabin-Karp - Repeated DNA Sequences.py
+│   ├── e. Search - Rabin-Karp - Repeated DNA Sequences.py
+│   └── f. String Fitting - Sentence Screen Fitting.py
 ├── c. Array
 │   ├── 0. Template
 │   │   ├── a. 1D 1 - Sum - List Multiply.py
@@ -148,23 +150,31 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D 1 - Continuous Subarray Sum.py
 │   ├── a. 1D 1 - Sum - Contiguous 0|1 Array.py
 │   ├── a. 1D 1 - Sum - Maxiumum Product Subarray.py
+│   ├── a. 1D 2 - Sequence - Arithmetic Slices.py
 │   ├── a. 1D 2 - Sequence - Jump Game II.py
+│   ├── a. 1D 2 - Sequence - Wiggle Subsequence.py
 │   ├── a. 1D 3 - Interval - Insert Interval.py
 │   ├── a. 1D 3 - Interval - Interval List Intersections.py
 │   ├── a. 1D 3 - Interval - Merge Intervals.py
+│   ├── a. 1D 3 - Interval - Minimum Number of Arrows to Burst Balloons.py
 │   ├── a. 1D 3 - Interval - My Calendar II.py
 │   ├── a. 1D 3 - Interval - Remove Covered Intervals.py
+│   ├── a. 1D 3 Interval - Find Right Interval.py
 │   ├── a. 1D 4 - Invariant - 3 Sum.py
 │   ├── a. 1D 4 - Invariant - Container with Most Water.py
 │   ├── a. 1D 4 - Invariant - K-Diff Pairs in Array.py
+│   ├── a. 1D 4 - Invariant - Longest Repeating Character Replacement.py
 │   ├── a. 1D 4 - Invariant - Longest Substring Without Repeating Chars.py
+│   ├── a. 1D 4 - Invariant - Longest Substring with At Least K Repeating Characters.py
 │   ├── a. 1D 4 - Invariant - Longest Substring with at Most Two Distinct Characters.py
 │   ├── a. 1D 4 - Invariant - Max Consecutive Ones II.py
 │   ├── a. 1D 4 - Invariant - Max Consecutive Ones III.py
+│   ├── a. 1D 4 - Invariant - Maximum Size Subarray Sum Equals K.py
 │   ├── a. 1D 4 - Invariant - Minimum Window Substring.py
 │   ├── a. 1D 4 - Invariant - Permutation in String.py
 │   ├── a. 1D 4 - Invariant - Trapping Rain Water.py
 │   ├── a. 1D 5 - Other - Candy Distribution.py
+│   ├── b. 2D - Invariant - Number of Boomerangs.py
 │   └── b. 2D - Simulation - Self Crossing.py
 ├── d. Stack & Queue
 │   ├── Template
@@ -178,9 +188,11 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── d. File System - Normalize Path Names.py
 │   │   └── e. RPN - Evaluate RPN.py
 │   ├── a. Stack - Exclusive Time of Functions.py
+│   ├── a. Stack - Mini Parser.py
 │   ├── a. Stack - Next Greater Element.py
 │   ├── a. Stack - Score of Parentheses.py
 │   ├── a. Stack - Shorten Path (Algo).py
+│   ├── a. Stack - Ternary Expression Parser.py
 │   ├── a. Stack 2 - MonoStack - Build Maximum Binary Tree.py
 │   ├── a. Stack 2 - MonoStack - Largest Rectangle in Histogram.py
 │   ├── a. Stack 2 - MonoStack - Minimum Cost Tree From Leaf Values.py
@@ -234,6 +246,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Manipulate - Merge Two Sorted Lists.py
 │   ├── a. Manipulate - Node Swap (Algo).py
 │   ├── a. Manipulate - Partition List.py
+│   ├── a. Manipulate - Plus One Linked List.py
 │   ├── a. Manipulate - Rearrange Linked List (Algo).py
 │   ├── a. Manipulate - Remove Duplicates from Sorted List II.py
 │   ├── a. Manipulate - Remove Nth Node from End.py
@@ -322,7 +335,6 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. BT - Construct - Flatten Binary Tree (Algo).py
 │   ├── a. BT - Construct - Populating Next Right Pointers in Each Node.py
 │   ├── a. BT - Construct - Right Sibling Tree Mutated (Algo).py
-│   ├── a. BT - Maximum Path Sum.py
 │   ├── a. BT - Traversal - (Morris) Flatten Binary Tree to Linked List.py
 │   ├── a. BT - Traversal - All Nodes Distance K in Binary Tree.py
 │   ├── a. BT - Traversal - Compare Leaf Traversal (Algo).py
@@ -330,8 +342,11 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. BT - Traversal - Count Complete Tree Nodes.py
 │   ├── a. BT - Traversal - Count Univalue Subrees.py
 │   ├── a. BT - Traversal - Flip Equivalent Binary Tree.py
+│   ├── a. BT - Traversal - House Robber III.py
 │   ├── a. BT - Traversal - LCA of List of Nodes.py
+│   ├── a. BT - Traversal - Maximum Path Sum.py
 │   ├── a. BT - Traversal - Mutate - Binary Tree Upside Down.py
+│   ├── a. BT - Traversal - Path Sum III.py
 │   ├── b. BST - Compute - Right Smaller Than (Algo).py
 │   ├── b. BST - Construct - Min-Height BST from Sorted Array.py
 │   ├── b. BST - Traversal - Are Same BST (Algo).py
@@ -368,6 +383,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── c. Heap 1.py
 │   │   ├── c. Heap 2 - Heap Sort.py
 │   │   └── c. Heap 3 - kth Largest.py
+│   ├── a. Top K - Find K Pairs with Smallest Sums.py
 │   ├── a. Top K - K Closest Points to Origin.py
 │   ├── a. Top K - Meeting Rooms II.py
 │   ├── a. Top K - Merge k Sorted Lists.py
@@ -435,8 +451,10 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── d. Sort - Custom Sort - Compare Version Numbers.py
 │   ├── d. Sort - Custom Sort - Pancake Sort.cpp
 │   ├── d. Sort - Custom Sort - Remove Duplicate.py
+│   ├── d. Sort - Custom Sort - Sort Transformed Array.py
 │   ├── e. DC Sort - Merge Sort - Count Merge Sort (Algo).py
-│   └── e. Special Sort - Radix Sort - Maximum Gap.py
+│   ├── e. Special Sort - Radix Sort - Maximum Gap.py
+│   └── f. Special Sort - Wiggle Sort.py
 ├── i. Recursion & Backtrack
 │   ├── 2_All_Possible_Full_Binary_Trees.py
 │   ├── 2_Array_to_BST_Permutation.py
@@ -451,8 +469,6 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Remove_Invalid_Parentheses.cpp
 │   ├── 3_Wildcard_Matching.cpp
 │   ├── Template
-│   │   ├── a. Permutation - Apply Permutation.py
-│   │   ├── a. Permutation - Find Next Permutation.py
 │   │   ├── a. Recursion - Gray Code.py
 │   │   ├── a. Recursion - N-Queens.py
 │   │   ├── a. Recursion - Sudoku Solver.py
@@ -460,12 +476,15 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── b. Backtracking - N-Queen.py
 │   │   ├── b. Backtracking - Scheduling - Interval Covering Problem.py
 │   │   ├── b. Backtradking - Scheduling - Schedule to Minimize Time.py
+│   │   ├── c. Permutation - Apply Permutation.py
+│   │   ├── c. Permutation - Find Next Permutation.py
 │   │   ├── c. Permutations - Generate Permutations.py
 │   │   ├── c. Permutations - Generate all Binary Tree.py
 │   │   ├── c. Permutations - Generate all Palindromes from String.py
 │   │   ├── c. Permutations - Generate all Subsets of Size K.py
 │   │   ├── c. Permutations - Generate all Subsets.py
 │   │   ├── c. Permutations - Generate all Valid Parentheses String of K.py
+│   │   ├── c. Permutations - Recursive Implementation.py
 │   │   ├── d. Random - Compute Random Permutation.py
 │   │   ├── d. Random - Non-uniform Random Numbers.py
 │   │   ├── d. Random - Online Random Sampling.py
@@ -482,6 +501,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Recursion - Word Search II.py
 │   ├── b. Backtrack - Path - 1 Bit and 2 Bit Characters.py
 │   ├── b. Backtrack - Path - Different Ways to Add Parentheses.py
+│   ├── b. Backtrack - Path - Generalized Abbreviation.py
+│   ├── b. Backtrack - Path - Guess Number Higher or Lower II.py
 │   ├── b. Backtrack - Path - Letter Combinations of a Phone Number.py
 │   ├── b. Backtrack - Path - Number of Dice Rolls With Target Sum.py
 │   ├── b. Backtrack - Path - Palindrome Partitioning I.py
@@ -493,6 +514,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Backtrack - Simulation - Robot Room Cleaner.py
 │   ├── b. Backtrack - Simultation - Execution of all Suffix Instruction in Grid.py
 │   ├── b. Backtrack - Wild Card - Valid Parenthesis String.py
+│   ├── b. Backtracking - Game - Flip Game II.py
 │   ├── c. Permutation - Next Permutation.py
 │   ├── c. Permutation - Permutations I.py
 │   ├── c. Permutation - Permutations II.py
@@ -543,6 +565,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D - Climbing Stairs.py
 │   ├── a. 1D - Coin Change 1 - Fewest coin for the amount.py
 │   ├── a. 1D - Coin Change 2 - Number of combinations for the amount.py
+│   ├── a. 1D - Combination Sum IV.py
 │   ├── a. 1D - Decode Ways.py
 │   ├── a. 1D - Longest String Chain (Algo).py
 │   ├── a. 1D - Maximum Length of Repeated Subarray.py
@@ -551,6 +574,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D - Paint House 1.py
 │   ├── a. 1D - Paint House 2 - with color cost.py
 │   ├── a. 1D - Paint House 3 - with already painted houses.py
+│   ├── a. 1D - Path - Combinations - Number of Ways to Select Buildings.py
 │   ├── a. 1D - Rod Cutting Problem.py
 │   ├── a. 1D - Unique BSTs.py
 │   ├── a. 1D - Word Break.py
@@ -627,6 +651,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Union Find - Accounts Merge.py
 │   ├── b. Search 1 - BFS - Clone Graph.py
 │   ├── b. Search 1 - BFS - Evaluate Division.py
+│   ├── b. Search 1 - BFS - Pacific Atlantic Water Flow.py
 │   ├── b. Search 1 - BFS - Word Ladder I (Word Chain).py
 │   ├── b. Search 1 - BFS - Word Ladder II.py
 │   ├── b. Search 2 - DFS - Airport Connectinos (Algo).py
@@ -660,11 +685,13 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Stack - Design Browser History.py
 │   ├── a. Stack - Max Stack.py
 │   ├── a. Stack - Min Stack.py
+│   ├── b. Class - Zigzag Iterator.py
 │   ├── b. Queue - LRU Cache.py
 │   ├── d. Hash - Insert Delete GetRandom O(1).py
 │   ├── d. Hash - Logger Rate Limiter.py
 │   ├── e. Tree - Design Search Autocomplete System.py
-│   └── e. Tree - Serialize and Deserialize Binary Tree.py
+│   ├── e. Tree - Serialize and Deserialize Binary Tree.py
+│   └── h. Application - Design Twitter.py
 ├── m. Math
 │   ├── 0. Template
 │   │   ├── a. Operator - Division - Find All Divisor.py
@@ -710,10 +737,17 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Max_Points_on_a_Line.cpp
 │   ├── a. Operator - Addition - Plus One.py
 │   ├── a. Operator - Division - GCD - Smallest Integer Divisible by K.py
+│   ├── a. Operator - Division - GCD - Water and Jug Problem (Die Hard).py
+│   ├── a. Operator - Power - Super Pow.py
 │   ├── b. Number - Random - Implement Rand10 Using Rand7.py
 │   ├── b. Numbers - Binary Coeff - Pascals Triangle II.py
-│   ├── d. Other - Count - Number of Digit One.py
+│   ├── b. Numbers - Prime - Super Ugly Number.py
+│   ├── c. Probability - Random Sampling - Linked List Random Node.py
 │   ├── d. Other - Knowledge - Day of the week.py
+│   ├── d. Other - Knowledge - H-index.py
+│   ├── d. Other - Math - Nth Digit.py
+│   ├── d. Other - Math - Number of Digit One.py
+│   ├── d. Other - Math - Rotate Function.py
 │   └── d. Other - Valid Number.py
 └── n. Parallel Computing
     ├── Caching for a Multithreaded Dictionary (Bad Implementation).cpp
@@ -722,5 +756,5 @@ Please feel free to look up problem solutions or build your own code journal usi
     ├── Two Synchronized Interleaving Threads.cpp
     └── Two Unsynchronyzed Interleaved Threads.cpp
 
-27 directories, 689 files
+27 directories, 723 files
 ```  </Details>

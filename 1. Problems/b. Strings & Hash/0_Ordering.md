@@ -11,3 +11,4 @@ e. String Match
 	- Boyer-Moore
 	- Z algorithm
 	- Aho Corasick (trie)
+f. String Fitting

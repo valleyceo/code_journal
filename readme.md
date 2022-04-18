@@ -189,6 +189,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   └── e. RPN - Evaluate RPN.py
 │   ├── a. Stack - Exclusive Time of Functions.py
 │   ├── a. Stack - Mini Parser.py
+│   ├── a. Stack - Monostack - 132 Pattern.py
 │   ├── a. Stack - Next Greater Element.py
 │   ├── a. Stack - Score of Parentheses.py
 │   ├── a. Stack - Shorten Path (Algo).py
@@ -333,6 +334,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Word_Search_II.py
 │   ├── a. BT - Construct - Clone Binary Tree with Random Pointer.py
 │   ├── a. BT - Construct - Flatten Binary Tree (Algo).py
+│   ├── a. BT - Construct - Longest Path with Different Adjacent Characters.py
 │   ├── a. BT - Construct - Populating Next Right Pointers in Each Node.py
 │   ├── a. BT - Construct - Right Sibling Tree Mutated (Algo).py
 │   ├── a. BT - Traversal - (Morris) Flatten Binary Tree to Linked List.py
@@ -437,6 +439,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Binary Search - Find First and Last Pos of Value in Sorted Array.py
 │   ├── a. Binary Search - Find K-th Smallest Pair Distance.py
 │   ├── a. Binary Search - Find the Smallest Divisor Given a Threshold.py
+│   ├── a. Binary Search - Heaters.py
 │   ├── a. Binary Search - Median of Two Sorted Arrays.py
 │   ├── a. Binary Search - Peak Index in a Mountain Array.py
 │   ├── a. Binary Search - Search in Rotated Sorted Array I.py
@@ -499,10 +502,15 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Recursion - Scramble String.py
 │   ├── a. Recursion - Strobogrammatic Number II.py
 │   ├── a. Recursion - Word Search II.py
+│   ├── b. Backtrack - Game - Can I Win.py
+│   ├── b. Backtrack - Game - Flip Game II.py
+│   ├── b. Backtrack - Game - Predict the Winner.py
+│   ├── b. Backtrack - Matchsticks to Square.py
 │   ├── b. Backtrack - Path - 1 Bit and 2 Bit Characters.py
 │   ├── b. Backtrack - Path - Different Ways to Add Parentheses.py
 │   ├── b. Backtrack - Path - Generalized Abbreviation.py
 │   ├── b. Backtrack - Path - Guess Number Higher or Lower II.py
+│   ├── b. Backtrack - Path - Increasing Subsequences.py
 │   ├── b. Backtrack - Path - Letter Combinations of a Phone Number.py
 │   ├── b. Backtrack - Path - Number of Dice Rolls With Target Sum.py
 │   ├── b. Backtrack - Path - Palindrome Partitioning I.py
@@ -514,7 +522,6 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Backtrack - Simulation - Robot Room Cleaner.py
 │   ├── b. Backtrack - Simultation - Execution of all Suffix Instruction in Grid.py
 │   ├── b. Backtrack - Wild Card - Valid Parenthesis String.py
-│   ├── b. Backtracking - Game - Flip Game II.py
 │   ├── c. Permutation - Next Permutation.py
 │   ├── c. Permutation - Permutations I.py
 │   ├── c. Permutation - Permutations II.py
@@ -585,6 +592,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Path - Sum - Dungeon Game.py
 │   ├── a. Path - Sum - House Robber I.py
 │   ├── a. Path - Sum - House Robber II (circular).py
+│   ├── a. Path - Sum - Unique Substrings in Wraparound String.py
 │   ├── b. 2D - Has Square of Zero Border (Algo).py
 │   ├── b. 2D - Interleaving String.py
 │   ├── b. 2D - Maximal Square.py
@@ -599,6 +607,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── c. LCS - Return longest string(Algo).py
 │   ├── d. LIS - Longest Increasing Subsequence.py
 │   ├── e. Edit Distance.py
+│   ├── f. Knapsack - Ones and Zeroes.py
 │   ├── f. Knapsack.py
 │   ├── g. Partition.py
 │   ├── h. Best Time Buy and Sell Stock 1.py
@@ -659,6 +668,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Search 2 - DFS - Longest Increasing Path in a Matrix.py
 │   ├── b. Search 2 - DFS - Most Stones Removed with Same Row or Column.py
 │   ├── b. Search 3 - Dijkstra - Minimum Weighted Subgraph with the Required Paths.py
+│   ├── b. Search 3 - Dijkstra - The Maze II.py
 │   ├── b. Search 4 - A Star - Implementation (Algo).py
 │   ├── b. Search 5 - Bellman Ford - Detect Arbitrage (Algo).py
 │   ├── e. TopoSort - Alien Dictionary.py
@@ -741,8 +751,10 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Operator - Power - Super Pow.py
 │   ├── b. Number - Random - Implement Rand10 Using Rand7.py
 │   ├── b. Numbers - Binary Coeff - Pascals Triangle II.py
+│   ├── b. Numbers - Custom Sequence - Magical String.py
 │   ├── b. Numbers - Prime - Super Ugly Number.py
 │   ├── c. Probability - Random Sampling - Linked List Random Node.py
+│   ├── d. Other - Geometry - Convex Polygon.py
 │   ├── d. Other - Knowledge - Day of the week.py
 │   ├── d. Other - Knowledge - H-index.py
 │   ├── d. Other - Math - Nth Digit.py
@@ -756,5 +768,5 @@ Please feel free to look up problem solutions or build your own code journal usi
     ├── Two Synchronized Interleaving Threads.cpp
     └── Two Unsynchronyzed Interleaved Threads.cpp
 
-27 directories, 723 files
+27 directories, 735 files
 ```  </Details>

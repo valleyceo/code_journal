@@ -23,6 +23,7 @@ b. Numbers
 	- Pascal
 	- Catalan
 	- Eulerian
+	- Custom Sequence
 c. Probability
 	- Combination
 	- Lucas theorem

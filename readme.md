@@ -77,6 +77,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Hash - Substring with Concatenation of All Words.py
 │   ├── c. Best Substring - Longest Balanced Substring (Algo).py
 │   ├── c. Best Substring - Smallest Substring Containing (Algo).py
+│   ├── c. String Mutation - Split Concatenated Strings.py
 │   ├── d. String Mutation - Duplicate Zeros.py
 │   ├── d. String Mutation - Find and Replace in String.py
 │   ├── d. String Mutation - Levenshtein - Edit Distance.py
@@ -147,11 +148,13 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Sliding_Window_Maximum.py
 │   ├── 3_Spiral_Matrix.cpp
 │   ├── 3_The_Skyline_Problem.cpp
+│   ├── a. 1D - Interval - Number of Flowers in Full Bloom.py
 │   ├── a. 1D 1 - Continuous Subarray Sum.py
 │   ├── a. 1D 1 - Sum - Contiguous 0|1 Array.py
 │   ├── a. 1D 1 - Sum - Maxiumum Product Subarray.py
 │   ├── a. 1D 2 - Sequence - Arithmetic Slices.py
 │   ├── a. 1D 2 - Sequence - Jump Game II.py
+│   ├── a. 1D 2 - Sequence - Longest Uncommon Subsequence II.py
 │   ├── a. 1D 2 - Sequence - Wiggle Subsequence.py
 │   ├── a. 1D 3 - Interval - Insert Interval.py
 │   ├── a. 1D 3 - Interval - Interval List Intersections.py
@@ -173,9 +176,11 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D 4 - Invariant - Minimum Window Substring.py
 │   ├── a. 1D 4 - Invariant - Permutation in String.py
 │   ├── a. 1D 4 - Invariant - Trapping Rain Water.py
+│   ├── a. 1D 4 - Invariant - Widest Pair of Indices with Equal Range Sum (Prefix Sum).py
 │   ├── a. 1D 5 - Other - Candy Distribution.py
 │   ├── b. 2D - Invariant - Number of Boomerangs.py
-│   └── b. 2D - Simulation - Self Crossing.py
+│   ├── b. 2D - Simulation - Self Crossing.py
+│   └── b. 2D - Simulation - Squirrel Simulation.py
 ├── d. Stack & Queue
 │   ├── Template
 │   │   ├── a. Monostack - Buildings with Sunset View.py
@@ -333,6 +338,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Maximum_XOR_of_Two_Numers_in_Array.py
 │   ├── 3_Word_Search_II.py
 │   ├── a. BT - Construct - Clone Binary Tree with Random Pointer.py
+│   ├── a. BT - Construct - Construct Binary Tree From String.py
 │   ├── a. BT - Construct - Flatten Binary Tree (Algo).py
 │   ├── a. BT - Construct - Longest Path with Different Adjacent Characters.py
 │   ├── a. BT - Construct - Populating Next Right Pointers in Each Node.py
@@ -354,6 +360,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. BST - Traversal - Are Same BST (Algo).py
 │   ├── b. BST - Traversal - Closest BST Value II.py
 │   ├── b. BST - Traversal - Closest BST Value.py
+│   ├── b. BST - Traversal - Convert BST to Greater Tree.py
 │   ├── b. BST - Traversal - Delete Node in BST.py
 │   ├── b. BST - Traversal - Inorder Successor in BST.py
 │   ├── b. BST - Traversal - Recover BST.py
@@ -574,6 +581,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D - Coin Change 2 - Number of combinations for the amount.py
 │   ├── a. 1D - Combination Sum IV.py
 │   ├── a. 1D - Decode Ways.py
+│   ├── a. 1D - Longest Palindromic Subsequence.py
 │   ├── a. 1D - Longest String Chain (Algo).py
 │   ├── a. 1D - Maximum Length of Repeated Subarray.py
 │   ├── a. 1D - Minimum Cost For Tickets.py
@@ -595,16 +603,19 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Path - Sum - Unique Substrings in Wraparound String.py
 │   ├── b. 2D - Has Square of Zero Border (Algo).py
 │   ├── b. 2D - Interleaving String.py
+│   ├── b. 2D - Longest Line of Consecutive One in Matrix.py
 │   ├── b. 2D - Maximal Square.py
 │   ├── b. 2D - Maximum Score from Performing Multiplication Operations.py
 │   ├── b. 2D - Minimum Cuts for Partitioning Palindrome.py
 │   ├── b. 2D - Minimum Difficulty of a Job Schedule.py
+│   ├── b. 2D - Out of Boundary Paths.py
 │   ├── b. 2D - Rectangle Mania (Algo).py
 │   ├── b. Path - Minimum Path Sum.py
 │   ├── b. Path - Unique Paths 1.py
 │   ├── b. Path - Unique Paths 2 - with obstacle.py
 │   ├── c. LCS - Longest Common Subsequence.py
 │   ├── c. LCS - Return longest string(Algo).py
+│   ├── d. LCS - Delete Operation for Two Strings.py
 │   ├── d. LIS - Longest Increasing Subsequence.py
 │   ├── e. Edit Distance.py
 │   ├── f. Knapsack - Ones and Zeroes.py
@@ -712,6 +723,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── a. Operator - Exponent - Power Modulus.cpp
 │   │   ├── a. Operator - Factorial.cpp
 │   │   ├── a. Operator - Multiplication - Multiply Two Large Numbers(Karatsuba).py
+│   │   ├── a. Operator - Transpose.py
 │   │   ├── b. Numbers - Binomial Coefficient.py
 │   │   ├── b. Numbers - Catalan.py
 │   │   ├── b. Numbers - Collatz - Test Collatz Conjecture.py
@@ -746,6 +758,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Largest_Number.cpp
 │   ├── 3_Max_Points_on_a_Line.cpp
 │   ├── a. Operator - Addition - Plus One.py
+│   ├── a. Operator - Division - Fraction Addition and Subtraction.py
 │   ├── a. Operator - Division - GCD - Smallest Integer Divisible by K.py
 │   ├── a. Operator - Division - GCD - Water and Jug Problem (Die Hard).py
 │   ├── a. Operator - Power - Super Pow.py
@@ -768,5 +781,5 @@ Please feel free to look up problem solutions or build your own code journal usi
     ├── Two Synchronized Interleaving Threads.cpp
     └── Two Unsynchronyzed Interleaved Threads.cpp
 
-27 directories, 735 files
+27 directories, 748 files
 ```  </Details>

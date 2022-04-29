@@ -66,6 +66,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Word_Break2.cpp
 │   ├── a. Palindrome - Palindrome Pairs.py
 │   ├── a. Palindrome - Shortest Palindrome.py
+│   ├── a. Palindrome - Strobogrammatic Number III.py
 │   ├── a. Palindrome - Strobogrammatic Number.py
 │   ├── b. Encrypt - Decode String.py
 │   ├── b. Encrypt - Excel Sheet Column Number.py
@@ -178,6 +179,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D 4 - Invariant - Trapping Rain Water.py
 │   ├── a. 1D 4 - Invariant - Widest Pair of Indices with Equal Range Sum (Prefix Sum).py
 │   ├── a. 1D 5 - Other - Candy Distribution.py
+│   ├── b. 2D - Invariant - Best Meeting Point.py
 │   ├── b. 2D - Invariant - Number of Boomerangs.py
 │   ├── b. 2D - Simulation - Self Crossing.py
 │   └── b. 2D - Simulation - Squirrel Simulation.py
@@ -200,6 +202,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Stack - Shorten Path (Algo).py
 │   ├── a. Stack - Ternary Expression Parser.py
 │   ├── a. Stack 2 - MonoStack - Build Maximum Binary Tree.py
+│   ├── a. Stack 2 - MonoStack - Create Maximum Number.py
+│   ├── a. Stack 2 - MonoStack - Find the Most Competitive Subsequence.py
 │   ├── a. Stack 2 - MonoStack - Largest Rectangle in Histogram.py
 │   ├── a. Stack 2 - MonoStack - Minimum Cost Tree From Leaf Values.py
 │   ├── a. Stack 2 - MonoStack - Next Greater Element I.py
@@ -580,6 +584,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D - Coin Change 1 - Fewest coin for the amount.py
 │   ├── a. 1D - Coin Change 2 - Number of combinations for the amount.py
 │   ├── a. 1D - Combination Sum IV.py
+│   ├── a. 1D - Combinations - Count Unique Characters of All Substring of a Given String.py
 │   ├── a. 1D - Decode Ways.py
 │   ├── a. 1D - Longest Palindromic Subsequence.py
 │   ├── a. 1D - Longest String Chain (Algo).py
@@ -601,6 +606,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Path - Sum - House Robber I.py
 │   ├── a. Path - Sum - House Robber II (circular).py
 │   ├── a. Path - Sum - Unique Substrings in Wraparound String.py
+│   ├── b. 2D - Champagne Tower.py
 │   ├── b. 2D - Has Square of Zero Border (Algo).py
 │   ├── b. 2D - Interleaving String.py
 │   ├── b. 2D - Longest Line of Consecutive One in Matrix.py
@@ -626,7 +632,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── h. Best Time Buy and Sell Stock 3 Up to two buys.py
 │   ├── h. Best Time Buy and Sell Stock 4 Up to K buys.py
 │   ├── h. Best Time Buy and Sell Stock 5 Multibuy with 1 day cooldown.py
-│   └── h. Best Time Buy and Sell Stock 6 Multibuy with transaction fee.py
+│   ├── h. Best Time Buy and Sell Stock 6 Multibuy with transaction fee.py
+│   └── i. Chain Multiplication - Burst Balloons.py
 ├── k. Graphs
 │   ├── 0_Template
 │   │   ├── 0. Graph Representation.cpp
@@ -669,9 +676,12 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Surrounded_Regions.cpp
 │   ├── 3_Word_Ladder.cpp
 │   ├── a. Union Find - Accounts Merge.py
+│   ├── a. Union Find - Number of Islands II.py
+│   ├── b. Search 1 - BFS - Bus Routes.py
 │   ├── b. Search 1 - BFS - Clone Graph.py
 │   ├── b. Search 1 - BFS - Evaluate Division.py
 │   ├── b. Search 1 - BFS - Pacific Atlantic Water Flow.py
+│   ├── b. Search 1 - BFS - Shortest Distance from All Buildings.py
 │   ├── b. Search 1 - BFS - Word Ladder I (Word Chain).py
 │   ├── b. Search 1 - BFS - Word Ladder II.py
 │   ├── b. Search 2 - DFS - Airport Connectinos (Algo).py
@@ -701,6 +711,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 2_Serialize_and_Deserialize_Binary_Tree.cpp
 │   ├── 3_Implement_Trie_(Prefix_Tree).cpp
 │   ├── 3_LRU_Cache.cpp
+│   ├── a. File System - Design In-Memory File System.py
 │   ├── a. File System - Read N Characters Given Read4 Multi-Call.py
 │   ├── a. File System - Read N Characters Given Read4.py
 │   ├── a. Stack - Design Browser History.py
@@ -722,6 +733,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── a. Operator - Exponent - Binary Exponent.cpp
 │   │   ├── a. Operator - Exponent - Power Modulus.cpp
 │   │   ├── a. Operator - Factorial.cpp
+│   │   ├── a. Operator - Factorial.py
 │   │   ├── a. Operator - Multiplication - Multiply Two Large Numbers(Karatsuba).py
 │   │   ├── a. Operator - Transpose.py
 │   │   ├── b. Numbers - Binomial Coefficient.py
@@ -761,13 +773,18 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Operator - Division - Fraction Addition and Subtraction.py
 │   ├── a. Operator - Division - GCD - Smallest Integer Divisible by K.py
 │   ├── a. Operator - Division - GCD - Water and Jug Problem (Die Hard).py
+│   ├── a. Operator - Division - Minimum Factorization.py
 │   ├── a. Operator - Power - Super Pow.py
+│   ├── a. Operator - Sqrt - Sum of Square Numbers.py
 │   ├── b. Number - Random - Implement Rand10 Using Rand7.py
 │   ├── b. Numbers - Binary Coeff - Pascals Triangle II.py
+│   ├── b. Numbers - Custom Sequence - Broken Calculator.py
 │   ├── b. Numbers - Custom Sequence - Magical String.py
 │   ├── b. Numbers - Prime - Super Ugly Number.py
 │   ├── c. Probability - Random Sampling - Linked List Random Node.py
+│   ├── d. Other - Count - Integer to English Words.py
 │   ├── d. Other - Geometry - Convex Polygon.py
+│   ├── d. Other - Geometry - Valid Triangle Number.py
 │   ├── d. Other - Knowledge - Day of the week.py
 │   ├── d. Other - Knowledge - H-index.py
 │   ├── d. Other - Math - Nth Digit.py
@@ -775,11 +792,13 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── d. Other - Math - Rotate Function.py
 │   └── d. Other - Valid Number.py
 └── n. Parallel Computing
-    ├── Caching for a Multithreaded Dictionary (Bad Implementation).cpp
-    ├── Implement a Thread Pool.cpp
-    ├── Semaphore.cpp
-    ├── Two Synchronized Interleaving Threads.cpp
-    └── Two Unsynchronyzed Interleaved Threads.cpp
+    ├── Template
+    │   ├── Caching for a Multithreaded Dictionary (Bad Implementation).cpp
+    │   ├── Implement a Thread Pool.cpp
+    │   ├── Semaphore.cpp
+    │   ├── Two Synchronized Interleaving Threads.cpp
+    │   └── Two Unsynchronyzed Interleaved Threads.cpp
+    └── a. Deadlock - Traffic Light Controlled Intersection.py
 
-27 directories, 748 files
+28 directories, 766 files
 ```  </Details>

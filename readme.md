@@ -359,6 +359,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. BT - Traversal - Maximum Path Sum.py
 │   ├── a. BT - Traversal - Mutate - Binary Tree Upside Down.py
 │   ├── a. BT - Traversal - Path Sum III.py
+│   ├── a. BT - Traversal - Vertical Order Traversal of a Binary Tree.py
 │   ├── b. BST - Compute - Right Smaller Than (Algo).py
 │   ├── b. BST - Construct - Min-Height BST from Sorted Array.py
 │   ├── b. BST - Traversal - Are Same BST (Algo).py
@@ -624,6 +625,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── d. LCS - Delete Operation for Two Strings.py
 │   ├── d. LIS - Longest Increasing Subsequence.py
 │   ├── e. Edit Distance.py
+│   ├── f. Knapsack - Maximum Profit in Job Scheduling.py
 │   ├── f. Knapsack - Ones and Zeroes.py
 │   ├── f. Knapsack.py
 │   ├── g. Partition.py
@@ -800,5 +802,5 @@ Please feel free to look up problem solutions or build your own code journal usi
     │   └── Two Unsynchronyzed Interleaved Threads.cpp
     └── a. Deadlock - Traffic Light Controlled Intersection.py
 
-28 directories, 766 files
+28 directories, 768 files
 ```  </Details>

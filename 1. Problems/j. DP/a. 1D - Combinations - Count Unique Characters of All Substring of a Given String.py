@@ -37,6 +37,7 @@ class Solution:
 
         return res
 
+    # THIS MAKES MORE SENSE
     # O(n) time | O(1) space, use multiplication
     def solution2(self, s: str) -> int:
         mp_prev = defaultdict(lambda: -1)
@@ -50,6 +51,7 @@ class Solution:
             mp_prevprev[c] = mp_prev[c]
             mp_prev[c] = i
 
+        # Remaining combination from last idx
         for k in range(26):
             c = chr(k + ord("A"))
             res += (len(s) - mp_prev[c]) * (mp_prev[c] - mp_prevprev[c])

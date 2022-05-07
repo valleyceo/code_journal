@@ -57,3 +57,24 @@ class Solution:
             res += (len(s) - mp_prev[c]) * (mp_prev[c] - mp_prevprev[c])
 
         return res
+
+
+"""
+Intuition:
+- Count character-wise unique substrings using three points (prev occurence, current, next occurence)
+- Count of unique combinations are (curr-prev) * (next-curr)
+- Ex: abcabca
+         | at pos 3
+    - left:
+    -    a
+    -   ca
+    -  bca
+    - right:
+    -    a
+    -    ab
+    -    abc
+    -> left * right = 3 * 3 = 9 (a, ca, bca, ab, cab, bcab, abc, cabc, bcabc)
+
+- All remaining maps are not processed (iteration only processes when updating to a new prev).
+- Therefore, last iteration is needed (with len(s) as right end)
+"""

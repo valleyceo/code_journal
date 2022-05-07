@@ -638,70 +638,70 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── h. Best Time Buy and Sell Stock 4 Up to K buys.py
 │   ├── h. Best Time Buy and Sell Stock 5 Multibuy with 1 day cooldown.py
 │   ├── h. Best Time Buy and Sell Stock 6 Multibuy with transaction fee.py
-│   ├── i. Chain Multiplication - Burst Balloons.py
-│   └── k. Graphs
-│       ├── 0_Template
-│       │   ├── 0. Graph Representation.cpp
-│       │   ├── a. UnionFind 1 - Simple.py
-│       │   ├── a. UnionFind 2 - Path Compression.py
-│       │   ├── a. UnionFind 3 - Rank.py
-│       │   ├── a. UnionFind 4 - Path Compression Rank.py
-│       │   ├── a. UnionFind 5 - Cycle Detection.py
-│       │   ├── a. UnionFind 5 - Tracking Size.py
-│       │   ├── b. GraphSearch 2 - DFS - Clone a graph.py
-│       │   ├── b. GraphSearch 3 - Dijkstra (Algo).py
-│       │   ├── b. GraphSearch 3 - Dijkstra.py
-│       │   ├── b. GraphSearch 4 - Bellman Ford.py
-│       │   ├── b. GraphSearch 6 - Floyd Warshall.cpp
-│       │   ├── b. Search - DFS - Dreadlock Detection.py
-│       │   ├── b. Search - DFS - Paint a Boolean Matrix.py
-│       │   ├── b. Search 1 - BFS - Clone a Graph.py
-│       │   ├── b. Search 1 - BFS - Compute Enclosed Regions.py
-│       │   ├── b. Search 1 - BFS - Is Pin Placement Feasible.py
-│       │   ├── b. Search 1 - BFS - Transform a String.py
-│       │   ├── b. Search 2 - DFS - Team Photo Day 2.py
-│       │   ├── c. MinSpanTree - Kruskal.py
-│       │   ├── c. MinSpanTree - Prim.py
-│       │   ├── d. Cycle Detection - Detect Cycle.py
-│       │   ├── d. Cycle Detection - Euler Circuit.cpp
-│       │   ├── e. TopoSort - Implementation (Algo).py
-│       │   ├── e. TopoSort 1 - DFS.py
-│       │   └── e. Toposort 2 - BFS.py
-│       ├── 1_Max_Area_of_Island.cpp
-│       ├── 2_Find_the_Celebrity.cpp
-│       ├── 2_Insert_into_a_Cyclic_Sorted_List.cpp
-│       ├── 2_Minimize_Hamming_Distance_After_Swap_Operations.py
-│       ├── 2_Number_of_Islands.cpp
-│       ├── 2_Synonymous_Sentences.py
-│       ├── 3_Count_of_Smaller_Numbers_After_Self.cpp
-│       ├── 3_Course_Schedule.cpp
-│       ├── 3_Course_Schedule_II.cpp
-│       ├── 3_Friend_Circles.cpp
-│       ├── 3_Longest_Increasing_Path_in_a_Matrix.cpp
-│       ├── 3_Surrounded_Regions.cpp
-│       ├── 3_Word_Ladder.cpp
-│       ├── a. Union Find - Accounts Merge.py
-│       ├── a. Union Find - Number of Islands II.py
-│       ├── b. Search 1 - BFS - Bus Routes.py
-│       ├── b. Search 1 - BFS - Clone Graph.py
-│       ├── b. Search 1 - BFS - Escape the Spreading Fire.py
-│       ├── b. Search 1 - BFS - Evaluate Division.py
-│       ├── b. Search 1 - BFS - Pacific Atlantic Water Flow.py
-│       ├── b. Search 1 - BFS - Shortest Distance from All Buildings.py
-│       ├── b. Search 1 - BFS - Word Ladder I (Word Chain).py
-│       ├── b. Search 1 - BFS - Word Ladder II.py
-│       ├── b. Search 2 - DFS - Airport Connectinos (Algo).py
-│       ├── b. Search 2 - DFS - Bridges in Graph, Two-Edge-Connected Graph (Algo).py
-│       ├── b. Search 2 - DFS - Longest Increasing Path in a Matrix.py
-│       ├── b. Search 2 - DFS - Most Stones Removed with Same Row or Column.py
-│       ├── b. Search 3 - Dijkstra - Minimum Weighted Subgraph with the Required Paths.py
-│       ├── b. Search 3 - Dijkstra - The Maze II.py
-│       ├── b. Search 4 - A Star - Implementation (Algo).py
-│       ├── b. Search 4 - AStar - Shortest Path in a Grid with Obstacles Elimination.py
-│       ├── b. Search 5 - Bellman Ford - Detect Arbitrage (Algo).py
-│       ├── e. TopoSort - Alien Dictionary.py
-│       ├── e. TopoSort - Course Schedule II.py
-│       └── e. TopoSort - Parallel Courses (Kahn).py
+│   └── i. Chain Multiplication - Burst Balloons.py
+├── k. Graphs
+│   ├── 0_Template
+│   │   ├── 0. Graph Representation.cpp
+│   │   ├── a. UnionFind 1 - Simple.py
+│   │   ├── a. UnionFind 2 - Path Compression.py
+│   │   ├── a. UnionFind 3 - Rank.py
+│   │   ├── a. UnionFind 4 - Path Compression Rank.py
+│   │   ├── a. UnionFind 5 - Cycle Detection.py
+│   │   ├── a. UnionFind 5 - Tracking Size.py
+│   │   ├── b. GraphSearch 2 - DFS - Clone a graph.py
+│   │   ├── b. GraphSearch 3 - Dijkstra (Algo).py
+│   │   ├── b. GraphSearch 3 - Dijkstra.py
+│   │   ├── b. GraphSearch 4 - Bellman Ford.py
+│   │   ├── b. GraphSearch 6 - Floyd Warshall.cpp
+│   │   ├── b. Search - DFS - Dreadlock Detection.py
+│   │   ├── b. Search - DFS - Paint a Boolean Matrix.py
+│   │   ├── b. Search 1 - BFS - Clone a Graph.py
+│   │   ├── b. Search 1 - BFS - Compute Enclosed Regions.py
+│   │   ├── b. Search 1 - BFS - Is Pin Placement Feasible.py
+│   │   ├── b. Search 1 - BFS - Transform a String.py
+│   │   ├── b. Search 2 - DFS - Team Photo Day 2.py
+│   │   ├── c. MinSpanTree - Kruskal.py
+│   │   ├── c. MinSpanTree - Prim.py
+│   │   ├── d. Cycle Detection - Detect Cycle.py
+│   │   ├── d. Cycle Detection - Euler Circuit.cpp
+│   │   ├── e. TopoSort - Implementation (Algo).py
+│   │   ├── e. TopoSort 1 - DFS.py
+│   │   └── e. Toposort 2 - BFS.py
+│   ├── 1_Max_Area_of_Island.cpp
+│   ├── 2_Find_the_Celebrity.cpp
+│   ├── 2_Insert_into_a_Cyclic_Sorted_List.cpp
+│   ├── 2_Minimize_Hamming_Distance_After_Swap_Operations.py
+│   ├── 2_Number_of_Islands.cpp
+│   ├── 2_Synonymous_Sentences.py
+│   ├── 3_Count_of_Smaller_Numbers_After_Self.cpp
+│   ├── 3_Course_Schedule.cpp
+│   ├── 3_Course_Schedule_II.cpp
+│   ├── 3_Friend_Circles.cpp
+│   ├── 3_Longest_Increasing_Path_in_a_Matrix.cpp
+│   ├── 3_Surrounded_Regions.cpp
+│   ├── 3_Word_Ladder.cpp
+│   ├── a. Union Find - Accounts Merge.py
+│   ├── a. Union Find - Number of Islands II.py
+│   ├── b. Search 1 - BFS - Bus Routes.py
+│   ├── b. Search 1 - BFS - Clone Graph.py
+│   ├── b. Search 1 - BFS - Escape the Spreading Fire.py
+│   ├── b. Search 1 - BFS - Evaluate Division.py
+│   ├── b. Search 1 - BFS - Pacific Atlantic Water Flow.py
+│   ├── b. Search 1 - BFS - Shortest Distance from All Buildings.py
+│   ├── b. Search 1 - BFS - Word Ladder I (Word Chain).py
+│   ├── b. Search 1 - BFS - Word Ladder II.py
+│   ├── b. Search 2 - DFS - Airport Connectinos (Algo).py
+│   ├── b. Search 2 - DFS - Bridges in Graph, Two-Edge-Connected Graph (Algo).py
+│   ├── b. Search 2 - DFS - Longest Increasing Path in a Matrix.py
+│   ├── b. Search 2 - DFS - Most Stones Removed with Same Row or Column.py
+│   ├── b. Search 3 - Dijkstra - Minimum Weighted Subgraph with the Required Paths.py
+│   ├── b. Search 3 - Dijkstra - The Maze II.py
+│   ├── b. Search 4 - A Star - Implementation (Algo).py
+│   ├── b. Search 4 - AStar - Shortest Path in a Grid with Obstacles Elimination.py
+│   ├── b. Search 5 - Bellman Ford - Detect Arbitrage (Algo).py
+│   ├── e. TopoSort - Alien Dictionary.py
+│   ├── e. TopoSort - Course Schedule II.py
+│   └── e. TopoSort - Parallel Courses (Kahn).py
 ├── l. Design
 │   ├── 0. Template
 │   │   ├── LRU Cache (Algo).py

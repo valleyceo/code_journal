@@ -165,6 +165,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D 3 - Interval - Minimum Number of Taps to Open to Water a Garden.py
 │   ├── a. 1D 3 - Interval - My Calendar II.py
 │   ├── a. 1D 3 - Interval - Remove Covered Intervals.py
+│   ├── a. 1D 3 - Interval - Video Stitching.py
 │   ├── a. 1D 3 Interval - Find Right Interval.py
 │   ├── a. 1D 4 - Invariant - 3 Sum.py
 │   ├── a. 1D 4 - Invariant - Container with Most Water.py
@@ -181,6 +182,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D 4 - Invariant - Trapping Rain Water.py
 │   ├── a. 1D 4 - Invariant - Widest Pair of Indices with Equal Range Sum (Prefix Sum).py
 │   ├── a. 1D 5 - Other - Candy Distribution.py
+│   ├── b. 1D - Simulation - Minimize Deviation in Array.py
 │   ├── b. 2D - Invariant - Best Meeting Point.py
 │   ├── b. 2D - Invariant - Number of Boomerangs.py
 │   ├── b. 2D - Simulation - Self Crossing.py
@@ -508,10 +510,12 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── d. Random - Random Subarray.py
 │   │   └── d. Random - Random Subset.py
 │   ├── a. Recursion - Android Unlock Patterns.py
+│   ├── a. Recursion - Count Number of Texts.py
 │   ├── a. Recursion - Cracking the Safe.py
 │   ├── a. Recursion - Distinct Subsequences.py
 │   ├── a. Recursion - Generate Parentheses.py
 │   ├── a. Recursion - Letter Combination of Phone Number.py
+│   ├── a. Recursion - Reaching Points.py
 │   ├── a. Recursion - Regular Expression Matching.py
 │   ├── a. Recursion - Scramble String.py
 │   ├── a. Recursion - Strobogrammatic Number II.py
@@ -536,6 +540,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Backtrack - Simulation - Robot Room Cleaner.py
 │   ├── b. Backtrack - Simultation - Execution of all Suffix Instruction in Grid.py
 │   ├── b. Backtrack - Wild Card - Valid Parenthesis String.py
+│   ├── b. Backtracking - Path - Optimal Account Balancing.py
 │   ├── c. Permutation - Next Permutation.py
 │   ├── c. Permutation - Permutations I.py
 │   ├── c. Permutation - Permutations II.py
@@ -724,12 +729,15 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Stack - Design Browser History.py
 │   ├── a. Stack - Max Stack.py
 │   ├── a. Stack - Min Stack.py
+│   ├── b. Class - LFU Cache.py
 │   ├── b. Class - Zigzag Iterator.py
 │   ├── b. Queue - LRU Cache.py
+│   ├── c. Stack - Maximum Frequency Stack.py
 │   ├── d. Hash - Insert Delete GetRandom O(1).py
 │   ├── d. Hash - Logger Rate Limiter.py
 │   ├── e. Tree - Design Search Autocomplete System.py
 │   ├── e. Tree - Serialize and Deserialize Binary Tree.py
+│   ├── h. Application - Design Excel Sum Formula.py
 │   ├── h. Application - Design Twitter.py
 │   ├── h. Application - Design Video Sharing Platform.py
 │   └── i. Network - IP to CIDR.py
@@ -789,6 +797,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Numbers - Binary Coeff - Pascals Triangle II.py
 │   ├── b. Numbers - Custom Sequence - Broken Calculator.py
 │   ├── b. Numbers - Custom Sequence - Magical String.py
+│   ├── b. Numbers - Custom Sequence - Nth Magical Number.py
 │   ├── b. Numbers - Prime - Super Ugly Number.py
 │   ├── c. Probability - Random Sampling - Linked List Random Node.py
 │   ├── d. Other - Count - Integer to English Words.py
@@ -796,6 +805,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── d. Other - Geometry - Valid Triangle Number.py
 │   ├── d. Other - Knowledge - Day of the week.py
 │   ├── d. Other - Knowledge - H-index.py
+│   ├── d. Other - Math - Basic Calculator III.py
+│   ├── d. Other - Math - Consecutive Numbers Sum.py
 │   ├── d. Other - Math - Nth Digit.py
 │   ├── d. Other - Math - Number of Digit One.py
 │   ├── d. Other - Math - Rotate Function.py
@@ -809,5 +820,5 @@ Please feel free to look up problem solutions or build your own code journal usi
     │   └── Two Unsynchronyzed Interleaved Threads.cpp
     └── a. Deadlock - Traffic Light Controlled Intersection.py
 
-28 directories, 775 files
+28 directories, 786 files
 ```  </Details>

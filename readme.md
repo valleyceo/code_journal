@@ -64,11 +64,13 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 2_Short_Encoding_of_Words.cpp
 │   ├── 3_Regular_Expression_Matching.cpp
 │   ├── 3_Word_Break2.cpp
+│   ├── a. Find the Closest Palindrome.py
 │   ├── a. Palindrome - Palindrome Pairs.py
 │   ├── a. Palindrome - Shortest Palindrome.py
 │   ├── a. Palindrome - Strobogrammatic Number III.py
 │   ├── a. Palindrome - Strobogrammatic Number.py
 │   ├── b. Encrypt - Decode String.py
+│   ├── b. Encrypt - Encode String with Shortest Length.py
 │   ├── b. Encrypt - Excel Sheet Column Number.py
 │   ├── b. Encrypt - Hash - Isomorphic Strings.py
 │   ├── b. Encrypt - Int to Roman.py
@@ -82,6 +84,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── d. String Mutation - Duplicate Zeros.py
 │   ├── d. String Mutation - Find and Replace in String.py
 │   ├── d. String Mutation - Levenshtein - Edit Distance.py
+│   ├── d. String Mutation - Rearrange String K Distance Apart.py
 │   ├── d. String Mutation - Swap Adjacent in LR String.py
 │   ├── d. String Mutation - Text Justification.py
 │   ├── e. Search - Backspace String Compare.py
@@ -154,8 +157,10 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D 1 - Sum - Contiguous 0|1 Array.py
 │   ├── a. 1D 1 - Sum - Maxiumum Product Subarray.py
 │   ├── a. 1D 2 - Sequence - Arithmetic Slices.py
+│   ├── a. 1D 2 - Sequence - Frog Jump.py
 │   ├── a. 1D 2 - Sequence - Jump Game II.py
 │   ├── a. 1D 2 - Sequence - Longest Uncommon Subsequence II.py
+│   ├── a. 1D 2 - Sequence - Split Array into Conscutive Subsequences.py
 │   ├── a. 1D 2 - Sequence - Wiggle Subsequence.py
 │   ├── a. 1D 3 - Interval - Employee Free Time.py
 │   ├── a. 1D 3 - Interval - Insert Interval.py
@@ -185,6 +190,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. 1D - Simulation - Minimize Deviation in Array.py
 │   ├── b. 2D - Invariant - Best Meeting Point.py
 │   ├── b. 2D - Invariant - Number of Boomerangs.py
+│   ├── b. 2D - Invariant - Trapping Rain Water II.py
 │   ├── b. 2D - Simulation - Self Crossing.py
 │   └── b. 2D - Simulation - Squirrel Simulation.py
 ├── d. Stack & Queue
@@ -535,6 +541,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Backtrack - Path - Palindrome Partitioning II.py
 │   ├── b. Backtrack - Path - Partition to K Equal Sum Subsets.py
 │   ├── b. Backtrack - Path - Restore IP Addresses.py
+│   ├── b. Backtrack - Path - Student Attendance Record II.py
 │   ├── b. Backtrack - Path - Word Squares.py
 │   ├── b. Backtrack - Scheduling - Optimum Task Time Allocation.py
 │   ├── b. Backtrack - Simulation - Robot Room Cleaner.py
@@ -701,6 +708,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Search 2 - DFS - Most Stones Removed with Same Row or Column.py
 │   ├── b. Search 3 - Dijkstra - Minimum Weighted Subgraph with the Required Paths.py
 │   ├── b. Search 3 - Dijkstra - The Maze II.py
+│   ├── b. Search 3 - Dijkstra - The Maze III.py
 │   ├── b. Search 4 - A Star - Implementation (Algo).py
 │   ├── b. Search 4 - AStar - Shortest Path in a Grid with Obstacles Elimination.py
 │   ├── b. Search 5 - Bellman Ford - Detect Arbitrage (Algo).py
@@ -820,5 +828,5 @@ Please feel free to look up problem solutions or build your own code journal usi
     │   └── Two Unsynchronyzed Interleaved Threads.cpp
     └── a. Deadlock - Traffic Light Controlled Intersection.py
 
-28 directories, 786 files
+28 directories, 794 files
 ```  </Details>

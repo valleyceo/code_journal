@@ -181,6 +181,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D 4 - Invariant - Longest Substring with at Most Two Distinct Characters.py
 │   ├── a. 1D 4 - Invariant - Max Consecutive Ones II.py
 │   ├── a. 1D 4 - Invariant - Max Consecutive Ones III.py
+│   ├── a. 1D 4 - Invariant - Maximum Length of Subarray with Positive Product.py
 │   ├── a. 1D 4 - Invariant - Maximum Size Subarray Sum Equals K.py
 │   ├── a. 1D 4 - Invariant - Minimum Window Substring.py
 │   ├── a. 1D 4 - Invariant - Permutation in String.py
@@ -573,6 +574,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── a. Path 2 - Combinations - Count the Number of Score Combinations.py
 │   │   ├── c. Edit Distance - Levenshtein Distance.py
 │   │   ├── e. LIS - Find Longest Non-decreasing Subsequence.py
+│   │   ├── e. LIS - Implementation.py
 │   │   ├── f. Knapsack.py
 │   │   ├── hashmap.py
 │   │   ├── hashset.py
@@ -828,5 +830,5 @@ Please feel free to look up problem solutions or build your own code journal usi
     │   └── Two Unsynchronyzed Interleaved Threads.cpp
     └── a. Deadlock - Traffic Light Controlled Intersection.py
 
-28 directories, 794 files
+28 directories, 796 files
 ```  </Details>

@@ -89,7 +89,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── d. String Mutation - Text Justification.py
 │   ├── e. Search - Backspace String Compare.py
 │   ├── e. Search - Rabin-Karp - Repeated DNA Sequences.py
-│   └── f. String Fitting - Sentence Screen Fitting.py
+│   ├── f. String Fitting - Sentence Screen Fitting.py
+│   └── f. String Fitting - Shortest Way to Form String.py
 ├── c. Array
 │   ├── 0. Template
 │   │   ├── a. 1D 1 - Sum - List Multiply.py
@@ -153,6 +154,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Spiral_Matrix.cpp
 │   ├── 3_The_Skyline_Problem.cpp
 │   ├── a. 1D - Interval - Number of Flowers in Full Bloom.py
+│   ├── a. 1D - Sequence - Divide Array in Sets of K Consecutive Numbers.py
 │   ├── a. 1D 1 - Continuous Subarray Sum.py
 │   ├── a. 1D 1 - Sum - Contiguous 0|1 Array.py
 │   ├── a. 1D 1 - Sum - Maxiumum Product Subarray.py
@@ -165,9 +167,11 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D 3 - Interval - Employee Free Time.py
 │   ├── a. 1D 3 - Interval - Insert Interval.py
 │   ├── a. 1D 3 - Interval - Interval List Intersections.py
+│   ├── a. 1D 3 - Interval - Meeting Scheduler.py
 │   ├── a. 1D 3 - Interval - Merge Intervals.py
 │   ├── a. 1D 3 - Interval - Minimum Number of Arrows to Burst Balloons.py
 │   ├── a. 1D 3 - Interval - Minimum Number of Taps to Open to Water a Garden.py
+│   ├── a. 1D 3 - Interval - My Calendar I.py
 │   ├── a. 1D 3 - Interval - My Calendar II.py
 │   ├── a. 1D 3 - Interval - Remove Covered Intervals.py
 │   ├── a. 1D 3 - Interval - Video Stitching.py
@@ -192,6 +196,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. 2D - Invariant - Best Meeting Point.py
 │   ├── b. 2D - Invariant - Number of Boomerangs.py
 │   ├── b. 2D - Invariant - Trapping Rain Water II.py
+│   ├── b. 2D - Simulation - Remove All Ones with Row and Column Flips II.py
 │   ├── b. 2D - Simulation - Self Crossing.py
 │   └── b. 2D - Simulation - Squirrel Simulation.py
 ├── d. Stack & Queue
@@ -370,6 +375,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. BT - Traversal - Maximum Path Sum.py
 │   ├── a. BT - Traversal - Mutate - Binary Tree Upside Down.py
 │   ├── a. BT - Traversal - Path Sum III.py
+│   ├── a. BT - Traversal - Time Needed to Inform All Employees.py
 │   ├── a. BT - Traversal - Vertical Order Traversal of a Binary Tree.py
 │   ├── b. BST - Compute - Right Smaller Than (Algo).py
 │   ├── b. BST - Construct - Min-Height BST from Sorted Array.py
@@ -545,6 +551,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Backtrack - Path - Student Attendance Record II.py
 │   ├── b. Backtrack - Path - Word Squares.py
 │   ├── b. Backtrack - Scheduling - Optimum Task Time Allocation.py
+│   ├── b. Backtrack - Simulation - Number of Ways to Build Sturdy Brick Wall.py
 │   ├── b. Backtrack - Simulation - Robot Room Cleaner.py
 │   ├── b. Backtrack - Simultation - Execution of all Suffix Instruction in Grid.py
 │   ├── b. Backtrack - Wild Card - Valid Parenthesis String.py
@@ -641,6 +648,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── c. LCS - Return longest string(Algo).py
 │   ├── d. LCS - Delete Operation for Two Strings.py
 │   ├── d. LIS - Longest Increasing Subsequence.py
+│   ├── d. LIS - Number of Longest Increasing Subsequence.py
 │   ├── e. Edit Distance.py
 │   ├── f. Knapsack - Maximum Profit in Job Scheduling.py
 │   ├── f. Knapsack - Ones and Zeroes.py
@@ -747,9 +755,12 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── d. Hash - Logger Rate Limiter.py
 │   ├── e. Tree - Design Search Autocomplete System.py
 │   ├── e. Tree - Serialize and Deserialize Binary Tree.py
+│   ├── h. Application - Design A Leaderboard.py
 │   ├── h. Application - Design Excel Sum Formula.py
 │   ├── h. Application - Design Twitter.py
 │   ├── h. Application - Design Video Sharing Platform.py
+│   ├── h. Application - Stock Price Fluctuation.py
+│   ├── h. Application - Tweet Counts Per Frequency.py
 │   └── i. Network - IP to CIDR.py
 ├── m. Math
 │   ├── 0. Template
@@ -830,5 +841,5 @@ Please feel free to look up problem solutions or build your own code journal usi
     │   └── Two Unsynchronyzed Interleaved Threads.cpp
     └── a. Deadlock - Traffic Light Controlled Intersection.py
 
-28 directories, 796 files
+28 directories, 807 files
 ```  </Details>

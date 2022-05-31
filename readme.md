@@ -89,6 +89,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── d. String Mutation - Text Justification.py
 │   ├── e. Search - Backspace String Compare.py
 │   ├── e. Search - Rabin-Karp - Repeated DNA Sequences.py
+│   ├── e. String Match - Rabin-Karp - String Differ by One Character.py
+│   ├── e. String Match - Subsequence - Number of Matching Subsequences.py
 │   ├── f. String Fitting - Sentence Screen Fitting.py
 │   └── f. String Fitting - Shortest Way to Form String.py
 ├── c. Array
@@ -185,6 +187,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D 4 - Invariant - Longest Substring with at Most Two Distinct Characters.py
 │   ├── a. 1D 4 - Invariant - Max Consecutive Ones II.py
 │   ├── a. 1D 4 - Invariant - Max Consecutive Ones III.py
+│   ├── a. 1D 4 - Invariant - Maximum Distance Between a Pair of Values.py
 │   ├── a. 1D 4 - Invariant - Maximum Length of Subarray with Positive Product.py
 │   ├── a. 1D 4 - Invariant - Maximum Size Subarray Sum Equals K.py
 │   ├── a. 1D 4 - Invariant - Minimum Window Substring.py
@@ -714,8 +717,10 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Search 1 - BFS - Word Ladder II.py
 │   ├── b. Search 2 - DFS - Airport Connectinos (Algo).py
 │   ├── b. Search 2 - DFS - Bridges in Graph, Two-Edge-Connected Graph (Algo).py
+│   ├── b. Search 2 - DFS - Is Graph Bipartite.py
 │   ├── b. Search 2 - DFS - Longest Increasing Path in a Matrix.py
 │   ├── b. Search 2 - DFS - Most Stones Removed with Same Row or Column.py
+│   ├── b. Search 2 - DFS - Path with Maximum Minimum Value.py
 │   ├── b. Search 3 - Dijkstra - Minimum Weighted Subgraph with the Required Paths.py
 │   ├── b. Search 3 - Dijkstra - The Maze II.py
 │   ├── b. Search 3 - Dijkstra - The Maze III.py
@@ -841,5 +846,5 @@ Please feel free to look up problem solutions or build your own code journal usi
     │   └── Two Unsynchronyzed Interleaved Threads.cpp
     └── a. Deadlock - Traffic Light Controlled Intersection.py
 
-28 directories, 807 files
+28 directories, 812 files
 ```  </Details>

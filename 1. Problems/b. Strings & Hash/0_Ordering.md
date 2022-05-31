@@ -6,6 +6,7 @@ c. Best Substring
 d. String mutation
 	- Levenstein distance
 e. String Match
+	- Subsequence
 	- Rabin-Karp
 	- KMP
 	- Boyer-Moore

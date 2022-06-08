@@ -1,4 +1,5 @@
 a. Union Find
+	1. Bipartition
 b. Graph search
 	1. BFS
 	2. DFS
@@ -20,3 +21,6 @@ d. Cycle Detection
 	5. Hierholzer algorithm
 e. TopoSort - Topological Sorting
 	- Kahn's Algorithm
+f. Max-flow
+	- Hungarian Algorithm
+	- Ford-Fulkerson

@@ -33,8 +33,6 @@ class Solution:
         min_idx = 0
 
         for i, n in enumerate(nums):
-
-
             heapq.heappush(max_heap, [-n, i])
             heapq.heappush(min_heap, [n, i])
 

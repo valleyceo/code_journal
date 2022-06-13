@@ -21,6 +21,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Counting - Hamming Distance.py
 │   ├── b. Operation - Design BItset.py
 │   ├── b. Operation - Integer Replacement.py
+│   ├── c. Masking - Count Words Obtained After Adding a Letter.py
 │   └── c. Masking - Search Duplicate and Missing.py
 ├── b. Strings & Hash
 │   ├── 0. Template
@@ -65,6 +66,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Regular_Expression_Matching.cpp
 │   ├── 3_Word_Break2.cpp
 │   ├── a. Find the Closest Palindrome.py
+│   ├── a. Palindrome - Longest Palindrome by Concatenating Two Letter Words.py
+│   ├── a. Palindrome - Manacher - Palindrome Substrings.py
 │   ├── a. Palindrome - Palindrome Pairs.py
 │   ├── a. Palindrome - Shortest Palindrome.py
 │   ├── a. Palindrome - Strobogrammatic Number III.py
@@ -76,6 +79,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Encrypt - Int to Roman.py
 │   ├── b. Encrypt - Roman to Int.py
 │   ├── b. Hash - Bulls and Cows.py
+│   ├── b. Hash - Naming a Company.py
 │   ├── b. Hash - Shortest Word Distance III.py
 │   ├── b. Hash - Substring with Concatenation of All Words.py
 │   ├── c. Best Substring - Longest Balanced Substring (Algo).py
@@ -167,8 +171,10 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D 2 - Sequence - Split Array into Conscutive Subsequences.py
 │   ├── a. 1D 2 - Sequence - Wiggle Subsequence.py
 │   ├── a. 1D 3 - Interval - Employee Free Time.py
+│   ├── a. 1D 3 - Interval - Find Right Interval.py
 │   ├── a. 1D 3 - Interval - Insert Interval.py
 │   ├── a. 1D 3 - Interval - Interval List Intersections.py
+│   ├── a. 1D 3 - Interval - Maximum White Tiles Covered by a Carpet.py
 │   ├── a. 1D 3 - Interval - Meeting Scheduler.py
 │   ├── a. 1D 3 - Interval - Merge Intervals.py
 │   ├── a. 1D 3 - Interval - Minimum Number of Arrows to Burst Balloons.py
@@ -177,10 +183,12 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D 3 - Interval - My Calendar II.py
 │   ├── a. 1D 3 - Interval - Remove Covered Intervals.py
 │   ├── a. 1D 3 - Interval - Video Stitching.py
-│   ├── a. 1D 3 Interval - Find Right Interval.py
 │   ├── a. 1D 4 - Invariant - 3 Sum.py
 │   ├── a. 1D 4 - Invariant - Container with Most Water.py
+│   ├── a. 1D 4 - Invariant - Count Subarrays With Score Less than K.py
+│   ├── a. 1D 4 - Invariant - Find Two Non-overlapping Sub-arrays Each with Target Sum.py
 │   ├── a. 1D 4 - Invariant - K-Diff Pairs in Array.py
+│   ├── a. 1D 4 - Invariant - Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.py
 │   ├── a. 1D 4 - Invariant - Longest Repeating Character Replacement.py
 │   ├── a. 1D 4 - Invariant - Longest Substring Without Repeating Chars.py
 │   ├── a. 1D 4 - Invariant - Longest Substring with At Least K Repeating Characters.py
@@ -423,7 +431,9 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Top K - Merge k Sorted Lists.py
 │   ├── a. Top K - Minimum Cost to Hire K Workers.py
 │   ├── a. Top K - Top K Frequent Words.py
-│   └── b. K Distant - K Messed Array Sort.cpp
+│   ├── b. K Distant - K Messed Array Sort.cpp
+│   ├── c. Heap Queue - Process Tasks Using Servers.py
+│   └── c. Heap Queue - Single-Threaded CPU.py
 ├── h. Sort & Search
 │   ├── 1_Binary_Search.py
 │   ├── 1_Find_Smallest_Letter_Greater_Than_Target.py
@@ -484,6 +494,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── d. Sort - Brute Sort - Bad Sorters.cpp
 │   ├── d. Sort - Brute Sort - Sort Array by Parity.py
 │   ├── d. Sort - Custom Sort - Compare Version Numbers.py
+│   ├── d. Sort - Custom Sort - Number of Weak Characters in the Game.py
 │   ├── d. Sort - Custom Sort - Pancake Sort.cpp
 │   ├── d. Sort - Custom Sort - Remove Duplicate.py
 │   ├── d. Sort - Custom Sort - Sort Transformed Array.py
@@ -553,6 +564,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Backtrack - Path - Restore IP Addresses.py
 │   ├── b. Backtrack - Path - Student Attendance Record II.py
 │   ├── b. Backtrack - Path - Word Squares.py
+│   ├── b. Backtrack - Scheduling - Minimum Number of Work Sessions to Finish the Task.py
 │   ├── b. Backtrack - Scheduling - Optimum Task Time Allocation.py
 │   ├── b. Backtrack - Simulation - Number of Ways to Build Sturdy Brick Wall.py
 │   ├── b. Backtrack - Simulation - Robot Room Cleaner.py
@@ -706,7 +718,9 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Surrounded_Regions.cpp
 │   ├── 3_Word_Ladder.cpp
 │   ├── a. Union Find - Accounts Merge.py
+│   ├── a. Union Find - Bipartition - Possible Bipartition.py
 │   ├── a. Union Find - Number of Islands II.py
+│   ├── a. Union Find - Satisfiability of Equality Equations.py
 │   ├── b. Search 1 - BFS - Bus Routes.py
 │   ├── b. Search 1 - BFS - Clone Graph.py
 │   ├── b. Search 1 - BFS - Escape the Spreading Fire.py
@@ -729,7 +743,9 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Search 5 - Bellman Ford - Detect Arbitrage (Algo).py
 │   ├── e. TopoSort - Alien Dictionary.py
 │   ├── e. TopoSort - Course Schedule II.py
-│   └── e. TopoSort - Parallel Courses (Kahn).py
+│   ├── e. TopoSort - Kahn - Find All Possible Recipes from Given Supplies.py
+│   ├── e. TopoSort - Parallel Courses (Kahn).py
+│   └── f. MaxFlow - Maximum Number of Accepted Invitations.py
 ├── l. Design
 │   ├── 0. Template
 │   │   ├── LRU Cache (Algo).py
@@ -825,9 +841,11 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Numbers - Custom Sequence - Magical String.py
 │   ├── b. Numbers - Custom Sequence - Nth Magical Number.py
 │   ├── b. Numbers - Prime - Super Ugly Number.py
+│   ├── c. Probability - New 21 Game.py
 │   ├── c. Probability - Random Sampling - Linked List Random Node.py
 │   ├── d. Other - Count - Integer to English Words.py
 │   ├── d. Other - Geometry - Convex Polygon.py
+│   ├── d. Other - Geometry - Detect Squares.py
 │   ├── d. Other - Geometry - Valid Triangle Number.py
 │   ├── d. Other - Knowledge - Day of the week.py
 │   ├── d. Other - Knowledge - H-index.py
@@ -846,5 +864,5 @@ Please feel free to look up problem solutions or build your own code journal usi
     │   └── Two Unsynchronyzed Interleaved Threads.cpp
     └── a. Deadlock - Traffic Light Controlled Intersection.py
 
-28 directories, 812 files
+28 directories, 830 files
 ```  </Details>

@@ -72,7 +72,6 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Palindrome - Shortest Palindrome.py
 │   ├── a. Palindrome - Strobogrammatic Number III.py
 │   ├── a. Palindrome - Strobogrammatic Number.py
-│   ├── b. Encrypt - Decode String.py
 │   ├── b. Encrypt - Encode String with Shortest Length.py
 │   ├── b. Encrypt - Excel Sheet Column Number.py
 │   ├── b. Encrypt - Hash - Isomorphic Strings.py
@@ -85,6 +84,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── c. Best Substring - Longest Balanced Substring (Algo).py
 │   ├── c. Best Substring - Smallest Substring Containing (Algo).py
 │   ├── c. String Mutation - Split Concatenated Strings.py
+│   ├── d. String Mutation - Change Minimum Characters to Satisfy One of Three Conditions.py
 │   ├── d. String Mutation - Duplicate Zeros.py
 │   ├── d. String Mutation - Find and Replace in String.py
 │   ├── d. String Mutation - Levenshtein - Edit Distance.py
@@ -170,6 +170,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D 2 - Sequence - Longest Uncommon Subsequence II.py
 │   ├── a. 1D 2 - Sequence - Split Array into Conscutive Subsequences.py
 │   ├── a. 1D 2 - Sequence - Wiggle Subsequence.py
+│   ├── a. 1D 3 - Interval - Amount of New Area Painted Each Day.py
 │   ├── a. 1D 3 - Interval - Employee Free Time.py
 │   ├── a. 1D 3 - Interval - Find Right Interval.py
 │   ├── a. 1D 3 - Interval - Insert Interval.py
@@ -207,6 +208,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. 2D - Invariant - Best Meeting Point.py
 │   ├── b. 2D - Invariant - Number of Boomerangs.py
 │   ├── b. 2D - Invariant - Trapping Rain Water II.py
+│   ├── b. 2D - Simulation - Minimum Number of Flips to Convert Binary Matrix to Zero Matrix.py
 │   ├── b. 2D - Simulation - Remove All Ones with Row and Column Flips II.py
 │   ├── b. 2D - Simulation - Self Crossing.py
 │   └── b. 2D - Simulation - Squirrel Simulation.py
@@ -223,26 +225,30 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   └── e. RPN - Evaluate RPN.py
 │   ├── a. Stack - Exclusive Time of Functions.py
 │   ├── a. Stack - Mini Parser.py
-│   ├── a. Stack - Monostack - 132 Pattern.py
+│   ├── a. Stack - MonoStack - Remove K Digits.py
 │   ├── a. Stack - Next Greater Element.py
 │   ├── a. Stack - Score of Parentheses.py
 │   ├── a. Stack - Shorten Path (Algo).py
 │   ├── a. Stack - Ternary Expression Parser.py
-│   ├── a. Stack 2 - MonoStack - Build Maximum Binary Tree.py
-│   ├── a. Stack 2 - MonoStack - Create Maximum Number.py
-│   ├── a. Stack 2 - MonoStack - Find the Most Competitive Subsequence.py
-│   ├── a. Stack 2 - MonoStack - Largest Rectangle in Histogram.py
-│   ├── a. Stack 2 - MonoStack - Minimum Cost Tree From Leaf Values.py
-│   ├── a. Stack 2 - MonoStack - Next Greater Element I.py
-│   ├── a. Stack 2 - MonoStack - Next Greater Element II.py
-│   ├── a. Stack 2 - MonoStack - Odd Even Jump.py
-│   ├── a. Stack 2 - MonoStack - Online Stock Span.py
-│   ├── a. Stack 2 - MonoStack - Sum of Subarray Minimums.py
-│   ├── a. Stack 2 - MonoStack - Sum of Subarray Ranges.py
+│   ├── b. Monostack  - Build Maximum Binary Tree.py
+│   ├── b. Monostack  - Create Maximum Number.py
+│   ├── b. Monostack  - Find the Most Competitive Subsequence.py
+│   ├── b. Monostack - 132 Pattern.py
+│   ├── b. Monostack - Largest Rectangle in Histogram.py
+│   ├── b. Monostack - Minimum Cost Tree From Leaf Values.py
+│   ├── b. Monostack - Next Greater Element I.py
+│   ├── b. Monostack - Next Greater Element II.py
+│   ├── b. Monostack - Odd Even Jump.py
+│   ├── b. Monostack - Online Stock Span.py
+│   ├── b. Monostack - Sum of Subarray Minimums.py
+│   ├── b. Monostack - Sum of Subarray Ranges.py
+│   ├── c. Brackets - (RPN) Design an Expression Tree with Evaluate Function.py
+│   ├── c. Brackets - Basic Calculator III.py
+│   ├── c. Brackets - Basic Calculator.py
+│   ├── c. Brackets - Brace Expansion II.py
+│   ├── c. Brackets - Decode String.py
 │   ├── c. Brackets - Longest Valid Parentheses.py
-│   ├── c. Brackets - Valid Parentheses.py
-│   ├── e. Calculator - (RPN) Design an Expression Tree with Evaluate Function.py
-│   └── e. Calculator - Basic Calculator.py
+│   └── c. Brackets - Valid Parentheses.py
 ├── e. Linked List
 │   ├── 0. Template
 │   │   ├── 0. Doubly Linked List.py
@@ -433,7 +439,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Top K - Top K Frequent Words.py
 │   ├── b. K Distant - K Messed Array Sort.cpp
 │   ├── c. Heap Queue - Process Tasks Using Servers.py
-│   └── c. Heap Queue - Single-Threaded CPU.py
+│   ├── c. Heap Queue - Single-Threaded CPU.py
+│   └── c. Heap Queue - Smallest Range Covering Elements from K Lists.py
 ├── h. Sort & Search
 │   ├── 1_Binary_Search.py
 │   ├── 1_Find_Smallest_Letter_Greater_Than_Target.py
@@ -635,6 +642,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D - Paint House 2 - with color cost.py
 │   ├── a. 1D - Paint House 3 - with already painted houses.py
 │   ├── a. 1D - Path - Combinations - Number of Ways to Select Buildings.py
+│   ├── a. 1D - Race Car.py
 │   ├── a. 1D - Rod Cutting Problem.py
 │   ├── a. 1D - Unique BSTs.py
 │   ├── a. 1D - Word Break.py
@@ -656,6 +664,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. 2D - Minimum Difficulty of a Job Schedule.py
 │   ├── b. 2D - Out of Boundary Paths.py
 │   ├── b. 2D - Rectangle Mania (Algo).py
+│   ├── b. 2D - Sum - Maximum Number of Points with Cost.py
 │   ├── b. Path - Minimum Path Sum.py
 │   ├── b. Path - Unique Paths 1.py
 │   ├── b. Path - Unique Paths 2 - with obstacle.py
@@ -721,6 +730,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Union Find - Bipartition - Possible Bipartition.py
 │   ├── a. Union Find - Number of Islands II.py
 │   ├── a. Union Find - Satisfiability of Equality Equations.py
+│   ├── b. Graph Search - BFS - Shortest Path Visiting All Nodes.py
 │   ├── b. Search 1 - BFS - Bus Routes.py
 │   ├── b. Search 1 - BFS - Clone Graph.py
 │   ├── b. Search 1 - BFS - Escape the Spreading Fire.py
@@ -745,6 +755,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── e. TopoSort - Course Schedule II.py
 │   ├── e. TopoSort - Kahn - Find All Possible Recipes from Given Supplies.py
 │   ├── e. TopoSort - Parallel Courses (Kahn).py
+│   ├── e. TopoSort - Sequence Reconstruction.py
 │   └── f. MaxFlow - Maximum Number of Accepted Invitations.py
 ├── l. Design
 │   ├── 0. Template
@@ -765,6 +776,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. File System - Design In-Memory File System.py
 │   ├── a. File System - Read N Characters Given Read4 Multi-Call.py
 │   ├── a. File System - Read N Characters Given Read4.py
+│   ├── a. File System - UTF-8 Validation.py
 │   ├── a. Stack - Design Browser History.py
 │   ├── a. Stack - Max Stack.py
 │   ├── a. Stack - Min Stack.py
@@ -778,8 +790,10 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── e. Tree - Serialize and Deserialize Binary Tree.py
 │   ├── h. Application - Design A Leaderboard.py
 │   ├── h. Application - Design Excel Sum Formula.py
+│   ├── h. Application - Design Log Storage System.py
 │   ├── h. Application - Design Twitter.py
 │   ├── h. Application - Design Video Sharing Platform.py
+│   ├── h. Application - Remove Comments.py
 │   ├── h. Application - Stock Price Fluctuation.py
 │   ├── h. Application - Tweet Counts Per Frequency.py
 │   └── i. Network - IP to CIDR.py
@@ -849,7 +863,6 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── d. Other - Geometry - Valid Triangle Number.py
 │   ├── d. Other - Knowledge - Day of the week.py
 │   ├── d. Other - Knowledge - H-index.py
-│   ├── d. Other - Math - Basic Calculator III.py
 │   ├── d. Other - Math - Consecutive Numbers Sum.py
 │   ├── d. Other - Math - Nth Digit.py
 │   ├── d. Other - Math - Number of Digit One.py
@@ -864,5 +877,5 @@ Please feel free to look up problem solutions or build your own code journal usi
     │   └── Two Unsynchronyzed Interleaved Threads.cpp
     └── a. Deadlock - Traffic Light Controlled Intersection.py
 
-28 directories, 830 files
+28 directories, 843 files
 ```  </Details>

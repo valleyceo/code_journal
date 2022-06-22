@@ -38,6 +38,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── d. String Mutation - Levenshtein Distance.py
 │   │   ├── d. String Mutation - Replace Word in String.py
 │   │   ├── e. String Match - Find Anagrams.py
+│   │   ├── e. String Match - KMP - Implementation (Algo).py
 │   │   ├── e. String Match - KMP - Implementation (G4G).py
 │   │   ├── e. String Match - Rabin Karp - Implementation (CTCI).py
 │   │   ├── e. String Match - Rabin Karp - Implementation (G4G).py
@@ -198,6 +199,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D 4 - Invariant - Max Consecutive Ones III.py
 │   ├── a. 1D 4 - Invariant - Maximum Distance Between a Pair of Values.py
 │   ├── a. 1D 4 - Invariant - Maximum Length of Subarray with Positive Product.py
+│   ├── a. 1D 4 - Invariant - Maximum Score of a Good Subarray.py
 │   ├── a. 1D 4 - Invariant - Maximum Size Subarray Sum Equals K.py
 │   ├── a. 1D 4 - Invariant - Minimum Window Substring.py
 │   ├── a. 1D 4 - Invariant - Permutation in String.py
@@ -242,13 +244,14 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Monostack - Online Stock Span.py
 │   ├── b. Monostack - Sum of Subarray Minimums.py
 │   ├── b. Monostack - Sum of Subarray Ranges.py
-│   ├── c. Brackets - (RPN) Design an Expression Tree with Evaluate Function.py
-│   ├── c. Brackets - Basic Calculator III.py
-│   ├── c. Brackets - Basic Calculator.py
 │   ├── c. Brackets - Brace Expansion II.py
 │   ├── c. Brackets - Decode String.py
 │   ├── c. Brackets - Longest Valid Parentheses.py
-│   └── c. Brackets - Valid Parentheses.py
+│   ├── c. Brackets - Valid Parentheses.py
+│   ├── d. Expression - (RPN) Design an Expression Tree with Evaluate Function.py
+│   ├── d. Expression - Basic Calculator III.py
+│   ├── d. Expression - Basic Calculator.py
+│   └── d. Expression - Build Binary Expression Tree from Infix Expression.py
 ├── e. Linked List
 │   ├── 0. Template
 │   │   ├── 0. Doubly Linked List.py
@@ -407,6 +410,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. BST - Traversal - Verify Preorder Sequence in Binary Search Tree.py
 │   ├── c. N-ary Tree - Clone N-ary Tree.py
 │   ├── c. N-ary Tree - Construct Quad Tree.py
+│   ├── c. N-ary Tree - Trie - Delete Duplicate Folders in System.py
 │   ├── d. Special Tree - Fenwick - Count Subarrays with More Ones Than Zeros.py
 │   ├── d. Special Tree - Fenwick - Count of Range Sum.py
 │   ├── d. Special Tree - Fenwick - Design Most Recently Used Queue.py
@@ -665,6 +669,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. 2D - Out of Boundary Paths.py
 │   ├── b. 2D - Rectangle Mania (Algo).py
 │   ├── b. 2D - Sum - Maximum Number of Points with Cost.py
+│   ├── b. 2D - Tiling a Rectangle with the Fewest Squares.py
 │   ├── b. Path - Minimum Path Sum.py
 │   ├── b. Path - Unique Paths 1.py
 │   ├── b. Path - Unique Paths 2 - with obstacle.py
@@ -684,6 +689,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── h. Best Time Buy and Sell Stock 4 Up to K buys.py
 │   ├── h. Best Time Buy and Sell Stock 5 Multibuy with 1 day cooldown.py
 │   ├── h. Best Time Buy and Sell Stock 6 Multibuy with transaction fee.py
+│   ├── h. Max Profit with K Transactions (Algo).py
 │   └── i. Chain Multiplication - Burst Balloons.py
 ├── k. Graphs
 │   ├── 0_Template
@@ -867,6 +873,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── d. Other - Math - Nth Digit.py
 │   ├── d. Other - Math - Number of Digit One.py
 │   ├── d. Other - Math - Rotate Function.py
+│   ├── d. Other - Math - Sum of Numbers with Units Digit K.py
 │   └── d. Other - Valid Number.py
 └── n. Parallel Computing
     ├── Template
@@ -877,5 +884,5 @@ Please feel free to look up problem solutions or build your own code journal usi
     │   └── Two Unsynchronyzed Interleaved Threads.cpp
     └── a. Deadlock - Traffic Light Controlled Intersection.py
 
-28 directories, 843 files
+28 directories, 850 files
 ```  </Details>

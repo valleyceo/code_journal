@@ -251,7 +251,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── d. Expression - (RPN) Design an Expression Tree with Evaluate Function.py
 │   ├── d. Expression - Basic Calculator III.py
 │   ├── d. Expression - Basic Calculator.py
-│   └── d. Expression - Build Binary Expression Tree from Infix Expression.py
+│   ├── d. Expression - Build Binary Expression Tree from Infix Expression.py
+│   └── d. Expression - Number of Atoms.py
 ├── e. Linked List
 │   ├── 0. Template
 │   │   ├── 0. Doubly Linked List.py
@@ -648,6 +649,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D - Path - Combinations - Number of Ways to Select Buildings.py
 │   ├── a. 1D - Race Car.py
 │   ├── a. 1D - Rod Cutting Problem.py
+│   ├── a. 1D - Sum - Number of People Aware of a Secret.py
 │   ├── a. 1D - Unique BSTs.py
 │   ├── a. 1D - Word Break.py
 │   ├── a. Kadane - Maximum Sum Circular Subarray.py
@@ -734,6 +736,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Word_Ladder.cpp
 │   ├── a. Union Find - Accounts Merge.py
 │   ├── a. Union Find - Bipartition - Possible Bipartition.py
+│   ├── a. Union Find - Count Unreachable Pairs in Undirected Graph.py
 │   ├── a. Union Find - Number of Islands II.py
 │   ├── a. Union Find - Satisfiability of Equality Equations.py
 │   ├── b. Graph Search - BFS - Shortest Path Visiting All Nodes.py
@@ -790,8 +793,10 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Class - Zigzag Iterator.py
 │   ├── b. Queue - LRU Cache.py
 │   ├── c. Stack - Maximum Frequency Stack.py
+│   ├── d. Hash - Design Log Aggregation System.py
 │   ├── d. Hash - Insert Delete GetRandom O(1).py
 │   ├── d. Hash - Logger Rate Limiter.py
+│   ├── d. Queue - Design Rate Limiting System.py
 │   ├── e. Tree - Design Search Autocomplete System.py
 │   ├── e. Tree - Serialize and Deserialize Binary Tree.py
 │   ├── h. Application - Design A Leaderboard.py
@@ -884,5 +889,5 @@ Please feel free to look up problem solutions or build your own code journal usi
     │   └── Two Unsynchronyzed Interleaved Threads.cpp
     └── a. Deadlock - Traffic Light Controlled Intersection.py
 
-28 directories, 850 files
+28 directories, 855 files
 ```  </Details>

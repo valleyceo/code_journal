@@ -64,3 +64,15 @@ class Solution:
                 left += 1
 
         return s[maxLeft:maxRight]
+
+"""
+Insight:
+- Keep a counter of string characters
+- Keep length of string characters (missing count)
+
+- Scan through every character and decrease counter and missing count
+- Note: Every character that is NOT in target will be negative
+- If missing is 0, all counter is negative
+    - add counter from the left pointer until you see 0 (this will be the shortest left idx that contains all)
+    - add 1+ missing and increase left pointer by 1
+"""

@@ -78,11 +78,13 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Encrypt - Hash - Isomorphic Strings.py
 │   ├── b. Encrypt - Int to Roman.py
 │   ├── b. Encrypt - Roman to Int.py
+│   ├── b. Encrypt - Strong Password Checker.py
 │   ├── b. Hash - Bulls and Cows.py
 │   ├── b. Hash - Naming a Company.py
 │   ├── b. Hash - Shortest Word Distance III.py
 │   ├── b. Hash - Substring with Concatenation of All Words.py
 │   ├── c. Best Substring - Longest Balanced Substring (Algo).py
+│   ├── c. Best Substring - Longest Binary Subsequence Less than or Equal to K.py
 │   ├── c. Best Substring - Smallest Substring Containing (Algo).py
 │   ├── c. String Mutation - Split Concatenated Strings.py
 │   ├── d. String Mutation - Change Minimum Characters to Satisfy One of Three Conditions.py
@@ -183,6 +185,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D 3 - Interval - Minimum Number of Taps to Open to Water a Garden.py
 │   ├── a. 1D 3 - Interval - My Calendar I.py
 │   ├── a. 1D 3 - Interval - My Calendar II.py
+│   ├── a. 1D 3 - Interval - Range Module.py
 │   ├── a. 1D 3 - Interval - Remove Covered Intervals.py
 │   ├── a. 1D 3 - Interval - Video Stitching.py
 │   ├── a. 1D 4 - Invariant - 3 Sum.py
@@ -242,6 +245,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Monostack - Next Greater Element II.py
 │   ├── b. Monostack - Odd Even Jump.py
 │   ├── b. Monostack - Online Stock Span.py
+│   ├── b. Monostack - Remove Duplicate Letters.py
 │   ├── b. Monostack - Sum of Subarray Minimums.py
 │   ├── b. Monostack - Sum of Subarray Ranges.py
 │   ├── c. Brackets - Brace Expansion II.py
@@ -738,6 +742,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Union Find - Bipartition - Possible Bipartition.py
 │   ├── a. Union Find - Count Unreachable Pairs in Undirected Graph.py
 │   ├── a. Union Find - Number of Islands II.py
+│   ├── a. Union Find - Regions Cut by Slashes.py
 │   ├── a. Union Find - Satisfiability of Equality Equations.py
 │   ├── b. Graph Search - BFS - Shortest Path Visiting All Nodes.py
 │   ├── b. Search 1 - BFS - Bus Routes.py
@@ -889,5 +894,5 @@ Please feel free to look up problem solutions or build your own code journal usi
     │   └── Two Unsynchronyzed Interleaved Threads.cpp
     └── a. Deadlock - Traffic Light Controlled Intersection.py
 
-28 directories, 855 files
+28 directories, 860 files
 ```  </Details>

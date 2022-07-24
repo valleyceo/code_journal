@@ -1,5 +1,5 @@
 # Count Bits
-def countBit(num):
+def countBit(x):
     count = 0
 
     while x:

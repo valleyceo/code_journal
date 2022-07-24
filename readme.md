@@ -19,6 +19,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── c. Masking - Reverse bits.py
 │   │   └── c. Masking - Swap Bits.py
 │   ├── a. Counting - Hamming Distance.py
+│   ├── a. Counting - Number of Excellent Pairs.py
 │   ├── b. Operation - Design BItset.py
 │   ├── b. Operation - Integer Replacement.py
 │   ├── c. Masking - Count Words Obtained After Adding a Letter.py
@@ -208,7 +209,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D 4 - Invariant - Permutation in String.py
 │   ├── a. 1D 4 - Invariant - Trapping Rain Water.py
 │   ├── a. 1D 4 - Invariant - Widest Pair of Indices with Equal Range Sum (Prefix Sum).py
-│   ├── a. 1D 5 - Other - Candy Distribution.py
+│   ├── a. 1D 5 - Simulation - Candy Distribution.py
+│   ├── a. 1D 5 - Simulation - Move Pieces to Obtain a String.py
 │   ├── b. 1D - Simulation - Minimize Deviation in Array.py
 │   ├── b. 2D - Invariant - Best Meeting Point.py
 │   ├── b. 2D - Invariant - Number of Boomerangs.py
@@ -239,6 +241,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Monostack  - Create Maximum Number.py
 │   ├── b. Monostack  - Find the Most Competitive Subsequence.py
 │   ├── b. Monostack - 132 Pattern.py
+│   ├── b. Monostack - Car Fleet II.py
 │   ├── b. Monostack - Largest Rectangle in Histogram.py
 │   ├── b. Monostack - Minimum Cost Tree From Leaf Values.py
 │   ├── b. Monostack - Next Greater Element I.py
@@ -558,6 +561,8 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Recursion - Distinct Subsequences.py
 │   ├── a. Recursion - Generate Parentheses.py
 │   ├── a. Recursion - Letter Combination of Phone Number.py
+│   ├── a. Recursion - Minimum Time to Finish the Race.py
+│   ├── a. Recursion - Number of Music Playlist.py
 │   ├── a. Recursion - Reaching Points.py
 │   ├── a. Recursion - Regular Expression Matching.py
 │   ├── a. Recursion - Scramble String.py
@@ -584,6 +589,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Backtrack - Scheduling - Optimum Task Time Allocation.py
 │   ├── b. Backtrack - Simulation - Number of Ways to Build Sturdy Brick Wall.py
 │   ├── b. Backtrack - Simulation - Robot Room Cleaner.py
+│   ├── b. Backtrack - Simulation - Unique Paths.py
 │   ├── b. Backtrack - Simultation - Execution of all Suffix Instruction in Grid.py
 │   ├── b. Backtrack - Wild Card - Valid Parenthesis String.py
 │   ├── b. Backtracking - Path - Optimal Account Balancing.py
@@ -591,8 +597,10 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── c. Permutation - Permutations I.py
 │   ├── c. Permutation - Permutations II.py
 │   ├── c. Permutation - nth Permutation.py
+│   ├── d. Combination - Closest Subsequence Sum.py
 │   ├── d. Combination - Combination Sum.py
 │   ├── d. Combination - Factor Combinations.py
+│   ├── d. Combination - Partition Array Into Two Arrays to Minimize Sum Difference.py
 │   ├── d. Combination - Subsets I.py
 │   └── d. Combination - Subsets II.py
 ├── j. DP
@@ -747,6 +755,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Graph Search - BFS - Shortest Path Visiting All Nodes.py
 │   ├── b. Search 1 - BFS - Bus Routes.py
 │   ├── b. Search 1 - BFS - Clone Graph.py
+│   ├── b. Search 1 - BFS - Closest Node to Path in Tree.py
 │   ├── b. Search 1 - BFS - Escape the Spreading Fire.py
 │   ├── b. Search 1 - BFS - Evaluate Division.py
 │   ├── b. Search 1 - BFS - Pacific Atlantic Water Flow.py
@@ -809,6 +818,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── h. Application - Design Log Storage System.py
 │   ├── h. Application - Design Twitter.py
 │   ├── h. Application - Design Video Sharing Platform.py
+│   ├── h. Application - Design a Food Rating System.py
 │   ├── h. Application - Remove Comments.py
 │   ├── h. Application - Stock Price Fluctuation.py
 │   ├── h. Application - Tweet Counts Per Frequency.py
@@ -894,5 +904,5 @@ Please feel free to look up problem solutions or build your own code journal usi
     │   └── Two Unsynchronyzed Interleaved Threads.cpp
     └── a. Deadlock - Traffic Light Controlled Intersection.py
 
-28 directories, 860 files
+28 directories, 870 files
 ```  </Details>

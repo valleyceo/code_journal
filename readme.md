@@ -425,6 +425,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── d. Special Tree - Fenwick - Range Sum Query 2D - Mutable.py
 │   ├── d. Special Tree - RB Tree - Generate First KAB Sqrt2.py
 │   ├── d. Special Tree - Segment Tree - Count of Smaller Numbers After Self.py
+│   ├── d. Special Tree - Segment Tree - Range Sum Query - Immutable.py
 │   ├── d. Trie - Design Autocomplete System.py
 │   ├── d. Trie - Design File System.py
 │   └── d. Trie - Search Suggestion System.py
@@ -496,6 +497,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── e. DC Sort - Quick Sort - Dutch Flag Problem.py
 │   │   ├── e. Heap Sort.cpp
 │   │   └── e. Radix Sort.py
+│   ├── a. Binary Search - Count Pairs in Two Arrays.py
 │   ├── a. Binary Search - Divide Chocolate.py
 │   ├── a. Binary Search - Find First and Last Pos of Value in Sorted Array.py
 │   ├── a. Binary Search - Find K-th Smallest Pair Distance.py
@@ -555,6 +557,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   ├── d. Random - Online Random Sampling.py
 │   │   ├── d. Random - Random Subarray.py
 │   │   └── d. Random - Random Subset.py
+│   ├── a. Recursion - 24 Game.py
 │   ├── a. Recursion - Android Unlock Patterns.py
 │   ├── a. Recursion - Count Number of Texts.py
 │   ├── a. Recursion - Cracking the Safe.py
@@ -748,16 +751,21 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── 3_Word_Ladder.cpp
 │   ├── a. Union Find - Accounts Merge.py
 │   ├── a. Union Find - Bipartition - Possible Bipartition.py
+│   ├── a. Union Find - Checking Existence of Edge Length Limited Paths.py
 │   ├── a. Union Find - Count Unreachable Pairs in Undirected Graph.py
+│   ├── a. Union Find - Making a Large Island.py
 │   ├── a. Union Find - Number of Islands II.py
 │   ├── a. Union Find - Regions Cut by Slashes.py
+│   ├── a. Union Find - Remove Max Number of Edges to Keep Graph Fully Traversable.py
 │   ├── a. Union Find - Satisfiability of Equality Equations.py
+│   ├── a. Union Find - Similar String Groups.py
 │   ├── b. Graph Search - BFS - Shortest Path Visiting All Nodes.py
 │   ├── b. Search 1 - BFS - Bus Routes.py
 │   ├── b. Search 1 - BFS - Clone Graph.py
 │   ├── b. Search 1 - BFS - Closest Node to Path in Tree.py
 │   ├── b. Search 1 - BFS - Escape the Spreading Fire.py
 │   ├── b. Search 1 - BFS - Evaluate Division.py
+│   ├── b. Search 1 - BFS - Minimum Moves to Move a Box to Their Target Location.py
 │   ├── b. Search 1 - BFS - Pacific Atlantic Water Flow.py
 │   ├── b. Search 1 - BFS - Shortest Distance from All Buildings.py
 │   ├── b. Search 1 - BFS - Word Ladder I (Word Chain).py
@@ -765,6 +773,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Search 2 - DFS - Airport Connectinos (Algo).py
 │   ├── b. Search 2 - DFS - Bridges in Graph, Two-Edge-Connected Graph (Algo).py
 │   ├── b. Search 2 - DFS - Is Graph Bipartite.py
+│   ├── b. Search 2 - DFS - Longest Cycle in a Graph.py
 │   ├── b. Search 2 - DFS - Longest Increasing Path in a Matrix.py
 │   ├── b. Search 2 - DFS - Most Stones Removed with Same Row or Column.py
 │   ├── b. Search 2 - DFS - Path with Maximum Minimum Value.py
@@ -904,5 +913,5 @@ Please feel free to look up problem solutions or build your own code journal usi
     │   └── Two Unsynchronyzed Interleaved Threads.cpp
     └── a. Deadlock - Traffic Light Controlled Intersection.py
 
-28 directories, 870 files
+28 directories, 879 files
 ```  </Details>

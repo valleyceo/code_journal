@@ -83,6 +83,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Hash - Bulls and Cows.py
 │   ├── b. Hash - Naming a Company.py
 │   ├── b. Hash - Shortest Word Distance III.py
+│   ├── b. Hash - String Transforms Into Another String.py
 │   ├── b. Hash - Substring with Concatenation of All Words.py
 │   ├── c. Best Substring - Longest Balanced Substring (Algo).py
 │   ├── c. Best Substring - Longest Binary Subsequence Less than or Equal to K.py
@@ -422,6 +423,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── d. Special Tree - Fenwick - Count Subarrays with More Ones Than Zeros.py
 │   ├── d. Special Tree - Fenwick - Count of Range Sum.py
 │   ├── d. Special Tree - Fenwick - Design Most Recently Used Queue.py
+│   ├── d. Special Tree - Fenwick - Finding MK Average.py
 │   ├── d. Special Tree - Fenwick - Range Sum Query 2D - Mutable.py
 │   ├── d. Special Tree - RB Tree - Generate First KAB Sqrt2.py
 │   ├── d. Special Tree - Segment Tree - Count of Smaller Numbers After Self.py
@@ -446,6 +448,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   │   └── c. Heap 3 - kth Largest.py
 │   ├── a. Top K - Find K Pairs with Smallest Sums.py
 │   ├── a. Top K - K Closest Points to Origin.py
+│   ├── a. Top K - Maximum Score of a Node Sequence.py
 │   ├── a. Top K - Meeting Rooms II.py
 │   ├── a. Top K - Merge k Sorted Lists.py
 │   ├── a. Top K - Minimum Cost to Hire K Workers.py
@@ -575,6 +578,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Backtrack - Game - Flip Game II.py
 │   ├── b. Backtrack - Game - Predict the Winner.py
 │   ├── b. Backtrack - Matchsticks to Square.py
+│   ├── b. Backtrack - Maximum Score Words Formed by Letters.py
 │   ├── b. Backtrack - Path - 1 Bit and 2 Bit Characters.py
 │   ├── b. Backtrack - Path - Different Ways to Add Parentheses.py
 │   ├── b. Backtrack - Path - Generalized Abbreviation.py
@@ -657,6 +661,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D - Longest String Chain (Algo).py
 │   ├── a. 1D - Maximum Length of Repeated Subarray.py
 │   ├── a. 1D - Minimum Cost For Tickets.py
+│   ├── a. 1D - Minimum Number of Refueling Stops.py
 │   ├── a. 1D - Paint Fence.py
 │   ├── a. 1D - Paint House 1.py
 │   ├── a. 1D - Paint House 2 - with color cost.py
@@ -681,6 +686,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. 2D - Longest Line of Consecutive One in Matrix.py
 │   ├── b. 2D - Maximal Square.py
 │   ├── b. 2D - Maximum Score from Performing Multiplication Operations.py
+│   ├── b. 2D - Minimum Cost to Merge Stones.py
 │   ├── b. 2D - Minimum Cuts for Partitioning Palindrome.py
 │   ├── b. 2D - Minimum Difficulty of a Job Schedule.py
 │   ├── b. 2D - Out of Boundary Paths.py
@@ -753,8 +759,11 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Union Find - Bipartition - Possible Bipartition.py
 │   ├── a. Union Find - Checking Existence of Edge Length Limited Paths.py
 │   ├── a. Union Find - Count Unreachable Pairs in Undirected Graph.py
+│   ├── a. Union Find - Find All People with Secret.py
 │   ├── a. Union Find - Making a Large Island.py
+│   ├── a. Union Find - Minimize Malware Spread.py
 │   ├── a. Union Find - Number of Islands II.py
+│   ├── a. Union Find - Rank Transform of a Matrix.py
 │   ├── a. Union Find - Regions Cut by Slashes.py
 │   ├── a. Union Find - Remove Max Number of Edges to Keep Graph Fully Traversable.py
 │   ├── a. Union Find - Satisfiability of Equality Equations.py
@@ -770,6 +779,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. Search 1 - BFS - Shortest Distance from All Buildings.py
 │   ├── b. Search 1 - BFS - Word Ladder I (Word Chain).py
 │   ├── b. Search 1 - BFS - Word Ladder II.py
+│   ├── b. Search 1 - BFS Bidirectional - Jump Game IV.py
 │   ├── b. Search 2 - DFS - Airport Connectinos (Algo).py
 │   ├── b. Search 2 - DFS - Bridges in Graph, Two-Edge-Connected Graph (Algo).py
 │   ├── b. Search 2 - DFS - Is Graph Bipartite.py
@@ -828,6 +838,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── h. Application - Design Twitter.py
 │   ├── h. Application - Design Video Sharing Platform.py
 │   ├── h. Application - Design a Food Rating System.py
+│   ├── h. Application - Find Servers That Handled Most Number of Requests.py
 │   ├── h. Application - Remove Comments.py
 │   ├── h. Application - Stock Price Fluctuation.py
 │   ├── h. Application - Tweet Counts Per Frequency.py
@@ -882,6 +893,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. Operator - Division - GCD - Smallest Integer Divisible by K.py
 │   ├── a. Operator - Division - GCD - Water and Jug Problem (Die Hard).py
 │   ├── a. Operator - Division - Minimum Factorization.py
+│   ├── a. Operator - Division - Mininum Replacements to Sort the Array.py
 │   ├── a. Operator - Power - Super Pow.py
 │   ├── a. Operator - Sqrt - Sum of Square Numbers.py
 │   ├── b. Number - Random - Implement Rand10 Using Rand7.py
@@ -913,5 +925,5 @@ Please feel free to look up problem solutions or build your own code journal usi
     │   └── Two Unsynchronyzed Interleaved Threads.cpp
     └── a. Deadlock - Traffic Light Controlled Intersection.py
 
-28 directories, 879 files
+28 directories, 891 files
 ```  </Details>

@@ -176,6 +176,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── a. 1D 2 - Sequence - Split Array into Conscutive Subsequences.py
 │   ├── a. 1D 2 - Sequence - Wiggle Subsequence.py
 │   ├── a. 1D 3 - Interval - Amount of New Area Painted Each Day.py
+│   ├── a. 1D 3 - Interval - Count Integers in Intervals.py
 │   ├── a. 1D 3 - Interval - Employee Free Time.py
 │   ├── a. 1D 3 - Interval - Find Right Interval.py
 │   ├── a. 1D 3 - Interval - Insert Interval.py
@@ -419,6 +420,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. BST - Traversal - Verify Preorder Sequence in Binary Search Tree.py
 │   ├── c. N-ary Tree - Clone N-ary Tree.py
 │   ├── c. N-ary Tree - Construct Quad Tree.py
+│   ├── c. N-ary Tree - Logical OR of Two Binary Grids Represented as Quad-Trees.py
 │   ├── c. N-ary Tree - Trie - Delete Duplicate Folders in System.py
 │   ├── d. Special Tree - Fenwick - Count Subarrays with More Ones Than Zeros.py
 │   ├── d. Special Tree - Fenwick - Count of Range Sum.py
@@ -691,6 +693,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── b. 2D - Minimum Difficulty of a Job Schedule.py
 │   ├── b. 2D - Out of Boundary Paths.py
 │   ├── b. 2D - Rectangle Mania (Algo).py
+│   ├── b. 2D - Stamping the Grid.py
 │   ├── b. 2D - Sum - Maximum Number of Points with Cost.py
 │   ├── b. 2D - Tiling a Rectangle with the Fewest Squares.py
 │   ├── b. Path - Minimum Path Sum.py
@@ -796,6 +799,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── e. TopoSort - Alien Dictionary.py
 │   ├── e. TopoSort - Course Schedule II.py
 │   ├── e. TopoSort - Kahn - Find All Possible Recipes from Given Supplies.py
+│   ├── e. TopoSort - Maximum Employees to Be Invited to a Meeting.py
 │   ├── e. TopoSort - Parallel Courses (Kahn).py
 │   ├── e. TopoSort - Sequence Reconstruction.py
 │   └── f. MaxFlow - Maximum Number of Accepted Invitations.py
@@ -911,6 +915,7 @@ Please feel free to look up problem solutions or build your own code journal usi
 │   ├── d. Other - Knowledge - Day of the week.py
 │   ├── d. Other - Knowledge - H-index.py
 │   ├── d. Other - Math - Consecutive Numbers Sum.py
+│   ├── d. Other - Math - Largest Multiple of Three.py
 │   ├── d. Other - Math - Nth Digit.py
 │   ├── d. Other - Math - Number of Digit One.py
 │   ├── d. Other - Math - Rotate Function.py
@@ -925,5 +930,5 @@ Please feel free to look up problem solutions or build your own code journal usi
     │   └── Two Unsynchronyzed Interleaved Threads.cpp
     └── a. Deadlock - Traffic Light Controlled Intersection.py
 
-28 directories, 891 files
+28 directories, 896 files
 ```  </Details>
